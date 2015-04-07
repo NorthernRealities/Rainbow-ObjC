@@ -5,20 +5,37 @@
 //  Created by Reid Gravelle on 2015-03-28.
 //  Copyright (c) 2015 Northern Realities Inc. All rights reserved.
 //
-
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+//
 
 #import <UIKit/UIKit.h>
 
 @interface UIColor (Rainbow)
 /*!
- * Returns a color object representing the color Acid Green, whose RBG values are (176, 191, 26), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Acid Green, whose RBG values are (176, 191, 26), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) acidGreenColor;
 
 /*!
- * Returns a color object representing the color Acid Green, whose RBG values are (176, 191, 26), and has the specified opacity.
+ * Returns a UIColor object representing the color Acid Green, whose RBG values are (176, 191, 26), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -27,14 +44,14 @@
 
 
 /*!
- * Returns a color object representing the color Aero, whose RBG values are (124, 185, 232), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Aero, whose RBG values are (124, 185, 232), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aeroColor;
 
 /*!
- * Returns a color object representing the color Aero, whose RBG values are (124, 185, 232), and has the specified opacity.
+ * Returns a UIColor object representing the color Aero, whose RBG values are (124, 185, 232), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -43,14 +60,14 @@
 
 
 /*!
- * Returns a color object representing the color Aero Blue, whose RBG values are (201, 255, 229), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Aero Blue, whose RBG values are (201, 255, 229), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aeroBlueColor;
 
 /*!
- * Returns a color object representing the color Aero Blue, whose RBG values are (201, 255, 229), and has the specified opacity.
+ * Returns a UIColor object representing the color Aero Blue, whose RBG values are (201, 255, 229), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -59,14 +76,14 @@
 
 
 /*!
- * Returns a color object representing the color African Violet, whose RBG values are (178, 132, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color African Violet, whose RBG values are (178, 132, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) africanVioletColor;
 
 /*!
- * Returns a color object representing the color African Violet, whose RBG values are (178, 132, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color African Violet, whose RBG values are (178, 132, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -75,14 +92,14 @@
 
 
 /*!
- * Returns a color object representing the color Air Force Blue (RAF), whose RBG values are (93, 138, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Air Force Blue (RAF), whose RBG values are (93, 138, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) airForceBlueRAFColor;
 
 /*!
- * Returns a color object representing the color Air Force Blue (RAF), whose RBG values are (93, 138, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Air Force Blue (RAF), whose RBG values are (93, 138, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -91,14 +108,14 @@
 
 
 /*!
- * Returns a color object representing the color Air Force Blue (USAF), whose RBG values are (0, 48, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Air Force Blue (USAF), whose RBG values are (0, 48, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) airForceBlueUSAFColor;
 
 /*!
- * Returns a color object representing the color Air Force Blue (USAF), whose RBG values are (0, 48, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Air Force Blue (USAF), whose RBG values are (0, 48, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -107,14 +124,14 @@
 
 
 /*!
- * Returns a color object representing the color Air Superiority Blue, whose RBG values are (114, 160, 193), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Air Superiority Blue, whose RBG values are (114, 160, 193), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) airSuperiorityBlueColor;
 
 /*!
- * Returns a color object representing the color Air Superiority Blue, whose RBG values are (114, 160, 193), and has the specified opacity.
+ * Returns a UIColor object representing the color Air Superiority Blue, whose RBG values are (114, 160, 193), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -123,14 +140,14 @@
 
 
 /*!
- * Returns a color object representing the color Alabama Crimson, whose RBG values are (175, 0, 42), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Alabama Crimson, whose RBG values are (175, 0, 42), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) alabamaCrimsonColor;
 
 /*!
- * Returns a color object representing the color Alabama Crimson, whose RBG values are (175, 0, 42), and has the specified opacity.
+ * Returns a UIColor object representing the color Alabama Crimson, whose RBG values are (175, 0, 42), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -139,14 +156,14 @@
 
 
 /*!
- * Returns a color object representing the color Alice Blue, whose RBG values are (240, 248, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Alice Blue, whose RBG values are (240, 248, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aliceBlueColor;
 
 /*!
- * Returns a color object representing the color Alice Blue, whose RBG values are (240, 248, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Alice Blue, whose RBG values are (240, 248, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -155,14 +172,14 @@
 
 
 /*!
- * Returns a color object representing the color Alizarin Crimson, whose RBG values are (227, 38, 54), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Alizarin Crimson, whose RBG values are (227, 38, 54), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) alizarinCrimsonColor;
 
 /*!
- * Returns a color object representing the color Alizarin Crimson, whose RBG values are (227, 38, 54), and has the specified opacity.
+ * Returns a UIColor object representing the color Alizarin Crimson, whose RBG values are (227, 38, 54), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -171,14 +188,14 @@
 
 
 /*!
- * Returns a color object representing the color Alloy Orange, whose RBG values are (196, 98, 16), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Alloy Orange, whose RBG values are (196, 98, 16), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) alloyOrangeColor;
 
 /*!
- * Returns a color object representing the color Alloy Orange, whose RBG values are (196, 98, 16), and has the specified opacity.
+ * Returns a UIColor object representing the color Alloy Orange, whose RBG values are (196, 98, 16), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -187,14 +204,14 @@
 
 
 /*!
- * Returns a color object representing the color Almond (Crayola), whose RBG values are (239, 222, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Almond (Crayola), whose RBG values are (239, 222, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) almondCrayolaColor;
 
 /*!
- * Returns a color object representing the color Almond (Crayola), whose RBG values are (239, 222, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Almond (Crayola), whose RBG values are (239, 222, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -203,14 +220,14 @@
 
 
 /*!
- * Returns a color object representing the color Amaranth, whose RBG values are (229, 43, 80), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amaranth, whose RBG values are (229, 43, 80), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amaranthColor;
 
 /*!
- * Returns a color object representing the color Amaranth, whose RBG values are (229, 43, 80), and has the specified opacity.
+ * Returns a UIColor object representing the color Amaranth, whose RBG values are (229, 43, 80), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -219,14 +236,14 @@
 
 
 /*!
- * Returns a color object representing the color Amaranth Deep Purple, whose RBG values are (171, 39, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amaranth Deep Purple, whose RBG values are (171, 39, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amaranthDeepPurpleColor;
 
 /*!
- * Returns a color object representing the color Amaranth Deep Purple, whose RBG values are (171, 39, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Amaranth Deep Purple, whose RBG values are (171, 39, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -235,14 +252,14 @@
 
 
 /*!
- * Returns a color object representing the color Amaranth Pink, whose RBG values are (241, 156, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amaranth Pink, whose RBG values are (241, 156, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amaranthPinkColor;
 
 /*!
- * Returns a color object representing the color Amaranth Pink, whose RBG values are (241, 156, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color Amaranth Pink, whose RBG values are (241, 156, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -251,14 +268,14 @@
 
 
 /*!
- * Returns a color object representing the color Amaranth Purple, whose RBG values are (171, 39, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amaranth Purple, whose RBG values are (171, 39, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amaranthPurpleColor;
 
 /*!
- * Returns a color object representing the color Amaranth Purple, whose RBG values are (171, 39, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Amaranth Purple, whose RBG values are (171, 39, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -267,14 +284,14 @@
 
 
 /*!
- * Returns a color object representing the color Amaranth Red, whose RBG values are (211, 33, 45), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amaranth Red, whose RBG values are (211, 33, 45), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amaranthRedColor;
 
 /*!
- * Returns a color object representing the color Amaranth Red, whose RBG values are (211, 33, 45), and has the specified opacity.
+ * Returns a UIColor object representing the color Amaranth Red, whose RBG values are (211, 33, 45), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -283,14 +300,14 @@
 
 
 /*!
- * Returns a color object representing the color Amazon, whose RBG values are (59, 122, 87), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amazon, whose RBG values are (59, 122, 87), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amazonColor;
 
 /*!
- * Returns a color object representing the color Amazon, whose RBG values are (59, 122, 87), and has the specified opacity.
+ * Returns a UIColor object representing the color Amazon, whose RBG values are (59, 122, 87), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -299,14 +316,14 @@
 
 
 /*!
- * Returns a color object representing the color Amber, whose RBG values are (255, 191, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amber, whose RBG values are (255, 191, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amberColor;
 
 /*!
- * Returns a color object representing the color Amber, whose RBG values are (255, 191, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Amber, whose RBG values are (255, 191, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -315,14 +332,14 @@
 
 
 /*!
- * Returns a color object representing the color Amber (SAE/ECE), whose RBG values are (255, 126, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amber (SAE/ECE), whose RBG values are (255, 126, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amberSAEECEColor;
 
 /*!
- * Returns a color object representing the color Amber (SAE/ECE), whose RBG values are (255, 126, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Amber (SAE/ECE), whose RBG values are (255, 126, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -331,14 +348,14 @@
 
 
 /*!
- * Returns a color object representing the color American Rose, whose RBG values are (255, 3, 62), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color American Rose, whose RBG values are (255, 3, 62), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) americanRoseColor;
 
 /*!
- * Returns a color object representing the color American Rose, whose RBG values are (255, 3, 62), and has the specified opacity.
+ * Returns a UIColor object representing the color American Rose, whose RBG values are (255, 3, 62), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -347,14 +364,14 @@
 
 
 /*!
- * Returns a color object representing the color Amethyst, whose RBG values are (153, 102, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Amethyst, whose RBG values are (153, 102, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) amethystColor;
 
 /*!
- * Returns a color object representing the color Amethyst, whose RBG values are (153, 102, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Amethyst, whose RBG values are (153, 102, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -363,14 +380,14 @@
 
 
 /*!
- * Returns a color object representing the color Android Green, whose RBG values are (164, 198, 57), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Android Green, whose RBG values are (164, 198, 57), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) androidGreenColor;
 
 /*!
- * Returns a color object representing the color Android Green, whose RBG values are (164, 198, 57), and has the specified opacity.
+ * Returns a UIColor object representing the color Android Green, whose RBG values are (164, 198, 57), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -379,14 +396,14 @@
 
 
 /*!
- * Returns a color object representing the color Anti-Flash White, whose RBG values are (242, 243, 244), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Anti-Flash White, whose RBG values are (242, 243, 244), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) antiFlashWhiteColor;
 
 /*!
- * Returns a color object representing the color Anti-Flash White, whose RBG values are (242, 243, 244), and has the specified opacity.
+ * Returns a UIColor object representing the color Anti-Flash White, whose RBG values are (242, 243, 244), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -395,14 +412,14 @@
 
 
 /*!
- * Returns a color object representing the color Antique Brass (Crayola), whose RBG values are (205, 149, 117), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Antique Brass (Crayola), whose RBG values are (205, 149, 117), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) antiqueBrassCrayolaColor;
 
 /*!
- * Returns a color object representing the color Antique Brass (Crayola), whose RBG values are (205, 149, 117), and has the specified opacity.
+ * Returns a UIColor object representing the color Antique Brass (Crayola), whose RBG values are (205, 149, 117), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -411,14 +428,14 @@
 
 
 /*!
- * Returns a color object representing the color Antique Bronze, whose RBG values are (102, 93, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Antique Bronze, whose RBG values are (102, 93, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) antiqueBronzeColor;
 
 /*!
- * Returns a color object representing the color Antique Bronze, whose RBG values are (102, 93, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Antique Bronze, whose RBG values are (102, 93, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -427,14 +444,14 @@
 
 
 /*!
- * Returns a color object representing the color Antique Fuchsia, whose RBG values are (145, 92, 131), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Antique Fuchsia, whose RBG values are (145, 92, 131), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) antiqueFuchsiaColor;
 
 /*!
- * Returns a color object representing the color Antique Fuchsia, whose RBG values are (145, 92, 131), and has the specified opacity.
+ * Returns a UIColor object representing the color Antique Fuchsia, whose RBG values are (145, 92, 131), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -443,14 +460,14 @@
 
 
 /*!
- * Returns a color object representing the color Antique Ruby, whose RBG values are (132, 27, 45), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Antique Ruby, whose RBG values are (132, 27, 45), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) antiqueRubyColor;
 
 /*!
- * Returns a color object representing the color Antique Ruby, whose RBG values are (132, 27, 45), and has the specified opacity.
+ * Returns a UIColor object representing the color Antique Ruby, whose RBG values are (132, 27, 45), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -459,14 +476,14 @@
 
 
 /*!
- * Returns a color object representing the color Antique White, whose RBG values are (250, 235, 215), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Antique White, whose RBG values are (250, 235, 215), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) antiqueWhiteColor;
 
 /*!
- * Returns a color object representing the color Antique White, whose RBG values are (250, 235, 215), and has the specified opacity.
+ * Returns a UIColor object representing the color Antique White, whose RBG values are (250, 235, 215), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -475,14 +492,14 @@
 
 
 /*!
- * Returns a color object representing the color Ao (English), whose RBG values are (0, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ao (English), whose RBG values are (0, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aoEnglishColor;
 
 /*!
- * Returns a color object representing the color Ao (English), whose RBG values are (0, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Ao (English), whose RBG values are (0, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -491,14 +508,14 @@
 
 
 /*!
- * Returns a color object representing the color Apple Green, whose RBG values are (141, 182, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Apple Green, whose RBG values are (141, 182, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) appleGreenColor;
 
 /*!
- * Returns a color object representing the color Apple Green, whose RBG values are (141, 182, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Apple Green, whose RBG values are (141, 182, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -507,14 +524,14 @@
 
 
 /*!
- * Returns a color object representing the color Apricot, whose RBG values are (251, 206, 177), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Apricot, whose RBG values are (251, 206, 177), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) apricotColor;
 
 /*!
- * Returns a color object representing the color Apricot, whose RBG values are (251, 206, 177), and has the specified opacity.
+ * Returns a UIColor object representing the color Apricot, whose RBG values are (251, 206, 177), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -523,14 +540,14 @@
 
 
 /*!
- * Returns a color object representing the color Apricot (Crayola), whose RBG values are (253, 217, 181), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Apricot (Crayola), whose RBG values are (253, 217, 181), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) apricotCrayolaColor;
 
 /*!
- * Returns a color object representing the color Apricot (Crayola), whose RBG values are (253, 217, 181), and has the specified opacity.
+ * Returns a UIColor object representing the color Apricot (Crayola), whose RBG values are (253, 217, 181), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -539,14 +556,14 @@
 
 
 /*!
- * Returns a color object representing the color Aqua, whose RBG values are (0, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Aqua, whose RBG values are (0, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aquaColor;
 
 /*!
- * Returns a color object representing the color Aqua, whose RBG values are (0, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Aqua, whose RBG values are (0, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -555,14 +572,14 @@
 
 
 /*!
- * Returns a color object representing the color Aquamarine, whose RBG values are (127, 255, 212), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Aquamarine, whose RBG values are (127, 255, 212), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aquamarineColor;
 
 /*!
- * Returns a color object representing the color Aquamarine, whose RBG values are (127, 255, 212), and has the specified opacity.
+ * Returns a UIColor object representing the color Aquamarine, whose RBG values are (127, 255, 212), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -571,14 +588,14 @@
 
 
 /*!
- * Returns a color object representing the color Aquamarine (Crayola), whose RBG values are (120, 219, 226), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Aquamarine (Crayola), whose RBG values are (120, 219, 226), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aquamarineCrayolaColor;
 
 /*!
- * Returns a color object representing the color Aquamarine (Crayola), whose RBG values are (120, 219, 226), and has the specified opacity.
+ * Returns a UIColor object representing the color Aquamarine (Crayola), whose RBG values are (120, 219, 226), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -587,14 +604,14 @@
 
 
 /*!
- * Returns a color object representing the color Arctic Lime, whose RBG values are (208, 255, 20), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Arctic Lime, whose RBG values are (208, 255, 20), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) arcticLimeColor;
 
 /*!
- * Returns a color object representing the color Arctic Lime, whose RBG values are (208, 255, 20), and has the specified opacity.
+ * Returns a UIColor object representing the color Arctic Lime, whose RBG values are (208, 255, 20), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -603,14 +620,14 @@
 
 
 /*!
- * Returns a color object representing the color Army Green, whose RBG values are (75, 83, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Army Green, whose RBG values are (75, 83, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) armyGreenColor;
 
 /*!
- * Returns a color object representing the color Army Green, whose RBG values are (75, 83, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Army Green, whose RBG values are (75, 83, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -619,14 +636,14 @@
 
 
 /*!
- * Returns a color object representing the color Arsenic, whose RBG values are (59, 68, 75), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Arsenic, whose RBG values are (59, 68, 75), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) arsenicColor;
 
 /*!
- * Returns a color object representing the color Arsenic, whose RBG values are (59, 68, 75), and has the specified opacity.
+ * Returns a UIColor object representing the color Arsenic, whose RBG values are (59, 68, 75), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -635,14 +652,14 @@
 
 
 /*!
- * Returns a color object representing the color Artichoke, whose RBG values are (143, 151, 121), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Artichoke, whose RBG values are (143, 151, 121), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) artichokeColor;
 
 /*!
- * Returns a color object representing the color Artichoke, whose RBG values are (143, 151, 121), and has the specified opacity.
+ * Returns a UIColor object representing the color Artichoke, whose RBG values are (143, 151, 121), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -651,14 +668,14 @@
 
 
 /*!
- * Returns a color object representing the color Arylide Yellow, whose RBG values are (233, 214, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Arylide Yellow, whose RBG values are (233, 214, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) arylideYellowColor;
 
 /*!
- * Returns a color object representing the color Arylide Yellow, whose RBG values are (233, 214, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Arylide Yellow, whose RBG values are (233, 214, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -667,14 +684,14 @@
 
 
 /*!
- * Returns a color object representing the color Ash Grey, whose RBG values are (178, 190, 181), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ash Grey, whose RBG values are (178, 190, 181), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ashGreyColor;
 
 /*!
- * Returns a color object representing the color Ash Grey, whose RBG values are (178, 190, 181), and has the specified opacity.
+ * Returns a UIColor object representing the color Ash Grey, whose RBG values are (178, 190, 181), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -683,14 +700,14 @@
 
 
 /*!
- * Returns a color object representing the color Asparagus (Crayola), whose RBG values are (135, 169, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Asparagus (Crayola), whose RBG values are (135, 169, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) asparagusCrayolaColor;
 
 /*!
- * Returns a color object representing the color Asparagus (Crayola), whose RBG values are (135, 169, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Asparagus (Crayola), whose RBG values are (135, 169, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -699,14 +716,14 @@
 
 
 /*!
- * Returns a color object representing the color Atomic Tangerine (Crayola), whose RBG values are (255, 164, 116), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Atomic Tangerine (Crayola), whose RBG values are (255, 164, 116), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) atomicTangerineCrayolaColor;
 
 /*!
- * Returns a color object representing the color Atomic Tangerine (Crayola), whose RBG values are (255, 164, 116), and has the specified opacity.
+ * Returns a UIColor object representing the color Atomic Tangerine (Crayola), whose RBG values are (255, 164, 116), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -715,14 +732,14 @@
 
 
 /*!
- * Returns a color object representing the color Atomic Tangerine, whose RBG values are (255, 153, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Atomic Tangerine, whose RBG values are (255, 153, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) atomicTangerineColor;
 
 /*!
- * Returns a color object representing the color Atomic Tangerine, whose RBG values are (255, 153, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Atomic Tangerine, whose RBG values are (255, 153, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -731,14 +748,14 @@
 
 
 /*!
- * Returns a color object representing the color Auburn, whose RBG values are (165, 42, 42), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Auburn, whose RBG values are (165, 42, 42), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) auburnColor;
 
 /*!
- * Returns a color object representing the color Auburn, whose RBG values are (165, 42, 42), and has the specified opacity.
+ * Returns a UIColor object representing the color Auburn, whose RBG values are (165, 42, 42), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -747,14 +764,14 @@
 
 
 /*!
- * Returns a color object representing the color Aureolin, whose RBG values are (253, 238, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Aureolin, whose RBG values are (253, 238, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) aureolinColor;
 
 /*!
- * Returns a color object representing the color Aureolin, whose RBG values are (253, 238, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Aureolin, whose RBG values are (253, 238, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -763,14 +780,14 @@
 
 
 /*!
- * Returns a color object representing the color AuroMetalSaurus, whose RBG values are (110, 127, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color AuroMetalSaurus, whose RBG values are (110, 127, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) auroMetalSaurusColor;
 
 /*!
- * Returns a color object representing the color AuroMetalSaurus, whose RBG values are (110, 127, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color AuroMetalSaurus, whose RBG values are (110, 127, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -779,14 +796,14 @@
 
 
 /*!
- * Returns a color object representing the color Avocado, whose RBG values are (86, 130, 3), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Avocado, whose RBG values are (86, 130, 3), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) avocadoColor;
 
 /*!
- * Returns a color object representing the color Avocado, whose RBG values are (86, 130, 3), and has the specified opacity.
+ * Returns a UIColor object representing the color Avocado, whose RBG values are (86, 130, 3), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -795,14 +812,14 @@
 
 
 /*!
- * Returns a color object representing the color Azure, whose RBG values are (0, 127, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Azure, whose RBG values are (0, 127, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) azureColor;
 
 /*!
- * Returns a color object representing the color Azure, whose RBG values are (0, 127, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Azure, whose RBG values are (0, 127, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -811,14 +828,14 @@
 
 
 /*!
- * Returns a color object representing the color Azure (Web Color), whose RBG values are (240, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Azure (Web Color), whose RBG values are (240, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) azureWebColor;
 
 /*!
- * Returns a color object representing the color Azure (Web Color), whose RBG values are (240, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Azure (Web Color), whose RBG values are (240, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -827,14 +844,14 @@
 
 
 /*!
- * Returns a color object representing the color Azure Mist, whose RBG values are (240, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Azure Mist, whose RBG values are (240, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) azureMistColor;
 
 /*!
- * Returns a color object representing the color Azure Mist, whose RBG values are (240, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Azure Mist, whose RBG values are (240, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -843,14 +860,14 @@
 
 
 /*!
- * Returns a color object representing the color Azureish White, whose RBG values are (219, 233, 244), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Azureish White, whose RBG values are (219, 233, 244), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) azureishWhiteColor;
 
 /*!
- * Returns a color object representing the color Azureish White, whose RBG values are (219, 233, 244), and has the specified opacity.
+ * Returns a UIColor object representing the color Azureish White, whose RBG values are (219, 233, 244), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -859,14 +876,14 @@
 
 
 /*!
- * Returns a color object representing the color B'dazzled Blue, whose RBG values are (46, 88, 148), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color B'dazzled Blue, whose RBG values are (46, 88, 148), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bdazzledBlueColor;
 
 /*!
- * Returns a color object representing the color B'dazzled Blue, whose RBG values are (46, 88, 148), and has the specified opacity.
+ * Returns a UIColor object representing the color B'dazzled Blue, whose RBG values are (46, 88, 148), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -875,14 +892,14 @@
 
 
 /*!
- * Returns a color object representing the color Baby Blue, whose RBG values are (137, 207, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Baby Blue, whose RBG values are (137, 207, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) babyBlueColor;
 
 /*!
- * Returns a color object representing the color Baby Blue, whose RBG values are (137, 207, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Baby Blue, whose RBG values are (137, 207, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -891,14 +908,14 @@
 
 
 /*!
- * Returns a color object representing the color Baby Blue Eyes, whose RBG values are (161, 202, 241), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Baby Blue Eyes, whose RBG values are (161, 202, 241), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) babyBlueEyesColor;
 
 /*!
- * Returns a color object representing the color Baby Blue Eyes, whose RBG values are (161, 202, 241), and has the specified opacity.
+ * Returns a UIColor object representing the color Baby Blue Eyes, whose RBG values are (161, 202, 241), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -907,14 +924,14 @@
 
 
 /*!
- * Returns a color object representing the color Baby Pink, whose RBG values are (244, 194, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Baby Pink, whose RBG values are (244, 194, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) babyPinkColor;
 
 /*!
- * Returns a color object representing the color Baby Pink, whose RBG values are (244, 194, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Baby Pink, whose RBG values are (244, 194, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -923,14 +940,14 @@
 
 
 /*!
- * Returns a color object representing the color Baby Powder, whose RBG values are (254, 254, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Baby Powder, whose RBG values are (254, 254, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) babyPowderColor;
 
 /*!
- * Returns a color object representing the color Baby Powder, whose RBG values are (254, 254, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Baby Powder, whose RBG values are (254, 254, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -939,14 +956,14 @@
 
 
 /*!
- * Returns a color object representing the color Baker-Miller Pink, whose RBG values are (255, 145, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Baker-Miller Pink, whose RBG values are (255, 145, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bakerMillerPinkColor;
 
 /*!
- * Returns a color object representing the color Baker-Miller Pink, whose RBG values are (255, 145, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Baker-Miller Pink, whose RBG values are (255, 145, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -955,14 +972,14 @@
 
 
 /*!
- * Returns a color object representing the color Ball Blue, whose RBG values are (33, 171, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ball Blue, whose RBG values are (33, 171, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ballBlueColor;
 
 /*!
- * Returns a color object representing the color Ball Blue, whose RBG values are (33, 171, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Ball Blue, whose RBG values are (33, 171, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -971,14 +988,14 @@
 
 
 /*!
- * Returns a color object representing the color Banana Mania (Crayola), whose RBG values are (250, 231, 181), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Banana Mania (Crayola), whose RBG values are (250, 231, 181), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bananaManiaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Banana Mania (Crayola), whose RBG values are (250, 231, 181), and has the specified opacity.
+ * Returns a UIColor object representing the color Banana Mania (Crayola), whose RBG values are (250, 231, 181), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -987,14 +1004,14 @@
 
 
 /*!
- * Returns a color object representing the color Banana Yellow, whose RBG values are (255, 225, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Banana Yellow, whose RBG values are (255, 225, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bananaYellowColor;
 
 /*!
- * Returns a color object representing the color Banana Yellow, whose RBG values are (255, 225, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Banana Yellow, whose RBG values are (255, 225, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1003,14 +1020,14 @@
 
 
 /*!
- * Returns a color object representing the color Bangladesh Green, whose RBG values are (0, 106, 78), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bangladesh Green, whose RBG values are (0, 106, 78), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bangladeshGreenColor;
 
 /*!
- * Returns a color object representing the color Bangladesh Green, whose RBG values are (0, 106, 78), and has the specified opacity.
+ * Returns a UIColor object representing the color Bangladesh Green, whose RBG values are (0, 106, 78), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1019,14 +1036,14 @@
 
 
 /*!
- * Returns a color object representing the color Barbie Pink, whose RBG values are (224, 33, 138), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Barbie Pink, whose RBG values are (224, 33, 138), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) barbiePinkColor;
 
 /*!
- * Returns a color object representing the color Barbie Pink, whose RBG values are (224, 33, 138), and has the specified opacity.
+ * Returns a UIColor object representing the color Barbie Pink, whose RBG values are (224, 33, 138), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1035,14 +1052,14 @@
 
 
 /*!
- * Returns a color object representing the color Barn Red, whose RBG values are (124, 10, 2), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Barn Red, whose RBG values are (124, 10, 2), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) barnRedColor;
 
 /*!
- * Returns a color object representing the color Barn Red, whose RBG values are (124, 10, 2), and has the specified opacity.
+ * Returns a UIColor object representing the color Barn Red, whose RBG values are (124, 10, 2), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1051,14 +1068,14 @@
 
 
 /*!
- * Returns a color object representing the color Battleship Grey, whose RBG values are (132, 132, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Battleship Grey, whose RBG values are (132, 132, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) battleshipGreyColor;
 
 /*!
- * Returns a color object representing the color Battleship Grey, whose RBG values are (132, 132, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Battleship Grey, whose RBG values are (132, 132, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1067,14 +1084,14 @@
 
 
 /*!
- * Returns a color object representing the color Bazaar, whose RBG values are (152, 119, 123), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bazaar, whose RBG values are (152, 119, 123), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bazaarColor;
 
 /*!
- * Returns a color object representing the color Bazaar, whose RBG values are (152, 119, 123), and has the specified opacity.
+ * Returns a UIColor object representing the color Bazaar, whose RBG values are (152, 119, 123), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1083,14 +1100,14 @@
 
 
 /*!
- * Returns a color object representing the color Beau Blue, whose RBG values are (188, 212, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Beau Blue, whose RBG values are (188, 212, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) beauBlueColor;
 
 /*!
- * Returns a color object representing the color Beau Blue, whose RBG values are (188, 212, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Beau Blue, whose RBG values are (188, 212, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1099,14 +1116,14 @@
 
 
 /*!
- * Returns a color object representing the color Beaver (Crayola), whose RBG values are (159, 129, 112), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Beaver (Crayola), whose RBG values are (159, 129, 112), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) beaverCrayolaColor;
 
 /*!
- * Returns a color object representing the color Beaver (Crayola), whose RBG values are (159, 129, 112), and has the specified opacity.
+ * Returns a UIColor object representing the color Beaver (Crayola), whose RBG values are (159, 129, 112), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1115,14 +1132,14 @@
 
 
 /*!
- * Returns a color object representing the color Beige, whose RBG values are (245, 245, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Beige, whose RBG values are (245, 245, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) beigeColor;
 
 /*!
- * Returns a color object representing the color Beige, whose RBG values are (245, 245, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Beige, whose RBG values are (245, 245, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1131,14 +1148,14 @@
 
 
 /*!
- * Returns a color object representing the color Big Dip O’ruby, whose RBG values are (156, 37, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Big Dip O’ruby, whose RBG values are (156, 37, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bigDipOrubyColor;
 
 /*!
- * Returns a color object representing the color Big Dip O’ruby, whose RBG values are (156, 37, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Big Dip O’ruby, whose RBG values are (156, 37, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1147,14 +1164,14 @@
 
 
 /*!
- * Returns a color object representing the color Bisque, whose RBG values are (255, 228, 196), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bisque, whose RBG values are (255, 228, 196), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bisqueColor;
 
 /*!
- * Returns a color object representing the color Bisque, whose RBG values are (255, 228, 196), and has the specified opacity.
+ * Returns a UIColor object representing the color Bisque, whose RBG values are (255, 228, 196), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1163,14 +1180,14 @@
 
 
 /*!
- * Returns a color object representing the color Bistre, whose RBG values are (61, 43, 31), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bistre, whose RBG values are (61, 43, 31), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bistreColor;
 
 /*!
- * Returns a color object representing the color Bistre, whose RBG values are (61, 43, 31), and has the specified opacity.
+ * Returns a UIColor object representing the color Bistre, whose RBG values are (61, 43, 31), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1179,14 +1196,14 @@
 
 
 /*!
- * Returns a color object representing the color Bistre Brown, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bistre Brown, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bistreBrownColor;
 
 /*!
- * Returns a color object representing the color Bistre Brown, whose RBG values are (150, 113, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Bistre Brown, whose RBG values are (150, 113, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1195,14 +1212,14 @@
 
 
 /*!
- * Returns a color object representing the color Bitter Lemon, whose RBG values are (202, 224, 13), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bitter Lemon, whose RBG values are (202, 224, 13), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bitterLemonColor;
 
 /*!
- * Returns a color object representing the color Bitter Lemon, whose RBG values are (202, 224, 13), and has the specified opacity.
+ * Returns a UIColor object representing the color Bitter Lemon, whose RBG values are (202, 224, 13), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1211,14 +1228,14 @@
 
 
 /*!
- * Returns a color object representing the color Bitter Lime, whose RBG values are (191, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bitter Lime, whose RBG values are (191, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bitterLimeColor;
 
 /*!
- * Returns a color object representing the color Bitter Lime, whose RBG values are (191, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Bitter Lime, whose RBG values are (191, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1227,14 +1244,14 @@
 
 
 /*!
- * Returns a color object representing the color Bittersweet, whose RBG values are (254, 111, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bittersweet, whose RBG values are (254, 111, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bittersweetColor;
 
 /*!
- * Returns a color object representing the color Bittersweet, whose RBG values are (254, 111, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Bittersweet, whose RBG values are (254, 111, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1243,14 +1260,14 @@
 
 
 /*!
- * Returns a color object representing the color Bittersweet (Crayola), whose RBG values are (253, 124, 110), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bittersweet (Crayola), whose RBG values are (253, 124, 110), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bittersweetCrayolaColor;
 
 /*!
- * Returns a color object representing the color Bittersweet (Crayola), whose RBG values are (253, 124, 110), and has the specified opacity.
+ * Returns a UIColor object representing the color Bittersweet (Crayola), whose RBG values are (253, 124, 110), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1259,14 +1276,14 @@
 
 
 /*!
- * Returns a color object representing the color Bittersweet Shimmer, whose RBG values are (191, 79, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bittersweet Shimmer, whose RBG values are (191, 79, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bittersweetShimmerColor;
 
 /*!
- * Returns a color object representing the color Bittersweet Shimmer, whose RBG values are (191, 79, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Bittersweet Shimmer, whose RBG values are (191, 79, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1275,14 +1292,14 @@
 
 
 /*!
- * Returns a color object representing the color Black Bean, whose RBG values are (61, 12, 2), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Black Bean, whose RBG values are (61, 12, 2), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blackBeanColor;
 
 /*!
- * Returns a color object representing the color Black Bean, whose RBG values are (61, 12, 2), and has the specified opacity.
+ * Returns a UIColor object representing the color Black Bean, whose RBG values are (61, 12, 2), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1291,14 +1308,14 @@
 
 
 /*!
- * Returns a color object representing the color Black Leather Jacket, whose RBG values are (37, 53, 41), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Black Leather Jacket, whose RBG values are (37, 53, 41), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blackLeatherJacketColor;
 
 /*!
- * Returns a color object representing the color Black Leather Jacket, whose RBG values are (37, 53, 41), and has the specified opacity.
+ * Returns a UIColor object representing the color Black Leather Jacket, whose RBG values are (37, 53, 41), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1307,14 +1324,14 @@
 
 
 /*!
- * Returns a color object representing the color Black Olive, whose RBG values are (59, 60, 54), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Black Olive, whose RBG values are (59, 60, 54), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blackOliveColor;
 
 /*!
- * Returns a color object representing the color Black Olive, whose RBG values are (59, 60, 54), and has the specified opacity.
+ * Returns a UIColor object representing the color Black Olive, whose RBG values are (59, 60, 54), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1323,14 +1340,14 @@
 
 
 /*!
- * Returns a color object representing the color Blanched Almond, whose RBG values are (255, 235, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blanched Almond, whose RBG values are (255, 235, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blanchedAlmondColor;
 
 /*!
- * Returns a color object representing the color Blanched Almond, whose RBG values are (255, 235, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Blanched Almond, whose RBG values are (255, 235, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1339,14 +1356,14 @@
 
 
 /*!
- * Returns a color object representing the color Blast-Off Bronze, whose RBG values are (165, 113, 100), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blast-Off Bronze, whose RBG values are (165, 113, 100), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blastOffBronzeColor;
 
 /*!
- * Returns a color object representing the color Blast-Off Bronze, whose RBG values are (165, 113, 100), and has the specified opacity.
+ * Returns a UIColor object representing the color Blast-Off Bronze, whose RBG values are (165, 113, 100), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1355,14 +1372,14 @@
 
 
 /*!
- * Returns a color object representing the color Bleu De France, whose RBG values are (49, 140, 231), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bleu De France, whose RBG values are (49, 140, 231), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bleuDeFranceColor;
 
 /*!
- * Returns a color object representing the color Bleu De France, whose RBG values are (49, 140, 231), and has the specified opacity.
+ * Returns a UIColor object representing the color Bleu De France, whose RBG values are (49, 140, 231), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1371,14 +1388,14 @@
 
 
 /*!
- * Returns a color object representing the color Blizzard Blue (Crayola), whose RBG values are (172, 229, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blizzard Blue (Crayola), whose RBG values are (172, 229, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blizzardBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Blizzard Blue (Crayola), whose RBG values are (172, 229, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Blizzard Blue (Crayola), whose RBG values are (172, 229, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1387,14 +1404,14 @@
 
 
 /*!
- * Returns a color object representing the color Blond, whose RBG values are (250, 240, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blond, whose RBG values are (250, 240, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blondColor;
 
 /*!
- * Returns a color object representing the color Blond, whose RBG values are (250, 240, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Blond, whose RBG values are (250, 240, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1403,14 +1420,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue (Crayola), whose RBG values are (31, 117, 254), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue (Crayola), whose RBG values are (31, 117, 254), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Blue (Crayola), whose RBG values are (31, 117, 254), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue (Crayola), whose RBG values are (31, 117, 254), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1419,14 +1436,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue (Munsell), whose RBG values are (0, 147, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue (Munsell), whose RBG values are (0, 147, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueMunsellColor;
 
 /*!
- * Returns a color object representing the color Blue (Munsell), whose RBG values are (0, 147, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue (Munsell), whose RBG values are (0, 147, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1435,14 +1452,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue (NCS), whose RBG values are (0, 135, 189), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue (NCS), whose RBG values are (0, 135, 189), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueNCSColor;
 
 /*!
- * Returns a color object representing the color Blue (NCS), whose RBG values are (0, 135, 189), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue (NCS), whose RBG values are (0, 135, 189), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1451,14 +1468,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue (Pantone), whose RBG values are (0, 24, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue (Pantone), whose RBG values are (0, 24, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bluePantoneColor;
 
 /*!
- * Returns a color object representing the color Blue (Pantone), whose RBG values are (0, 24, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue (Pantone), whose RBG values are (0, 24, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1467,14 +1484,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue (Pigment), whose RBG values are (51, 51, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue (Pigment), whose RBG values are (51, 51, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bluePigmentColor;
 
 /*!
- * Returns a color object representing the color Blue (Pigment), whose RBG values are (51, 51, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue (Pigment), whose RBG values are (51, 51, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1483,14 +1500,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue (RYB), whose RBG values are (2, 71, 254), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue (RYB), whose RBG values are (2, 71, 254), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueRYBColor;
 
 /*!
- * Returns a color object representing the color Blue (RYB), whose RBG values are (2, 71, 254), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue (RYB), whose RBG values are (2, 71, 254), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1499,14 +1516,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue Bell (Crayola), whose RBG values are (162, 162, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue Bell (Crayola), whose RBG values are (162, 162, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueBellCrayolaColor;
 
 /*!
- * Returns a color object representing the color Blue Bell (Crayola), whose RBG values are (162, 162, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue Bell (Crayola), whose RBG values are (162, 162, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1515,14 +1532,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue Green (Crayola), whose RBG values are (13, 152, 186), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue Green (Crayola), whose RBG values are (13, 152, 186), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Blue Green (Crayola), whose RBG values are (13, 152, 186), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue Green (Crayola), whose RBG values are (13, 152, 186), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1531,14 +1548,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue Lagoon, whose RBG values are (94, 147, 161), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue Lagoon, whose RBG values are (94, 147, 161), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueLagoonColor;
 
 /*!
- * Returns a color object representing the color Blue Lagoon, whose RBG values are (94, 147, 161), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue Lagoon, whose RBG values are (94, 147, 161), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1547,14 +1564,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue Violet (Crayola), whose RBG values are (115, 102, 189), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue Violet (Crayola), whose RBG values are (115, 102, 189), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueVioletCrayolaColor;
 
 /*!
- * Returns a color object representing the color Blue Violet (Crayola), whose RBG values are (115, 102, 189), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue Violet (Crayola), whose RBG values are (115, 102, 189), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1563,14 +1580,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue Sapphire, whose RBG values are (18, 97, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue Sapphire, whose RBG values are (18, 97, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueSapphireColor;
 
 /*!
- * Returns a color object representing the color Blue Sapphire, whose RBG values are (18, 97, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue Sapphire, whose RBG values are (18, 97, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1579,14 +1596,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue Yonder, whose RBG values are (80, 114, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue Yonder, whose RBG values are (80, 114, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueYonderColor;
 
 /*!
- * Returns a color object representing the color Blue Yonder, whose RBG values are (80, 114, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue Yonder, whose RBG values are (80, 114, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1595,14 +1612,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue-Gray, whose RBG values are (102, 153, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue-Gray, whose RBG values are (102, 153, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueGrayColor;
 
 /*!
- * Returns a color object representing the color Blue-Gray, whose RBG values are (102, 153, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue-Gray, whose RBG values are (102, 153, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1611,14 +1628,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue-Magenta Violet, whose RBG values are (85, 53, 146), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue-Magenta Violet, whose RBG values are (85, 53, 146), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueMagentaVioletColor;
 
 /*!
- * Returns a color object representing the color Blue-Magenta Violet, whose RBG values are (85, 53, 146), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue-Magenta Violet, whose RBG values are (85, 53, 146), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1627,14 +1644,14 @@
 
 
 /*!
- * Returns a color object representing the color Blue-Violet, whose RBG values are (138, 43, 226), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blue-Violet, whose RBG values are (138, 43, 226), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueVioletColor;
 
 /*!
- * Returns a color object representing the color Blue-Violet, whose RBG values are (138, 43, 226), and has the specified opacity.
+ * Returns a UIColor object representing the color Blue-Violet, whose RBG values are (138, 43, 226), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1643,14 +1660,14 @@
 
 
 /*!
- * Returns a color object representing the color Blueberry, whose RBG values are (79, 134, 247), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blueberry, whose RBG values are (79, 134, 247), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blueberryColor;
 
 /*!
- * Returns a color object representing the color Blueberry, whose RBG values are (79, 134, 247), and has the specified opacity.
+ * Returns a UIColor object representing the color Blueberry, whose RBG values are (79, 134, 247), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1659,14 +1676,14 @@
 
 
 /*!
- * Returns a color object representing the color Bluebonnet, whose RBG values are (28, 28, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bluebonnet, whose RBG values are (28, 28, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bluebonnetColor;
 
 /*!
- * Returns a color object representing the color Bluebonnet, whose RBG values are (28, 28, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Bluebonnet, whose RBG values are (28, 28, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1675,14 +1692,14 @@
 
 
 /*!
- * Returns a color object representing the color Blush (Crayola), whose RBG values are (222, 93, 131), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Blush (Crayola), whose RBG values are (222, 93, 131), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) blushCrayolaColor;
 
 /*!
- * Returns a color object representing the color Blush (Crayola), whose RBG values are (222, 93, 131), and has the specified opacity.
+ * Returns a UIColor object representing the color Blush (Crayola), whose RBG values are (222, 93, 131), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1691,14 +1708,14 @@
 
 
 /*!
- * Returns a color object representing the color Bole, whose RBG values are (121, 68, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bole, whose RBG values are (121, 68, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) boleColor;
 
 /*!
- * Returns a color object representing the color Bole, whose RBG values are (121, 68, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Bole, whose RBG values are (121, 68, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1707,14 +1724,14 @@
 
 
 /*!
- * Returns a color object representing the color Bondi Blue, whose RBG values are (0, 149, 182), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bondi Blue, whose RBG values are (0, 149, 182), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bondiBlueColor;
 
 /*!
- * Returns a color object representing the color Bondi Blue, whose RBG values are (0, 149, 182), and has the specified opacity.
+ * Returns a UIColor object representing the color Bondi Blue, whose RBG values are (0, 149, 182), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1723,14 +1740,14 @@
 
 
 /*!
- * Returns a color object representing the color Bone, whose RBG values are (227, 218, 201), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bone, whose RBG values are (227, 218, 201), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) boneColor;
 
 /*!
- * Returns a color object representing the color Bone, whose RBG values are (227, 218, 201), and has the specified opacity.
+ * Returns a UIColor object representing the color Bone, whose RBG values are (227, 218, 201), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1739,14 +1756,14 @@
 
 
 /*!
- * Returns a color object representing the color Boston University Red, whose RBG values are (204, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Boston University Red, whose RBG values are (204, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bostonUniversityRedColor;
 
 /*!
- * Returns a color object representing the color Boston University Red, whose RBG values are (204, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Boston University Red, whose RBG values are (204, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1755,14 +1772,14 @@
 
 
 /*!
- * Returns a color object representing the color Bottle Green, whose RBG values are (0, 106, 78), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bottle Green, whose RBG values are (0, 106, 78), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bottleGreenColor;
 
 /*!
- * Returns a color object representing the color Bottle Green, whose RBG values are (0, 106, 78), and has the specified opacity.
+ * Returns a UIColor object representing the color Bottle Green, whose RBG values are (0, 106, 78), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1771,14 +1788,14 @@
 
 
 /*!
- * Returns a color object representing the color Boysenberry, whose RBG values are (135, 50, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Boysenberry, whose RBG values are (135, 50, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) boysenberryColor;
 
 /*!
- * Returns a color object representing the color Boysenberry, whose RBG values are (135, 50, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Boysenberry, whose RBG values are (135, 50, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1787,14 +1804,14 @@
 
 
 /*!
- * Returns a color object representing the color Brandeis Blue, whose RBG values are (0, 112, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brandeis Blue, whose RBG values are (0, 112, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brandeisBlueColor;
 
 /*!
- * Returns a color object representing the color Brandeis Blue, whose RBG values are (0, 112, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Brandeis Blue, whose RBG values are (0, 112, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1803,14 +1820,14 @@
 
 
 /*!
- * Returns a color object representing the color Brass, whose RBG values are (181, 166, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brass, whose RBG values are (181, 166, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brassColor;
 
 /*!
- * Returns a color object representing the color Brass, whose RBG values are (181, 166, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Brass, whose RBG values are (181, 166, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1819,14 +1836,14 @@
 
 
 /*!
- * Returns a color object representing the color Brick Red (Crayola), whose RBG values are (203, 65, 84), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brick Red (Crayola), whose RBG values are (203, 65, 84), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brickRedCrayolaColor;
 
 /*!
- * Returns a color object representing the color Brick Red (Crayola), whose RBG values are (203, 65, 84), and has the specified opacity.
+ * Returns a UIColor object representing the color Brick Red (Crayola), whose RBG values are (203, 65, 84), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1835,14 +1852,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Cerulean, whose RBG values are (29, 172, 214), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Cerulean, whose RBG values are (29, 172, 214), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightCeruleanColor;
 
 /*!
- * Returns a color object representing the color Bright Cerulean, whose RBG values are (29, 172, 214), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Cerulean, whose RBG values are (29, 172, 214), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1851,14 +1868,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Green, whose RBG values are (102, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Green, whose RBG values are (102, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightGreenColor;
 
 /*!
- * Returns a color object representing the color Bright Green, whose RBG values are (102, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Green, whose RBG values are (102, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1867,14 +1884,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Lavender, whose RBG values are (191, 148, 228), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Lavender, whose RBG values are (191, 148, 228), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightLavenderColor;
 
 /*!
- * Returns a color object representing the color Bright Lavender, whose RBG values are (191, 148, 228), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Lavender, whose RBG values are (191, 148, 228), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1883,14 +1900,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Lilac, whose RBG values are (216, 145, 239), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Lilac, whose RBG values are (216, 145, 239), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightLilacColor;
 
 /*!
- * Returns a color object representing the color Bright Lilac, whose RBG values are (216, 145, 239), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Lilac, whose RBG values are (216, 145, 239), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1899,14 +1916,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Maroon, whose RBG values are (195, 33, 72), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Maroon, whose RBG values are (195, 33, 72), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightMaroonColor;
 
 /*!
- * Returns a color object representing the color Bright Maroon, whose RBG values are (195, 33, 72), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Maroon, whose RBG values are (195, 33, 72), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1915,14 +1932,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Navy Blue, whose RBG values are (25, 116, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Navy Blue, whose RBG values are (25, 116, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightNavyBlueColor;
 
 /*!
- * Returns a color object representing the color Bright Navy Blue, whose RBG values are (25, 116, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Navy Blue, whose RBG values are (25, 116, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1931,14 +1948,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Pink, whose RBG values are (255, 0, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Pink, whose RBG values are (255, 0, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightPinkColor;
 
 /*!
- * Returns a color object representing the color Bright Pink, whose RBG values are (255, 0, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Pink, whose RBG values are (255, 0, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1947,14 +1964,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Turquoise, whose RBG values are (8, 232, 222), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Turquoise, whose RBG values are (8, 232, 222), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightTurquoiseColor;
 
 /*!
- * Returns a color object representing the color Bright Turquoise, whose RBG values are (8, 232, 222), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Turquoise, whose RBG values are (8, 232, 222), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1963,14 +1980,14 @@
 
 
 /*!
- * Returns a color object representing the color Bright Ube, whose RBG values are (209, 159, 232), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bright Ube, whose RBG values are (209, 159, 232), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brightUbeColor;
 
 /*!
- * Returns a color object representing the color Bright Ube, whose RBG values are (209, 159, 232), and has the specified opacity.
+ * Returns a UIColor object representing the color Bright Ube, whose RBG values are (209, 159, 232), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1979,14 +1996,14 @@
 
 
 /*!
- * Returns a color object representing the color Brilliant Rose (Crayola), whose RBG values are (255, 85, 163), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brilliant Rose (Crayola), whose RBG values are (255, 85, 163), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brilliantRoseCrayolaColor;
 
 /*!
- * Returns a color object representing the color Brilliant Rose (Crayola), whose RBG values are (255, 85, 163), and has the specified opacity.
+ * Returns a UIColor object representing the color Brilliant Rose (Crayola), whose RBG values are (255, 85, 163), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -1995,14 +2012,14 @@
 
 
 /*!
- * Returns a color object representing the color Brilliant Azure, whose RBG values are (51, 153, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brilliant Azure, whose RBG values are (51, 153, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brilliantAzureColor;
 
 /*!
- * Returns a color object representing the color Brilliant Azure, whose RBG values are (51, 153, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Brilliant Azure, whose RBG values are (51, 153, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2011,14 +2028,14 @@
 
 
 /*!
- * Returns a color object representing the color Brilliant Lavender, whose RBG values are (244, 187, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brilliant Lavender, whose RBG values are (244, 187, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brilliantLavenderColor;
 
 /*!
- * Returns a color object representing the color Brilliant Lavender, whose RBG values are (244, 187, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Brilliant Lavender, whose RBG values are (244, 187, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2027,14 +2044,14 @@
 
 
 /*!
- * Returns a color object representing the color Brilliant Rose, whose RBG values are (246, 83, 166), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brilliant Rose, whose RBG values are (246, 83, 166), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brilliantRoseColor;
 
 /*!
- * Returns a color object representing the color Brilliant Rose, whose RBG values are (246, 83, 166), and has the specified opacity.
+ * Returns a UIColor object representing the color Brilliant Rose, whose RBG values are (246, 83, 166), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2043,14 +2060,14 @@
 
 
 /*!
- * Returns a color object representing the color Brink Pink, whose RBG values are (251, 96, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brink Pink, whose RBG values are (251, 96, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brinkPinkColor;
 
 /*!
- * Returns a color object representing the color Brink Pink, whose RBG values are (251, 96, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Brink Pink, whose RBG values are (251, 96, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2059,14 +2076,14 @@
 
 
 /*!
- * Returns a color object representing the color British Racing Green, whose RBG values are (0, 66, 37), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color British Racing Green, whose RBG values are (0, 66, 37), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) britishRacingGreenColor;
 
 /*!
- * Returns a color object representing the color British Racing Green, whose RBG values are (0, 66, 37), and has the specified opacity.
+ * Returns a UIColor object representing the color British Racing Green, whose RBG values are (0, 66, 37), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2075,14 +2092,14 @@
 
 
 /*!
- * Returns a color object representing the color Bronze, whose RBG values are (205, 127, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bronze, whose RBG values are (205, 127, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bronzeColor;
 
 /*!
- * Returns a color object representing the color Bronze, whose RBG values are (205, 127, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Bronze, whose RBG values are (205, 127, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2091,14 +2108,14 @@
 
 
 /*!
- * Returns a color object representing the color Bronze Yellow, whose RBG values are (115, 112, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bronze Yellow, whose RBG values are (115, 112, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bronzeYellowColor;
 
 /*!
- * Returns a color object representing the color Bronze Yellow, whose RBG values are (115, 112, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Bronze Yellow, whose RBG values are (115, 112, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2107,14 +2124,14 @@
 
 
 /*!
- * Returns a color object representing the color Brown (Crayola), whose RBG values are (180, 103, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brown (Crayola), whose RBG values are (180, 103, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brownCrayolaColor;
 
 /*!
- * Returns a color object representing the color Brown (Crayola), whose RBG values are (180, 103, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color Brown (Crayola), whose RBG values are (180, 103, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2123,14 +2140,14 @@
 
 
 /*!
- * Returns a color object representing the color Brown (Traditional), whose RBG values are (150, 75, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brown (Traditional), whose RBG values are (150, 75, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brownTraditionalColor;
 
 /*!
- * Returns a color object representing the color Brown (Traditional), whose RBG values are (150, 75, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Brown (Traditional), whose RBG values are (150, 75, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2139,14 +2156,14 @@
 
 
 /*!
- * Returns a color object representing the color Brown (Web), whose RBG values are (165, 42, 42), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brown (Web), whose RBG values are (165, 42, 42), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brownWebColor;
 
 /*!
- * Returns a color object representing the color Brown (Web), whose RBG values are (165, 42, 42), and has the specified opacity.
+ * Returns a UIColor object representing the color Brown (Web), whose RBG values are (165, 42, 42), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2155,14 +2172,14 @@
 
 
 /*!
- * Returns a color object representing the color Brown Yellow, whose RBG values are (204, 153, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brown Yellow, whose RBG values are (204, 153, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brownYellowColor;
 
 /*!
- * Returns a color object representing the color Brown Yellow, whose RBG values are (204, 153, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Brown Yellow, whose RBG values are (204, 153, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2171,14 +2188,14 @@
 
 
 /*!
- * Returns a color object representing the color Brown-Nose, whose RBG values are (107, 68, 35), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brown-Nose, whose RBG values are (107, 68, 35), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brownNoseColor;
 
 /*!
- * Returns a color object representing the color Brown-Nose, whose RBG values are (107, 68, 35), and has the specified opacity.
+ * Returns a UIColor object representing the color Brown-Nose, whose RBG values are (107, 68, 35), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2187,14 +2204,14 @@
 
 
 /*!
- * Returns a color object representing the color Brunswick Green, whose RBG values are (27, 77, 62), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Brunswick Green, whose RBG values are (27, 77, 62), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) brunswickGreenColor;
 
 /*!
- * Returns a color object representing the color Brunswick Green, whose RBG values are (27, 77, 62), and has the specified opacity.
+ * Returns a UIColor object representing the color Brunswick Green, whose RBG values are (27, 77, 62), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2203,14 +2220,14 @@
 
 
 /*!
- * Returns a color object representing the color Bubble Gum, whose RBG values are (255, 193, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bubble Gum, whose RBG values are (255, 193, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bubbleGumColor;
 
 /*!
- * Returns a color object representing the color Bubble Gum, whose RBG values are (255, 193, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Bubble Gum, whose RBG values are (255, 193, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2219,14 +2236,14 @@
 
 
 /*!
- * Returns a color object representing the color Bubbles, whose RBG values are (231, 254, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bubbles, whose RBG values are (231, 254, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bubblesColor;
 
 /*!
- * Returns a color object representing the color Bubbles, whose RBG values are (231, 254, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Bubbles, whose RBG values are (231, 254, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2235,14 +2252,14 @@
 
 
 /*!
- * Returns a color object representing the color Bud Green, whose RBG values are (123, 182, 97), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bud Green, whose RBG values are (123, 182, 97), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) budGreenColor;
 
 /*!
- * Returns a color object representing the color Bud Green, whose RBG values are (123, 182, 97), and has the specified opacity.
+ * Returns a UIColor object representing the color Bud Green, whose RBG values are (123, 182, 97), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2251,14 +2268,14 @@
 
 
 /*!
- * Returns a color object representing the color Buff, whose RBG values are (240, 220, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Buff, whose RBG values are (240, 220, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) buffColor;
 
 /*!
- * Returns a color object representing the color Buff, whose RBG values are (240, 220, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Buff, whose RBG values are (240, 220, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2267,14 +2284,14 @@
 
 
 /*!
- * Returns a color object representing the color Bulgarian Rose, whose RBG values are (72, 6, 7), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Bulgarian Rose, whose RBG values are (72, 6, 7), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) bulgarianRoseColor;
 
 /*!
- * Returns a color object representing the color Bulgarian Rose, whose RBG values are (72, 6, 7), and has the specified opacity.
+ * Returns a UIColor object representing the color Bulgarian Rose, whose RBG values are (72, 6, 7), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2283,14 +2300,14 @@
 
 
 /*!
- * Returns a color object representing the color Burgundy, whose RBG values are (128, 0, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burgundy, whose RBG values are (128, 0, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burgundyColor;
 
 /*!
- * Returns a color object representing the color Burgundy, whose RBG values are (128, 0, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Burgundy, whose RBG values are (128, 0, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2299,14 +2316,14 @@
 
 
 /*!
- * Returns a color object representing the color Burlywood, whose RBG values are (222, 184, 135), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burlywood, whose RBG values are (222, 184, 135), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burlywoodColor;
 
 /*!
- * Returns a color object representing the color Burlywood, whose RBG values are (222, 184, 135), and has the specified opacity.
+ * Returns a UIColor object representing the color Burlywood, whose RBG values are (222, 184, 135), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2315,14 +2332,14 @@
 
 
 /*!
- * Returns a color object representing the color Burnt Orange (Crayola), whose RBG values are (255, 127, 73), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burnt Orange (Crayola), whose RBG values are (255, 127, 73), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burntOrangeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Burnt Orange (Crayola), whose RBG values are (255, 127, 73), and has the specified opacity.
+ * Returns a UIColor object representing the color Burnt Orange (Crayola), whose RBG values are (255, 127, 73), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2331,14 +2348,14 @@
 
 
 /*!
- * Returns a color object representing the color Burnt Sienna (Crayola), whose RBG values are (234, 126, 93), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burnt Sienna (Crayola), whose RBG values are (234, 126, 93), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burntSiennaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Burnt Sienna (Crayola), whose RBG values are (234, 126, 93), and has the specified opacity.
+ * Returns a UIColor object representing the color Burnt Sienna (Crayola), whose RBG values are (234, 126, 93), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2347,14 +2364,14 @@
 
 
 /*!
- * Returns a color object representing the color Burnt Orange, whose RBG values are (204, 85, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burnt Orange, whose RBG values are (204, 85, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burntOrangeColor;
 
 /*!
- * Returns a color object representing the color Burnt Orange, whose RBG values are (204, 85, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Burnt Orange, whose RBG values are (204, 85, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2363,14 +2380,14 @@
 
 
 /*!
- * Returns a color object representing the color Burnt Sienna, whose RBG values are (233, 116, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burnt Sienna, whose RBG values are (233, 116, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burntSiennaColor;
 
 /*!
- * Returns a color object representing the color Burnt Sienna, whose RBG values are (233, 116, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Burnt Sienna, whose RBG values are (233, 116, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2379,14 +2396,14 @@
 
 
 /*!
- * Returns a color object representing the color Burnt Umber, whose RBG values are (138, 51, 36), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Burnt Umber, whose RBG values are (138, 51, 36), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) burntUmberColor;
 
 /*!
- * Returns a color object representing the color Burnt Umber, whose RBG values are (138, 51, 36), and has the specified opacity.
+ * Returns a UIColor object representing the color Burnt Umber, whose RBG values are (138, 51, 36), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2395,14 +2412,14 @@
 
 
 /*!
- * Returns a color object representing the color Byzantine, whose RBG values are (189, 51, 164), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Byzantine, whose RBG values are (189, 51, 164), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) byzantineColor;
 
 /*!
- * Returns a color object representing the color Byzantine, whose RBG values are (189, 51, 164), and has the specified opacity.
+ * Returns a UIColor object representing the color Byzantine, whose RBG values are (189, 51, 164), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2411,14 +2428,14 @@
 
 
 /*!
- * Returns a color object representing the color Byzantium, whose RBG values are (112, 41, 99), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Byzantium, whose RBG values are (112, 41, 99), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) byzantiumColor;
 
 /*!
- * Returns a color object representing the color Byzantium, whose RBG values are (112, 41, 99), and has the specified opacity.
+ * Returns a UIColor object representing the color Byzantium, whose RBG values are (112, 41, 99), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2427,14 +2444,14 @@
 
 
 /*!
- * Returns a color object representing the color CG Blue, whose RBG values are (0, 122, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color CG Blue, whose RBG values are (0, 122, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cGBlueColor;
 
 /*!
- * Returns a color object representing the color CG Blue, whose RBG values are (0, 122, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color CG Blue, whose RBG values are (0, 122, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2443,14 +2460,14 @@
 
 
 /*!
- * Returns a color object representing the color CG Red, whose RBG values are (224, 60, 49), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color CG Red, whose RBG values are (224, 60, 49), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cGRedColor;
 
 /*!
- * Returns a color object representing the color CG Red, whose RBG values are (224, 60, 49), and has the specified opacity.
+ * Returns a UIColor object representing the color CG Red, whose RBG values are (224, 60, 49), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2459,14 +2476,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadet, whose RBG values are (83, 104, 114), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadet, whose RBG values are (83, 104, 114), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadetColor;
 
 /*!
- * Returns a color object representing the color Cadet, whose RBG values are (83, 104, 114), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadet, whose RBG values are (83, 104, 114), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2475,14 +2492,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadet Blue (Crayola), whose RBG values are (176, 183, 198), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadet Blue (Crayola), whose RBG values are (176, 183, 198), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadetBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Cadet Blue (Crayola), whose RBG values are (176, 183, 198), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadet Blue (Crayola), whose RBG values are (176, 183, 198), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2491,14 +2508,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadet Blue, whose RBG values are (95, 158, 160), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadet Blue, whose RBG values are (95, 158, 160), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadetBlueColor;
 
 /*!
- * Returns a color object representing the color Cadet Blue, whose RBG values are (95, 158, 160), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadet Blue, whose RBG values are (95, 158, 160), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2507,14 +2524,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadet Grey, whose RBG values are (145, 163, 176), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadet Grey, whose RBG values are (145, 163, 176), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadetGreyColor;
 
 /*!
- * Returns a color object representing the color Cadet Grey, whose RBG values are (145, 163, 176), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadet Grey, whose RBG values are (145, 163, 176), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2523,14 +2540,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadmium Green, whose RBG values are (0, 107, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadmium Green, whose RBG values are (0, 107, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadmiumGreenColor;
 
 /*!
- * Returns a color object representing the color Cadmium Green, whose RBG values are (0, 107, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadmium Green, whose RBG values are (0, 107, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2539,14 +2556,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadmium Orange, whose RBG values are (237, 135, 45), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadmium Orange, whose RBG values are (237, 135, 45), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadmiumOrangeColor;
 
 /*!
- * Returns a color object representing the color Cadmium Orange, whose RBG values are (237, 135, 45), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadmium Orange, whose RBG values are (237, 135, 45), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2555,14 +2572,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadmium Red, whose RBG values are (227, 0, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadmium Red, whose RBG values are (227, 0, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadmiumRedColor;
 
 /*!
- * Returns a color object representing the color Cadmium Red, whose RBG values are (227, 0, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadmium Red, whose RBG values are (227, 0, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2571,14 +2588,14 @@
 
 
 /*!
- * Returns a color object representing the color Cadmium Yellow, whose RBG values are (255, 246, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cadmium Yellow, whose RBG values are (255, 246, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cadmiumYellowColor;
 
 /*!
- * Returns a color object representing the color Cadmium Yellow, whose RBG values are (255, 246, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Cadmium Yellow, whose RBG values are (255, 246, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2587,14 +2604,14 @@
 
 
 /*!
- * Returns a color object representing the color Café Au Lait, whose RBG values are (166, 123, 91), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Café Au Lait, whose RBG values are (166, 123, 91), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) caféAuLaitColor;
 
 /*!
- * Returns a color object representing the color Café Au Lait, whose RBG values are (166, 123, 91), and has the specified opacity.
+ * Returns a UIColor object representing the color Café Au Lait, whose RBG values are (166, 123, 91), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2603,14 +2620,14 @@
 
 
 /*!
- * Returns a color object representing the color Café Noir, whose RBG values are (75, 54, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Café Noir, whose RBG values are (75, 54, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) caféNoirColor;
 
 /*!
- * Returns a color object representing the color Café Noir, whose RBG values are (75, 54, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Café Noir, whose RBG values are (75, 54, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2619,14 +2636,14 @@
 
 
 /*!
- * Returns a color object representing the color Cal Poly Green, whose RBG values are (30, 77, 43), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cal Poly Green, whose RBG values are (30, 77, 43), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) calPolyGreenColor;
 
 /*!
- * Returns a color object representing the color Cal Poly Green, whose RBG values are (30, 77, 43), and has the specified opacity.
+ * Returns a UIColor object representing the color Cal Poly Green, whose RBG values are (30, 77, 43), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2635,14 +2652,14 @@
 
 
 /*!
- * Returns a color object representing the color Cambridge Blue, whose RBG values are (163, 193, 173), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cambridge Blue, whose RBG values are (163, 193, 173), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cambridgeBlueColor;
 
 /*!
- * Returns a color object representing the color Cambridge Blue, whose RBG values are (163, 193, 173), and has the specified opacity.
+ * Returns a UIColor object representing the color Cambridge Blue, whose RBG values are (163, 193, 173), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2651,14 +2668,14 @@
 
 
 /*!
- * Returns a color object representing the color Camel, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Camel, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) camelColor;
 
 /*!
- * Returns a color object representing the color Camel, whose RBG values are (193, 154, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Camel, whose RBG values are (193, 154, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2667,14 +2684,14 @@
 
 
 /*!
- * Returns a color object representing the color Cameo Pink, whose RBG values are (239, 187, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cameo Pink, whose RBG values are (239, 187, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cameoPinkColor;
 
 /*!
- * Returns a color object representing the color Cameo Pink, whose RBG values are (239, 187, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Cameo Pink, whose RBG values are (239, 187, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2683,14 +2700,14 @@
 
 
 /*!
- * Returns a color object representing the color Camouflage Green, whose RBG values are (120, 134, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Camouflage Green, whose RBG values are (120, 134, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) camouflageGreenColor;
 
 /*!
- * Returns a color object representing the color Camouflage Green, whose RBG values are (120, 134, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Camouflage Green, whose RBG values are (120, 134, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2699,14 +2716,14 @@
 
 
 /*!
- * Returns a color object representing the color Canary (Crayola), whose RBG values are (255, 255, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Canary (Crayola), whose RBG values are (255, 255, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) canaryCrayolaColor;
 
 /*!
- * Returns a color object representing the color Canary (Crayola), whose RBG values are (255, 255, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Canary (Crayola), whose RBG values are (255, 255, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2715,14 +2732,14 @@
 
 
 /*!
- * Returns a color object representing the color Canary Yellow, whose RBG values are (255, 239, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Canary Yellow, whose RBG values are (255, 239, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) canaryYellowColor;
 
 /*!
- * Returns a color object representing the color Canary Yellow, whose RBG values are (255, 239, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Canary Yellow, whose RBG values are (255, 239, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2731,14 +2748,14 @@
 
 
 /*!
- * Returns a color object representing the color Candy Apple Red, whose RBG values are (255, 8, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Candy Apple Red, whose RBG values are (255, 8, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) candyAppleRedColor;
 
 /*!
- * Returns a color object representing the color Candy Apple Red, whose RBG values are (255, 8, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Candy Apple Red, whose RBG values are (255, 8, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2747,14 +2764,14 @@
 
 
 /*!
- * Returns a color object representing the color Candy Pink, whose RBG values are (228, 113, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Candy Pink, whose RBG values are (228, 113, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) candyPinkColor;
 
 /*!
- * Returns a color object representing the color Candy Pink, whose RBG values are (228, 113, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color Candy Pink, whose RBG values are (228, 113, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2763,14 +2780,14 @@
 
 
 /*!
- * Returns a color object representing the color Capri, whose RBG values are (0, 191, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Capri, whose RBG values are (0, 191, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) capriColor;
 
 /*!
- * Returns a color object representing the color Capri, whose RBG values are (0, 191, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Capri, whose RBG values are (0, 191, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2779,14 +2796,14 @@
 
 
 /*!
- * Returns a color object representing the color Caput Mortuum, whose RBG values are (89, 39, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Caput Mortuum, whose RBG values are (89, 39, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) caputMortuumColor;
 
 /*!
- * Returns a color object representing the color Caput Mortuum, whose RBG values are (89, 39, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Caput Mortuum, whose RBG values are (89, 39, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2795,14 +2812,14 @@
 
 
 /*!
- * Returns a color object representing the color Cardinal, whose RBG values are (196, 30, 58), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cardinal, whose RBG values are (196, 30, 58), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cardinalColor;
 
 /*!
- * Returns a color object representing the color Cardinal, whose RBG values are (196, 30, 58), and has the specified opacity.
+ * Returns a UIColor object representing the color Cardinal, whose RBG values are (196, 30, 58), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2811,14 +2828,14 @@
 
 
 /*!
- * Returns a color object representing the color Caribbean Green (Crayola), whose RBG values are (0, 204, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Caribbean Green (Crayola), whose RBG values are (0, 204, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) caribbeanGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Caribbean Green (Crayola), whose RBG values are (0, 204, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Caribbean Green (Crayola), whose RBG values are (0, 204, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2827,14 +2844,14 @@
 
 
 /*!
- * Returns a color object representing the color Carmine, whose RBG values are (150, 0, 24), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carmine, whose RBG values are (150, 0, 24), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carmineColor;
 
 /*!
- * Returns a color object representing the color Carmine, whose RBG values are (150, 0, 24), and has the specified opacity.
+ * Returns a UIColor object representing the color Carmine, whose RBG values are (150, 0, 24), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2843,14 +2860,14 @@
 
 
 /*!
- * Returns a color object representing the color Carmine (M&P), whose RBG values are (215, 0, 64), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carmine (M&P), whose RBG values are (215, 0, 64), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carmineMandPColor;
 
 /*!
- * Returns a color object representing the color Carmine (M&P), whose RBG values are (215, 0, 64), and has the specified opacity.
+ * Returns a UIColor object representing the color Carmine (M&P), whose RBG values are (215, 0, 64), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2859,14 +2876,14 @@
 
 
 /*!
- * Returns a color object representing the color Carmine Pink, whose RBG values are (235, 76, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carmine Pink, whose RBG values are (235, 76, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carminePinkColor;
 
 /*!
- * Returns a color object representing the color Carmine Pink, whose RBG values are (235, 76, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Carmine Pink, whose RBG values are (235, 76, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2875,14 +2892,14 @@
 
 
 /*!
- * Returns a color object representing the color Carmine Red, whose RBG values are (255, 0, 56), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carmine Red, whose RBG values are (255, 0, 56), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carmineRedColor;
 
 /*!
- * Returns a color object representing the color Carmine Red, whose RBG values are (255, 0, 56), and has the specified opacity.
+ * Returns a UIColor object representing the color Carmine Red, whose RBG values are (255, 0, 56), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2891,14 +2908,14 @@
 
 
 /*!
- * Returns a color object representing the color Carnation Pink (Crayola), whose RBG values are (255, 170, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carnation Pink (Crayola), whose RBG values are (255, 170, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carnationPinkCrayolaColor;
 
 /*!
- * Returns a color object representing the color Carnation Pink (Crayola), whose RBG values are (255, 170, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Carnation Pink (Crayola), whose RBG values are (255, 170, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2907,14 +2924,14 @@
 
 
 /*!
- * Returns a color object representing the color Carnation Pink, whose RBG values are (255, 166, 201), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carnation Pink, whose RBG values are (255, 166, 201), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carnationPinkColor;
 
 /*!
- * Returns a color object representing the color Carnation Pink, whose RBG values are (255, 166, 201), and has the specified opacity.
+ * Returns a UIColor object representing the color Carnation Pink, whose RBG values are (255, 166, 201), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2923,14 +2940,14 @@
 
 
 /*!
- * Returns a color object representing the color Carnelian, whose RBG values are (179, 27, 27), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carnelian, whose RBG values are (179, 27, 27), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carnelianColor;
 
 /*!
- * Returns a color object representing the color Carnelian, whose RBG values are (179, 27, 27), and has the specified opacity.
+ * Returns a UIColor object representing the color Carnelian, whose RBG values are (179, 27, 27), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2939,14 +2956,14 @@
 
 
 /*!
- * Returns a color object representing the color Carolina Blue, whose RBG values are (86, 160, 211), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carolina Blue, whose RBG values are (86, 160, 211), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carolinaBlueColor;
 
 /*!
- * Returns a color object representing the color Carolina Blue, whose RBG values are (86, 160, 211), and has the specified opacity.
+ * Returns a UIColor object representing the color Carolina Blue, whose RBG values are (86, 160, 211), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2955,14 +2972,14 @@
 
 
 /*!
- * Returns a color object representing the color Carrot Orange, whose RBG values are (237, 145, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Carrot Orange, whose RBG values are (237, 145, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) carrotOrangeColor;
 
 /*!
- * Returns a color object representing the color Carrot Orange, whose RBG values are (237, 145, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Carrot Orange, whose RBG values are (237, 145, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2971,14 +2988,14 @@
 
 
 /*!
- * Returns a color object representing the color Castleton Green, whose RBG values are (0, 86, 63), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Castleton Green, whose RBG values are (0, 86, 63), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) castletonGreenColor;
 
 /*!
- * Returns a color object representing the color Castleton Green, whose RBG values are (0, 86, 63), and has the specified opacity.
+ * Returns a UIColor object representing the color Castleton Green, whose RBG values are (0, 86, 63), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -2987,14 +3004,14 @@
 
 
 /*!
- * Returns a color object representing the color Catalina Blue, whose RBG values are (6, 42, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Catalina Blue, whose RBG values are (6, 42, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) catalinaBlueColor;
 
 /*!
- * Returns a color object representing the color Catalina Blue, whose RBG values are (6, 42, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Catalina Blue, whose RBG values are (6, 42, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3003,14 +3020,14 @@
 
 
 /*!
- * Returns a color object representing the color Catawba, whose RBG values are (112, 54, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Catawba, whose RBG values are (112, 54, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) catawbaColor;
 
 /*!
- * Returns a color object representing the color Catawba, whose RBG values are (112, 54, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Catawba, whose RBG values are (112, 54, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3019,14 +3036,14 @@
 
 
 /*!
- * Returns a color object representing the color Cedar Chest, whose RBG values are (201, 90, 73), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cedar Chest, whose RBG values are (201, 90, 73), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cedarChestColor;
 
 /*!
- * Returns a color object representing the color Cedar Chest, whose RBG values are (201, 90, 73), and has the specified opacity.
+ * Returns a UIColor object representing the color Cedar Chest, whose RBG values are (201, 90, 73), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3035,14 +3052,14 @@
 
 
 /*!
- * Returns a color object representing the color Ceil, whose RBG values are (146, 161, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ceil, whose RBG values are (146, 161, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceilColor;
 
 /*!
- * Returns a color object representing the color Ceil, whose RBG values are (146, 161, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color Ceil, whose RBG values are (146, 161, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3051,14 +3068,14 @@
 
 
 /*!
- * Returns a color object representing the color Celadon, whose RBG values are (172, 225, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celadon, whose RBG values are (172, 225, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celadonColor;
 
 /*!
- * Returns a color object representing the color Celadon, whose RBG values are (172, 225, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Celadon, whose RBG values are (172, 225, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3067,14 +3084,14 @@
 
 
 /*!
- * Returns a color object representing the color Celadon Blue, whose RBG values are (0, 123, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celadon Blue, whose RBG values are (0, 123, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celadonBlueColor;
 
 /*!
- * Returns a color object representing the color Celadon Blue, whose RBG values are (0, 123, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color Celadon Blue, whose RBG values are (0, 123, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3083,14 +3100,14 @@
 
 
 /*!
- * Returns a color object representing the color Celadon Green, whose RBG values are (47, 132, 124), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celadon Green, whose RBG values are (47, 132, 124), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celadonGreenColor;
 
 /*!
- * Returns a color object representing the color Celadon Green, whose RBG values are (47, 132, 124), and has the specified opacity.
+ * Returns a UIColor object representing the color Celadon Green, whose RBG values are (47, 132, 124), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3099,14 +3116,14 @@
 
 
 /*!
- * Returns a color object representing the color Celeste, whose RBG values are (178, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celeste, whose RBG values are (178, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celesteColor;
 
 /*!
- * Returns a color object representing the color Celeste, whose RBG values are (178, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Celeste, whose RBG values are (178, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3115,14 +3132,14 @@
 
 
 /*!
- * Returns a color object representing the color Celeste Opaco, whose RBG values are (128, 204, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celeste Opaco, whose RBG values are (128, 204, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celesteOpacoColor;
 
 /*!
- * Returns a color object representing the color Celeste Opaco, whose RBG values are (128, 204, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Celeste Opaco, whose RBG values are (128, 204, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3131,14 +3148,14 @@
 
 
 /*!
- * Returns a color object representing the color Celeste Pallido, whose RBG values are (204, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celeste Pallido, whose RBG values are (204, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celestePallidoColor;
 
 /*!
- * Returns a color object representing the color Celeste Pallido, whose RBG values are (204, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Celeste Pallido, whose RBG values are (204, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3147,14 +3164,14 @@
 
 
 /*!
- * Returns a color object representing the color Celeste Polvere, whose RBG values are (230, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celeste Polvere, whose RBG values are (230, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celestePolvereColor;
 
 /*!
- * Returns a color object representing the color Celeste Polvere, whose RBG values are (230, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Celeste Polvere, whose RBG values are (230, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3163,14 +3180,14 @@
 
 
 /*!
- * Returns a color object representing the color Celeste Velato, whose RBG values are (204, 230, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celeste Velato, whose RBG values are (204, 230, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celesteVelatoColor;
 
 /*!
- * Returns a color object representing the color Celeste Velato, whose RBG values are (204, 230, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Celeste Velato, whose RBG values are (204, 230, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3179,14 +3196,14 @@
 
 
 /*!
- * Returns a color object representing the color Celestial Blue, whose RBG values are (73, 151, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Celestial Blue, whose RBG values are (73, 151, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) celestialBlueColor;
 
 /*!
- * Returns a color object representing the color Celestial Blue, whose RBG values are (73, 151, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Celestial Blue, whose RBG values are (73, 151, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3195,14 +3212,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerise, whose RBG values are (222, 49, 99), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerise, whose RBG values are (222, 49, 99), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceriseColor;
 
 /*!
- * Returns a color object representing the color Cerise, whose RBG values are (222, 49, 99), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerise, whose RBG values are (222, 49, 99), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3211,14 +3228,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerise (Crayola), whose RBG values are (221, 68, 146), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerise (Crayola), whose RBG values are (221, 68, 146), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceriseCrayolaColor;
 
 /*!
- * Returns a color object representing the color Cerise (Crayola), whose RBG values are (221, 68, 146), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerise (Crayola), whose RBG values are (221, 68, 146), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3227,14 +3244,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerise Pink, whose RBG values are (236, 59, 131), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerise Pink, whose RBG values are (236, 59, 131), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cerisePinkColor;
 
 /*!
- * Returns a color object representing the color Cerise Pink, whose RBG values are (236, 59, 131), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerise Pink, whose RBG values are (236, 59, 131), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3243,14 +3260,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerulean, whose RBG values are (0, 123, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerulean, whose RBG values are (0, 123, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceruleanColor;
 
 /*!
- * Returns a color object representing the color Cerulean, whose RBG values are (0, 123, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerulean, whose RBG values are (0, 123, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3259,14 +3276,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerulean (Crayola), whose RBG values are (29, 172, 214), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerulean (Crayola), whose RBG values are (29, 172, 214), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceruleanCrayolaColor;
 
 /*!
- * Returns a color object representing the color Cerulean (Crayola), whose RBG values are (29, 172, 214), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerulean (Crayola), whose RBG values are (29, 172, 214), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3275,14 +3292,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerulean Blue, whose RBG values are (42, 82, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerulean Blue, whose RBG values are (42, 82, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceruleanBlueColor;
 
 /*!
- * Returns a color object representing the color Cerulean Blue, whose RBG values are (42, 82, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerulean Blue, whose RBG values are (42, 82, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3291,14 +3308,14 @@
 
 
 /*!
- * Returns a color object representing the color Cerulean Frost, whose RBG values are (109, 155, 195), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cerulean Frost, whose RBG values are (109, 155, 195), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ceruleanFrostColor;
 
 /*!
- * Returns a color object representing the color Cerulean Frost, whose RBG values are (109, 155, 195), and has the specified opacity.
+ * Returns a UIColor object representing the color Cerulean Frost, whose RBG values are (109, 155, 195), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3307,14 +3324,14 @@
 
 
 /*!
- * Returns a color object representing the color Chamoisee, whose RBG values are (160, 120, 90), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chamoisee, whose RBG values are (160, 120, 90), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chamoiseeColor;
 
 /*!
- * Returns a color object representing the color Chamoisee, whose RBG values are (160, 120, 90), and has the specified opacity.
+ * Returns a UIColor object representing the color Chamoisee, whose RBG values are (160, 120, 90), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3323,14 +3340,14 @@
 
 
 /*!
- * Returns a color object representing the color Champagne, whose RBG values are (247, 231, 206), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Champagne, whose RBG values are (247, 231, 206), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) champagneColor;
 
 /*!
- * Returns a color object representing the color Champagne, whose RBG values are (247, 231, 206), and has the specified opacity.
+ * Returns a UIColor object representing the color Champagne, whose RBG values are (247, 231, 206), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3339,14 +3356,14 @@
 
 
 /*!
- * Returns a color object representing the color Charcoal, whose RBG values are (54, 69, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Charcoal, whose RBG values are (54, 69, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) charcoalColor;
 
 /*!
- * Returns a color object representing the color Charcoal, whose RBG values are (54, 69, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Charcoal, whose RBG values are (54, 69, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3355,14 +3372,14 @@
 
 
 /*!
- * Returns a color object representing the color Charleston Green, whose RBG values are (35, 43, 43), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Charleston Green, whose RBG values are (35, 43, 43), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) charlestonGreenColor;
 
 /*!
- * Returns a color object representing the color Charleston Green, whose RBG values are (35, 43, 43), and has the specified opacity.
+ * Returns a UIColor object representing the color Charleston Green, whose RBG values are (35, 43, 43), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3371,14 +3388,14 @@
 
 
 /*!
- * Returns a color object representing the color Charm Pink, whose RBG values are (230, 143, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Charm Pink, whose RBG values are (230, 143, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) charmPinkColor;
 
 /*!
- * Returns a color object representing the color Charm Pink, whose RBG values are (230, 143, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Charm Pink, whose RBG values are (230, 143, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3387,14 +3404,14 @@
 
 
 /*!
- * Returns a color object representing the color Chartreuse (Traditional), whose RBG values are (223, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chartreuse (Traditional), whose RBG values are (223, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chartreuseTraditionalColor;
 
 /*!
- * Returns a color object representing the color Chartreuse (Traditional), whose RBG values are (223, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Chartreuse (Traditional), whose RBG values are (223, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3403,14 +3420,14 @@
 
 
 /*!
- * Returns a color object representing the color Chartreuse (Web), whose RBG values are (127, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chartreuse (Web), whose RBG values are (127, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chartreuseWebColor;
 
 /*!
- * Returns a color object representing the color Chartreuse (Web), whose RBG values are (127, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Chartreuse (Web), whose RBG values are (127, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3419,14 +3436,14 @@
 
 
 /*!
- * Returns a color object representing the color Cherry, whose RBG values are (222, 49, 99), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cherry, whose RBG values are (222, 49, 99), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cherryColor;
 
 /*!
- * Returns a color object representing the color Cherry, whose RBG values are (222, 49, 99), and has the specified opacity.
+ * Returns a UIColor object representing the color Cherry, whose RBG values are (222, 49, 99), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3435,14 +3452,14 @@
 
 
 /*!
- * Returns a color object representing the color Cherry Blossom Pink, whose RBG values are (255, 183, 197), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cherry Blossom Pink, whose RBG values are (255, 183, 197), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cherryBlossomPinkColor;
 
 /*!
- * Returns a color object representing the color Cherry Blossom Pink, whose RBG values are (255, 183, 197), and has the specified opacity.
+ * Returns a UIColor object representing the color Cherry Blossom Pink, whose RBG values are (255, 183, 197), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3451,14 +3468,14 @@
 
 
 /*!
- * Returns a color object representing the color Chestnut, whose RBG values are (149, 69, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chestnut, whose RBG values are (149, 69, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chestnutColor;
 
 /*!
- * Returns a color object representing the color Chestnut, whose RBG values are (149, 69, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Chestnut, whose RBG values are (149, 69, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3467,14 +3484,14 @@
 
 
 /*!
- * Returns a color object representing the color Chestnut (Crayola), whose RBG values are (188, 93, 88), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chestnut (Crayola), whose RBG values are (188, 93, 88), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chestnutCrayolaColor;
 
 /*!
- * Returns a color object representing the color Chestnut (Crayola), whose RBG values are (188, 93, 88), and has the specified opacity.
+ * Returns a UIColor object representing the color Chestnut (Crayola), whose RBG values are (188, 93, 88), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3483,14 +3500,14 @@
 
 
 /*!
- * Returns a color object representing the color China Pink, whose RBG values are (222, 111, 161), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color China Pink, whose RBG values are (222, 111, 161), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chinaPinkColor;
 
 /*!
- * Returns a color object representing the color China Pink, whose RBG values are (222, 111, 161), and has the specified opacity.
+ * Returns a UIColor object representing the color China Pink, whose RBG values are (222, 111, 161), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3499,14 +3516,14 @@
 
 
 /*!
- * Returns a color object representing the color China Rose, whose RBG values are (168, 81, 110), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color China Rose, whose RBG values are (168, 81, 110), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chinaRoseColor;
 
 /*!
- * Returns a color object representing the color China Rose, whose RBG values are (168, 81, 110), and has the specified opacity.
+ * Returns a UIColor object representing the color China Rose, whose RBG values are (168, 81, 110), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3515,14 +3532,14 @@
 
 
 /*!
- * Returns a color object representing the color Chinese Red, whose RBG values are (170, 56, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chinese Red, whose RBG values are (170, 56, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chineseRedColor;
 
 /*!
- * Returns a color object representing the color Chinese Red, whose RBG values are (170, 56, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Chinese Red, whose RBG values are (170, 56, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3531,14 +3548,14 @@
 
 
 /*!
- * Returns a color object representing the color Chinese Violet, whose RBG values are (133, 96, 136), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chinese Violet, whose RBG values are (133, 96, 136), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chineseVioletColor;
 
 /*!
- * Returns a color object representing the color Chinese Violet, whose RBG values are (133, 96, 136), and has the specified opacity.
+ * Returns a UIColor object representing the color Chinese Violet, whose RBG values are (133, 96, 136), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3547,14 +3564,14 @@
 
 
 /*!
- * Returns a color object representing the color Chocolate (Traditional), whose RBG values are (123, 63, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chocolate (Traditional), whose RBG values are (123, 63, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chocolateTraditionalColor;
 
 /*!
- * Returns a color object representing the color Chocolate (Traditional), whose RBG values are (123, 63, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Chocolate (Traditional), whose RBG values are (123, 63, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3563,14 +3580,14 @@
 
 
 /*!
- * Returns a color object representing the color Chocolate (Web), whose RBG values are (210, 105, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chocolate (Web), whose RBG values are (210, 105, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chocolateWebColor;
 
 /*!
- * Returns a color object representing the color Chocolate (Web), whose RBG values are (210, 105, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Chocolate (Web), whose RBG values are (210, 105, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3579,14 +3596,14 @@
 
 
 /*!
- * Returns a color object representing the color Chrome Yellow, whose RBG values are (255, 167, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Chrome Yellow, whose RBG values are (255, 167, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) chromeYellowColor;
 
 /*!
- * Returns a color object representing the color Chrome Yellow, whose RBG values are (255, 167, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Chrome Yellow, whose RBG values are (255, 167, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3595,14 +3612,14 @@
 
 
 /*!
- * Returns a color object representing the color Cinereous, whose RBG values are (152, 129, 123), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cinereous, whose RBG values are (152, 129, 123), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cinereousColor;
 
 /*!
- * Returns a color object representing the color Cinereous, whose RBG values are (152, 129, 123), and has the specified opacity.
+ * Returns a UIColor object representing the color Cinereous, whose RBG values are (152, 129, 123), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3611,14 +3628,14 @@
 
 
 /*!
- * Returns a color object representing the color Cinnabar, whose RBG values are (227, 66, 52), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cinnabar, whose RBG values are (227, 66, 52), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cinnabarColor;
 
 /*!
- * Returns a color object representing the color Cinnabar, whose RBG values are (227, 66, 52), and has the specified opacity.
+ * Returns a UIColor object representing the color Cinnabar, whose RBG values are (227, 66, 52), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3627,14 +3644,14 @@
 
 
 /*!
- * Returns a color object representing the color Cinnamon, whose RBG values are (210, 105, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cinnamon, whose RBG values are (210, 105, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cinnamonColor;
 
 /*!
- * Returns a color object representing the color Cinnamon, whose RBG values are (210, 105, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Cinnamon, whose RBG values are (210, 105, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3643,14 +3660,14 @@
 
 
 /*!
- * Returns a color object representing the color Citrine, whose RBG values are (228, 208, 10), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Citrine, whose RBG values are (228, 208, 10), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) citrineColor;
 
 /*!
- * Returns a color object representing the color Citrine, whose RBG values are (228, 208, 10), and has the specified opacity.
+ * Returns a UIColor object representing the color Citrine, whose RBG values are (228, 208, 10), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3659,14 +3676,14 @@
 
 
 /*!
- * Returns a color object representing the color Citron, whose RBG values are (158, 169, 31), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Citron, whose RBG values are (158, 169, 31), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) citronColor;
 
 /*!
- * Returns a color object representing the color Citron, whose RBG values are (158, 169, 31), and has the specified opacity.
+ * Returns a UIColor object representing the color Citron, whose RBG values are (158, 169, 31), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3675,14 +3692,14 @@
 
 
 /*!
- * Returns a color object representing the color Claret, whose RBG values are (127, 23, 52), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Claret, whose RBG values are (127, 23, 52), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) claretColor;
 
 /*!
- * Returns a color object representing the color Claret, whose RBG values are (127, 23, 52), and has the specified opacity.
+ * Returns a UIColor object representing the color Claret, whose RBG values are (127, 23, 52), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3691,14 +3708,14 @@
 
 
 /*!
- * Returns a color object representing the color Classic Rose, whose RBG values are (251, 204, 231), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Classic Rose, whose RBG values are (251, 204, 231), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) classicRoseColor;
 
 /*!
- * Returns a color object representing the color Classic Rose, whose RBG values are (251, 204, 231), and has the specified opacity.
+ * Returns a UIColor object representing the color Classic Rose, whose RBG values are (251, 204, 231), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3707,14 +3724,14 @@
 
 
 /*!
- * Returns a color object representing the color Cobalt Blue, whose RBG values are (0, 71, 171), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cobalt Blue, whose RBG values are (0, 71, 171), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cobaltBlueColor;
 
 /*!
- * Returns a color object representing the color Cobalt Blue, whose RBG values are (0, 71, 171), and has the specified opacity.
+ * Returns a UIColor object representing the color Cobalt Blue, whose RBG values are (0, 71, 171), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3723,14 +3740,14 @@
 
 
 /*!
- * Returns a color object representing the color Cocoa Brown, whose RBG values are (210, 105, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cocoa Brown, whose RBG values are (210, 105, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cocoaBrownColor;
 
 /*!
- * Returns a color object representing the color Cocoa Brown, whose RBG values are (210, 105, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Cocoa Brown, whose RBG values are (210, 105, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3739,14 +3756,14 @@
 
 
 /*!
- * Returns a color object representing the color Coconut, whose RBG values are (150, 90, 62), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coconut, whose RBG values are (150, 90, 62), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coconutColor;
 
 /*!
- * Returns a color object representing the color Coconut, whose RBG values are (150, 90, 62), and has the specified opacity.
+ * Returns a UIColor object representing the color Coconut, whose RBG values are (150, 90, 62), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3755,14 +3772,14 @@
 
 
 /*!
- * Returns a color object representing the color Coffee, whose RBG values are (111, 78, 55), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coffee, whose RBG values are (111, 78, 55), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coffeeColor;
 
 /*!
- * Returns a color object representing the color Coffee, whose RBG values are (111, 78, 55), and has the specified opacity.
+ * Returns a UIColor object representing the color Coffee, whose RBG values are (111, 78, 55), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3771,14 +3788,14 @@
 
 
 /*!
- * Returns a color object representing the color Columbia Blue, whose RBG values are (196, 216, 226), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Columbia Blue, whose RBG values are (196, 216, 226), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) columbiaBlueColor;
 
 /*!
- * Returns a color object representing the color Columbia Blue, whose RBG values are (196, 216, 226), and has the specified opacity.
+ * Returns a UIColor object representing the color Columbia Blue, whose RBG values are (196, 216, 226), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3787,14 +3804,14 @@
 
 
 /*!
- * Returns a color object representing the color Congo Pink, whose RBG values are (248, 131, 121), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Congo Pink, whose RBG values are (248, 131, 121), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) congoPinkColor;
 
 /*!
- * Returns a color object representing the color Congo Pink, whose RBG values are (248, 131, 121), and has the specified opacity.
+ * Returns a UIColor object representing the color Congo Pink, whose RBG values are (248, 131, 121), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3803,14 +3820,14 @@
 
 
 /*!
- * Returns a color object representing the color Cool Black, whose RBG values are (0, 46, 99), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cool Black, whose RBG values are (0, 46, 99), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coolBlackColor;
 
 /*!
- * Returns a color object representing the color Cool Black, whose RBG values are (0, 46, 99), and has the specified opacity.
+ * Returns a UIColor object representing the color Cool Black, whose RBG values are (0, 46, 99), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3819,14 +3836,14 @@
 
 
 /*!
- * Returns a color object representing the color Cool Grey, whose RBG values are (140, 146, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cool Grey, whose RBG values are (140, 146, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coolGreyColor;
 
 /*!
- * Returns a color object representing the color Cool Grey, whose RBG values are (140, 146, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Cool Grey, whose RBG values are (140, 146, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3835,14 +3852,14 @@
 
 
 /*!
- * Returns a color object representing the color Copper, whose RBG values are (184, 115, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Copper, whose RBG values are (184, 115, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) copperColor;
 
 /*!
- * Returns a color object representing the color Copper, whose RBG values are (184, 115, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Copper, whose RBG values are (184, 115, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3851,14 +3868,14 @@
 
 
 /*!
- * Returns a color object representing the color Copper (Crayola Alternate), whose RBG values are (221, 148, 117), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Copper (Crayola Alternate), whose RBG values are (221, 148, 117), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) copperCrayolaAlternateColor;
 
 /*!
- * Returns a color object representing the color Copper (Crayola Alternate), whose RBG values are (221, 148, 117), and has the specified opacity.
+ * Returns a UIColor object representing the color Copper (Crayola Alternate), whose RBG values are (221, 148, 117), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3867,14 +3884,14 @@
 
 
 /*!
- * Returns a color object representing the color Copper (Crayola), whose RBG values are (218, 138, 103), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Copper (Crayola), whose RBG values are (218, 138, 103), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) copperCrayolaColor;
 
 /*!
- * Returns a color object representing the color Copper (Crayola), whose RBG values are (218, 138, 103), and has the specified opacity.
+ * Returns a UIColor object representing the color Copper (Crayola), whose RBG values are (218, 138, 103), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3883,14 +3900,14 @@
 
 
 /*!
- * Returns a color object representing the color Copper Penny, whose RBG values are (173, 111, 105), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Copper Penny, whose RBG values are (173, 111, 105), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) copperPennyColor;
 
 /*!
- * Returns a color object representing the color Copper Penny, whose RBG values are (173, 111, 105), and has the specified opacity.
+ * Returns a UIColor object representing the color Copper Penny, whose RBG values are (173, 111, 105), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3899,14 +3916,14 @@
 
 
 /*!
- * Returns a color object representing the color Copper Red, whose RBG values are (203, 109, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Copper Red, whose RBG values are (203, 109, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) copperRedColor;
 
 /*!
- * Returns a color object representing the color Copper Red, whose RBG values are (203, 109, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Copper Red, whose RBG values are (203, 109, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3915,14 +3932,14 @@
 
 
 /*!
- * Returns a color object representing the color Copper Rose, whose RBG values are (153, 102, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Copper Rose, whose RBG values are (153, 102, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) copperRoseColor;
 
 /*!
- * Returns a color object representing the color Copper Rose, whose RBG values are (153, 102, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Copper Rose, whose RBG values are (153, 102, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3931,14 +3948,14 @@
 
 
 /*!
- * Returns a color object representing the color Coquelicot, whose RBG values are (255, 56, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coquelicot, whose RBG values are (255, 56, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coquelicotColor;
 
 /*!
- * Returns a color object representing the color Coquelicot, whose RBG values are (255, 56, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Coquelicot, whose RBG values are (255, 56, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3947,14 +3964,14 @@
 
 
 /*!
- * Returns a color object representing the color Coral, whose RBG values are (255, 127, 80), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coral, whose RBG values are (255, 127, 80), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coralColor;
 
 /*!
- * Returns a color object representing the color Coral, whose RBG values are (255, 127, 80), and has the specified opacity.
+ * Returns a UIColor object representing the color Coral, whose RBG values are (255, 127, 80), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3963,14 +3980,14 @@
 
 
 /*!
- * Returns a color object representing the color Coral Pink, whose RBG values are (248, 131, 121), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coral Pink, whose RBG values are (248, 131, 121), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coralPinkColor;
 
 /*!
- * Returns a color object representing the color Coral Pink, whose RBG values are (248, 131, 121), and has the specified opacity.
+ * Returns a UIColor object representing the color Coral Pink, whose RBG values are (248, 131, 121), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3979,14 +3996,14 @@
 
 
 /*!
- * Returns a color object representing the color Coral Red, whose RBG values are (255, 64, 64), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coral Red, whose RBG values are (255, 64, 64), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coralRedColor;
 
 /*!
- * Returns a color object representing the color Coral Red, whose RBG values are (255, 64, 64), and has the specified opacity.
+ * Returns a UIColor object representing the color Coral Red, whose RBG values are (255, 64, 64), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -3995,14 +4012,14 @@
 
 
 /*!
- * Returns a color object representing the color Cordovan, whose RBG values are (137, 63, 69), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cordovan, whose RBG values are (137, 63, 69), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cordovanColor;
 
 /*!
- * Returns a color object representing the color Cordovan, whose RBG values are (137, 63, 69), and has the specified opacity.
+ * Returns a UIColor object representing the color Cordovan, whose RBG values are (137, 63, 69), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4011,14 +4028,14 @@
 
 
 /*!
- * Returns a color object representing the color Corn, whose RBG values are (251, 236, 93), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Corn, whose RBG values are (251, 236, 93), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cornColor;
 
 /*!
- * Returns a color object representing the color Corn, whose RBG values are (251, 236, 93), and has the specified opacity.
+ * Returns a UIColor object representing the color Corn, whose RBG values are (251, 236, 93), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4027,14 +4044,14 @@
 
 
 /*!
- * Returns a color object representing the color Cornell Red, whose RBG values are (179, 27, 27), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cornell Red, whose RBG values are (179, 27, 27), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cornellRedColor;
 
 /*!
- * Returns a color object representing the color Cornell Red, whose RBG values are (179, 27, 27), and has the specified opacity.
+ * Returns a UIColor object representing the color Cornell Red, whose RBG values are (179, 27, 27), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4043,14 +4060,14 @@
 
 
 /*!
- * Returns a color object representing the color Cornflower Blue (Crayola), whose RBG values are (154, 206, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cornflower Blue (Crayola), whose RBG values are (154, 206, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cornflowerBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Cornflower Blue (Crayola), whose RBG values are (154, 206, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Cornflower Blue (Crayola), whose RBG values are (154, 206, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4059,14 +4076,14 @@
 
 
 /*!
- * Returns a color object representing the color Cornflower Blue, whose RBG values are (100, 149, 237), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cornflower Blue, whose RBG values are (100, 149, 237), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cornflowerBlueColor;
 
 /*!
- * Returns a color object representing the color Cornflower Blue, whose RBG values are (100, 149, 237), and has the specified opacity.
+ * Returns a UIColor object representing the color Cornflower Blue, whose RBG values are (100, 149, 237), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4075,14 +4092,14 @@
 
 
 /*!
- * Returns a color object representing the color Cornsilk, whose RBG values are (255, 248, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cornsilk, whose RBG values are (255, 248, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cornsilkColor;
 
 /*!
- * Returns a color object representing the color Cornsilk, whose RBG values are (255, 248, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Cornsilk, whose RBG values are (255, 248, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4091,14 +4108,14 @@
 
 
 /*!
- * Returns a color object representing the color Cosmic Latte, whose RBG values are (255, 248, 231), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cosmic Latte, whose RBG values are (255, 248, 231), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cosmicLatteColor;
 
 /*!
- * Returns a color object representing the color Cosmic Latte, whose RBG values are (255, 248, 231), and has the specified opacity.
+ * Returns a UIColor object representing the color Cosmic Latte, whose RBG values are (255, 248, 231), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4107,14 +4124,14 @@
 
 
 /*!
- * Returns a color object representing the color Cotton Candy (Crayola), whose RBG values are (255, 188, 217), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cotton Candy (Crayola), whose RBG values are (255, 188, 217), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cottonCandyCrayolaColor;
 
 /*!
- * Returns a color object representing the color Cotton Candy (Crayola), whose RBG values are (255, 188, 217), and has the specified opacity.
+ * Returns a UIColor object representing the color Cotton Candy (Crayola), whose RBG values are (255, 188, 217), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4123,14 +4140,14 @@
 
 
 /*!
- * Returns a color object representing the color Coyote Brown, whose RBG values are (129, 97, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Coyote Brown, whose RBG values are (129, 97, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) coyoteBrownColor;
 
 /*!
- * Returns a color object representing the color Coyote Brown, whose RBG values are (129, 97, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Coyote Brown, whose RBG values are (129, 97, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4139,14 +4156,14 @@
 
 
 /*!
- * Returns a color object representing the color Cream, whose RBG values are (255, 253, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cream, whose RBG values are (255, 253, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) creamColor;
 
 /*!
- * Returns a color object representing the color Cream, whose RBG values are (255, 253, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Cream, whose RBG values are (255, 253, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4155,14 +4172,14 @@
 
 
 /*!
- * Returns a color object representing the color Crimson, whose RBG values are (220, 20, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Crimson, whose RBG values are (220, 20, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) crimsonColor;
 
 /*!
- * Returns a color object representing the color Crimson, whose RBG values are (220, 20, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Crimson, whose RBG values are (220, 20, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4171,14 +4188,14 @@
 
 
 /*!
- * Returns a color object representing the color Crimson Glory, whose RBG values are (190, 0, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Crimson Glory, whose RBG values are (190, 0, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) crimsonGloryColor;
 
 /*!
- * Returns a color object representing the color Crimson Glory, whose RBG values are (190, 0, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Crimson Glory, whose RBG values are (190, 0, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4187,14 +4204,14 @@
 
 
 /*!
- * Returns a color object representing the color Crimson Red, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Crimson Red, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) crimsonRedColor;
 
 /*!
- * Returns a color object representing the color Crimson Red, whose RBG values are (153, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Crimson Red, whose RBG values are (153, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4203,14 +4220,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyan (Process), whose RBG values are (0, 183, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyan (Process), whose RBG values are (0, 183, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyanProcessColor;
 
 /*!
- * Returns a color object representing the color Cyan (Process), whose RBG values are (0, 183, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyan (Process), whose RBG values are (0, 183, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4219,14 +4236,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyan Azure, whose RBG values are (78, 130, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyan Azure, whose RBG values are (78, 130, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyanAzureColor;
 
 /*!
- * Returns a color object representing the color Cyan Azure, whose RBG values are (78, 130, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyan Azure, whose RBG values are (78, 130, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4235,14 +4252,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyan Cobalt Blue, whose RBG values are (40, 88, 156), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyan Cobalt Blue, whose RBG values are (40, 88, 156), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyanCobaltBlueColor;
 
 /*!
- * Returns a color object representing the color Cyan Cobalt Blue, whose RBG values are (40, 88, 156), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyan Cobalt Blue, whose RBG values are (40, 88, 156), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4251,14 +4268,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyan Cornflower Blue, whose RBG values are (24, 139, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyan Cornflower Blue, whose RBG values are (24, 139, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyanCornflowerBlueColor;
 
 /*!
- * Returns a color object representing the color Cyan Cornflower Blue, whose RBG values are (24, 139, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyan Cornflower Blue, whose RBG values are (24, 139, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4267,14 +4284,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyan-Blue Azure, whose RBG values are (70, 130, 191), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyan-Blue Azure, whose RBG values are (70, 130, 191), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyanBlueAzureColor;
 
 /*!
- * Returns a color object representing the color Cyan-Blue Azure, whose RBG values are (70, 130, 191), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyan-Blue Azure, whose RBG values are (70, 130, 191), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4283,14 +4300,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyber Grape, whose RBG values are (88, 66, 124), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyber Grape, whose RBG values are (88, 66, 124), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyberGrapeColor;
 
 /*!
- * Returns a color object representing the color Cyber Grape, whose RBG values are (88, 66, 124), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyber Grape, whose RBG values are (88, 66, 124), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4299,14 +4316,14 @@
 
 
 /*!
- * Returns a color object representing the color Cyber Yellow, whose RBG values are (255, 211, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Cyber Yellow, whose RBG values are (255, 211, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) cyberYellowColor;
 
 /*!
- * Returns a color object representing the color Cyber Yellow, whose RBG values are (255, 211, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Cyber Yellow, whose RBG values are (255, 211, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4315,14 +4332,14 @@
 
 
 /*!
- * Returns a color object representing the color Daffodil, whose RBG values are (255, 255, 49), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Daffodil, whose RBG values are (255, 255, 49), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) daffodilColor;
 
 /*!
- * Returns a color object representing the color Daffodil, whose RBG values are (255, 255, 49), and has the specified opacity.
+ * Returns a UIColor object representing the color Daffodil, whose RBG values are (255, 255, 49), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4331,14 +4348,14 @@
 
 
 /*!
- * Returns a color object representing the color Dandelion, whose RBG values are (240, 225, 48), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dandelion, whose RBG values are (240, 225, 48), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dandelionColor;
 
 /*!
- * Returns a color object representing the color Dandelion, whose RBG values are (240, 225, 48), and has the specified opacity.
+ * Returns a UIColor object representing the color Dandelion, whose RBG values are (240, 225, 48), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4347,14 +4364,14 @@
 
 
 /*!
- * Returns a color object representing the color Dandelion (Crayola), whose RBG values are (253, 219, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dandelion (Crayola), whose RBG values are (253, 219, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dandelionCrayolaColor;
 
 /*!
- * Returns a color object representing the color Dandelion (Crayola), whose RBG values are (253, 219, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Dandelion (Crayola), whose RBG values are (253, 219, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4363,14 +4380,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Blue, whose RBG values are (0, 0, 139), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Blue, whose RBG values are (0, 0, 139), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Blue, whose RBG values are (0, 0, 139), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Blue, whose RBG values are (0, 0, 139), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4379,14 +4396,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Blue-Gray, whose RBG values are (102, 102, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Blue-Gray, whose RBG values are (102, 102, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkBlueGrayColor;
 
 /*!
- * Returns a color object representing the color Dark Blue-Gray, whose RBG values are (102, 102, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Blue-Gray, whose RBG values are (102, 102, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4395,14 +4412,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Brown, whose RBG values are (101, 67, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Brown, whose RBG values are (101, 67, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkBrownColor;
 
 /*!
- * Returns a color object representing the color Dark Brown, whose RBG values are (101, 67, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Brown, whose RBG values are (101, 67, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4411,14 +4428,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Brown-Tangelo, whose RBG values are (136, 101, 78), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Brown-Tangelo, whose RBG values are (136, 101, 78), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkBrownTangeloColor;
 
 /*!
- * Returns a color object representing the color Dark Brown-Tangelo, whose RBG values are (136, 101, 78), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Brown-Tangelo, whose RBG values are (136, 101, 78), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4427,14 +4444,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Byzantium, whose RBG values are (93, 57, 84), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Byzantium, whose RBG values are (93, 57, 84), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkByzantiumColor;
 
 /*!
- * Returns a color object representing the color Dark Byzantium, whose RBG values are (93, 57, 84), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Byzantium, whose RBG values are (93, 57, 84), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4443,14 +4460,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Candy Apple Red, whose RBG values are (164, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Candy Apple Red, whose RBG values are (164, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkCandyAppleRedColor;
 
 /*!
- * Returns a color object representing the color Dark Candy Apple Red, whose RBG values are (164, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Candy Apple Red, whose RBG values are (164, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4459,14 +4476,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Cerulean, whose RBG values are (8, 69, 126), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Cerulean, whose RBG values are (8, 69, 126), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkCeruleanColor;
 
 /*!
- * Returns a color object representing the color Dark Cerulean, whose RBG values are (8, 69, 126), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Cerulean, whose RBG values are (8, 69, 126), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4475,14 +4492,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Chestnut, whose RBG values are (152, 105, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Chestnut, whose RBG values are (152, 105, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkChestnutColor;
 
 /*!
- * Returns a color object representing the color Dark Chestnut, whose RBG values are (152, 105, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Chestnut, whose RBG values are (152, 105, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4491,14 +4508,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Coral, whose RBG values are (205, 91, 69), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Coral, whose RBG values are (205, 91, 69), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkCoralColor;
 
 /*!
- * Returns a color object representing the color Dark Coral, whose RBG values are (205, 91, 69), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Coral, whose RBG values are (205, 91, 69), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4507,14 +4524,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Cyan, whose RBG values are (0, 139, 139), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Cyan, whose RBG values are (0, 139, 139), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkCyanColor;
 
 /*!
- * Returns a color object representing the color Dark Cyan, whose RBG values are (0, 139, 139), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Cyan, whose RBG values are (0, 139, 139), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4523,14 +4540,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Electric Blue, whose RBG values are (83, 104, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Electric Blue, whose RBG values are (83, 104, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkElectricBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Electric Blue, whose RBG values are (83, 104, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Electric Blue, whose RBG values are (83, 104, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4539,14 +4556,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Goldenrod, whose RBG values are (184, 134, 11), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Goldenrod, whose RBG values are (184, 134, 11), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkGoldenrodColor;
 
 /*!
- * Returns a color object representing the color Dark Goldenrod, whose RBG values are (184, 134, 11), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Goldenrod, whose RBG values are (184, 134, 11), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4555,14 +4572,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Gray (X11), whose RBG values are (169, 169, 169), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Gray (X11), whose RBG values are (169, 169, 169), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkGrayX11Color;
 
 /*!
- * Returns a color object representing the color Dark Gray (X11), whose RBG values are (169, 169, 169), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Gray (X11), whose RBG values are (169, 169, 169), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4571,14 +4588,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Green, whose RBG values are (1, 50, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Green, whose RBG values are (1, 50, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Green, whose RBG values are (1, 50, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Green, whose RBG values are (1, 50, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4587,14 +4604,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Green (X11), whose RBG values are (0, 100, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Green (X11), whose RBG values are (0, 100, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkGreenX11Color;
 
 /*!
- * Returns a color object representing the color Dark Green (X11), whose RBG values are (0, 100, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Green (X11), whose RBG values are (0, 100, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4603,14 +4620,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Gunmetal, whose RBG values are (31, 38, 42), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Gunmetal, whose RBG values are (31, 38, 42), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkGunmetalColor;
 
 /*!
- * Returns a color object representing the color Dark Gunmetal, whose RBG values are (31, 38, 42), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Gunmetal, whose RBG values are (31, 38, 42), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4619,14 +4636,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Imperial Blue 1, whose RBG values are (0, 65, 106), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Imperial Blue 1, whose RBG values are (0, 65, 106), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkImperialBlue1Color;
 
 /*!
- * Returns a color object representing the color Dark Imperial Blue 1, whose RBG values are (0, 65, 106), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Imperial Blue 1, whose RBG values are (0, 65, 106), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4635,14 +4652,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Imperial Blue 2, whose RBG values are (0, 20, 126), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Imperial Blue 2, whose RBG values are (0, 20, 126), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkImperialBlue2Color;
 
 /*!
- * Returns a color object representing the color Dark Imperial Blue 2, whose RBG values are (0, 20, 126), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Imperial Blue 2, whose RBG values are (0, 20, 126), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4651,14 +4668,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Jungle Green, whose RBG values are (26, 36, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Jungle Green, whose RBG values are (26, 36, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkJungleGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Jungle Green, whose RBG values are (26, 36, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Jungle Green, whose RBG values are (26, 36, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4667,14 +4684,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Khaki, whose RBG values are (189, 183, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Khaki, whose RBG values are (189, 183, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkKhakiColor;
 
 /*!
- * Returns a color object representing the color Dark Khaki, whose RBG values are (189, 183, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Khaki, whose RBG values are (189, 183, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4683,14 +4700,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Lava, whose RBG values are (72, 60, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Lava, whose RBG values are (72, 60, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkLavaColor;
 
 /*!
- * Returns a color object representing the color Dark Lava, whose RBG values are (72, 60, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Lava, whose RBG values are (72, 60, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4699,14 +4716,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Lavender, whose RBG values are (115, 79, 150), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Lavender, whose RBG values are (115, 79, 150), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkLavenderColor;
 
 /*!
- * Returns a color object representing the color Dark Lavender, whose RBG values are (115, 79, 150), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Lavender, whose RBG values are (115, 79, 150), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4715,14 +4732,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Liver, whose RBG values are (83, 75, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Liver, whose RBG values are (83, 75, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkLiverColor;
 
 /*!
- * Returns a color object representing the color Dark Liver, whose RBG values are (83, 75, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Liver, whose RBG values are (83, 75, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4731,14 +4748,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Liver (Horses), whose RBG values are (84, 61, 55), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Liver (Horses), whose RBG values are (84, 61, 55), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkLiverHorsesColor;
 
 /*!
- * Returns a color object representing the color Dark Liver (Horses), whose RBG values are (84, 61, 55), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Liver (Horses), whose RBG values are (84, 61, 55), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4747,14 +4764,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Magenta, whose RBG values are (139, 0, 139), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Magenta, whose RBG values are (139, 0, 139), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkMagentaColor;
 
 /*!
- * Returns a color object representing the color Dark Magenta, whose RBG values are (139, 0, 139), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Magenta, whose RBG values are (139, 0, 139), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4763,14 +4780,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Medium Gray, whose RBG values are (169, 169, 169), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Medium Gray, whose RBG values are (169, 169, 169), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkMediumGrayColor;
 
 /*!
- * Returns a color object representing the color Dark Medium Gray, whose RBG values are (169, 169, 169), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Medium Gray, whose RBG values are (169, 169, 169), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4779,14 +4796,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Midnight Blue, whose RBG values are (0, 51, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Midnight Blue, whose RBG values are (0, 51, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkMidnightBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Midnight Blue, whose RBG values are (0, 51, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Midnight Blue, whose RBG values are (0, 51, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4795,14 +4812,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Moss Green, whose RBG values are (74, 93, 35), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Moss Green, whose RBG values are (74, 93, 35), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkMossGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Moss Green, whose RBG values are (74, 93, 35), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Moss Green, whose RBG values are (74, 93, 35), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4811,14 +4828,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Olive Green, whose RBG values are (85, 107, 47), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Olive Green, whose RBG values are (85, 107, 47), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkOliveGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Olive Green, whose RBG values are (85, 107, 47), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Olive Green, whose RBG values are (85, 107, 47), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4827,14 +4844,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Orange, whose RBG values are (255, 140, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Orange, whose RBG values are (255, 140, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkOrangeColor;
 
 /*!
- * Returns a color object representing the color Dark Orange, whose RBG values are (255, 140, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Orange, whose RBG values are (255, 140, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4843,14 +4860,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Orchid, whose RBG values are (153, 50, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Orchid, whose RBG values are (153, 50, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkOrchidColor;
 
 /*!
- * Returns a color object representing the color Dark Orchid, whose RBG values are (153, 50, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Orchid, whose RBG values are (153, 50, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4859,14 +4876,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Pastel Blue, whose RBG values are (119, 158, 203), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Pastel Blue, whose RBG values are (119, 158, 203), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPastelBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Pastel Blue, whose RBG values are (119, 158, 203), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Pastel Blue, whose RBG values are (119, 158, 203), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4875,14 +4892,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Pastel Green, whose RBG values are (3, 192, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Pastel Green, whose RBG values are (3, 192, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPastelGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Pastel Green, whose RBG values are (3, 192, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Pastel Green, whose RBG values are (3, 192, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4891,14 +4908,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Pastel Purple, whose RBG values are (150, 111, 214), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Pastel Purple, whose RBG values are (150, 111, 214), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPastelPurpleColor;
 
 /*!
- * Returns a color object representing the color Dark Pastel Purple, whose RBG values are (150, 111, 214), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Pastel Purple, whose RBG values are (150, 111, 214), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4907,14 +4924,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Pastel Red, whose RBG values are (194, 59, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Pastel Red, whose RBG values are (194, 59, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPastelRedColor;
 
 /*!
- * Returns a color object representing the color Dark Pastel Red, whose RBG values are (194, 59, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Pastel Red, whose RBG values are (194, 59, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4923,14 +4940,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Pink, whose RBG values are (231, 84, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Pink, whose RBG values are (231, 84, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPinkColor;
 
 /*!
- * Returns a color object representing the color Dark Pink, whose RBG values are (231, 84, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Pink, whose RBG values are (231, 84, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4939,14 +4956,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Powder Blue, whose RBG values are (0, 51, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Powder Blue, whose RBG values are (0, 51, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPowderBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Powder Blue, whose RBG values are (0, 51, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Powder Blue, whose RBG values are (0, 51, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4955,14 +4972,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Puce, whose RBG values are (79, 58, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Puce, whose RBG values are (79, 58, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPuceColor;
 
 /*!
- * Returns a color object representing the color Dark Puce, whose RBG values are (79, 58, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Puce, whose RBG values are (79, 58, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4971,14 +4988,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Purple, whose RBG values are (48, 25, 52), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Purple, whose RBG values are (48, 25, 52), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkPurpleColor;
 
 /*!
- * Returns a color object representing the color Dark Purple, whose RBG values are (48, 25, 52), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Purple, whose RBG values are (48, 25, 52), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -4987,14 +5004,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Raspberry, whose RBG values are (135, 38, 87), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Raspberry, whose RBG values are (135, 38, 87), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkRaspberryColor;
 
 /*!
- * Returns a color object representing the color Dark Raspberry, whose RBG values are (135, 38, 87), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Raspberry, whose RBG values are (135, 38, 87), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5003,14 +5020,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Red, whose RBG values are (139, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Red, whose RBG values are (139, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkRedColor;
 
 /*!
- * Returns a color object representing the color Dark Red, whose RBG values are (139, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Red, whose RBG values are (139, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5019,14 +5036,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Salmon, whose RBG values are (233, 150, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Salmon, whose RBG values are (233, 150, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSalmonColor;
 
 /*!
- * Returns a color object representing the color Dark Salmon, whose RBG values are (233, 150, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Salmon, whose RBG values are (233, 150, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5035,14 +5052,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Scarlet, whose RBG values are (86, 3, 25), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Scarlet, whose RBG values are (86, 3, 25), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkScarletColor;
 
 /*!
- * Returns a color object representing the color Dark Scarlet, whose RBG values are (86, 3, 25), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Scarlet, whose RBG values are (86, 3, 25), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5051,14 +5068,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Sea Green, whose RBG values are (143, 188, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Sea Green, whose RBG values are (143, 188, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSeaGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Sea Green, whose RBG values are (143, 188, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Sea Green, whose RBG values are (143, 188, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5067,14 +5084,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Sienna, whose RBG values are (60, 20, 20), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Sienna, whose RBG values are (60, 20, 20), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSiennaColor;
 
 /*!
- * Returns a color object representing the color Dark Sienna, whose RBG values are (60, 20, 20), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Sienna, whose RBG values are (60, 20, 20), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5083,14 +5100,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Sky Blue, whose RBG values are (140, 190, 214), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Sky Blue, whose RBG values are (140, 190, 214), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Sky Blue, whose RBG values are (140, 190, 214), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Sky Blue, whose RBG values are (140, 190, 214), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5099,14 +5116,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Slate Blue, whose RBG values are (72, 61, 139), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Slate Blue, whose RBG values are (72, 61, 139), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSlateBlueColor;
 
 /*!
- * Returns a color object representing the color Dark Slate Blue, whose RBG values are (72, 61, 139), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Slate Blue, whose RBG values are (72, 61, 139), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5115,14 +5132,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Slate Gray, whose RBG values are (47, 79, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Slate Gray, whose RBG values are (47, 79, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSlateGrayColor;
 
 /*!
- * Returns a color object representing the color Dark Slate Gray, whose RBG values are (47, 79, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Slate Gray, whose RBG values are (47, 79, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5131,14 +5148,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Spring Green, whose RBG values are (23, 114, 69), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Spring Green, whose RBG values are (23, 114, 69), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkSpringGreenColor;
 
 /*!
- * Returns a color object representing the color Dark Spring Green, whose RBG values are (23, 114, 69), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Spring Green, whose RBG values are (23, 114, 69), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5147,14 +5164,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Tan, whose RBG values are (145, 129, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Tan, whose RBG values are (145, 129, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkTanColor;
 
 /*!
- * Returns a color object representing the color Dark Tan, whose RBG values are (145, 129, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Tan, whose RBG values are (145, 129, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5163,14 +5180,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Tangerine, whose RBG values are (255, 168, 18), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Tangerine, whose RBG values are (255, 168, 18), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkTangerineColor;
 
 /*!
- * Returns a color object representing the color Dark Tangerine, whose RBG values are (255, 168, 18), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Tangerine, whose RBG values are (255, 168, 18), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5179,14 +5196,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Taupe, whose RBG values are (72, 60, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Taupe, whose RBG values are (72, 60, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkTaupeColor;
 
 /*!
- * Returns a color object representing the color Dark Taupe, whose RBG values are (72, 60, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Taupe, whose RBG values are (72, 60, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5195,14 +5212,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Terra Cotta, whose RBG values are (204, 78, 92), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Terra Cotta, whose RBG values are (204, 78, 92), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkTerraCottaColor;
 
 /*!
- * Returns a color object representing the color Dark Terra Cotta, whose RBG values are (204, 78, 92), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Terra Cotta, whose RBG values are (204, 78, 92), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5211,14 +5228,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Turquoise, whose RBG values are (0, 206, 209), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Turquoise, whose RBG values are (0, 206, 209), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkTurquoiseColor;
 
 /*!
- * Returns a color object representing the color Dark Turquoise, whose RBG values are (0, 206, 209), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Turquoise, whose RBG values are (0, 206, 209), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5227,14 +5244,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Vanilla, whose RBG values are (209, 190, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Vanilla, whose RBG values are (209, 190, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkVanillaColor;
 
 /*!
- * Returns a color object representing the color Dark Vanilla, whose RBG values are (209, 190, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Vanilla, whose RBG values are (209, 190, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5243,14 +5260,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Violet, whose RBG values are (148, 0, 211), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Violet, whose RBG values are (148, 0, 211), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkVioletColor;
 
 /*!
- * Returns a color object representing the color Dark Violet, whose RBG values are (148, 0, 211), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Violet, whose RBG values are (148, 0, 211), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5259,14 +5276,14 @@
 
 
 /*!
- * Returns a color object representing the color Dark Yellow, whose RBG values are (155, 135, 12), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dark Yellow, whose RBG values are (155, 135, 12), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) darkYellowColor;
 
 /*!
- * Returns a color object representing the color Dark Yellow, whose RBG values are (155, 135, 12), and has the specified opacity.
+ * Returns a UIColor object representing the color Dark Yellow, whose RBG values are (155, 135, 12), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5275,14 +5292,14 @@
 
 
 /*!
- * Returns a color object representing the color Dartmouth Green, whose RBG values are (0, 112, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dartmouth Green, whose RBG values are (0, 112, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dartmouthGreenColor;
 
 /*!
- * Returns a color object representing the color Dartmouth Green, whose RBG values are (0, 112, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Dartmouth Green, whose RBG values are (0, 112, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5291,14 +5308,14 @@
 
 
 /*!
- * Returns a color object representing the color Davy's Grey, whose RBG values are (85, 85, 85), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Davy's Grey, whose RBG values are (85, 85, 85), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) davysGreyColor;
 
 /*!
- * Returns a color object representing the color Davy's Grey, whose RBG values are (85, 85, 85), and has the specified opacity.
+ * Returns a UIColor object representing the color Davy's Grey, whose RBG values are (85, 85, 85), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5307,14 +5324,14 @@
 
 
 /*!
- * Returns a color object representing the color Debian Red, whose RBG values are (215, 10, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Debian Red, whose RBG values are (215, 10, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) debianRedColor;
 
 /*!
- * Returns a color object representing the color Debian Red, whose RBG values are (215, 10, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Debian Red, whose RBG values are (215, 10, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5323,14 +5340,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Green, whose RBG values are (5, 102, 8), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Green, whose RBG values are (5, 102, 8), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepGreenColor;
 
 /*!
- * Returns a color object representing the color Deep Green, whose RBG values are (5, 102, 8), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Green, whose RBG values are (5, 102, 8), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5339,14 +5356,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Red, whose RBG values are (133, 1, 1), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Red, whose RBG values are (133, 1, 1), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepRedColor;
 
 /*!
- * Returns a color object representing the color Deep Red, whose RBG values are (133, 1, 1), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Red, whose RBG values are (133, 1, 1), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5355,14 +5372,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Space Sparkle, whose RBG values are (74, 100, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Space Sparkle, whose RBG values are (74, 100, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepSpaceSparkleColor;
 
 /*!
- * Returns a color object representing the color Deep Space Sparkle, whose RBG values are (74, 100, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Space Sparkle, whose RBG values are (74, 100, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5371,14 +5388,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Taupe, whose RBG values are (126, 94, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Taupe, whose RBG values are (126, 94, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepTaupeColor;
 
 /*!
- * Returns a color object representing the color Deep Taupe, whose RBG values are (126, 94, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Taupe, whose RBG values are (126, 94, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5387,14 +5404,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Tuscan Red, whose RBG values are (102, 66, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Tuscan Red, whose RBG values are (102, 66, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepTuscanRedColor;
 
 /*!
- * Returns a color object representing the color Deep Tuscan Red, whose RBG values are (102, 66, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Tuscan Red, whose RBG values are (102, 66, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5403,14 +5420,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Aquamarine, whose RBG values are (64, 130, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Aquamarine, whose RBG values are (64, 130, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepAquamarineColor;
 
 /*!
- * Returns a color object representing the color Deep Aquamarine, whose RBG values are (64, 130, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Aquamarine, whose RBG values are (64, 130, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5419,14 +5436,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Carmine, whose RBG values are (169, 32, 62), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Carmine, whose RBG values are (169, 32, 62), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepCarmineColor;
 
 /*!
- * Returns a color object representing the color Deep Carmine, whose RBG values are (169, 32, 62), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Carmine, whose RBG values are (169, 32, 62), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5435,14 +5452,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Carmine Pink, whose RBG values are (239, 48, 56), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Carmine Pink, whose RBG values are (239, 48, 56), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepCarminePinkColor;
 
 /*!
- * Returns a color object representing the color Deep Carmine Pink, whose RBG values are (239, 48, 56), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Carmine Pink, whose RBG values are (239, 48, 56), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5451,14 +5468,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Carrot Orange, whose RBG values are (233, 105, 44), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Carrot Orange, whose RBG values are (233, 105, 44), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepCarrotOrangeColor;
 
 /*!
- * Returns a color object representing the color Deep Carrot Orange, whose RBG values are (233, 105, 44), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Carrot Orange, whose RBG values are (233, 105, 44), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5467,14 +5484,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Cerise, whose RBG values are (218, 50, 135), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Cerise, whose RBG values are (218, 50, 135), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepCeriseColor;
 
 /*!
- * Returns a color object representing the color Deep Cerise, whose RBG values are (218, 50, 135), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Cerise, whose RBG values are (218, 50, 135), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5483,14 +5500,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Champagne, whose RBG values are (250, 214, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Champagne, whose RBG values are (250, 214, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepChampagneColor;
 
 /*!
- * Returns a color object representing the color Deep Champagne, whose RBG values are (250, 214, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Champagne, whose RBG values are (250, 214, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5499,14 +5516,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Chestnut, whose RBG values are (185, 78, 72), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Chestnut, whose RBG values are (185, 78, 72), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepChestnutColor;
 
 /*!
- * Returns a color object representing the color Deep Chestnut, whose RBG values are (185, 78, 72), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Chestnut, whose RBG values are (185, 78, 72), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5515,14 +5532,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Coffee, whose RBG values are (112, 66, 65), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Coffee, whose RBG values are (112, 66, 65), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepCoffeeColor;
 
 /*!
- * Returns a color object representing the color Deep Coffee, whose RBG values are (112, 66, 65), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Coffee, whose RBG values are (112, 66, 65), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5531,14 +5548,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Fuchsia, whose RBG values are (193, 84, 193), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Fuchsia, whose RBG values are (193, 84, 193), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepFuchsiaColor;
 
 /*!
- * Returns a color object representing the color Deep Fuchsia, whose RBG values are (193, 84, 193), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Fuchsia, whose RBG values are (193, 84, 193), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5547,14 +5564,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Green-Cyan Turquoise, whose RBG values are (14, 124, 97), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Green-Cyan Turquoise, whose RBG values are (14, 124, 97), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepGreenCyanTurquoiseColor;
 
 /*!
- * Returns a color object representing the color Deep Green-Cyan Turquoise, whose RBG values are (14, 124, 97), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Green-Cyan Turquoise, whose RBG values are (14, 124, 97), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5563,14 +5580,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Jungle Green, whose RBG values are (0, 75, 73), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Jungle Green, whose RBG values are (0, 75, 73), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepJungleGreenColor;
 
 /*!
- * Returns a color object representing the color Deep Jungle Green, whose RBG values are (0, 75, 73), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Jungle Green, whose RBG values are (0, 75, 73), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5579,14 +5596,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Koamaru, whose RBG values are (51, 51, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Koamaru, whose RBG values are (51, 51, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepKoamaruColor;
 
 /*!
- * Returns a color object representing the color Deep Koamaru, whose RBG values are (51, 51, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Koamaru, whose RBG values are (51, 51, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5595,14 +5612,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Lemon, whose RBG values are (245, 199, 26), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Lemon, whose RBG values are (245, 199, 26), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepLemonColor;
 
 /*!
- * Returns a color object representing the color Deep Lemon, whose RBG values are (245, 199, 26), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Lemon, whose RBG values are (245, 199, 26), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5611,14 +5628,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Lilac, whose RBG values are (153, 85, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Lilac, whose RBG values are (153, 85, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepLilacColor;
 
 /*!
- * Returns a color object representing the color Deep Lilac, whose RBG values are (153, 85, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Lilac, whose RBG values are (153, 85, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5627,14 +5644,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Magenta, whose RBG values are (204, 0, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Magenta, whose RBG values are (204, 0, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepMagentaColor;
 
 /*!
- * Returns a color object representing the color Deep Magenta, whose RBG values are (204, 0, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Magenta, whose RBG values are (204, 0, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5643,14 +5660,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Maroon, whose RBG values are (130, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Maroon, whose RBG values are (130, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepMaroonColor;
 
 /*!
- * Returns a color object representing the color Deep Maroon, whose RBG values are (130, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Maroon, whose RBG values are (130, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5659,14 +5676,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Mauve, whose RBG values are (212, 115, 212), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Mauve, whose RBG values are (212, 115, 212), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepMauveColor;
 
 /*!
- * Returns a color object representing the color Deep Mauve, whose RBG values are (212, 115, 212), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Mauve, whose RBG values are (212, 115, 212), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5675,14 +5692,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Moss Green, whose RBG values are (53, 94, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Moss Green, whose RBG values are (53, 94, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepMossGreenColor;
 
 /*!
- * Returns a color object representing the color Deep Moss Green, whose RBG values are (53, 94, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Moss Green, whose RBG values are (53, 94, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5691,14 +5708,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Peach, whose RBG values are (255, 203, 164), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Peach, whose RBG values are (255, 203, 164), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepPeachColor;
 
 /*!
- * Returns a color object representing the color Deep Peach, whose RBG values are (255, 203, 164), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Peach, whose RBG values are (255, 203, 164), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5707,14 +5724,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Pink, whose RBG values are (255, 20, 147), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Pink, whose RBG values are (255, 20, 147), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepPinkColor;
 
 /*!
- * Returns a color object representing the color Deep Pink, whose RBG values are (255, 20, 147), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Pink, whose RBG values are (255, 20, 147), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5723,14 +5740,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Puce, whose RBG values are (169, 92, 104), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Puce, whose RBG values are (169, 92, 104), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepPuceColor;
 
 /*!
- * Returns a color object representing the color Deep Puce, whose RBG values are (169, 92, 104), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Puce, whose RBG values are (169, 92, 104), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5739,14 +5756,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Ruby, whose RBG values are (132, 63, 91), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Ruby, whose RBG values are (132, 63, 91), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepRubyColor;
 
 /*!
- * Returns a color object representing the color Deep Ruby, whose RBG values are (132, 63, 91), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Ruby, whose RBG values are (132, 63, 91), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5755,14 +5772,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Saffron, whose RBG values are (255, 153, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Saffron, whose RBG values are (255, 153, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepSaffronColor;
 
 /*!
- * Returns a color object representing the color Deep Saffron, whose RBG values are (255, 153, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Saffron, whose RBG values are (255, 153, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5771,14 +5788,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Sky Blue, whose RBG values are (0, 191, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Sky Blue, whose RBG values are (0, 191, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Deep Sky Blue, whose RBG values are (0, 191, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Sky Blue, whose RBG values are (0, 191, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5787,14 +5804,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Spring Bud, whose RBG values are (85, 107, 47), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Spring Bud, whose RBG values are (85, 107, 47), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepSpringBudColor;
 
 /*!
- * Returns a color object representing the color Deep Spring Bud, whose RBG values are (85, 107, 47), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Spring Bud, whose RBG values are (85, 107, 47), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5803,14 +5820,14 @@
 
 
 /*!
- * Returns a color object representing the color Deep Violet, whose RBG values are (51, 0, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deep Violet, whose RBG values are (51, 0, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deepVioletColor;
 
 /*!
- * Returns a color object representing the color Deep Violet, whose RBG values are (51, 0, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Deep Violet, whose RBG values are (51, 0, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5819,14 +5836,14 @@
 
 
 /*!
- * Returns a color object representing the color Deer, whose RBG values are (186, 135, 89), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Deer, whose RBG values are (186, 135, 89), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) deerColor;
 
 /*!
- * Returns a color object representing the color Deer, whose RBG values are (186, 135, 89), and has the specified opacity.
+ * Returns a UIColor object representing the color Deer, whose RBG values are (186, 135, 89), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5835,14 +5852,14 @@
 
 
 /*!
- * Returns a color object representing the color Denim, whose RBG values are (21, 96, 189), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Denim, whose RBG values are (21, 96, 189), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) denimColor;
 
 /*!
- * Returns a color object representing the color Denim, whose RBG values are (21, 96, 189), and has the specified opacity.
+ * Returns a UIColor object representing the color Denim, whose RBG values are (21, 96, 189), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5851,14 +5868,14 @@
 
 
 /*!
- * Returns a color object representing the color Denim (Crayola), whose RBG values are (43, 108, 196), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Denim (Crayola), whose RBG values are (43, 108, 196), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) denimCrayolaColor;
 
 /*!
- * Returns a color object representing the color Denim (Crayola), whose RBG values are (43, 108, 196), and has the specified opacity.
+ * Returns a UIColor object representing the color Denim (Crayola), whose RBG values are (43, 108, 196), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5867,14 +5884,14 @@
 
 
 /*!
- * Returns a color object representing the color Desaturated Cyan, whose RBG values are (102, 153, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Desaturated Cyan, whose RBG values are (102, 153, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) desaturatedCyanColor;
 
 /*!
- * Returns a color object representing the color Desaturated Cyan, whose RBG values are (102, 153, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Desaturated Cyan, whose RBG values are (102, 153, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5883,14 +5900,14 @@
 
 
 /*!
- * Returns a color object representing the color Desert, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Desert, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) desertColor;
 
 /*!
- * Returns a color object representing the color Desert, whose RBG values are (193, 154, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Desert, whose RBG values are (193, 154, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5899,14 +5916,14 @@
 
 
 /*!
- * Returns a color object representing the color Desert Sand (Crayola), whose RBG values are (239, 205, 184), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Desert Sand (Crayola), whose RBG values are (239, 205, 184), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) desertSandCrayolaColor;
 
 /*!
- * Returns a color object representing the color Desert Sand (Crayola), whose RBG values are (239, 205, 184), and has the specified opacity.
+ * Returns a UIColor object representing the color Desert Sand (Crayola), whose RBG values are (239, 205, 184), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5915,14 +5932,14 @@
 
 
 /*!
- * Returns a color object representing the color Desert Sand, whose RBG values are (237, 201, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Desert Sand, whose RBG values are (237, 201, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) desertSandColor;
 
 /*!
- * Returns a color object representing the color Desert Sand, whose RBG values are (237, 201, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Desert Sand, whose RBG values are (237, 201, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5931,14 +5948,14 @@
 
 
 /*!
- * Returns a color object representing the color Desire, whose RBG values are (234, 60, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Desire, whose RBG values are (234, 60, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) desireColor;
 
 /*!
- * Returns a color object representing the color Desire, whose RBG values are (234, 60, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Desire, whose RBG values are (234, 60, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5947,14 +5964,14 @@
 
 
 /*!
- * Returns a color object representing the color Diamond, whose RBG values are (185, 242, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Diamond, whose RBG values are (185, 242, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) diamondColor;
 
 /*!
- * Returns a color object representing the color Diamond, whose RBG values are (185, 242, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Diamond, whose RBG values are (185, 242, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5963,14 +5980,14 @@
 
 
 /*!
- * Returns a color object representing the color Dim Gray, whose RBG values are (105, 105, 105), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dim Gray, whose RBG values are (105, 105, 105), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dimGrayColor;
 
 /*!
- * Returns a color object representing the color Dim Gray, whose RBG values are (105, 105, 105), and has the specified opacity.
+ * Returns a UIColor object representing the color Dim Gray, whose RBG values are (105, 105, 105), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5979,14 +5996,14 @@
 
 
 /*!
- * Returns a color object representing the color Dirt, whose RBG values are (155, 118, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dirt, whose RBG values are (155, 118, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dirtColor;
 
 /*!
- * Returns a color object representing the color Dirt, whose RBG values are (155, 118, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Dirt, whose RBG values are (155, 118, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -5995,14 +6012,14 @@
 
 
 /*!
- * Returns a color object representing the color Dodger Blue, whose RBG values are (30, 144, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dodger Blue, whose RBG values are (30, 144, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dodgerBlueColor;
 
 /*!
- * Returns a color object representing the color Dodger Blue, whose RBG values are (30, 144, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Dodger Blue, whose RBG values are (30, 144, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6011,14 +6028,14 @@
 
 
 /*!
- * Returns a color object representing the color Dogwood Rose, whose RBG values are (215, 24, 104), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dogwood Rose, whose RBG values are (215, 24, 104), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dogwoodRoseColor;
 
 /*!
- * Returns a color object representing the color Dogwood Rose, whose RBG values are (215, 24, 104), and has the specified opacity.
+ * Returns a UIColor object representing the color Dogwood Rose, whose RBG values are (215, 24, 104), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6027,14 +6044,14 @@
 
 
 /*!
- * Returns a color object representing the color Dollar Bill, whose RBG values are (133, 187, 101), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dollar Bill, whose RBG values are (133, 187, 101), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dollarBillColor;
 
 /*!
- * Returns a color object representing the color Dollar Bill, whose RBG values are (133, 187, 101), and has the specified opacity.
+ * Returns a UIColor object representing the color Dollar Bill, whose RBG values are (133, 187, 101), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6043,14 +6060,14 @@
 
 
 /*!
- * Returns a color object representing the color Donkey Brown, whose RBG values are (102, 76, 40), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Donkey Brown, whose RBG values are (102, 76, 40), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) donkeyBrownColor;
 
 /*!
- * Returns a color object representing the color Donkey Brown, whose RBG values are (102, 76, 40), and has the specified opacity.
+ * Returns a UIColor object representing the color Donkey Brown, whose RBG values are (102, 76, 40), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6059,14 +6076,14 @@
 
 
 /*!
- * Returns a color object representing the color Drab, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Drab, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) drabColor;
 
 /*!
- * Returns a color object representing the color Drab, whose RBG values are (150, 113, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Drab, whose RBG values are (150, 113, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6075,14 +6092,14 @@
 
 
 /*!
- * Returns a color object representing the color Duke Blue, whose RBG values are (0, 0, 156), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Duke Blue, whose RBG values are (0, 0, 156), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dukeBlueColor;
 
 /*!
- * Returns a color object representing the color Duke Blue, whose RBG values are (0, 0, 156), and has the specified opacity.
+ * Returns a UIColor object representing the color Duke Blue, whose RBG values are (0, 0, 156), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6091,14 +6108,14 @@
 
 
 /*!
- * Returns a color object representing the color Dust Storm, whose RBG values are (229, 204, 201), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dust Storm, whose RBG values are (229, 204, 201), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dustStormColor;
 
 /*!
- * Returns a color object representing the color Dust Storm, whose RBG values are (229, 204, 201), and has the specified opacity.
+ * Returns a UIColor object representing the color Dust Storm, whose RBG values are (229, 204, 201), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6107,14 +6124,14 @@
 
 
 /*!
- * Returns a color object representing the color Dutch White, whose RBG values are (239, 223, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Dutch White, whose RBG values are (239, 223, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) dutchWhiteColor;
 
 /*!
- * Returns a color object representing the color Dutch White, whose RBG values are (239, 223, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color Dutch White, whose RBG values are (239, 223, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6123,14 +6140,14 @@
 
 
 /*!
- * Returns a color object representing the color Eagle Green, whose RBG values are (0, 73, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eagle Green, whose RBG values are (0, 73, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eagleGreenColor;
 
 /*!
- * Returns a color object representing the color Eagle Green, whose RBG values are (0, 73, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Eagle Green, whose RBG values are (0, 73, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6139,14 +6156,14 @@
 
 
 /*!
- * Returns a color object representing the color Earth Yellow, whose RBG values are (225, 169, 95), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Earth Yellow, whose RBG values are (225, 169, 95), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) earthYellowColor;
 
 /*!
- * Returns a color object representing the color Earth Yellow, whose RBG values are (225, 169, 95), and has the specified opacity.
+ * Returns a UIColor object representing the color Earth Yellow, whose RBG values are (225, 169, 95), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6155,14 +6172,14 @@
 
 
 /*!
- * Returns a color object representing the color Ebony, whose RBG values are (85, 93, 80), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ebony, whose RBG values are (85, 93, 80), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ebonyColor;
 
 /*!
- * Returns a color object representing the color Ebony, whose RBG values are (85, 93, 80), and has the specified opacity.
+ * Returns a UIColor object representing the color Ebony, whose RBG values are (85, 93, 80), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6171,14 +6188,14 @@
 
 
 /*!
- * Returns a color object representing the color Ecru, whose RBG values are (194, 178, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ecru, whose RBG values are (194, 178, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ecruColor;
 
 /*!
- * Returns a color object representing the color Ecru, whose RBG values are (194, 178, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Ecru, whose RBG values are (194, 178, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6187,14 +6204,14 @@
 
 
 /*!
- * Returns a color object representing the color Eerie Black, whose RBG values are (27, 27, 27), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eerie Black, whose RBG values are (27, 27, 27), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eerieBlackColor;
 
 /*!
- * Returns a color object representing the color Eerie Black, whose RBG values are (27, 27, 27), and has the specified opacity.
+ * Returns a UIColor object representing the color Eerie Black, whose RBG values are (27, 27, 27), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6203,14 +6220,14 @@
 
 
 /*!
- * Returns a color object representing the color Eggplant, whose RBG values are (97, 64, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eggplant, whose RBG values are (97, 64, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eggplantColor;
 
 /*!
- * Returns a color object representing the color Eggplant, whose RBG values are (97, 64, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Eggplant, whose RBG values are (97, 64, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6219,14 +6236,14 @@
 
 
 /*!
- * Returns a color object representing the color Eggplant (Crayola), whose RBG values are (110, 81, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eggplant (Crayola), whose RBG values are (110, 81, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eggplantCrayolaColor;
 
 /*!
- * Returns a color object representing the color Eggplant (Crayola), whose RBG values are (110, 81, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Eggplant (Crayola), whose RBG values are (110, 81, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6235,14 +6252,14 @@
 
 
 /*!
- * Returns a color object representing the color Eggshell, whose RBG values are (240, 234, 214), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eggshell, whose RBG values are (240, 234, 214), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eggshellColor;
 
 /*!
- * Returns a color object representing the color Eggshell, whose RBG values are (240, 234, 214), and has the specified opacity.
+ * Returns a UIColor object representing the color Eggshell, whose RBG values are (240, 234, 214), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6251,14 +6268,14 @@
 
 
 /*!
- * Returns a color object representing the color Egyptian Blue, whose RBG values are (16, 52, 166), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Egyptian Blue, whose RBG values are (16, 52, 166), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) egyptianBlueColor;
 
 /*!
- * Returns a color object representing the color Egyptian Blue, whose RBG values are (16, 52, 166), and has the specified opacity.
+ * Returns a UIColor object representing the color Egyptian Blue, whose RBG values are (16, 52, 166), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6267,14 +6284,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Lime (Crayola), whose RBG values are (206, 255, 29), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Lime (Crayola), whose RBG values are (206, 255, 29), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricLimeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Electric Lime (Crayola), whose RBG values are (206, 255, 29), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Lime (Crayola), whose RBG values are (206, 255, 29), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6283,14 +6300,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Blue, whose RBG values are (125, 249, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Blue, whose RBG values are (125, 249, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricBlueColor;
 
 /*!
- * Returns a color object representing the color Electric Blue, whose RBG values are (125, 249, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Blue, whose RBG values are (125, 249, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6299,14 +6316,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Crimson, whose RBG values are (255, 0, 63), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Crimson, whose RBG values are (255, 0, 63), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricCrimsonColor;
 
 /*!
- * Returns a color object representing the color Electric Crimson, whose RBG values are (255, 0, 63), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Crimson, whose RBG values are (255, 0, 63), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6315,14 +6332,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Cyan, whose RBG values are (0, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Cyan, whose RBG values are (0, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricCyanColor;
 
 /*!
- * Returns a color object representing the color Electric Cyan, whose RBG values are (0, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Cyan, whose RBG values are (0, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6331,14 +6348,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Green, whose RBG values are (0, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Green, whose RBG values are (0, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricGreenColor;
 
 /*!
- * Returns a color object representing the color Electric Green, whose RBG values are (0, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Green, whose RBG values are (0, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6347,14 +6364,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Indigo, whose RBG values are (111, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Indigo, whose RBG values are (111, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricIndigoColor;
 
 /*!
- * Returns a color object representing the color Electric Indigo, whose RBG values are (111, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Indigo, whose RBG values are (111, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6363,14 +6380,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Lavender, whose RBG values are (244, 187, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Lavender, whose RBG values are (244, 187, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricLavenderColor;
 
 /*!
- * Returns a color object representing the color Electric Lavender, whose RBG values are (244, 187, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Lavender, whose RBG values are (244, 187, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6379,14 +6396,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Lime, whose RBG values are (204, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Lime, whose RBG values are (204, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricLimeColor;
 
 /*!
- * Returns a color object representing the color Electric Lime, whose RBG values are (204, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Lime, whose RBG values are (204, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6395,14 +6412,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Purple, whose RBG values are (191, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Purple, whose RBG values are (191, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricPurpleColor;
 
 /*!
- * Returns a color object representing the color Electric Purple, whose RBG values are (191, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Purple, whose RBG values are (191, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6411,14 +6428,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Ultramarine, whose RBG values are (63, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Ultramarine, whose RBG values are (63, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricUltramarineColor;
 
 /*!
- * Returns a color object representing the color Electric Ultramarine, whose RBG values are (63, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Ultramarine, whose RBG values are (63, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6427,14 +6444,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Violet, whose RBG values are (143, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Violet, whose RBG values are (143, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricVioletColor;
 
 /*!
- * Returns a color object representing the color Electric Violet, whose RBG values are (143, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Violet, whose RBG values are (143, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6443,14 +6460,14 @@
 
 
 /*!
- * Returns a color object representing the color Electric Yellow, whose RBG values are (255, 255, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Electric Yellow, whose RBG values are (255, 255, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) electricYellowColor;
 
 /*!
- * Returns a color object representing the color Electric Yellow, whose RBG values are (255, 255, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Electric Yellow, whose RBG values are (255, 255, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6459,14 +6476,14 @@
 
 
 /*!
- * Returns a color object representing the color Emerald, whose RBG values are (80, 200, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Emerald, whose RBG values are (80, 200, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) emeraldColor;
 
 /*!
- * Returns a color object representing the color Emerald, whose RBG values are (80, 200, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Emerald, whose RBG values are (80, 200, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6475,14 +6492,14 @@
 
 
 /*!
- * Returns a color object representing the color Eminence, whose RBG values are (108, 48, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eminence, whose RBG values are (108, 48, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eminenceColor;
 
 /*!
- * Returns a color object representing the color Eminence, whose RBG values are (108, 48, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Eminence, whose RBG values are (108, 48, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6491,14 +6508,14 @@
 
 
 /*!
- * Returns a color object representing the color English Green, whose RBG values are (27, 77, 62), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color English Green, whose RBG values are (27, 77, 62), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) englishGreenColor;
 
 /*!
- * Returns a color object representing the color English Green, whose RBG values are (27, 77, 62), and has the specified opacity.
+ * Returns a UIColor object representing the color English Green, whose RBG values are (27, 77, 62), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6507,14 +6524,14 @@
 
 
 /*!
- * Returns a color object representing the color English Lavender, whose RBG values are (180, 131, 149), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color English Lavender, whose RBG values are (180, 131, 149), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) englishLavenderColor;
 
 /*!
- * Returns a color object representing the color English Lavender, whose RBG values are (180, 131, 149), and has the specified opacity.
+ * Returns a UIColor object representing the color English Lavender, whose RBG values are (180, 131, 149), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6523,14 +6540,14 @@
 
 
 /*!
- * Returns a color object representing the color English Red, whose RBG values are (171, 75, 82), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color English Red, whose RBG values are (171, 75, 82), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) englishRedColor;
 
 /*!
- * Returns a color object representing the color English Red, whose RBG values are (171, 75, 82), and has the specified opacity.
+ * Returns a UIColor object representing the color English Red, whose RBG values are (171, 75, 82), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6539,14 +6556,14 @@
 
 
 /*!
- * Returns a color object representing the color English Violet, whose RBG values are (86, 60, 92), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color English Violet, whose RBG values are (86, 60, 92), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) englishVioletColor;
 
 /*!
- * Returns a color object representing the color English Violet, whose RBG values are (86, 60, 92), and has the specified opacity.
+ * Returns a UIColor object representing the color English Violet, whose RBG values are (86, 60, 92), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6555,14 +6572,14 @@
 
 
 /*!
- * Returns a color object representing the color Eton Blue, whose RBG values are (150, 200, 162), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eton Blue, whose RBG values are (150, 200, 162), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) etonBlueColor;
 
 /*!
- * Returns a color object representing the color Eton Blue, whose RBG values are (150, 200, 162), and has the specified opacity.
+ * Returns a UIColor object representing the color Eton Blue, whose RBG values are (150, 200, 162), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6571,14 +6588,14 @@
 
 
 /*!
- * Returns a color object representing the color Eucalyptus, whose RBG values are (68, 215, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Eucalyptus, whose RBG values are (68, 215, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) eucalyptusColor;
 
 /*!
- * Returns a color object representing the color Eucalyptus, whose RBG values are (68, 215, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Eucalyptus, whose RBG values are (68, 215, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6587,14 +6604,14 @@
 
 
 /*!
- * Returns a color object representing the color Fallow, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fallow, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fallowColor;
 
 /*!
- * Returns a color object representing the color Fallow, whose RBG values are (193, 154, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Fallow, whose RBG values are (193, 154, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6603,14 +6620,14 @@
 
 
 /*!
- * Returns a color object representing the color Falu Red, whose RBG values are (128, 24, 24), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Falu Red, whose RBG values are (128, 24, 24), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) faluRedColor;
 
 /*!
- * Returns a color object representing the color Falu Red, whose RBG values are (128, 24, 24), and has the specified opacity.
+ * Returns a UIColor object representing the color Falu Red, whose RBG values are (128, 24, 24), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6619,14 +6636,14 @@
 
 
 /*!
- * Returns a color object representing the color Fandango, whose RBG values are (181, 51, 137), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fandango, whose RBG values are (181, 51, 137), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fandangoColor;
 
 /*!
- * Returns a color object representing the color Fandango, whose RBG values are (181, 51, 137), and has the specified opacity.
+ * Returns a UIColor object representing the color Fandango, whose RBG values are (181, 51, 137), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6635,14 +6652,14 @@
 
 
 /*!
- * Returns a color object representing the color Fandango Pink, whose RBG values are (222, 82, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fandango Pink, whose RBG values are (222, 82, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fandangoPinkColor;
 
 /*!
- * Returns a color object representing the color Fandango Pink, whose RBG values are (222, 82, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Fandango Pink, whose RBG values are (222, 82, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6651,14 +6668,14 @@
 
 
 /*!
- * Returns a color object representing the color Fashion Fuchsia, whose RBG values are (244, 0, 161), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fashion Fuchsia, whose RBG values are (244, 0, 161), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fashionFuchsiaColor;
 
 /*!
- * Returns a color object representing the color Fashion Fuchsia, whose RBG values are (244, 0, 161), and has the specified opacity.
+ * Returns a UIColor object representing the color Fashion Fuchsia, whose RBG values are (244, 0, 161), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6667,14 +6684,14 @@
 
 
 /*!
- * Returns a color object representing the color Fawn, whose RBG values are (229, 170, 112), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fawn, whose RBG values are (229, 170, 112), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fawnColor;
 
 /*!
- * Returns a color object representing the color Fawn, whose RBG values are (229, 170, 112), and has the specified opacity.
+ * Returns a UIColor object representing the color Fawn, whose RBG values are (229, 170, 112), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6683,14 +6700,14 @@
 
 
 /*!
- * Returns a color object representing the color Feldgrau, whose RBG values are (77, 93, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Feldgrau, whose RBG values are (77, 93, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) feldgrauColor;
 
 /*!
- * Returns a color object representing the color Feldgrau, whose RBG values are (77, 93, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Feldgrau, whose RBG values are (77, 93, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6699,14 +6716,14 @@
 
 
 /*!
- * Returns a color object representing the color Feldspar, whose RBG values are (253, 213, 177), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Feldspar, whose RBG values are (253, 213, 177), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) feldsparColor;
 
 /*!
- * Returns a color object representing the color Feldspar, whose RBG values are (253, 213, 177), and has the specified opacity.
+ * Returns a UIColor object representing the color Feldspar, whose RBG values are (253, 213, 177), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6715,14 +6732,14 @@
 
 
 /*!
- * Returns a color object representing the color Fern (Crayola), whose RBG values are (113, 188, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fern (Crayola), whose RBG values are (113, 188, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fernCrayolaColor;
 
 /*!
- * Returns a color object representing the color Fern (Crayola), whose RBG values are (113, 188, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Fern (Crayola), whose RBG values are (113, 188, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6731,14 +6748,14 @@
 
 
 /*!
- * Returns a color object representing the color Fern Green, whose RBG values are (79, 121, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fern Green, whose RBG values are (79, 121, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fernGreenColor;
 
 /*!
- * Returns a color object representing the color Fern Green, whose RBG values are (79, 121, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Fern Green, whose RBG values are (79, 121, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6747,14 +6764,14 @@
 
 
 /*!
- * Returns a color object representing the color Ferrari Red, whose RBG values are (255, 40, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ferrari Red, whose RBG values are (255, 40, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ferrariRedColor;
 
 /*!
- * Returns a color object representing the color Ferrari Red, whose RBG values are (255, 40, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Ferrari Red, whose RBG values are (255, 40, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6763,14 +6780,14 @@
 
 
 /*!
- * Returns a color object representing the color Field Drab, whose RBG values are (108, 84, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Field Drab, whose RBG values are (108, 84, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fieldDrabColor;
 
 /*!
- * Returns a color object representing the color Field Drab, whose RBG values are (108, 84, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Field Drab, whose RBG values are (108, 84, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6779,14 +6796,14 @@
 
 
 /*!
- * Returns a color object representing the color Fire Engine Red, whose RBG values are (206, 32, 41), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fire Engine Red, whose RBG values are (206, 32, 41), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fireEngineRedColor;
 
 /*!
- * Returns a color object representing the color Fire Engine Red, whose RBG values are (206, 32, 41), and has the specified opacity.
+ * Returns a UIColor object representing the color Fire Engine Red, whose RBG values are (206, 32, 41), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6795,14 +6812,14 @@
 
 
 /*!
- * Returns a color object representing the color Firebrick, whose RBG values are (178, 34, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Firebrick, whose RBG values are (178, 34, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) firebrickColor;
 
 /*!
- * Returns a color object representing the color Firebrick, whose RBG values are (178, 34, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Firebrick, whose RBG values are (178, 34, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6811,14 +6828,14 @@
 
 
 /*!
- * Returns a color object representing the color Flame, whose RBG values are (226, 88, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Flame, whose RBG values are (226, 88, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) flameColor;
 
 /*!
- * Returns a color object representing the color Flame, whose RBG values are (226, 88, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Flame, whose RBG values are (226, 88, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6827,14 +6844,14 @@
 
 
 /*!
- * Returns a color object representing the color Flamingo Pink, whose RBG values are (252, 142, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Flamingo Pink, whose RBG values are (252, 142, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) flamingoPinkColor;
 
 /*!
- * Returns a color object representing the color Flamingo Pink, whose RBG values are (252, 142, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Flamingo Pink, whose RBG values are (252, 142, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6843,14 +6860,14 @@
 
 
 /*!
- * Returns a color object representing the color Flattery, whose RBG values are (107, 68, 35), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Flattery, whose RBG values are (107, 68, 35), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) flatteryColor;
 
 /*!
- * Returns a color object representing the color Flattery, whose RBG values are (107, 68, 35), and has the specified opacity.
+ * Returns a UIColor object representing the color Flattery, whose RBG values are (107, 68, 35), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6859,14 +6876,14 @@
 
 
 /*!
- * Returns a color object representing the color Flavescent, whose RBG values are (247, 233, 142), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Flavescent, whose RBG values are (247, 233, 142), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) flavescentColor;
 
 /*!
- * Returns a color object representing the color Flavescent, whose RBG values are (247, 233, 142), and has the specified opacity.
+ * Returns a UIColor object representing the color Flavescent, whose RBG values are (247, 233, 142), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6875,14 +6892,14 @@
 
 
 /*!
- * Returns a color object representing the color Flax, whose RBG values are (238, 220, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Flax, whose RBG values are (238, 220, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) flaxColor;
 
 /*!
- * Returns a color object representing the color Flax, whose RBG values are (238, 220, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Flax, whose RBG values are (238, 220, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6891,14 +6908,14 @@
 
 
 /*!
- * Returns a color object representing the color Flirt, whose RBG values are (162, 0, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Flirt, whose RBG values are (162, 0, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) flirtColor;
 
 /*!
- * Returns a color object representing the color Flirt, whose RBG values are (162, 0, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Flirt, whose RBG values are (162, 0, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6907,14 +6924,14 @@
 
 
 /*!
- * Returns a color object representing the color Floral White, whose RBG values are (255, 250, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Floral White, whose RBG values are (255, 250, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) floralWhiteColor;
 
 /*!
- * Returns a color object representing the color Floral White, whose RBG values are (255, 250, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Floral White, whose RBG values are (255, 250, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6923,14 +6940,14 @@
 
 
 /*!
- * Returns a color object representing the color Fluorescent Orange, whose RBG values are (255, 191, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fluorescent Orange, whose RBG values are (255, 191, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fluorescentOrangeColor;
 
 /*!
- * Returns a color object representing the color Fluorescent Orange, whose RBG values are (255, 191, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Fluorescent Orange, whose RBG values are (255, 191, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6939,14 +6956,14 @@
 
 
 /*!
- * Returns a color object representing the color Fluorescent Pink, whose RBG values are (255, 20, 147), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fluorescent Pink, whose RBG values are (255, 20, 147), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fluorescentPinkColor;
 
 /*!
- * Returns a color object representing the color Fluorescent Pink, whose RBG values are (255, 20, 147), and has the specified opacity.
+ * Returns a UIColor object representing the color Fluorescent Pink, whose RBG values are (255, 20, 147), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6955,14 +6972,14 @@
 
 
 /*!
- * Returns a color object representing the color Fluorescent Yellow, whose RBG values are (204, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fluorescent Yellow, whose RBG values are (204, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fluorescentYellowColor;
 
 /*!
- * Returns a color object representing the color Fluorescent Yellow, whose RBG values are (204, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Fluorescent Yellow, whose RBG values are (204, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6971,14 +6988,14 @@
 
 
 /*!
- * Returns a color object representing the color Folly, whose RBG values are (255, 0, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Folly, whose RBG values are (255, 0, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) follyColor;
 
 /*!
- * Returns a color object representing the color Folly, whose RBG values are (255, 0, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Folly, whose RBG values are (255, 0, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -6987,14 +7004,14 @@
 
 
 /*!
- * Returns a color object representing the color Forest Green (Crayola), whose RBG values are (109, 174, 129), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Forest Green (Crayola), whose RBG values are (109, 174, 129), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) forestGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Forest Green (Crayola), whose RBG values are (109, 174, 129), and has the specified opacity.
+ * Returns a UIColor object representing the color Forest Green (Crayola), whose RBG values are (109, 174, 129), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7003,14 +7020,14 @@
 
 
 /*!
- * Returns a color object representing the color Forest Green (Traditional), whose RBG values are (1, 68, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Forest Green (Traditional), whose RBG values are (1, 68, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) forestGreenTraditionalColor;
 
 /*!
- * Returns a color object representing the color Forest Green (Traditional), whose RBG values are (1, 68, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Forest Green (Traditional), whose RBG values are (1, 68, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7019,14 +7036,14 @@
 
 
 /*!
- * Returns a color object representing the color Forest Green (Web), whose RBG values are (34, 139, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Forest Green (Web), whose RBG values are (34, 139, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) forestGreenWebColor;
 
 /*!
- * Returns a color object representing the color Forest Green (Web), whose RBG values are (34, 139, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Forest Green (Web), whose RBG values are (34, 139, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7035,14 +7052,14 @@
 
 
 /*!
- * Returns a color object representing the color French Beige, whose RBG values are (166, 123, 91), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Beige, whose RBG values are (166, 123, 91), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchBeigeColor;
 
 /*!
- * Returns a color object representing the color French Beige, whose RBG values are (166, 123, 91), and has the specified opacity.
+ * Returns a UIColor object representing the color French Beige, whose RBG values are (166, 123, 91), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7051,14 +7068,14 @@
 
 
 /*!
- * Returns a color object representing the color French Bistre, whose RBG values are (133, 109, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Bistre, whose RBG values are (133, 109, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchBistreColor;
 
 /*!
- * Returns a color object representing the color French Bistre, whose RBG values are (133, 109, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color French Bistre, whose RBG values are (133, 109, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7067,14 +7084,14 @@
 
 
 /*!
- * Returns a color object representing the color French Blue, whose RBG values are (0, 114, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Blue, whose RBG values are (0, 114, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchBlueColor;
 
 /*!
- * Returns a color object representing the color French Blue, whose RBG values are (0, 114, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color French Blue, whose RBG values are (0, 114, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7083,14 +7100,14 @@
 
 
 /*!
- * Returns a color object representing the color French Fuchsia, whose RBG values are (253, 63, 146), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Fuchsia, whose RBG values are (253, 63, 146), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchFuchsiaColor;
 
 /*!
- * Returns a color object representing the color French Fuchsia, whose RBG values are (253, 63, 146), and has the specified opacity.
+ * Returns a UIColor object representing the color French Fuchsia, whose RBG values are (253, 63, 146), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7099,14 +7116,14 @@
 
 
 /*!
- * Returns a color object representing the color French Lilac, whose RBG values are (134, 96, 142), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Lilac, whose RBG values are (134, 96, 142), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchLilacColor;
 
 /*!
- * Returns a color object representing the color French Lilac, whose RBG values are (134, 96, 142), and has the specified opacity.
+ * Returns a UIColor object representing the color French Lilac, whose RBG values are (134, 96, 142), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7115,14 +7132,14 @@
 
 
 /*!
- * Returns a color object representing the color French Lime, whose RBG values are (158, 253, 56), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Lime, whose RBG values are (158, 253, 56), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchLimeColor;
 
 /*!
- * Returns a color object representing the color French Lime, whose RBG values are (158, 253, 56), and has the specified opacity.
+ * Returns a UIColor object representing the color French Lime, whose RBG values are (158, 253, 56), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7131,14 +7148,14 @@
 
 
 /*!
- * Returns a color object representing the color French Mauve, whose RBG values are (212, 115, 212), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Mauve, whose RBG values are (212, 115, 212), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchMauveColor;
 
 /*!
- * Returns a color object representing the color French Mauve, whose RBG values are (212, 115, 212), and has the specified opacity.
+ * Returns a UIColor object representing the color French Mauve, whose RBG values are (212, 115, 212), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7147,14 +7164,14 @@
 
 
 /*!
- * Returns a color object representing the color French Pink, whose RBG values are (253, 108, 158), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Pink, whose RBG values are (253, 108, 158), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchPinkColor;
 
 /*!
- * Returns a color object representing the color French Pink, whose RBG values are (253, 108, 158), and has the specified opacity.
+ * Returns a UIColor object representing the color French Pink, whose RBG values are (253, 108, 158), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7163,14 +7180,14 @@
 
 
 /*!
- * Returns a color object representing the color French Plum, whose RBG values are (129, 20, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Plum, whose RBG values are (129, 20, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchPlumColor;
 
 /*!
- * Returns a color object representing the color French Plum, whose RBG values are (129, 20, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color French Plum, whose RBG values are (129, 20, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7179,14 +7196,14 @@
 
 
 /*!
- * Returns a color object representing the color French Puce, whose RBG values are (78, 22, 9), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Puce, whose RBG values are (78, 22, 9), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchPuceColor;
 
 /*!
- * Returns a color object representing the color French Puce, whose RBG values are (78, 22, 9), and has the specified opacity.
+ * Returns a UIColor object representing the color French Puce, whose RBG values are (78, 22, 9), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7195,14 +7212,14 @@
 
 
 /*!
- * Returns a color object representing the color French Raspberry, whose RBG values are (199, 44, 72), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Raspberry, whose RBG values are (199, 44, 72), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchRaspberryColor;
 
 /*!
- * Returns a color object representing the color French Raspberry, whose RBG values are (199, 44, 72), and has the specified opacity.
+ * Returns a UIColor object representing the color French Raspberry, whose RBG values are (199, 44, 72), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7211,14 +7228,14 @@
 
 
 /*!
- * Returns a color object representing the color French Rose, whose RBG values are (246, 74, 138), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Rose, whose RBG values are (246, 74, 138), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchRoseColor;
 
 /*!
- * Returns a color object representing the color French Rose, whose RBG values are (246, 74, 138), and has the specified opacity.
+ * Returns a UIColor object representing the color French Rose, whose RBG values are (246, 74, 138), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7227,14 +7244,14 @@
 
 
 /*!
- * Returns a color object representing the color French Sky Blue, whose RBG values are (119, 181, 254), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Sky Blue, whose RBG values are (119, 181, 254), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchSkyBlueColor;
 
 /*!
- * Returns a color object representing the color French Sky Blue, whose RBG values are (119, 181, 254), and has the specified opacity.
+ * Returns a UIColor object representing the color French Sky Blue, whose RBG values are (119, 181, 254), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7243,14 +7260,14 @@
 
 
 /*!
- * Returns a color object representing the color French Violet, whose RBG values are (136, 6, 206), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Violet, whose RBG values are (136, 6, 206), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchVioletColor;
 
 /*!
- * Returns a color object representing the color French Violet, whose RBG values are (136, 6, 206), and has the specified opacity.
+ * Returns a UIColor object representing the color French Violet, whose RBG values are (136, 6, 206), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7259,14 +7276,14 @@
 
 
 /*!
- * Returns a color object representing the color French Wine, whose RBG values are (172, 30, 68), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color French Wine, whose RBG values are (172, 30, 68), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) frenchWineColor;
 
 /*!
- * Returns a color object representing the color French Wine, whose RBG values are (172, 30, 68), and has the specified opacity.
+ * Returns a UIColor object representing the color French Wine, whose RBG values are (172, 30, 68), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7275,14 +7292,14 @@
 
 
 /*!
- * Returns a color object representing the color Fresh Air, whose RBG values are (166, 231, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fresh Air, whose RBG values are (166, 231, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) freshAirColor;
 
 /*!
- * Returns a color object representing the color Fresh Air, whose RBG values are (166, 231, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Fresh Air, whose RBG values are (166, 231, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7291,14 +7308,14 @@
 
 
 /*!
- * Returns a color object representing the color Fuchsia, whose RBG values are (255, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fuchsia, whose RBG values are (255, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fuchsiaColor;
 
 /*!
- * Returns a color object representing the color Fuchsia, whose RBG values are (255, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Fuchsia, whose RBG values are (255, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7307,14 +7324,14 @@
 
 
 /*!
- * Returns a color object representing the color Fuchsia (Crayola), whose RBG values are (195, 100, 197), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fuchsia (Crayola), whose RBG values are (195, 100, 197), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fuchsiaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Fuchsia (Crayola), whose RBG values are (195, 100, 197), and has the specified opacity.
+ * Returns a UIColor object representing the color Fuchsia (Crayola), whose RBG values are (195, 100, 197), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7323,14 +7340,14 @@
 
 
 /*!
- * Returns a color object representing the color Fuchsia Pink, whose RBG values are (255, 119, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fuchsia Pink, whose RBG values are (255, 119, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fuchsiaPinkColor;
 
 /*!
- * Returns a color object representing the color Fuchsia Pink, whose RBG values are (255, 119, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Fuchsia Pink, whose RBG values are (255, 119, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7339,14 +7356,14 @@
 
 
 /*!
- * Returns a color object representing the color Fuchsia Purple, whose RBG values are (204, 57, 123), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fuchsia Purple, whose RBG values are (204, 57, 123), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fuchsiaPurpleColor;
 
 /*!
- * Returns a color object representing the color Fuchsia Purple, whose RBG values are (204, 57, 123), and has the specified opacity.
+ * Returns a UIColor object representing the color Fuchsia Purple, whose RBG values are (204, 57, 123), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7355,14 +7372,14 @@
 
 
 /*!
- * Returns a color object representing the color Fuchsia Rose, whose RBG values are (199, 67, 117), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fuchsia Rose, whose RBG values are (199, 67, 117), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fuchsiaRoseColor;
 
 /*!
- * Returns a color object representing the color Fuchsia Rose, whose RBG values are (199, 67, 117), and has the specified opacity.
+ * Returns a UIColor object representing the color Fuchsia Rose, whose RBG values are (199, 67, 117), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7371,14 +7388,14 @@
 
 
 /*!
- * Returns a color object representing the color Fulvous, whose RBG values are (228, 132, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fulvous, whose RBG values are (228, 132, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fulvousColor;
 
 /*!
- * Returns a color object representing the color Fulvous, whose RBG values are (228, 132, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Fulvous, whose RBG values are (228, 132, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7387,14 +7404,14 @@
 
 
 /*!
- * Returns a color object representing the color Fuzzy Wuzzy (Crayola), whose RBG values are (204, 102, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Fuzzy Wuzzy (Crayola), whose RBG values are (204, 102, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) fuzzyWuzzyCrayolaColor;
 
 /*!
- * Returns a color object representing the color Fuzzy Wuzzy (Crayola), whose RBG values are (204, 102, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Fuzzy Wuzzy (Crayola), whose RBG values are (204, 102, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7403,14 +7420,14 @@
 
 
 /*!
- * Returns a color object representing the color GO Green, whose RBG values are (0, 171, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color GO Green, whose RBG values are (0, 171, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) gOGreenColor;
 
 /*!
- * Returns a color object representing the color GO Green, whose RBG values are (0, 171, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color GO Green, whose RBG values are (0, 171, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7419,14 +7436,14 @@
 
 
 /*!
- * Returns a color object representing the color Gainsboro, whose RBG values are (220, 220, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gainsboro, whose RBG values are (220, 220, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) gainsboroColor;
 
 /*!
- * Returns a color object representing the color Gainsboro, whose RBG values are (220, 220, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Gainsboro, whose RBG values are (220, 220, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7435,14 +7452,14 @@
 
 
 /*!
- * Returns a color object representing the color Gamboge, whose RBG values are (228, 155, 15), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gamboge, whose RBG values are (228, 155, 15), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) gambogeColor;
 
 /*!
- * Returns a color object representing the color Gamboge, whose RBG values are (228, 155, 15), and has the specified opacity.
+ * Returns a UIColor object representing the color Gamboge, whose RBG values are (228, 155, 15), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7451,14 +7468,14 @@
 
 
 /*!
- * Returns a color object representing the color Gamboge Orange (Brown), whose RBG values are (152, 102, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gamboge Orange (Brown), whose RBG values are (152, 102, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) gambogeOrangeBrownColor;
 
 /*!
- * Returns a color object representing the color Gamboge Orange (Brown), whose RBG values are (152, 102, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Gamboge Orange (Brown), whose RBG values are (152, 102, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7467,14 +7484,14 @@
 
 
 /*!
- * Returns a color object representing the color Generic Viridian, whose RBG values are (0, 127, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Generic Viridian, whose RBG values are (0, 127, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) genericViridianColor;
 
 /*!
- * Returns a color object representing the color Generic Viridian, whose RBG values are (0, 127, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Generic Viridian, whose RBG values are (0, 127, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7483,14 +7500,14 @@
 
 
 /*!
- * Returns a color object representing the color Ghost White, whose RBG values are (248, 248, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ghost White, whose RBG values are (248, 248, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ghostWhiteColor;
 
 /*!
- * Returns a color object representing the color Ghost White, whose RBG values are (248, 248, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Ghost White, whose RBG values are (248, 248, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7499,14 +7516,14 @@
 
 
 /*!
- * Returns a color object representing the color Giants Orange, whose RBG values are (254, 90, 29), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Giants Orange, whose RBG values are (254, 90, 29), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) giantsOrangeColor;
 
 /*!
- * Returns a color object representing the color Giants Orange, whose RBG values are (254, 90, 29), and has the specified opacity.
+ * Returns a UIColor object representing the color Giants Orange, whose RBG values are (254, 90, 29), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7515,14 +7532,14 @@
 
 
 /*!
- * Returns a color object representing the color Glaucous, whose RBG values are (96, 130, 182), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Glaucous, whose RBG values are (96, 130, 182), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) glaucousColor;
 
 /*!
- * Returns a color object representing the color Glaucous, whose RBG values are (96, 130, 182), and has the specified opacity.
+ * Returns a UIColor object representing the color Glaucous, whose RBG values are (96, 130, 182), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7531,14 +7548,14 @@
 
 
 /*!
- * Returns a color object representing the color Glitter, whose RBG values are (230, 232, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Glitter, whose RBG values are (230, 232, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) glitterColor;
 
 /*!
- * Returns a color object representing the color Glitter, whose RBG values are (230, 232, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Glitter, whose RBG values are (230, 232, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7547,14 +7564,14 @@
 
 
 /*!
- * Returns a color object representing the color Gold (Crayola), whose RBG values are (231, 198, 151), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gold (Crayola), whose RBG values are (231, 198, 151), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldCrayolaColor;
 
 /*!
- * Returns a color object representing the color Gold (Crayola), whose RBG values are (231, 198, 151), and has the specified opacity.
+ * Returns a UIColor object representing the color Gold (Crayola), whose RBG values are (231, 198, 151), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7563,14 +7580,14 @@
 
 
 /*!
- * Returns a color object representing the color Gold (Metallic), whose RBG values are (212, 175, 55), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gold (Metallic), whose RBG values are (212, 175, 55), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldMetallicColor;
 
 /*!
- * Returns a color object representing the color Gold (Metallic), whose RBG values are (212, 175, 55), and has the specified opacity.
+ * Returns a UIColor object representing the color Gold (Metallic), whose RBG values are (212, 175, 55), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7579,14 +7596,14 @@
 
 
 /*!
- * Returns a color object representing the color Gold (Web) (Golden), whose RBG values are (255, 215, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gold (Web) (Golden), whose RBG values are (255, 215, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldWebGoldenColor;
 
 /*!
- * Returns a color object representing the color Gold (Web) (Golden), whose RBG values are (255, 215, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Gold (Web) (Golden), whose RBG values are (255, 215, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7595,14 +7612,14 @@
 
 
 /*!
- * Returns a color object representing the color Gold Fusion, whose RBG values are (133, 117, 78), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gold Fusion, whose RBG values are (133, 117, 78), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldFusionColor;
 
 /*!
- * Returns a color object representing the color Gold Fusion, whose RBG values are (133, 117, 78), and has the specified opacity.
+ * Returns a UIColor object representing the color Gold Fusion, whose RBG values are (133, 117, 78), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7611,14 +7628,14 @@
 
 
 /*!
- * Returns a color object representing the color Golden Brown, whose RBG values are (153, 101, 21), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Golden Brown, whose RBG values are (153, 101, 21), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldenBrownColor;
 
 /*!
- * Returns a color object representing the color Golden Brown, whose RBG values are (153, 101, 21), and has the specified opacity.
+ * Returns a UIColor object representing the color Golden Brown, whose RBG values are (153, 101, 21), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7627,14 +7644,14 @@
 
 
 /*!
- * Returns a color object representing the color Golden Poppy, whose RBG values are (252, 194, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Golden Poppy, whose RBG values are (252, 194, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldenPoppyColor;
 
 /*!
- * Returns a color object representing the color Golden Poppy, whose RBG values are (252, 194, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Golden Poppy, whose RBG values are (252, 194, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7643,14 +7660,14 @@
 
 
 /*!
- * Returns a color object representing the color Golden Yellow, whose RBG values are (255, 223, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Golden Yellow, whose RBG values are (255, 223, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldenYellowColor;
 
 /*!
- * Returns a color object representing the color Golden Yellow, whose RBG values are (255, 223, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Golden Yellow, whose RBG values are (255, 223, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7659,14 +7676,14 @@
 
 
 /*!
- * Returns a color object representing the color Goldenrod, whose RBG values are (218, 165, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Goldenrod, whose RBG values are (218, 165, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldenrodColor;
 
 /*!
- * Returns a color object representing the color Goldenrod, whose RBG values are (218, 165, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Goldenrod, whose RBG values are (218, 165, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7675,14 +7692,14 @@
 
 
 /*!
- * Returns a color object representing the color Goldenrod (Crayola), whose RBG values are (252, 217, 117), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Goldenrod (Crayola), whose RBG values are (252, 217, 117), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) goldenrodCrayolaColor;
 
 /*!
- * Returns a color object representing the color Goldenrod (Crayola), whose RBG values are (252, 217, 117), and has the specified opacity.
+ * Returns a UIColor object representing the color Goldenrod (Crayola), whose RBG values are (252, 217, 117), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7691,14 +7708,14 @@
 
 
 /*!
- * Returns a color object representing the color Granny Smith Apple (Crayola), whose RBG values are (168, 228, 160), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Granny Smith Apple (Crayola), whose RBG values are (168, 228, 160), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grannySmithAppleCrayolaColor;
 
 /*!
- * Returns a color object representing the color Granny Smith Apple (Crayola), whose RBG values are (168, 228, 160), and has the specified opacity.
+ * Returns a UIColor object representing the color Granny Smith Apple (Crayola), whose RBG values are (168, 228, 160), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7707,14 +7724,14 @@
 
 
 /*!
- * Returns a color object representing the color Grape, whose RBG values are (111, 45, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Grape, whose RBG values are (111, 45, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grapeColor;
 
 /*!
- * Returns a color object representing the color Grape, whose RBG values are (111, 45, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Grape, whose RBG values are (111, 45, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7723,14 +7740,14 @@
 
 
 /*!
- * Returns a color object representing the color Gray (Alternate), whose RBG values are (128, 128, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gray (Alternate), whose RBG values are (128, 128, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grayAlternateColor;
 
 /*!
- * Returns a color object representing the color Gray (Alternate), whose RBG values are (128, 128, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Gray (Alternate), whose RBG values are (128, 128, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7739,14 +7756,14 @@
 
 
 /*!
- * Returns a color object representing the color Gray (Crayola), whose RBG values are (149, 145, 140), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gray (Crayola), whose RBG values are (149, 145, 140), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grayCrayolaColor;
 
 /*!
- * Returns a color object representing the color Gray (Crayola), whose RBG values are (149, 145, 140), and has the specified opacity.
+ * Returns a UIColor object representing the color Gray (Crayola), whose RBG values are (149, 145, 140), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7755,14 +7772,14 @@
 
 
 /*!
- * Returns a color object representing the color Gray (HTML/CSS Gray), whose RBG values are (128, 128, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gray (HTML/CSS Gray), whose RBG values are (128, 128, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grayHTMLCSSGrayColor;
 
 /*!
- * Returns a color object representing the color Gray (HTML/CSS Gray), whose RBG values are (128, 128, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Gray (HTML/CSS Gray), whose RBG values are (128, 128, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7771,14 +7788,14 @@
 
 
 /*!
- * Returns a color object representing the color Gray (X11 Gray), whose RBG values are (190, 190, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gray (X11 Gray), whose RBG values are (190, 190, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grayX11GrayColor;
 
 /*!
- * Returns a color object representing the color Gray (X11 Gray), whose RBG values are (190, 190, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Gray (X11 Gray), whose RBG values are (190, 190, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7787,14 +7804,14 @@
 
 
 /*!
- * Returns a color object representing the color Gray-Asparagus, whose RBG values are (70, 89, 69), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gray-Asparagus, whose RBG values are (70, 89, 69), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grayAsparagusColor;
 
 /*!
- * Returns a color object representing the color Gray-Asparagus, whose RBG values are (70, 89, 69), and has the specified opacity.
+ * Returns a UIColor object representing the color Gray-Asparagus, whose RBG values are (70, 89, 69), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7803,14 +7820,14 @@
 
 
 /*!
- * Returns a color object representing the color Gray-Blue, whose RBG values are (140, 146, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gray-Blue, whose RBG values are (140, 146, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grayBlueColor;
 
 /*!
- * Returns a color object representing the color Gray-Blue, whose RBG values are (140, 146, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Gray-Blue, whose RBG values are (140, 146, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7819,14 +7836,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (Color Wheel) (X11 Green), whose RBG values are (0, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (Color Wheel) (X11 Green), whose RBG values are (0, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenColorWheelX11GreenColor;
 
 /*!
- * Returns a color object representing the color Green (Color Wheel) (X11 Green), whose RBG values are (0, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (Color Wheel) (X11 Green), whose RBG values are (0, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7835,14 +7852,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (Crayola), whose RBG values are (28, 172, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (Crayola), whose RBG values are (28, 172, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Green (Crayola), whose RBG values are (28, 172, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (Crayola), whose RBG values are (28, 172, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7851,14 +7868,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (HTML/CSS Color), whose RBG values are (0, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (HTML/CSS Color), whose RBG values are (0, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenHTMLCSSColor;
 
 /*!
- * Returns a color object representing the color Green (HTML/CSS Color), whose RBG values are (0, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (HTML/CSS Color), whose RBG values are (0, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7867,14 +7884,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (Munsell), whose RBG values are (0, 168, 119), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (Munsell), whose RBG values are (0, 168, 119), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenMunsellColor;
 
 /*!
- * Returns a color object representing the color Green (Munsell), whose RBG values are (0, 168, 119), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (Munsell), whose RBG values are (0, 168, 119), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7883,14 +7900,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (NCS), whose RBG values are (0, 159, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (NCS), whose RBG values are (0, 159, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenNCSColor;
 
 /*!
- * Returns a color object representing the color Green (NCS), whose RBG values are (0, 159, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (NCS), whose RBG values are (0, 159, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7899,14 +7916,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (Pantone), whose RBG values are (0, 173, 67), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (Pantone), whose RBG values are (0, 173, 67), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenPantoneColor;
 
 /*!
- * Returns a color object representing the color Green (Pantone), whose RBG values are (0, 173, 67), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (Pantone), whose RBG values are (0, 173, 67), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7915,14 +7932,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (Pigment), whose RBG values are (0, 165, 80), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (Pigment), whose RBG values are (0, 165, 80), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenPigmentColor;
 
 /*!
- * Returns a color object representing the color Green (Pigment), whose RBG values are (0, 165, 80), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (Pigment), whose RBG values are (0, 165, 80), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7931,14 +7948,14 @@
 
 
 /*!
- * Returns a color object representing the color Green (RYB), whose RBG values are (102, 176, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green (RYB), whose RBG values are (102, 176, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenRYBColor;
 
 /*!
- * Returns a color object representing the color Green (RYB), whose RBG values are (102, 176, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Green (RYB), whose RBG values are (102, 176, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7947,14 +7964,14 @@
 
 
 /*!
- * Returns a color object representing the color Green Blue (Crayola), whose RBG values are (17, 100, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green Blue (Crayola), whose RBG values are (17, 100, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Green Blue (Crayola), whose RBG values are (17, 100, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Green Blue (Crayola), whose RBG values are (17, 100, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7963,14 +7980,14 @@
 
 
 /*!
- * Returns a color object representing the color Green Yellow (Crayola), whose RBG values are (240, 232, 145), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green Yellow (Crayola), whose RBG values are (240, 232, 145), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenYellowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Green Yellow (Crayola), whose RBG values are (240, 232, 145), and has the specified opacity.
+ * Returns a UIColor object representing the color Green Yellow (Crayola), whose RBG values are (240, 232, 145), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7979,14 +7996,14 @@
 
 
 /*!
- * Returns a color object representing the color Green Yellow, whose RBG values are (173, 255, 47), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green Yellow, whose RBG values are (173, 255, 47), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenYellowColor;
 
 /*!
- * Returns a color object representing the color Green Yellow, whose RBG values are (173, 255, 47), and has the specified opacity.
+ * Returns a UIColor object representing the color Green Yellow, whose RBG values are (173, 255, 47), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -7995,14 +8012,14 @@
 
 
 /*!
- * Returns a color object representing the color Green-Cyan, whose RBG values are (0, 153, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Green-Cyan, whose RBG values are (0, 153, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) greenCyanColor;
 
 /*!
- * Returns a color object representing the color Green-Cyan, whose RBG values are (0, 153, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Green-Cyan, whose RBG values are (0, 153, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8011,14 +8028,14 @@
 
 
 /*!
- * Returns a color object representing the color Grizzly, whose RBG values are (136, 88, 24), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Grizzly, whose RBG values are (136, 88, 24), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grizzlyColor;
 
 /*!
- * Returns a color object representing the color Grizzly, whose RBG values are (136, 88, 24), and has the specified opacity.
+ * Returns a UIColor object representing the color Grizzly, whose RBG values are (136, 88, 24), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8027,14 +8044,14 @@
 
 
 /*!
- * Returns a color object representing the color Grullo, whose RBG values are (169, 154, 134), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Grullo, whose RBG values are (169, 154, 134), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grulloColor;
 
 /*!
- * Returns a color object representing the color Grullo, whose RBG values are (169, 154, 134), and has the specified opacity.
+ * Returns a UIColor object representing the color Grullo, whose RBG values are (169, 154, 134), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8043,14 +8060,14 @@
 
 
 /*!
- * Returns a color object representing the color Grussrel, whose RBG values are (176, 101, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Grussrel, whose RBG values are (176, 101, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) grussrelColor;
 
 /*!
- * Returns a color object representing the color Grussrel, whose RBG values are (176, 101, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Grussrel, whose RBG values are (176, 101, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8059,14 +8076,14 @@
 
 
 /*!
- * Returns a color object representing the color Gunmetal, whose RBG values are (42, 52, 57), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Gunmetal, whose RBG values are (42, 52, 57), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) gunmetalColor;
 
 /*!
- * Returns a color object representing the color Gunmetal, whose RBG values are (42, 52, 57), and has the specified opacity.
+ * Returns a UIColor object representing the color Gunmetal, whose RBG values are (42, 52, 57), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8075,14 +8092,14 @@
 
 
 /*!
- * Returns a color object representing the color Guppie Green, whose RBG values are (0, 255, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Guppie Green, whose RBG values are (0, 255, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) guppieGreenColor;
 
 /*!
- * Returns a color object representing the color Guppie Green, whose RBG values are (0, 255, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Guppie Green, whose RBG values are (0, 255, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8091,14 +8108,14 @@
 
 
 /*!
- * Returns a color object representing the color Halayà úbe, whose RBG values are (102, 55, 84), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Halayà úbe, whose RBG values are (102, 55, 84), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) halayàúbeColor;
 
 /*!
- * Returns a color object representing the color Halayà úbe, whose RBG values are (102, 55, 84), and has the specified opacity.
+ * Returns a UIColor object representing the color Halayà úbe, whose RBG values are (102, 55, 84), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8107,14 +8124,14 @@
 
 
 /*!
- * Returns a color object representing the color Han Blue, whose RBG values are (68, 108, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Han Blue, whose RBG values are (68, 108, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hanBlueColor;
 
 /*!
- * Returns a color object representing the color Han Blue, whose RBG values are (68, 108, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color Han Blue, whose RBG values are (68, 108, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8123,14 +8140,14 @@
 
 
 /*!
- * Returns a color object representing the color Han Purple, whose RBG values are (82, 24, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Han Purple, whose RBG values are (82, 24, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hanPurpleColor;
 
 /*!
- * Returns a color object representing the color Han Purple, whose RBG values are (82, 24, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Han Purple, whose RBG values are (82, 24, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8139,14 +8156,14 @@
 
 
 /*!
- * Returns a color object representing the color Hansa Yellow, whose RBG values are (233, 214, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Hansa Yellow, whose RBG values are (233, 214, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hansaYellowColor;
 
 /*!
- * Returns a color object representing the color Hansa Yellow, whose RBG values are (233, 214, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Hansa Yellow, whose RBG values are (233, 214, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8155,14 +8172,14 @@
 
 
 /*!
- * Returns a color object representing the color Harlequin, whose RBG values are (63, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Harlequin, whose RBG values are (63, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) harlequinColor;
 
 /*!
- * Returns a color object representing the color Harlequin, whose RBG values are (63, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Harlequin, whose RBG values are (63, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8171,14 +8188,14 @@
 
 
 /*!
- * Returns a color object representing the color Harlequin Green, whose RBG values are (70, 203, 24), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Harlequin Green, whose RBG values are (70, 203, 24), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) harlequinGreenColor;
 
 /*!
- * Returns a color object representing the color Harlequin Green, whose RBG values are (70, 203, 24), and has the specified opacity.
+ * Returns a UIColor object representing the color Harlequin Green, whose RBG values are (70, 203, 24), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8187,14 +8204,14 @@
 
 
 /*!
- * Returns a color object representing the color Harvard Crimson, whose RBG values are (201, 0, 22), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Harvard Crimson, whose RBG values are (201, 0, 22), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) harvardCrimsonColor;
 
 /*!
- * Returns a color object representing the color Harvard Crimson, whose RBG values are (201, 0, 22), and has the specified opacity.
+ * Returns a UIColor object representing the color Harvard Crimson, whose RBG values are (201, 0, 22), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8203,14 +8220,14 @@
 
 
 /*!
- * Returns a color object representing the color Harvest Gold, whose RBG values are (218, 145, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Harvest Gold, whose RBG values are (218, 145, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) harvestGoldColor;
 
 /*!
- * Returns a color object representing the color Harvest Gold, whose RBG values are (218, 145, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Harvest Gold, whose RBG values are (218, 145, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8219,14 +8236,14 @@
 
 
 /*!
- * Returns a color object representing the color Heart Gold, whose RBG values are (128, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Heart Gold, whose RBG values are (128, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) heartGoldColor;
 
 /*!
- * Returns a color object representing the color Heart Gold, whose RBG values are (128, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Heart Gold, whose RBG values are (128, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8235,14 +8252,14 @@
 
 
 /*!
- * Returns a color object representing the color Heliotrope, whose RBG values are (223, 115, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Heliotrope, whose RBG values are (223, 115, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) heliotropeColor;
 
 /*!
- * Returns a color object representing the color Heliotrope, whose RBG values are (223, 115, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Heliotrope, whose RBG values are (223, 115, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8251,14 +8268,14 @@
 
 
 /*!
- * Returns a color object representing the color Heliotrope Gray, whose RBG values are (170, 152, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Heliotrope Gray, whose RBG values are (170, 152, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) heliotropeGrayColor;
 
 /*!
- * Returns a color object representing the color Heliotrope Gray, whose RBG values are (170, 152, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Heliotrope Gray, whose RBG values are (170, 152, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8267,14 +8284,14 @@
 
 
 /*!
- * Returns a color object representing the color Heliotrope Magenta, whose RBG values are (170, 0, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Heliotrope Magenta, whose RBG values are (170, 0, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) heliotropeMagentaColor;
 
 /*!
- * Returns a color object representing the color Heliotrope Magenta, whose RBG values are (170, 0, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color Heliotrope Magenta, whose RBG values are (170, 0, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8283,14 +8300,14 @@
 
 
 /*!
- * Returns a color object representing the color Hollywood Cerise, whose RBG values are (244, 0, 161), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Hollywood Cerise, whose RBG values are (244, 0, 161), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hollywoodCeriseColor;
 
 /*!
- * Returns a color object representing the color Hollywood Cerise, whose RBG values are (244, 0, 161), and has the specified opacity.
+ * Returns a UIColor object representing the color Hollywood Cerise, whose RBG values are (244, 0, 161), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8299,14 +8316,14 @@
 
 
 /*!
- * Returns a color object representing the color Honeydew, whose RBG values are (240, 255, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Honeydew, whose RBG values are (240, 255, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) honeydewColor;
 
 /*!
- * Returns a color object representing the color Honeydew, whose RBG values are (240, 255, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Honeydew, whose RBG values are (240, 255, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8315,14 +8332,14 @@
 
 
 /*!
- * Returns a color object representing the color Honolulu Blue, whose RBG values are (0, 109, 176), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Honolulu Blue, whose RBG values are (0, 109, 176), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) honoluluBlueColor;
 
 /*!
- * Returns a color object representing the color Honolulu Blue, whose RBG values are (0, 109, 176), and has the specified opacity.
+ * Returns a UIColor object representing the color Honolulu Blue, whose RBG values are (0, 109, 176), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8331,14 +8348,14 @@
 
 
 /*!
- * Returns a color object representing the color Hooker's Green, whose RBG values are (73, 121, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Hooker's Green, whose RBG values are (73, 121, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hookersGreenColor;
 
 /*!
- * Returns a color object representing the color Hooker's Green, whose RBG values are (73, 121, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Hooker's Green, whose RBG values are (73, 121, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8347,14 +8364,14 @@
 
 
 /*!
- * Returns a color object representing the color Hot Magenta (Crayola), whose RBG values are (255, 29, 206), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Hot Magenta (Crayola), whose RBG values are (255, 29, 206), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hotMagentaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Hot Magenta (Crayola), whose RBG values are (255, 29, 206), and has the specified opacity.
+ * Returns a UIColor object representing the color Hot Magenta (Crayola), whose RBG values are (255, 29, 206), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8363,14 +8380,14 @@
 
 
 /*!
- * Returns a color object representing the color Hot Pink, whose RBG values are (255, 105, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Hot Pink, whose RBG values are (255, 105, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hotPinkColor;
 
 /*!
- * Returns a color object representing the color Hot Pink, whose RBG values are (255, 105, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Hot Pink, whose RBG values are (255, 105, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8379,14 +8396,14 @@
 
 
 /*!
- * Returns a color object representing the color Hunter Green, whose RBG values are (53, 94, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Hunter Green, whose RBG values are (53, 94, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) hunterGreenColor;
 
 /*!
- * Returns a color object representing the color Hunter Green, whose RBG values are (53, 94, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Hunter Green, whose RBG values are (53, 94, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8395,14 +8412,14 @@
 
 
 /*!
- * Returns a color object representing the color Iceberg, whose RBG values are (113, 166, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Iceberg, whose RBG values are (113, 166, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) icebergColor;
 
 /*!
- * Returns a color object representing the color Iceberg, whose RBG values are (113, 166, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Iceberg, whose RBG values are (113, 166, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8411,14 +8428,14 @@
 
 
 /*!
- * Returns a color object representing the color Icterine, whose RBG values are (252, 247, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Icterine, whose RBG values are (252, 247, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) icterineColor;
 
 /*!
- * Returns a color object representing the color Icterine, whose RBG values are (252, 247, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Icterine, whose RBG values are (252, 247, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8427,14 +8444,14 @@
 
 
 /*!
- * Returns a color object representing the color Illuminating Emerald, whose RBG values are (49, 145, 119), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Illuminating Emerald, whose RBG values are (49, 145, 119), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) illuminatingEmeraldColor;
 
 /*!
- * Returns a color object representing the color Illuminating Emerald, whose RBG values are (49, 145, 119), and has the specified opacity.
+ * Returns a UIColor object representing the color Illuminating Emerald, whose RBG values are (49, 145, 119), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8443,14 +8460,14 @@
 
 
 /*!
- * Returns a color object representing the color Imperial, whose RBG values are (96, 47, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Imperial, whose RBG values are (96, 47, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) imperialColor;
 
 /*!
- * Returns a color object representing the color Imperial, whose RBG values are (96, 47, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Imperial, whose RBG values are (96, 47, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8459,14 +8476,14 @@
 
 
 /*!
- * Returns a color object representing the color Imperial Blue, whose RBG values are (0, 35, 149), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Imperial Blue, whose RBG values are (0, 35, 149), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) imperialBlueColor;
 
 /*!
- * Returns a color object representing the color Imperial Blue, whose RBG values are (0, 35, 149), and has the specified opacity.
+ * Returns a UIColor object representing the color Imperial Blue, whose RBG values are (0, 35, 149), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8475,14 +8492,14 @@
 
 
 /*!
- * Returns a color object representing the color Imperial Purple, whose RBG values are (102, 2, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Imperial Purple, whose RBG values are (102, 2, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) imperialPurpleColor;
 
 /*!
- * Returns a color object representing the color Imperial Purple, whose RBG values are (102, 2, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Imperial Purple, whose RBG values are (102, 2, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8491,14 +8508,14 @@
 
 
 /*!
- * Returns a color object representing the color Imperial Red, whose RBG values are (237, 41, 57), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Imperial Red, whose RBG values are (237, 41, 57), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) imperialRedColor;
 
 /*!
- * Returns a color object representing the color Imperial Red, whose RBG values are (237, 41, 57), and has the specified opacity.
+ * Returns a UIColor object representing the color Imperial Red, whose RBG values are (237, 41, 57), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8507,14 +8524,14 @@
 
 
 /*!
- * Returns a color object representing the color Inchworm (Crayola), whose RBG values are (178, 236, 93), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Inchworm (Crayola), whose RBG values are (178, 236, 93), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) inchwormCrayolaColor;
 
 /*!
- * Returns a color object representing the color Inchworm (Crayola), whose RBG values are (178, 236, 93), and has the specified opacity.
+ * Returns a UIColor object representing the color Inchworm (Crayola), whose RBG values are (178, 236, 93), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8523,14 +8540,14 @@
 
 
 /*!
- * Returns a color object representing the color Independence, whose RBG values are (76, 81, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Independence, whose RBG values are (76, 81, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) independenceColor;
 
 /*!
- * Returns a color object representing the color Independence, whose RBG values are (76, 81, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Independence, whose RBG values are (76, 81, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8539,14 +8556,14 @@
 
 
 /*!
- * Returns a color object representing the color India Green, whose RBG values are (19, 136, 8), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color India Green, whose RBG values are (19, 136, 8), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) indiaGreenColor;
 
 /*!
- * Returns a color object representing the color India Green, whose RBG values are (19, 136, 8), and has the specified opacity.
+ * Returns a UIColor object representing the color India Green, whose RBG values are (19, 136, 8), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8555,14 +8572,14 @@
 
 
 /*!
- * Returns a color object representing the color Indian Red, whose RBG values are (205, 92, 92), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Indian Red, whose RBG values are (205, 92, 92), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) indianRedColor;
 
 /*!
- * Returns a color object representing the color Indian Red, whose RBG values are (205, 92, 92), and has the specified opacity.
+ * Returns a UIColor object representing the color Indian Red, whose RBG values are (205, 92, 92), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8571,14 +8588,14 @@
 
 
 /*!
- * Returns a color object representing the color Indian Yellow, whose RBG values are (227, 168, 87), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Indian Yellow, whose RBG values are (227, 168, 87), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) indianYellowColor;
 
 /*!
- * Returns a color object representing the color Indian Yellow, whose RBG values are (227, 168, 87), and has the specified opacity.
+ * Returns a UIColor object representing the color Indian Yellow, whose RBG values are (227, 168, 87), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8587,14 +8604,14 @@
 
 
 /*!
- * Returns a color object representing the color Indigo, whose RBG values are (75, 0, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Indigo, whose RBG values are (75, 0, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) indigoColor;
 
 /*!
- * Returns a color object representing the color Indigo, whose RBG values are (75, 0, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Indigo, whose RBG values are (75, 0, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8603,14 +8620,14 @@
 
 
 /*!
- * Returns a color object representing the color Indigo (Crayola), whose RBG values are (93, 118, 203), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Indigo (Crayola), whose RBG values are (93, 118, 203), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) indigoCrayolaColor;
 
 /*!
- * Returns a color object representing the color Indigo (Crayola), whose RBG values are (93, 118, 203), and has the specified opacity.
+ * Returns a UIColor object representing the color Indigo (Crayola), whose RBG values are (93, 118, 203), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8619,14 +8636,14 @@
 
 
 /*!
- * Returns a color object representing the color Indigo Dye, whose RBG values are (9, 31, 146), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Indigo Dye, whose RBG values are (9, 31, 146), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) indigoDyeColor;
 
 /*!
- * Returns a color object representing the color Indigo Dye, whose RBG values are (9, 31, 146), and has the specified opacity.
+ * Returns a UIColor object representing the color Indigo Dye, whose RBG values are (9, 31, 146), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8635,14 +8652,14 @@
 
 
 /*!
- * Returns a color object representing the color International Klein Blue, whose RBG values are (0, 47, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color International Klein Blue, whose RBG values are (0, 47, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) internationalKleinBlueColor;
 
 /*!
- * Returns a color object representing the color International Klein Blue, whose RBG values are (0, 47, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color International Klein Blue, whose RBG values are (0, 47, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8651,14 +8668,14 @@
 
 
 /*!
- * Returns a color object representing the color International Orange (Aerospace), whose RBG values are (255, 79, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color International Orange (Aerospace), whose RBG values are (255, 79, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) internationalOrangeAerospaceColor;
 
 /*!
- * Returns a color object representing the color International Orange (Aerospace), whose RBG values are (255, 79, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color International Orange (Aerospace), whose RBG values are (255, 79, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8667,14 +8684,14 @@
 
 
 /*!
- * Returns a color object representing the color International Orange (Engineering), whose RBG values are (186, 22, 12), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color International Orange (Engineering), whose RBG values are (186, 22, 12), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) internationalOrangeEngineeringColor;
 
 /*!
- * Returns a color object representing the color International Orange (Engineering), whose RBG values are (186, 22, 12), and has the specified opacity.
+ * Returns a UIColor object representing the color International Orange (Engineering), whose RBG values are (186, 22, 12), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8683,14 +8700,14 @@
 
 
 /*!
- * Returns a color object representing the color International Orange (Golden Gate Bridge), whose RBG values are (192, 54, 44), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color International Orange (Golden Gate Bridge), whose RBG values are (192, 54, 44), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) internationalOrangeGoldenGateBridgeColor;
 
 /*!
- * Returns a color object representing the color International Orange (Golden Gate Bridge), whose RBG values are (192, 54, 44), and has the specified opacity.
+ * Returns a UIColor object representing the color International Orange (Golden Gate Bridge), whose RBG values are (192, 54, 44), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8699,14 +8716,14 @@
 
 
 /*!
- * Returns a color object representing the color Iris, whose RBG values are (90, 79, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Iris, whose RBG values are (90, 79, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) irisColor;
 
 /*!
- * Returns a color object representing the color Iris, whose RBG values are (90, 79, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color Iris, whose RBG values are (90, 79, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8715,14 +8732,14 @@
 
 
 /*!
- * Returns a color object representing the color Irresistible, whose RBG values are (179, 68, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Irresistible, whose RBG values are (179, 68, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) irresistibleColor;
 
 /*!
- * Returns a color object representing the color Irresistible, whose RBG values are (179, 68, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Irresistible, whose RBG values are (179, 68, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8731,14 +8748,14 @@
 
 
 /*!
- * Returns a color object representing the color Isabelline, whose RBG values are (244, 240, 236), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Isabelline, whose RBG values are (244, 240, 236), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) isabellineColor;
 
 /*!
- * Returns a color object representing the color Isabelline, whose RBG values are (244, 240, 236), and has the specified opacity.
+ * Returns a UIColor object representing the color Isabelline, whose RBG values are (244, 240, 236), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8747,14 +8764,14 @@
 
 
 /*!
- * Returns a color object representing the color Islamic Green, whose RBG values are (0, 144, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Islamic Green, whose RBG values are (0, 144, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) islamicGreenColor;
 
 /*!
- * Returns a color object representing the color Islamic Green, whose RBG values are (0, 144, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Islamic Green, whose RBG values are (0, 144, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8763,14 +8780,14 @@
 
 
 /*!
- * Returns a color object representing the color Italian Sky Blue, whose RBG values are (178, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Italian Sky Blue, whose RBG values are (178, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) italianSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Italian Sky Blue, whose RBG values are (178, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Italian Sky Blue, whose RBG values are (178, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8779,14 +8796,14 @@
 
 
 /*!
- * Returns a color object representing the color Ivory, whose RBG values are (255, 255, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ivory, whose RBG values are (255, 255, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ivoryColor;
 
 /*!
- * Returns a color object representing the color Ivory, whose RBG values are (255, 255, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Ivory, whose RBG values are (255, 255, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8795,14 +8812,14 @@
 
 
 /*!
- * Returns a color object representing the color Jade, whose RBG values are (0, 168, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jade, whose RBG values are (0, 168, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jadeColor;
 
 /*!
- * Returns a color object representing the color Jade, whose RBG values are (0, 168, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Jade, whose RBG values are (0, 168, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8811,14 +8828,14 @@
 
 
 /*!
- * Returns a color object representing the color Japanese Carmine, whose RBG values are (157, 41, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Japanese Carmine, whose RBG values are (157, 41, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) japaneseCarmineColor;
 
 /*!
- * Returns a color object representing the color Japanese Carmine, whose RBG values are (157, 41, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Japanese Carmine, whose RBG values are (157, 41, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8827,14 +8844,14 @@
 
 
 /*!
- * Returns a color object representing the color Japanese Indigo, whose RBG values are (38, 67, 72), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Japanese Indigo, whose RBG values are (38, 67, 72), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) japaneseIndigoColor;
 
 /*!
- * Returns a color object representing the color Japanese Indigo, whose RBG values are (38, 67, 72), and has the specified opacity.
+ * Returns a UIColor object representing the color Japanese Indigo, whose RBG values are (38, 67, 72), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8843,14 +8860,14 @@
 
 
 /*!
- * Returns a color object representing the color Japanese Violet, whose RBG values are (91, 50, 86), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Japanese Violet, whose RBG values are (91, 50, 86), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) japaneseVioletColor;
 
 /*!
- * Returns a color object representing the color Japanese Violet, whose RBG values are (91, 50, 86), and has the specified opacity.
+ * Returns a UIColor object representing the color Japanese Violet, whose RBG values are (91, 50, 86), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8859,14 +8876,14 @@
 
 
 /*!
- * Returns a color object representing the color Jasmine, whose RBG values are (248, 222, 126), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jasmine, whose RBG values are (248, 222, 126), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jasmineColor;
 
 /*!
- * Returns a color object representing the color Jasmine, whose RBG values are (248, 222, 126), and has the specified opacity.
+ * Returns a UIColor object representing the color Jasmine, whose RBG values are (248, 222, 126), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8875,14 +8892,14 @@
 
 
 /*!
- * Returns a color object representing the color Jasper, whose RBG values are (215, 59, 62), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jasper, whose RBG values are (215, 59, 62), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jasperColor;
 
 /*!
- * Returns a color object representing the color Jasper, whose RBG values are (215, 59, 62), and has the specified opacity.
+ * Returns a UIColor object representing the color Jasper, whose RBG values are (215, 59, 62), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8891,14 +8908,14 @@
 
 
 /*!
- * Returns a color object representing the color Jawad/Chicken Color (HTML/CSS) (Khaki), whose RBG values are (195, 176, 145), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jawad/Chicken Color (HTML/CSS) (Khaki), whose RBG values are (195, 176, 145), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jawadChickenColorHTMLCSSKhakiColor;
 
 /*!
- * Returns a color object representing the color Jawad/Chicken Color (HTML/CSS) (Khaki), whose RBG values are (195, 176, 145), and has the specified opacity.
+ * Returns a UIColor object representing the color Jawad/Chicken Color (HTML/CSS) (Khaki), whose RBG values are (195, 176, 145), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8907,14 +8924,14 @@
 
 
 /*!
- * Returns a color object representing the color Jazzberry Jam (Crayola), whose RBG values are (202, 55, 103), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jazzberry Jam (Crayola), whose RBG values are (202, 55, 103), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jazzberryJamCrayolaColor;
 
 /*!
- * Returns a color object representing the color Jazzberry Jam (Crayola), whose RBG values are (202, 55, 103), and has the specified opacity.
+ * Returns a UIColor object representing the color Jazzberry Jam (Crayola), whose RBG values are (202, 55, 103), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8923,14 +8940,14 @@
 
 
 /*!
- * Returns a color object representing the color Jelly Bean, whose RBG values are (218, 97, 78), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jelly Bean, whose RBG values are (218, 97, 78), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jellyBeanColor;
 
 /*!
- * Returns a color object representing the color Jelly Bean, whose RBG values are (218, 97, 78), and has the specified opacity.
+ * Returns a UIColor object representing the color Jelly Bean, whose RBG values are (218, 97, 78), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8939,14 +8956,14 @@
 
 
 /*!
- * Returns a color object representing the color Jet, whose RBG values are (52, 52, 52), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jet, whose RBG values are (52, 52, 52), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jetColor;
 
 /*!
- * Returns a color object representing the color Jet, whose RBG values are (52, 52, 52), and has the specified opacity.
+ * Returns a UIColor object representing the color Jet, whose RBG values are (52, 52, 52), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8955,14 +8972,14 @@
 
 
 /*!
- * Returns a color object representing the color Jonquil, whose RBG values are (244, 202, 22), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jonquil, whose RBG values are (244, 202, 22), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jonquilColor;
 
 /*!
- * Returns a color object representing the color Jonquil, whose RBG values are (244, 202, 22), and has the specified opacity.
+ * Returns a UIColor object representing the color Jonquil, whose RBG values are (244, 202, 22), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8971,14 +8988,14 @@
 
 
 /*!
- * Returns a color object representing the color Jordy Blue, whose RBG values are (138, 185, 241), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jordy Blue, whose RBG values are (138, 185, 241), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jordyBlueColor;
 
 /*!
- * Returns a color object representing the color Jordy Blue, whose RBG values are (138, 185, 241), and has the specified opacity.
+ * Returns a UIColor object representing the color Jordy Blue, whose RBG values are (138, 185, 241), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -8987,14 +9004,14 @@
 
 
 /*!
- * Returns a color object representing the color June Bud, whose RBG values are (189, 218, 87), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color June Bud, whose RBG values are (189, 218, 87), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) juneBudColor;
 
 /*!
- * Returns a color object representing the color June Bud, whose RBG values are (189, 218, 87), and has the specified opacity.
+ * Returns a UIColor object representing the color June Bud, whose RBG values are (189, 218, 87), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9003,14 +9020,14 @@
 
 
 /*!
- * Returns a color object representing the color Jungle Green (Crayola), whose RBG values are (59, 176, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Jungle Green (Crayola), whose RBG values are (59, 176, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) jungleGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Jungle Green (Crayola), whose RBG values are (59, 176, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Jungle Green (Crayola), whose RBG values are (59, 176, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9019,14 +9036,14 @@
 
 
 /*!
- * Returns a color object representing the color KU Crimson, whose RBG values are (232, 0, 13), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color KU Crimson, whose RBG values are (232, 0, 13), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) kUCrimsonColor;
 
 /*!
- * Returns a color object representing the color KU Crimson, whose RBG values are (232, 0, 13), and has the specified opacity.
+ * Returns a UIColor object representing the color KU Crimson, whose RBG values are (232, 0, 13), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9035,14 +9052,14 @@
 
 
 /*!
- * Returns a color object representing the color Kelly Green, whose RBG values are (76, 187, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Kelly Green, whose RBG values are (76, 187, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) kellyGreenColor;
 
 /*!
- * Returns a color object representing the color Kelly Green, whose RBG values are (76, 187, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Kelly Green, whose RBG values are (76, 187, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9051,14 +9068,14 @@
 
 
 /*!
- * Returns a color object representing the color Kenyan Copper, whose RBG values are (124, 28, 5), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Kenyan Copper, whose RBG values are (124, 28, 5), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) kenyanCopperColor;
 
 /*!
- * Returns a color object representing the color Kenyan Copper, whose RBG values are (124, 28, 5), and has the specified opacity.
+ * Returns a UIColor object representing the color Kenyan Copper, whose RBG values are (124, 28, 5), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9067,14 +9084,14 @@
 
 
 /*!
- * Returns a color object representing the color Keppel, whose RBG values are (58, 176, 158), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Keppel, whose RBG values are (58, 176, 158), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) keppelColor;
 
 /*!
- * Returns a color object representing the color Keppel, whose RBG values are (58, 176, 158), and has the specified opacity.
+ * Returns a UIColor object representing the color Keppel, whose RBG values are (58, 176, 158), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9083,14 +9100,14 @@
 
 
 /*!
- * Returns a color object representing the color Khaki, whose RBG values are (189, 183, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Khaki, whose RBG values are (189, 183, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) khakiColor;
 
 /*!
- * Returns a color object representing the color Khaki, whose RBG values are (189, 183, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Khaki, whose RBG values are (189, 183, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9099,14 +9116,14 @@
 
 
 /*!
- * Returns a color object representing the color Khaki (X11) (Light Khaki), whose RBG values are (240, 230, 140), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Khaki (X11) (Light Khaki), whose RBG values are (240, 230, 140), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) khakiX11LightKhakiColor;
 
 /*!
- * Returns a color object representing the color Khaki (X11) (Light Khaki), whose RBG values are (240, 230, 140), and has the specified opacity.
+ * Returns a UIColor object representing the color Khaki (X11) (Light Khaki), whose RBG values are (240, 230, 140), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9115,14 +9132,14 @@
 
 
 /*!
- * Returns a color object representing the color Kobe, whose RBG values are (136, 45, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Kobe, whose RBG values are (136, 45, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) kobeColor;
 
 /*!
- * Returns a color object representing the color Kobe, whose RBG values are (136, 45, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Kobe, whose RBG values are (136, 45, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9131,14 +9148,14 @@
 
 
 /*!
- * Returns a color object representing the color Kobi, whose RBG values are (231, 159, 196), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Kobi, whose RBG values are (231, 159, 196), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) kobiColor;
 
 /*!
- * Returns a color object representing the color Kobi, whose RBG values are (231, 159, 196), and has the specified opacity.
+ * Returns a UIColor object representing the color Kobi, whose RBG values are (231, 159, 196), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9147,14 +9164,14 @@
 
 
 /*!
- * Returns a color object representing the color Kombu Green, whose RBG values are (53, 66, 48), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Kombu Green, whose RBG values are (53, 66, 48), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) kombuGreenColor;
 
 /*!
- * Returns a color object representing the color Kombu Green, whose RBG values are (53, 66, 48), and has the specified opacity.
+ * Returns a UIColor object representing the color Kombu Green, whose RBG values are (53, 66, 48), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9163,14 +9180,14 @@
 
 
 /*!
- * Returns a color object representing the color La Salle Green, whose RBG values are (8, 120, 48), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color La Salle Green, whose RBG values are (8, 120, 48), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) laSalleGreenColor;
 
 /*!
- * Returns a color object representing the color La Salle Green, whose RBG values are (8, 120, 48), and has the specified opacity.
+ * Returns a UIColor object representing the color La Salle Green, whose RBG values are (8, 120, 48), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9179,14 +9196,14 @@
 
 
 /*!
- * Returns a color object representing the color Languid Lavender, whose RBG values are (214, 202, 221), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Languid Lavender, whose RBG values are (214, 202, 221), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) languidLavenderColor;
 
 /*!
- * Returns a color object representing the color Languid Lavender, whose RBG values are (214, 202, 221), and has the specified opacity.
+ * Returns a UIColor object representing the color Languid Lavender, whose RBG values are (214, 202, 221), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9195,14 +9212,14 @@
 
 
 /*!
- * Returns a color object representing the color Lapis Lazuli, whose RBG values are (38, 97, 156), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lapis Lazuli, whose RBG values are (38, 97, 156), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lapisLazuliColor;
 
 /*!
- * Returns a color object representing the color Lapis Lazuli, whose RBG values are (38, 97, 156), and has the specified opacity.
+ * Returns a UIColor object representing the color Lapis Lazuli, whose RBG values are (38, 97, 156), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9211,14 +9228,14 @@
 
 
 /*!
- * Returns a color object representing the color Laser Lemon (Crayola), whose RBG values are (254, 254, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Laser Lemon (Crayola), whose RBG values are (254, 254, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) laserLemonCrayolaColor;
 
 /*!
- * Returns a color object representing the color Laser Lemon (Crayola), whose RBG values are (254, 254, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Laser Lemon (Crayola), whose RBG values are (254, 254, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9227,14 +9244,14 @@
 
 
 /*!
- * Returns a color object representing the color Laurel Green, whose RBG values are (169, 186, 157), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Laurel Green, whose RBG values are (169, 186, 157), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) laurelGreenColor;
 
 /*!
- * Returns a color object representing the color Laurel Green, whose RBG values are (169, 186, 157), and has the specified opacity.
+ * Returns a UIColor object representing the color Laurel Green, whose RBG values are (169, 186, 157), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9243,14 +9260,14 @@
 
 
 /*!
- * Returns a color object representing the color Lava, whose RBG values are (207, 16, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lava, whose RBG values are (207, 16, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavaColor;
 
 /*!
- * Returns a color object representing the color Lava, whose RBG values are (207, 16, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Lava, whose RBG values are (207, 16, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9259,14 +9276,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender (Crayola), whose RBG values are (252, 180, 213), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender (Crayola), whose RBG values are (252, 180, 213), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderCrayolaColor;
 
 /*!
- * Returns a color object representing the color Lavender (Crayola), whose RBG values are (252, 180, 213), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender (Crayola), whose RBG values are (252, 180, 213), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9275,14 +9292,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender (Floral), whose RBG values are (181, 126, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender (Floral), whose RBG values are (181, 126, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderFloralColor;
 
 /*!
- * Returns a color object representing the color Lavender (Floral), whose RBG values are (181, 126, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender (Floral), whose RBG values are (181, 126, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9291,14 +9308,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender (Web), whose RBG values are (230, 230, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender (Web), whose RBG values are (230, 230, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderWebColor;
 
 /*!
- * Returns a color object representing the color Lavender (Web), whose RBG values are (230, 230, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender (Web), whose RBG values are (230, 230, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9307,14 +9324,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Blue, whose RBG values are (204, 204, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Blue, whose RBG values are (204, 204, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderBlueColor;
 
 /*!
- * Returns a color object representing the color Lavender Blue, whose RBG values are (204, 204, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Blue, whose RBG values are (204, 204, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9323,14 +9340,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Blush, whose RBG values are (255, 240, 245), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Blush, whose RBG values are (255, 240, 245), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderBlushColor;
 
 /*!
- * Returns a color object representing the color Lavender Blush, whose RBG values are (255, 240, 245), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Blush, whose RBG values are (255, 240, 245), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9339,14 +9356,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Gray, whose RBG values are (196, 195, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Gray, whose RBG values are (196, 195, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderGrayColor;
 
 /*!
- * Returns a color object representing the color Lavender Gray, whose RBG values are (196, 195, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Gray, whose RBG values are (196, 195, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9355,14 +9372,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Indigo, whose RBG values are (148, 87, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Indigo, whose RBG values are (148, 87, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderIndigoColor;
 
 /*!
- * Returns a color object representing the color Lavender Indigo, whose RBG values are (148, 87, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Indigo, whose RBG values are (148, 87, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9371,14 +9388,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Magenta, whose RBG values are (238, 130, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Magenta, whose RBG values are (238, 130, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderMagentaColor;
 
 /*!
- * Returns a color object representing the color Lavender Magenta, whose RBG values are (238, 130, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Magenta, whose RBG values are (238, 130, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9387,14 +9404,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Mist, whose RBG values are (230, 230, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Mist, whose RBG values are (230, 230, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderMistColor;
 
 /*!
- * Returns a color object representing the color Lavender Mist, whose RBG values are (230, 230, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Mist, whose RBG values are (230, 230, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9403,14 +9420,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Pink, whose RBG values are (251, 174, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Pink, whose RBG values are (251, 174, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderPinkColor;
 
 /*!
- * Returns a color object representing the color Lavender Pink, whose RBG values are (251, 174, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Pink, whose RBG values are (251, 174, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9419,14 +9436,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Purple, whose RBG values are (150, 123, 182), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Purple, whose RBG values are (150, 123, 182), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderPurpleColor;
 
 /*!
- * Returns a color object representing the color Lavender Purple, whose RBG values are (150, 123, 182), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Purple, whose RBG values are (150, 123, 182), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9435,14 +9452,14 @@
 
 
 /*!
- * Returns a color object representing the color Lavender Rose, whose RBG values are (251, 160, 227), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lavender Rose, whose RBG values are (251, 160, 227), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lavenderRoseColor;
 
 /*!
- * Returns a color object representing the color Lavender Rose, whose RBG values are (251, 160, 227), and has the specified opacity.
+ * Returns a UIColor object representing the color Lavender Rose, whose RBG values are (251, 160, 227), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9451,14 +9468,14 @@
 
 
 /*!
- * Returns a color object representing the color Lawn Green, whose RBG values are (124, 252, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lawn Green, whose RBG values are (124, 252, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lawnGreenColor;
 
 /*!
- * Returns a color object representing the color Lawn Green, whose RBG values are (124, 252, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Lawn Green, whose RBG values are (124, 252, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9467,14 +9484,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon, whose RBG values are (255, 247, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon, whose RBG values are (255, 247, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonColor;
 
 /*!
- * Returns a color object representing the color Lemon, whose RBG values are (255, 247, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon, whose RBG values are (255, 247, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9483,14 +9500,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon Yellow (Crayola), whose RBG values are (255, 244, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon Yellow (Crayola), whose RBG values are (255, 244, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonYellowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Lemon Yellow (Crayola), whose RBG values are (255, 244, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon Yellow (Crayola), whose RBG values are (255, 244, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9499,14 +9516,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon Chiffon, whose RBG values are (255, 250, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon Chiffon, whose RBG values are (255, 250, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonChiffonColor;
 
 /*!
- * Returns a color object representing the color Lemon Chiffon, whose RBG values are (255, 250, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon Chiffon, whose RBG values are (255, 250, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9515,14 +9532,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon Curry, whose RBG values are (204, 160, 29), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon Curry, whose RBG values are (204, 160, 29), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonCurryColor;
 
 /*!
- * Returns a color object representing the color Lemon Curry, whose RBG values are (204, 160, 29), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon Curry, whose RBG values are (204, 160, 29), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9531,14 +9548,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon Glacier, whose RBG values are (253, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon Glacier, whose RBG values are (253, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonGlacierColor;
 
 /*!
- * Returns a color object representing the color Lemon Glacier, whose RBG values are (253, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon Glacier, whose RBG values are (253, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9547,14 +9564,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon Lime, whose RBG values are (227, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon Lime, whose RBG values are (227, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonLimeColor;
 
 /*!
- * Returns a color object representing the color Lemon Lime, whose RBG values are (227, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon Lime, whose RBG values are (227, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9563,14 +9580,14 @@
 
 
 /*!
- * Returns a color object representing the color Lemon Meringue, whose RBG values are (246, 234, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lemon Meringue, whose RBG values are (246, 234, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lemonMeringueColor;
 
 /*!
- * Returns a color object representing the color Lemon Meringue, whose RBG values are (246, 234, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Lemon Meringue, whose RBG values are (246, 234, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9579,14 +9596,14 @@
 
 
 /*!
- * Returns a color object representing the color Lenurple, whose RBG values are (186, 147, 216), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lenurple, whose RBG values are (186, 147, 216), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lenurpleColor;
 
 /*!
- * Returns a color object representing the color Lenurple, whose RBG values are (186, 147, 216), and has the specified opacity.
+ * Returns a UIColor object representing the color Lenurple, whose RBG values are (186, 147, 216), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9595,14 +9612,14 @@
 
 
 /*!
- * Returns a color object representing the color Liberty, whose RBG values are (84, 90, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Liberty, whose RBG values are (84, 90, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) libertyColor;
 
 /*!
- * Returns a color object representing the color Liberty, whose RBG values are (84, 90, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color Liberty, whose RBG values are (84, 90, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9611,14 +9628,14 @@
 
 
 /*!
- * Returns a color object representing the color Licorice, whose RBG values are (26, 17, 16), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Licorice, whose RBG values are (26, 17, 16), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) licoriceColor;
 
 /*!
- * Returns a color object representing the color Licorice, whose RBG values are (26, 17, 16), and has the specified opacity.
+ * Returns a UIColor object representing the color Licorice, whose RBG values are (26, 17, 16), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9627,14 +9644,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Blue (Crayola), whose RBG values are (173, 216, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Blue (Crayola), whose RBG values are (173, 216, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Light Blue (Crayola), whose RBG values are (173, 216, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Blue (Crayola), whose RBG values are (173, 216, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9643,14 +9660,14 @@
 
 
 /*!
- * Returns a color object representing the color Light French Beige, whose RBG values are (200, 173, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light French Beige, whose RBG values are (200, 173, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightFrenchBeigeColor;
 
 /*!
- * Returns a color object representing the color Light French Beige, whose RBG values are (200, 173, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Light French Beige, whose RBG values are (200, 173, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9659,14 +9676,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Thulian Pink, whose RBG values are (230, 143, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Thulian Pink, whose RBG values are (230, 143, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightThulianPinkColor;
 
 /*!
- * Returns a color object representing the color Light Thulian Pink, whose RBG values are (230, 143, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Thulian Pink, whose RBG values are (230, 143, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9675,14 +9692,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Apricot, whose RBG values are (253, 213, 177), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Apricot, whose RBG values are (253, 213, 177), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightApricotColor;
 
 /*!
- * Returns a color object representing the color Light Apricot, whose RBG values are (253, 213, 177), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Apricot, whose RBG values are (253, 213, 177), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9691,14 +9708,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Blue, whose RBG values are (173, 216, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Blue, whose RBG values are (173, 216, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightBlueColor;
 
 /*!
- * Returns a color object representing the color Light Blue, whose RBG values are (173, 216, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Blue, whose RBG values are (173, 216, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9707,14 +9724,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Brilliant Red, whose RBG values are (254, 46, 46), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Brilliant Red, whose RBG values are (254, 46, 46), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightBrilliantRedColor;
 
 /*!
- * Returns a color object representing the color Light Brilliant Red, whose RBG values are (254, 46, 46), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Brilliant Red, whose RBG values are (254, 46, 46), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9723,14 +9740,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Brown, whose RBG values are (181, 101, 29), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Brown, whose RBG values are (181, 101, 29), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightBrownColor;
 
 /*!
- * Returns a color object representing the color Light Brown, whose RBG values are (181, 101, 29), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Brown, whose RBG values are (181, 101, 29), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9739,14 +9756,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Carmine Pink, whose RBG values are (230, 103, 113), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Carmine Pink, whose RBG values are (230, 103, 113), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightCarminePinkColor;
 
 /*!
- * Returns a color object representing the color Light Carmine Pink, whose RBG values are (230, 103, 113), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Carmine Pink, whose RBG values are (230, 103, 113), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9755,14 +9772,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Cobalt Blue, whose RBG values are (136, 172, 224), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Cobalt Blue, whose RBG values are (136, 172, 224), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightCobaltBlueColor;
 
 /*!
- * Returns a color object representing the color Light Cobalt Blue, whose RBG values are (136, 172, 224), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Cobalt Blue, whose RBG values are (136, 172, 224), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9771,14 +9788,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Coral, whose RBG values are (240, 128, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Coral, whose RBG values are (240, 128, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightCoralColor;
 
 /*!
- * Returns a color object representing the color Light Coral, whose RBG values are (240, 128, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Coral, whose RBG values are (240, 128, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9787,14 +9804,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Cornflower Blue, whose RBG values are (147, 204, 234), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Cornflower Blue, whose RBG values are (147, 204, 234), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightCornflowerBlueColor;
 
 /*!
- * Returns a color object representing the color Light Cornflower Blue, whose RBG values are (147, 204, 234), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Cornflower Blue, whose RBG values are (147, 204, 234), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9803,14 +9820,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Crimson, whose RBG values are (245, 105, 145), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Crimson, whose RBG values are (245, 105, 145), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightCrimsonColor;
 
 /*!
- * Returns a color object representing the color Light Crimson, whose RBG values are (245, 105, 145), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Crimson, whose RBG values are (245, 105, 145), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9819,14 +9836,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Cyan, whose RBG values are (224, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Cyan, whose RBG values are (224, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightCyanColor;
 
 /*!
- * Returns a color object representing the color Light Cyan, whose RBG values are (224, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Cyan, whose RBG values are (224, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9835,14 +9852,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Deep Pink, whose RBG values are (255, 92, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Deep Pink, whose RBG values are (255, 92, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightDeepPinkColor;
 
 /*!
- * Returns a color object representing the color Light Deep Pink, whose RBG values are (255, 92, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Deep Pink, whose RBG values are (255, 92, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9851,14 +9868,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Fuchsia Pink, whose RBG values are (249, 132, 239), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Fuchsia Pink, whose RBG values are (249, 132, 239), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightFuchsiaPinkColor;
 
 /*!
- * Returns a color object representing the color Light Fuchsia Pink, whose RBG values are (249, 132, 239), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Fuchsia Pink, whose RBG values are (249, 132, 239), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9867,14 +9884,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Goldenrod Yellow, whose RBG values are (250, 250, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Goldenrod Yellow, whose RBG values are (250, 250, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightGoldenrodYellowColor;
 
 /*!
- * Returns a color object representing the color Light Goldenrod Yellow, whose RBG values are (250, 250, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Goldenrod Yellow, whose RBG values are (250, 250, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9883,14 +9900,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Gray (Alternate), whose RBG values are (211, 211, 211), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Gray (Alternate), whose RBG values are (211, 211, 211), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightGrayAlternateColor;
 
 /*!
- * Returns a color object representing the color Light Gray (Alternate), whose RBG values are (211, 211, 211), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Gray (Alternate), whose RBG values are (211, 211, 211), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9899,14 +9916,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Grayish Magenta, whose RBG values are (204, 153, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Grayish Magenta, whose RBG values are (204, 153, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightGrayishMagentaColor;
 
 /*!
- * Returns a color object representing the color Light Grayish Magenta, whose RBG values are (204, 153, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Grayish Magenta, whose RBG values are (204, 153, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9915,14 +9932,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Green, whose RBG values are (144, 238, 144), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Green, whose RBG values are (144, 238, 144), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightGreenColor;
 
 /*!
- * Returns a color object representing the color Light Green, whose RBG values are (144, 238, 144), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Green, whose RBG values are (144, 238, 144), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9931,14 +9948,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Hot Pink, whose RBG values are (255, 179, 222), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Hot Pink, whose RBG values are (255, 179, 222), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightHotPinkColor;
 
 /*!
- * Returns a color object representing the color Light Hot Pink, whose RBG values are (255, 179, 222), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Hot Pink, whose RBG values are (255, 179, 222), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9947,14 +9964,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Khaki, whose RBG values are (240, 230, 140), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Khaki, whose RBG values are (240, 230, 140), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightKhakiColor;
 
 /*!
- * Returns a color object representing the color Light Khaki, whose RBG values are (240, 230, 140), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Khaki, whose RBG values are (240, 230, 140), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9963,14 +9980,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Medium Orchid, whose RBG values are (211, 155, 203), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Medium Orchid, whose RBG values are (211, 155, 203), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightMediumOrchidColor;
 
 /*!
- * Returns a color object representing the color Light Medium Orchid, whose RBG values are (211, 155, 203), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Medium Orchid, whose RBG values are (211, 155, 203), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9979,14 +9996,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Moss Green, whose RBG values are (173, 223, 173), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Moss Green, whose RBG values are (173, 223, 173), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightMossGreenColor;
 
 /*!
- * Returns a color object representing the color Light Moss Green, whose RBG values are (173, 223, 173), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Moss Green, whose RBG values are (173, 223, 173), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -9995,14 +10012,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Orchid, whose RBG values are (230, 168, 215), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Orchid, whose RBG values are (230, 168, 215), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightOrchidColor;
 
 /*!
- * Returns a color object representing the color Light Orchid, whose RBG values are (230, 168, 215), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Orchid, whose RBG values are (230, 168, 215), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10011,14 +10028,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Pastel Purple, whose RBG values are (177, 156, 217), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Pastel Purple, whose RBG values are (177, 156, 217), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightPastelPurpleColor;
 
 /*!
- * Returns a color object representing the color Light Pastel Purple, whose RBG values are (177, 156, 217), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Pastel Purple, whose RBG values are (177, 156, 217), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10027,14 +10044,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Pink, whose RBG values are (255, 182, 193), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Pink, whose RBG values are (255, 182, 193), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightPinkColor;
 
 /*!
- * Returns a color object representing the color Light Pink, whose RBG values are (255, 182, 193), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Pink, whose RBG values are (255, 182, 193), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10043,14 +10060,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Red Ochre, whose RBG values are (233, 116, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Red Ochre, whose RBG values are (233, 116, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightRedOchreColor;
 
 /*!
- * Returns a color object representing the color Light Red Ochre, whose RBG values are (233, 116, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Red Ochre, whose RBG values are (233, 116, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10059,14 +10076,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Salmon, whose RBG values are (255, 160, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Salmon, whose RBG values are (255, 160, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightSalmonColor;
 
 /*!
- * Returns a color object representing the color Light Salmon, whose RBG values are (255, 160, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Salmon, whose RBG values are (255, 160, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10075,14 +10092,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Salmon Pink, whose RBG values are (255, 153, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Salmon Pink, whose RBG values are (255, 153, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightSalmonPinkColor;
 
 /*!
- * Returns a color object representing the color Light Salmon Pink, whose RBG values are (255, 153, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Salmon Pink, whose RBG values are (255, 153, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10091,14 +10108,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Sea Green, whose RBG values are (32, 178, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Sea Green, whose RBG values are (32, 178, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightSeaGreenColor;
 
 /*!
- * Returns a color object representing the color Light Sea Green, whose RBG values are (32, 178, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Sea Green, whose RBG values are (32, 178, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10107,14 +10124,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Sky Blue, whose RBG values are (135, 206, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Sky Blue, whose RBG values are (135, 206, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Light Sky Blue, whose RBG values are (135, 206, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Sky Blue, whose RBG values are (135, 206, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10123,14 +10140,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Slate Gray, whose RBG values are (119, 136, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Slate Gray, whose RBG values are (119, 136, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightSlateGrayColor;
 
 /*!
- * Returns a color object representing the color Light Slate Gray, whose RBG values are (119, 136, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Slate Gray, whose RBG values are (119, 136, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10139,14 +10156,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Steel Blue, whose RBG values are (176, 196, 222), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Steel Blue, whose RBG values are (176, 196, 222), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightSteelBlueColor;
 
 /*!
- * Returns a color object representing the color Light Steel Blue, whose RBG values are (176, 196, 222), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Steel Blue, whose RBG values are (176, 196, 222), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10155,14 +10172,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Taupe, whose RBG values are (179, 139, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Taupe, whose RBG values are (179, 139, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightTaupeColor;
 
 /*!
- * Returns a color object representing the color Light Taupe, whose RBG values are (179, 139, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Taupe, whose RBG values are (179, 139, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10171,14 +10188,14 @@
 
 
 /*!
- * Returns a color object representing the color Light Yellow, whose RBG values are (255, 255, 224), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Light Yellow, whose RBG values are (255, 255, 224), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lightYellowColor;
 
 /*!
- * Returns a color object representing the color Light Yellow, whose RBG values are (255, 255, 224), and has the specified opacity.
+ * Returns a UIColor object representing the color Light Yellow, whose RBG values are (255, 255, 224), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10187,14 +10204,14 @@
 
 
 /*!
- * Returns a color object representing the color Lilac, whose RBG values are (200, 162, 200), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lilac, whose RBG values are (200, 162, 200), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lilacColor;
 
 /*!
- * Returns a color object representing the color Lilac, whose RBG values are (200, 162, 200), and has the specified opacity.
+ * Returns a UIColor object representing the color Lilac, whose RBG values are (200, 162, 200), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10203,14 +10220,14 @@
 
 
 /*!
- * Returns a color object representing the color Lime (Color Wheel), whose RBG values are (191, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lime (Color Wheel), whose RBG values are (191, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) limeColorWheelColor;
 
 /*!
- * Returns a color object representing the color Lime (Color Wheel), whose RBG values are (191, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Lime (Color Wheel), whose RBG values are (191, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10219,14 +10236,14 @@
 
 
 /*!
- * Returns a color object representing the color Lime (Web) (X11 Green), whose RBG values are (0, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lime (Web) (X11 Green), whose RBG values are (0, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) limeWebX11GreenColor;
 
 /*!
- * Returns a color object representing the color Lime (Web) (X11 Green), whose RBG values are (0, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Lime (Web) (X11 Green), whose RBG values are (0, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10235,14 +10252,14 @@
 
 
 /*!
- * Returns a color object representing the color Lime Green, whose RBG values are (50, 205, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lime Green, whose RBG values are (50, 205, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) limeGreenColor;
 
 /*!
- * Returns a color object representing the color Lime Green, whose RBG values are (50, 205, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Lime Green, whose RBG values are (50, 205, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10251,14 +10268,14 @@
 
 
 /*!
- * Returns a color object representing the color Limerick, whose RBG values are (157, 194, 9), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Limerick, whose RBG values are (157, 194, 9), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) limerickColor;
 
 /*!
- * Returns a color object representing the color Limerick, whose RBG values are (157, 194, 9), and has the specified opacity.
+ * Returns a UIColor object representing the color Limerick, whose RBG values are (157, 194, 9), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10267,14 +10284,14 @@
 
 
 /*!
- * Returns a color object representing the color Lincoln Green, whose RBG values are (25, 89, 5), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lincoln Green, whose RBG values are (25, 89, 5), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lincolnGreenColor;
 
 /*!
- * Returns a color object representing the color Lincoln Green, whose RBG values are (25, 89, 5), and has the specified opacity.
+ * Returns a UIColor object representing the color Lincoln Green, whose RBG values are (25, 89, 5), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10283,14 +10300,14 @@
 
 
 /*!
- * Returns a color object representing the color Linen, whose RBG values are (250, 240, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Linen, whose RBG values are (250, 240, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) linenColor;
 
 /*!
- * Returns a color object representing the color Linen, whose RBG values are (250, 240, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Linen, whose RBG values are (250, 240, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10299,14 +10316,14 @@
 
 
 /*!
- * Returns a color object representing the color Lion, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lion, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lionColor;
 
 /*!
- * Returns a color object representing the color Lion, whose RBG values are (193, 154, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Lion, whose RBG values are (193, 154, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10315,14 +10332,14 @@
 
 
 /*!
- * Returns a color object representing the color Liseran Purple, whose RBG values are (222, 111, 161), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Liseran Purple, whose RBG values are (222, 111, 161), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) liseranPurpleColor;
 
 /*!
- * Returns a color object representing the color Liseran Purple, whose RBG values are (222, 111, 161), and has the specified opacity.
+ * Returns a UIColor object representing the color Liseran Purple, whose RBG values are (222, 111, 161), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10331,14 +10348,14 @@
 
 
 /*!
- * Returns a color object representing the color Little Boy Blue, whose RBG values are (108, 160, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Little Boy Blue, whose RBG values are (108, 160, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) littleBoyBlueColor;
 
 /*!
- * Returns a color object representing the color Little Boy Blue, whose RBG values are (108, 160, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Little Boy Blue, whose RBG values are (108, 160, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10347,14 +10364,14 @@
 
 
 /*!
- * Returns a color object representing the color Liver, whose RBG values are (103, 76, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Liver, whose RBG values are (103, 76, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) liverColor;
 
 /*!
- * Returns a color object representing the color Liver, whose RBG values are (103, 76, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Liver, whose RBG values are (103, 76, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10363,14 +10380,14 @@
 
 
 /*!
- * Returns a color object representing the color Liver (Dogs), whose RBG values are (184, 109, 41), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Liver (Dogs), whose RBG values are (184, 109, 41), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) liverDogsColor;
 
 /*!
- * Returns a color object representing the color Liver (Dogs), whose RBG values are (184, 109, 41), and has the specified opacity.
+ * Returns a UIColor object representing the color Liver (Dogs), whose RBG values are (184, 109, 41), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10379,14 +10396,14 @@
 
 
 /*!
- * Returns a color object representing the color Liver (Organ), whose RBG values are (108, 46, 31), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Liver (Organ), whose RBG values are (108, 46, 31), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) liverOrganColor;
 
 /*!
- * Returns a color object representing the color Liver (Organ), whose RBG values are (108, 46, 31), and has the specified opacity.
+ * Returns a UIColor object representing the color Liver (Organ), whose RBG values are (108, 46, 31), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10395,14 +10412,14 @@
 
 
 /*!
- * Returns a color object representing the color Liver Chestnut, whose RBG values are (152, 116, 86), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Liver Chestnut, whose RBG values are (152, 116, 86), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) liverChestnutColor;
 
 /*!
- * Returns a color object representing the color Liver Chestnut, whose RBG values are (152, 116, 86), and has the specified opacity.
+ * Returns a UIColor object representing the color Liver Chestnut, whose RBG values are (152, 116, 86), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10411,14 +10428,14 @@
 
 
 /*!
- * Returns a color object representing the color Livid, whose RBG values are (102, 153, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Livid, whose RBG values are (102, 153, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lividColor;
 
 /*!
- * Returns a color object representing the color Livid, whose RBG values are (102, 153, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Livid, whose RBG values are (102, 153, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10427,14 +10444,14 @@
 
 
 /*!
- * Returns a color object representing the color Lumber, whose RBG values are (255, 228, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lumber, whose RBG values are (255, 228, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lumberColor;
 
 /*!
- * Returns a color object representing the color Lumber, whose RBG values are (255, 228, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Lumber, whose RBG values are (255, 228, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10443,14 +10460,14 @@
 
 
 /*!
- * Returns a color object representing the color Lust, whose RBG values are (230, 32, 32), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Lust, whose RBG values are (230, 32, 32), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) lustColor;
 
 /*!
- * Returns a color object representing the color Lust, whose RBG values are (230, 32, 32), and has the specified opacity.
+ * Returns a UIColor object representing the color Lust, whose RBG values are (230, 32, 32), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10459,14 +10476,14 @@
 
 
 /*!
- * Returns a color object representing the color MSU Green, whose RBG values are (24, 69, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color MSU Green, whose RBG values are (24, 69, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mSUGreenColor;
 
 /*!
- * Returns a color object representing the color MSU Green, whose RBG values are (24, 69, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color MSU Green, whose RBG values are (24, 69, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10475,14 +10492,14 @@
 
 
 /*!
- * Returns a color object representing the color Macaroni And Cheese (Crayola), whose RBG values are (255, 189, 136), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Macaroni And Cheese (Crayola), whose RBG values are (255, 189, 136), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) macaroniAndCheeseCrayolaColor;
 
 /*!
- * Returns a color object representing the color Macaroni And Cheese (Crayola), whose RBG values are (255, 189, 136), and has the specified opacity.
+ * Returns a UIColor object representing the color Macaroni And Cheese (Crayola), whose RBG values are (255, 189, 136), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10491,14 +10508,14 @@
 
 
 /*!
- * Returns a color object representing the color Magenta (Crayola), whose RBG values are (246, 100, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magenta (Crayola), whose RBG values are (246, 100, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magentaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Magenta (Crayola), whose RBG values are (246, 100, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Magenta (Crayola), whose RBG values are (246, 100, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10507,14 +10524,14 @@
 
 
 /*!
- * Returns a color object representing the color Magenta (Dye), whose RBG values are (202, 31, 123), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magenta (Dye), whose RBG values are (202, 31, 123), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magentaDyeColor;
 
 /*!
- * Returns a color object representing the color Magenta (Dye), whose RBG values are (202, 31, 123), and has the specified opacity.
+ * Returns a UIColor object representing the color Magenta (Dye), whose RBG values are (202, 31, 123), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10523,14 +10540,14 @@
 
 
 /*!
- * Returns a color object representing the color Magenta (Pantone), whose RBG values are (208, 65, 126), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magenta (Pantone), whose RBG values are (208, 65, 126), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magentaPantoneColor;
 
 /*!
- * Returns a color object representing the color Magenta (Pantone), whose RBG values are (208, 65, 126), and has the specified opacity.
+ * Returns a UIColor object representing the color Magenta (Pantone), whose RBG values are (208, 65, 126), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10539,14 +10556,14 @@
 
 
 /*!
- * Returns a color object representing the color Magenta (Process), whose RBG values are (255, 0, 144), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magenta (Process), whose RBG values are (255, 0, 144), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magentaProcessColor;
 
 /*!
- * Returns a color object representing the color Magenta (Process), whose RBG values are (255, 0, 144), and has the specified opacity.
+ * Returns a UIColor object representing the color Magenta (Process), whose RBG values are (255, 0, 144), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10555,14 +10572,14 @@
 
 
 /*!
- * Returns a color object representing the color Magenta Haze, whose RBG values are (159, 69, 118), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magenta Haze, whose RBG values are (159, 69, 118), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magentaHazeColor;
 
 /*!
- * Returns a color object representing the color Magenta Haze, whose RBG values are (159, 69, 118), and has the specified opacity.
+ * Returns a UIColor object representing the color Magenta Haze, whose RBG values are (159, 69, 118), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10571,14 +10588,14 @@
 
 
 /*!
- * Returns a color object representing the color Magenta-Pink, whose RBG values are (204, 51, 139), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magenta-Pink, whose RBG values are (204, 51, 139), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magentaPinkColor;
 
 /*!
- * Returns a color object representing the color Magenta-Pink, whose RBG values are (204, 51, 139), and has the specified opacity.
+ * Returns a UIColor object representing the color Magenta-Pink, whose RBG values are (204, 51, 139), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10587,14 +10604,14 @@
 
 
 /*!
- * Returns a color object representing the color Magic Mint (Crayola), whose RBG values are (170, 240, 209), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magic Mint (Crayola), whose RBG values are (170, 240, 209), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magicMintCrayolaColor;
 
 /*!
- * Returns a color object representing the color Magic Mint (Crayola), whose RBG values are (170, 240, 209), and has the specified opacity.
+ * Returns a UIColor object representing the color Magic Mint (Crayola), whose RBG values are (170, 240, 209), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10603,14 +10620,14 @@
 
 
 /*!
- * Returns a color object representing the color Magnolia, whose RBG values are (248, 244, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Magnolia, whose RBG values are (248, 244, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) magnoliaColor;
 
 /*!
- * Returns a color object representing the color Magnolia, whose RBG values are (248, 244, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Magnolia, whose RBG values are (248, 244, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10619,14 +10636,14 @@
 
 
 /*!
- * Returns a color object representing the color Mahogany, whose RBG values are (192, 64, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mahogany, whose RBG values are (192, 64, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mahoganyColor;
 
 /*!
- * Returns a color object representing the color Mahogany, whose RBG values are (192, 64, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Mahogany, whose RBG values are (192, 64, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10635,14 +10652,14 @@
 
 
 /*!
- * Returns a color object representing the color Mahogany (Crayola), whose RBG values are (205, 74, 76), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mahogany (Crayola), whose RBG values are (205, 74, 76), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mahoganyCrayolaColor;
 
 /*!
- * Returns a color object representing the color Mahogany (Crayola), whose RBG values are (205, 74, 76), and has the specified opacity.
+ * Returns a UIColor object representing the color Mahogany (Crayola), whose RBG values are (205, 74, 76), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10651,14 +10668,14 @@
 
 
 /*!
- * Returns a color object representing the color Maize, whose RBG values are (251, 236, 93), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Maize, whose RBG values are (251, 236, 93), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) maizeColor;
 
 /*!
- * Returns a color object representing the color Maize, whose RBG values are (251, 236, 93), and has the specified opacity.
+ * Returns a UIColor object representing the color Maize, whose RBG values are (251, 236, 93), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10667,14 +10684,14 @@
 
 
 /*!
- * Returns a color object representing the color Maize (Crayola), whose RBG values are (237, 209, 156), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Maize (Crayola), whose RBG values are (237, 209, 156), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) maizeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Maize (Crayola), whose RBG values are (237, 209, 156), and has the specified opacity.
+ * Returns a UIColor object representing the color Maize (Crayola), whose RBG values are (237, 209, 156), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10683,14 +10700,14 @@
 
 
 /*!
- * Returns a color object representing the color Majorelle Blue, whose RBG values are (96, 80, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Majorelle Blue, whose RBG values are (96, 80, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) majorelleBlueColor;
 
 /*!
- * Returns a color object representing the color Majorelle Blue, whose RBG values are (96, 80, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Majorelle Blue, whose RBG values are (96, 80, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10699,14 +10716,14 @@
 
 
 /*!
- * Returns a color object representing the color Malachite, whose RBG values are (11, 218, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Malachite, whose RBG values are (11, 218, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) malachiteColor;
 
 /*!
- * Returns a color object representing the color Malachite, whose RBG values are (11, 218, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Malachite, whose RBG values are (11, 218, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10715,14 +10732,14 @@
 
 
 /*!
- * Returns a color object representing the color Manatee (Crayola), whose RBG values are (151, 154, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Manatee (Crayola), whose RBG values are (151, 154, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) manateeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Manatee (Crayola), whose RBG values are (151, 154, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color Manatee (Crayola), whose RBG values are (151, 154, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10731,14 +10748,14 @@
 
 
 /*!
- * Returns a color object representing the color Mango Tango (Crayola), whose RBG values are (255, 130, 67), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mango Tango (Crayola), whose RBG values are (255, 130, 67), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mangoTangoCrayolaColor;
 
 /*!
- * Returns a color object representing the color Mango Tango (Crayola), whose RBG values are (255, 130, 67), and has the specified opacity.
+ * Returns a UIColor object representing the color Mango Tango (Crayola), whose RBG values are (255, 130, 67), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10747,14 +10764,14 @@
 
 
 /*!
- * Returns a color object representing the color Mantis, whose RBG values are (116, 195, 101), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mantis, whose RBG values are (116, 195, 101), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mantisColor;
 
 /*!
- * Returns a color object representing the color Mantis, whose RBG values are (116, 195, 101), and has the specified opacity.
+ * Returns a UIColor object representing the color Mantis, whose RBG values are (116, 195, 101), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10763,14 +10780,14 @@
 
 
 /*!
- * Returns a color object representing the color Mardi Gras, whose RBG values are (136, 0, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mardi Gras, whose RBG values are (136, 0, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mardiGrasColor;
 
 /*!
- * Returns a color object representing the color Mardi Gras, whose RBG values are (136, 0, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Mardi Gras, whose RBG values are (136, 0, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10779,14 +10796,14 @@
 
 
 /*!
- * Returns a color object representing the color Marigold, whose RBG values are (234, 162, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Marigold, whose RBG values are (234, 162, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) marigoldColor;
 
 /*!
- * Returns a color object representing the color Marigold, whose RBG values are (234, 162, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Marigold, whose RBG values are (234, 162, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10795,14 +10812,14 @@
 
 
 /*!
- * Returns a color object representing the color Maroon (Crayola), whose RBG values are (200, 56, 90), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Maroon (Crayola), whose RBG values are (200, 56, 90), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) maroonCrayolaColor;
 
 /*!
- * Returns a color object representing the color Maroon (Crayola), whose RBG values are (200, 56, 90), and has the specified opacity.
+ * Returns a UIColor object representing the color Maroon (Crayola), whose RBG values are (200, 56, 90), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10811,14 +10828,14 @@
 
 
 /*!
- * Returns a color object representing the color Maroon (HTML/CSS), whose RBG values are (128, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Maroon (HTML/CSS), whose RBG values are (128, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) maroonHTMLCSSColor;
 
 /*!
- * Returns a color object representing the color Maroon (HTML/CSS), whose RBG values are (128, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Maroon (HTML/CSS), whose RBG values are (128, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10827,14 +10844,14 @@
 
 
 /*!
- * Returns a color object representing the color Maroon (X11), whose RBG values are (176, 48, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Maroon (X11), whose RBG values are (176, 48, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) maroonX11Color;
 
 /*!
- * Returns a color object representing the color Maroon (X11), whose RBG values are (176, 48, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Maroon (X11), whose RBG values are (176, 48, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10843,14 +10860,14 @@
 
 
 /*!
- * Returns a color object representing the color Mauve, whose RBG values are (224, 176, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mauve, whose RBG values are (224, 176, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mauveColor;
 
 /*!
- * Returns a color object representing the color Mauve, whose RBG values are (224, 176, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Mauve, whose RBG values are (224, 176, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10859,14 +10876,14 @@
 
 
 /*!
- * Returns a color object representing the color Mauve Taupe, whose RBG values are (145, 95, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mauve Taupe, whose RBG values are (145, 95, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mauveTaupeColor;
 
 /*!
- * Returns a color object representing the color Mauve Taupe, whose RBG values are (145, 95, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Mauve Taupe, whose RBG values are (145, 95, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10875,14 +10892,14 @@
 
 
 /*!
- * Returns a color object representing the color Mauvelous (Crayola), whose RBG values are (239, 152, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mauvelous (Crayola), whose RBG values are (239, 152, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mauvelousCrayolaColor;
 
 /*!
- * Returns a color object representing the color Mauvelous (Crayola), whose RBG values are (239, 152, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color Mauvelous (Crayola), whose RBG values are (239, 152, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10891,14 +10908,14 @@
 
 
 /*!
- * Returns a color object representing the color May Green, whose RBG values are (76, 145, 65), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color May Green, whose RBG values are (76, 145, 65), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mayGreenColor;
 
 /*!
- * Returns a color object representing the color May Green, whose RBG values are (76, 145, 65), and has the specified opacity.
+ * Returns a UIColor object representing the color May Green, whose RBG values are (76, 145, 65), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10907,14 +10924,14 @@
 
 
 /*!
- * Returns a color object representing the color Maya Blue, whose RBG values are (115, 194, 251), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Maya Blue, whose RBG values are (115, 194, 251), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mayaBlueColor;
 
 /*!
- * Returns a color object representing the color Maya Blue, whose RBG values are (115, 194, 251), and has the specified opacity.
+ * Returns a UIColor object representing the color Maya Blue, whose RBG values are (115, 194, 251), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10923,14 +10940,14 @@
 
 
 /*!
- * Returns a color object representing the color Meat Brown, whose RBG values are (229, 183, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Meat Brown, whose RBG values are (229, 183, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) meatBrownColor;
 
 /*!
- * Returns a color object representing the color Meat Brown, whose RBG values are (229, 183, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Meat Brown, whose RBG values are (229, 183, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10939,14 +10956,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Persian Blue, whose RBG values are (0, 103, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Persian Blue, whose RBG values are (0, 103, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumPersianBlueColor;
 
 /*!
- * Returns a color object representing the color Medium Persian Blue, whose RBG values are (0, 103, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Persian Blue, whose RBG values are (0, 103, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10955,14 +10972,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Tuscan Red, whose RBG values are (121, 68, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Tuscan Red, whose RBG values are (121, 68, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumTuscanRedColor;
 
 /*!
- * Returns a color object representing the color Medium Tuscan Red, whose RBG values are (121, 68, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Tuscan Red, whose RBG values are (121, 68, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10971,14 +10988,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Aquamarine, whose RBG values are (102, 221, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Aquamarine, whose RBG values are (102, 221, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumAquamarineColor;
 
 /*!
- * Returns a color object representing the color Medium Aquamarine, whose RBG values are (102, 221, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Aquamarine, whose RBG values are (102, 221, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -10987,14 +11004,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Blue, whose RBG values are (0, 0, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Blue, whose RBG values are (0, 0, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumBlueColor;
 
 /*!
- * Returns a color object representing the color Medium Blue, whose RBG values are (0, 0, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Blue, whose RBG values are (0, 0, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11003,14 +11020,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Candy Apple Red, whose RBG values are (226, 6, 44), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Candy Apple Red, whose RBG values are (226, 6, 44), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumCandyAppleRedColor;
 
 /*!
- * Returns a color object representing the color Medium Candy Apple Red, whose RBG values are (226, 6, 44), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Candy Apple Red, whose RBG values are (226, 6, 44), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11019,14 +11036,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Carmine, whose RBG values are (175, 64, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Carmine, whose RBG values are (175, 64, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumCarmineColor;
 
 /*!
- * Returns a color object representing the color Medium Carmine, whose RBG values are (175, 64, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Carmine, whose RBG values are (175, 64, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11035,14 +11052,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Champagne, whose RBG values are (243, 229, 171), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Champagne, whose RBG values are (243, 229, 171), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumChampagneColor;
 
 /*!
- * Returns a color object representing the color Medium Champagne, whose RBG values are (243, 229, 171), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Champagne, whose RBG values are (243, 229, 171), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11051,14 +11068,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Electric Blue, whose RBG values are (3, 80, 150), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Electric Blue, whose RBG values are (3, 80, 150), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumElectricBlueColor;
 
 /*!
- * Returns a color object representing the color Medium Electric Blue, whose RBG values are (3, 80, 150), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Electric Blue, whose RBG values are (3, 80, 150), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11067,14 +11084,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Jungle Green, whose RBG values are (28, 53, 45), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Jungle Green, whose RBG values are (28, 53, 45), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumJungleGreenColor;
 
 /*!
- * Returns a color object representing the color Medium Jungle Green, whose RBG values are (28, 53, 45), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Jungle Green, whose RBG values are (28, 53, 45), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11083,14 +11100,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Lavender Magenta, whose RBG values are (221, 160, 221), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Lavender Magenta, whose RBG values are (221, 160, 221), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumLavenderMagentaColor;
 
 /*!
- * Returns a color object representing the color Medium Lavender Magenta, whose RBG values are (221, 160, 221), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Lavender Magenta, whose RBG values are (221, 160, 221), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11099,14 +11116,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Orchid, whose RBG values are (186, 85, 211), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Orchid, whose RBG values are (186, 85, 211), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumOrchidColor;
 
 /*!
- * Returns a color object representing the color Medium Orchid, whose RBG values are (186, 85, 211), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Orchid, whose RBG values are (186, 85, 211), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11115,14 +11132,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Purple, whose RBG values are (147, 112, 219), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Purple, whose RBG values are (147, 112, 219), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumPurpleColor;
 
 /*!
- * Returns a color object representing the color Medium Purple, whose RBG values are (147, 112, 219), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Purple, whose RBG values are (147, 112, 219), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11131,14 +11148,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Red-Violet, whose RBG values are (187, 51, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Red-Violet, whose RBG values are (187, 51, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumRedVioletColor;
 
 /*!
- * Returns a color object representing the color Medium Red-Violet, whose RBG values are (187, 51, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Red-Violet, whose RBG values are (187, 51, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11147,14 +11164,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Ruby, whose RBG values are (170, 64, 105), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Ruby, whose RBG values are (170, 64, 105), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumRubyColor;
 
 /*!
- * Returns a color object representing the color Medium Ruby, whose RBG values are (170, 64, 105), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Ruby, whose RBG values are (170, 64, 105), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11163,14 +11180,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Sea Green, whose RBG values are (60, 179, 113), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Sea Green, whose RBG values are (60, 179, 113), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumSeaGreenColor;
 
 /*!
- * Returns a color object representing the color Medium Sea Green, whose RBG values are (60, 179, 113), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Sea Green, whose RBG values are (60, 179, 113), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11179,14 +11196,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Sky Blue, whose RBG values are (128, 218, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Sky Blue, whose RBG values are (128, 218, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Medium Sky Blue, whose RBG values are (128, 218, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Sky Blue, whose RBG values are (128, 218, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11195,14 +11212,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Slate Blue, whose RBG values are (123, 104, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Slate Blue, whose RBG values are (123, 104, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumSlateBlueColor;
 
 /*!
- * Returns a color object representing the color Medium Slate Blue, whose RBG values are (123, 104, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Slate Blue, whose RBG values are (123, 104, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11211,14 +11228,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Spring Bud, whose RBG values are (201, 220, 135), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Spring Bud, whose RBG values are (201, 220, 135), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumSpringBudColor;
 
 /*!
- * Returns a color object representing the color Medium Spring Bud, whose RBG values are (201, 220, 135), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Spring Bud, whose RBG values are (201, 220, 135), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11227,14 +11244,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Spring Green, whose RBG values are (0, 250, 154), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Spring Green, whose RBG values are (0, 250, 154), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumSpringGreenColor;
 
 /*!
- * Returns a color object representing the color Medium Spring Green, whose RBG values are (0, 250, 154), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Spring Green, whose RBG values are (0, 250, 154), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11243,14 +11260,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Taupe, whose RBG values are (103, 76, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Taupe, whose RBG values are (103, 76, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumTaupeColor;
 
 /*!
- * Returns a color object representing the color Medium Taupe, whose RBG values are (103, 76, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Taupe, whose RBG values are (103, 76, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11259,14 +11276,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Turquoise, whose RBG values are (72, 209, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Turquoise, whose RBG values are (72, 209, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumTurquoiseColor;
 
 /*!
- * Returns a color object representing the color Medium Turquoise, whose RBG values are (72, 209, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Turquoise, whose RBG values are (72, 209, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11275,14 +11292,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Vermilion, whose RBG values are (217, 96, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Vermilion, whose RBG values are (217, 96, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumVermilionColor;
 
 /*!
- * Returns a color object representing the color Medium Vermilion, whose RBG values are (217, 96, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Vermilion, whose RBG values are (217, 96, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11291,14 +11308,14 @@
 
 
 /*!
- * Returns a color object representing the color Medium Violet-Red, whose RBG values are (199, 21, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Medium Violet-Red, whose RBG values are (199, 21, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mediumVioletRedColor;
 
 /*!
- * Returns a color object representing the color Medium Violet-Red, whose RBG values are (199, 21, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Medium Violet-Red, whose RBG values are (199, 21, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11307,14 +11324,14 @@
 
 
 /*!
- * Returns a color object representing the color Mellow Apricot, whose RBG values are (248, 184, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mellow Apricot, whose RBG values are (248, 184, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mellowApricotColor;
 
 /*!
- * Returns a color object representing the color Mellow Apricot, whose RBG values are (248, 184, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Mellow Apricot, whose RBG values are (248, 184, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11323,14 +11340,14 @@
 
 
 /*!
- * Returns a color object representing the color Mellow Yellow, whose RBG values are (248, 222, 126), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mellow Yellow, whose RBG values are (248, 222, 126), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mellowYellowColor;
 
 /*!
- * Returns a color object representing the color Mellow Yellow, whose RBG values are (248, 222, 126), and has the specified opacity.
+ * Returns a UIColor object representing the color Mellow Yellow, whose RBG values are (248, 222, 126), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11339,14 +11356,14 @@
 
 
 /*!
- * Returns a color object representing the color Melon (Crayola), whose RBG values are (253, 188, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Melon (Crayola), whose RBG values are (253, 188, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) melonCrayolaColor;
 
 /*!
- * Returns a color object representing the color Melon (Crayola), whose RBG values are (253, 188, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Melon (Crayola), whose RBG values are (253, 188, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11355,14 +11372,14 @@
 
 
 /*!
- * Returns a color object representing the color Metallic Seaweed, whose RBG values are (10, 126, 140), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Metallic Seaweed, whose RBG values are (10, 126, 140), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) metallicSeaweedColor;
 
 /*!
- * Returns a color object representing the color Metallic Seaweed, whose RBG values are (10, 126, 140), and has the specified opacity.
+ * Returns a UIColor object representing the color Metallic Seaweed, whose RBG values are (10, 126, 140), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11371,14 +11388,14 @@
 
 
 /*!
- * Returns a color object representing the color Metallic Sunburst, whose RBG values are (156, 124, 56), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Metallic Sunburst, whose RBG values are (156, 124, 56), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) metallicSunburstColor;
 
 /*!
- * Returns a color object representing the color Metallic Sunburst, whose RBG values are (156, 124, 56), and has the specified opacity.
+ * Returns a UIColor object representing the color Metallic Sunburst, whose RBG values are (156, 124, 56), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11387,14 +11404,14 @@
 
 
 /*!
- * Returns a color object representing the color Mexican Pink, whose RBG values are (228, 0, 124), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mexican Pink, whose RBG values are (228, 0, 124), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mexicanPinkColor;
 
 /*!
- * Returns a color object representing the color Mexican Pink, whose RBG values are (228, 0, 124), and has the specified opacity.
+ * Returns a UIColor object representing the color Mexican Pink, whose RBG values are (228, 0, 124), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11403,14 +11420,14 @@
 
 
 /*!
- * Returns a color object representing the color Midnight Blue (Crayola), whose RBG values are (26, 72, 118), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Midnight Blue (Crayola), whose RBG values are (26, 72, 118), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) midnightBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Midnight Blue (Crayola), whose RBG values are (26, 72, 118), and has the specified opacity.
+ * Returns a UIColor object representing the color Midnight Blue (Crayola), whose RBG values are (26, 72, 118), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11419,14 +11436,14 @@
 
 
 /*!
- * Returns a color object representing the color Midnight Blue, whose RBG values are (25, 25, 112), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Midnight Blue, whose RBG values are (25, 25, 112), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) midnightBlueColor;
 
 /*!
- * Returns a color object representing the color Midnight Blue, whose RBG values are (25, 25, 112), and has the specified opacity.
+ * Returns a UIColor object representing the color Midnight Blue, whose RBG values are (25, 25, 112), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11435,14 +11452,14 @@
 
 
 /*!
- * Returns a color object representing the color Midnight Green, whose RBG values are (0, 73, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Midnight Green, whose RBG values are (0, 73, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) midnightGreenColor;
 
 /*!
- * Returns a color object representing the color Midnight Green, whose RBG values are (0, 73, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Midnight Green, whose RBG values are (0, 73, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11451,14 +11468,14 @@
 
 
 /*!
- * Returns a color object representing the color Mikado Yellow, whose RBG values are (255, 196, 12), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mikado Yellow, whose RBG values are (255, 196, 12), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mikadoYellowColor;
 
 /*!
- * Returns a color object representing the color Mikado Yellow, whose RBG values are (255, 196, 12), and has the specified opacity.
+ * Returns a UIColor object representing the color Mikado Yellow, whose RBG values are (255, 196, 12), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11467,14 +11484,14 @@
 
 
 /*!
- * Returns a color object representing the color Mindaro, whose RBG values are (227, 249, 136), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mindaro, whose RBG values are (227, 249, 136), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mindaroColor;
 
 /*!
- * Returns a color object representing the color Mindaro, whose RBG values are (227, 249, 136), and has the specified opacity.
+ * Returns a UIColor object representing the color Mindaro, whose RBG values are (227, 249, 136), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11483,14 +11500,14 @@
 
 
 /*!
- * Returns a color object representing the color Ming, whose RBG values are (54, 116, 125), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ming, whose RBG values are (54, 116, 125), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mingColor;
 
 /*!
- * Returns a color object representing the color Ming, whose RBG values are (54, 116, 125), and has the specified opacity.
+ * Returns a UIColor object representing the color Ming, whose RBG values are (54, 116, 125), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11499,14 +11516,14 @@
 
 
 /*!
- * Returns a color object representing the color Mint, whose RBG values are (62, 180, 137), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mint, whose RBG values are (62, 180, 137), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mintColor;
 
 /*!
- * Returns a color object representing the color Mint, whose RBG values are (62, 180, 137), and has the specified opacity.
+ * Returns a UIColor object representing the color Mint, whose RBG values are (62, 180, 137), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11515,14 +11532,14 @@
 
 
 /*!
- * Returns a color object representing the color Mint Cream, whose RBG values are (245, 255, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mint Cream, whose RBG values are (245, 255, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mintCreamColor;
 
 /*!
- * Returns a color object representing the color Mint Cream, whose RBG values are (245, 255, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Mint Cream, whose RBG values are (245, 255, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11531,14 +11548,14 @@
 
 
 /*!
- * Returns a color object representing the color Mint Green, whose RBG values are (152, 255, 152), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mint Green, whose RBG values are (152, 255, 152), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mintGreenColor;
 
 /*!
- * Returns a color object representing the color Mint Green, whose RBG values are (152, 255, 152), and has the specified opacity.
+ * Returns a UIColor object representing the color Mint Green, whose RBG values are (152, 255, 152), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11547,14 +11564,14 @@
 
 
 /*!
- * Returns a color object representing the color Misty Rose, whose RBG values are (255, 228, 225), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Misty Rose, whose RBG values are (255, 228, 225), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mistyRoseColor;
 
 /*!
- * Returns a color object representing the color Misty Rose, whose RBG values are (255, 228, 225), and has the specified opacity.
+ * Returns a UIColor object representing the color Misty Rose, whose RBG values are (255, 228, 225), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11563,14 +11580,14 @@
 
 
 /*!
- * Returns a color object representing the color Moccasin, whose RBG values are (250, 235, 215), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Moccasin, whose RBG values are (250, 235, 215), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) moccasinColor;
 
 /*!
- * Returns a color object representing the color Moccasin, whose RBG values are (250, 235, 215), and has the specified opacity.
+ * Returns a UIColor object representing the color Moccasin, whose RBG values are (250, 235, 215), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11579,14 +11596,14 @@
 
 
 /*!
- * Returns a color object representing the color Mode Beige, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mode Beige, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) modeBeigeColor;
 
 /*!
- * Returns a color object representing the color Mode Beige, whose RBG values are (150, 113, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Mode Beige, whose RBG values are (150, 113, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11595,14 +11612,14 @@
 
 
 /*!
- * Returns a color object representing the color Moonstone Blue, whose RBG values are (115, 169, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Moonstone Blue, whose RBG values are (115, 169, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) moonstoneBlueColor;
 
 /*!
- * Returns a color object representing the color Moonstone Blue, whose RBG values are (115, 169, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Moonstone Blue, whose RBG values are (115, 169, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11611,14 +11628,14 @@
 
 
 /*!
- * Returns a color object representing the color Mordant Red 19, whose RBG values are (174, 12, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mordant Red 19, whose RBG values are (174, 12, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mordantRed19Color;
 
 /*!
- * Returns a color object representing the color Mordant Red 19, whose RBG values are (174, 12, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Mordant Red 19, whose RBG values are (174, 12, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11627,14 +11644,14 @@
 
 
 /*!
- * Returns a color object representing the color Moss Green, whose RBG values are (138, 154, 91), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Moss Green, whose RBG values are (138, 154, 91), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mossGreenColor;
 
 /*!
- * Returns a color object representing the color Moss Green, whose RBG values are (138, 154, 91), and has the specified opacity.
+ * Returns a UIColor object representing the color Moss Green, whose RBG values are (138, 154, 91), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11643,14 +11660,14 @@
 
 
 /*!
- * Returns a color object representing the color Mountain Meadow, whose RBG values are (48, 186, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mountain Meadow, whose RBG values are (48, 186, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mountainMeadowColor;
 
 /*!
- * Returns a color object representing the color Mountain Meadow, whose RBG values are (48, 186, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Mountain Meadow, whose RBG values are (48, 186, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11659,14 +11676,14 @@
 
 
 /*!
- * Returns a color object representing the color Mountain Meadow (Crayola), whose RBG values are (48, 186, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mountain Meadow (Crayola), whose RBG values are (48, 186, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mountainMeadowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Mountain Meadow (Crayola), whose RBG values are (48, 186, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Mountain Meadow (Crayola), whose RBG values are (48, 186, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11675,14 +11692,14 @@
 
 
 /*!
- * Returns a color object representing the color Mountbatten Pink, whose RBG values are (153, 122, 141), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mountbatten Pink, whose RBG values are (153, 122, 141), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mountbattenPinkColor;
 
 /*!
- * Returns a color object representing the color Mountbatten Pink, whose RBG values are (153, 122, 141), and has the specified opacity.
+ * Returns a UIColor object representing the color Mountbatten Pink, whose RBG values are (153, 122, 141), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11691,14 +11708,14 @@
 
 
 /*!
- * Returns a color object representing the color Mughal Green, whose RBG values are (48, 96, 48), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mughal Green, whose RBG values are (48, 96, 48), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mughalGreenColor;
 
 /*!
- * Returns a color object representing the color Mughal Green, whose RBG values are (48, 96, 48), and has the specified opacity.
+ * Returns a UIColor object representing the color Mughal Green, whose RBG values are (48, 96, 48), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11707,14 +11724,14 @@
 
 
 /*!
- * Returns a color object representing the color Mulberry (Crayola), whose RBG values are (197, 75, 140), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mulberry (Crayola), whose RBG values are (197, 75, 140), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mulberryCrayolaColor;
 
 /*!
- * Returns a color object representing the color Mulberry (Crayola), whose RBG values are (197, 75, 140), and has the specified opacity.
+ * Returns a UIColor object representing the color Mulberry (Crayola), whose RBG values are (197, 75, 140), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11723,14 +11740,14 @@
 
 
 /*!
- * Returns a color object representing the color Mustard, whose RBG values are (255, 219, 88), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Mustard, whose RBG values are (255, 219, 88), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) mustardColor;
 
 /*!
- * Returns a color object representing the color Mustard, whose RBG values are (255, 219, 88), and has the specified opacity.
+ * Returns a UIColor object representing the color Mustard, whose RBG values are (255, 219, 88), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11739,14 +11756,14 @@
 
 
 /*!
- * Returns a color object representing the color Myrtle Green, whose RBG values are (49, 120, 115), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Myrtle Green, whose RBG values are (49, 120, 115), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) myrtleGreenColor;
 
 /*!
- * Returns a color object representing the color Myrtle Green, whose RBG values are (49, 120, 115), and has the specified opacity.
+ * Returns a UIColor object representing the color Myrtle Green, whose RBG values are (49, 120, 115), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11755,14 +11772,14 @@
 
 
 /*!
- * Returns a color object representing the color Nadeshiko Pink, whose RBG values are (246, 173, 198), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Nadeshiko Pink, whose RBG values are (246, 173, 198), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) nadeshikoPinkColor;
 
 /*!
- * Returns a color object representing the color Nadeshiko Pink, whose RBG values are (246, 173, 198), and has the specified opacity.
+ * Returns a UIColor object representing the color Nadeshiko Pink, whose RBG values are (246, 173, 198), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11771,14 +11788,14 @@
 
 
 /*!
- * Returns a color object representing the color Napier Green, whose RBG values are (42, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Napier Green, whose RBG values are (42, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) napierGreenColor;
 
 /*!
- * Returns a color object representing the color Napier Green, whose RBG values are (42, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Napier Green, whose RBG values are (42, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11787,14 +11804,14 @@
 
 
 /*!
- * Returns a color object representing the color Naples Yellow, whose RBG values are (250, 218, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Naples Yellow, whose RBG values are (250, 218, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) naplesYellowColor;
 
 /*!
- * Returns a color object representing the color Naples Yellow, whose RBG values are (250, 218, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Naples Yellow, whose RBG values are (250, 218, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11803,14 +11820,14 @@
 
 
 /*!
- * Returns a color object representing the color Navajo White, whose RBG values are (255, 222, 173), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Navajo White, whose RBG values are (255, 222, 173), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) navajoWhiteColor;
 
 /*!
- * Returns a color object representing the color Navajo White, whose RBG values are (255, 222, 173), and has the specified opacity.
+ * Returns a UIColor object representing the color Navajo White, whose RBG values are (255, 222, 173), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11819,14 +11836,14 @@
 
 
 /*!
- * Returns a color object representing the color Navy, whose RBG values are (0, 0, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Navy, whose RBG values are (0, 0, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) navyColor;
 
 /*!
- * Returns a color object representing the color Navy, whose RBG values are (0, 0, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Navy, whose RBG values are (0, 0, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11835,14 +11852,14 @@
 
 
 /*!
- * Returns a color object representing the color Navy Blue, whose RBG values are (0, 0, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Navy Blue, whose RBG values are (0, 0, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) navyBlueColor;
 
 /*!
- * Returns a color object representing the color Navy Blue, whose RBG values are (0, 0, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Navy Blue, whose RBG values are (0, 0, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11851,14 +11868,14 @@
 
 
 /*!
- * Returns a color object representing the color Navy Blue (Crayola), whose RBG values are (25, 116, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Navy Blue (Crayola), whose RBG values are (25, 116, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) navyBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Navy Blue (Crayola), whose RBG values are (25, 116, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Navy Blue (Crayola), whose RBG values are (25, 116, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11867,14 +11884,14 @@
 
 
 /*!
- * Returns a color object representing the color Navy Purple, whose RBG values are (148, 87, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Navy Purple, whose RBG values are (148, 87, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) navyPurpleColor;
 
 /*!
- * Returns a color object representing the color Navy Purple, whose RBG values are (148, 87, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Navy Purple, whose RBG values are (148, 87, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11883,14 +11900,14 @@
 
 
 /*!
- * Returns a color object representing the color Neon Carrot (Crayola), whose RBG values are (255, 163, 67), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Neon Carrot (Crayola), whose RBG values are (255, 163, 67), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) neonCarrotCrayolaColor;
 
 /*!
- * Returns a color object representing the color Neon Carrot (Crayola), whose RBG values are (255, 163, 67), and has the specified opacity.
+ * Returns a UIColor object representing the color Neon Carrot (Crayola), whose RBG values are (255, 163, 67), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11899,14 +11916,14 @@
 
 
 /*!
- * Returns a color object representing the color Neon Fuchsia, whose RBG values are (254, 65, 100), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Neon Fuchsia, whose RBG values are (254, 65, 100), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) neonFuchsiaColor;
 
 /*!
- * Returns a color object representing the color Neon Fuchsia, whose RBG values are (254, 65, 100), and has the specified opacity.
+ * Returns a UIColor object representing the color Neon Fuchsia, whose RBG values are (254, 65, 100), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11915,14 +11932,14 @@
 
 
 /*!
- * Returns a color object representing the color Neon Green, whose RBG values are (57, 255, 20), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Neon Green, whose RBG values are (57, 255, 20), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) neonGreenColor;
 
 /*!
- * Returns a color object representing the color Neon Green, whose RBG values are (57, 255, 20), and has the specified opacity.
+ * Returns a UIColor object representing the color Neon Green, whose RBG values are (57, 255, 20), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11931,14 +11948,14 @@
 
 
 /*!
- * Returns a color object representing the color New Car, whose RBG values are (33, 79, 198), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color New Car, whose RBG values are (33, 79, 198), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) newCarColor;
 
 /*!
- * Returns a color object representing the color New Car, whose RBG values are (33, 79, 198), and has the specified opacity.
+ * Returns a UIColor object representing the color New Car, whose RBG values are (33, 79, 198), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11947,14 +11964,14 @@
 
 
 /*!
- * Returns a color object representing the color New York Pink, whose RBG values are (215, 131, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color New York Pink, whose RBG values are (215, 131, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) newYorkPinkColor;
 
 /*!
- * Returns a color object representing the color New York Pink, whose RBG values are (215, 131, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color New York Pink, whose RBG values are (215, 131, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11963,14 +11980,14 @@
 
 
 /*!
- * Returns a color object representing the color Non-Photo Blue, whose RBG values are (164, 221, 237), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Non-Photo Blue, whose RBG values are (164, 221, 237), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) nonPhotoBlueColor;
 
 /*!
- * Returns a color object representing the color Non-Photo Blue, whose RBG values are (164, 221, 237), and has the specified opacity.
+ * Returns a UIColor object representing the color Non-Photo Blue, whose RBG values are (164, 221, 237), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11979,14 +11996,14 @@
 
 
 /*!
- * Returns a color object representing the color North Texas Green, whose RBG values are (5, 144, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color North Texas Green, whose RBG values are (5, 144, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) northTexasGreenColor;
 
 /*!
- * Returns a color object representing the color North Texas Green, whose RBG values are (5, 144, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color North Texas Green, whose RBG values are (5, 144, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -11995,14 +12012,14 @@
 
 
 /*!
- * Returns a color object representing the color Nyanza, whose RBG values are (233, 255, 219), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Nyanza, whose RBG values are (233, 255, 219), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) nyanzaColor;
 
 /*!
- * Returns a color object representing the color Nyanza, whose RBG values are (233, 255, 219), and has the specified opacity.
+ * Returns a UIColor object representing the color Nyanza, whose RBG values are (233, 255, 219), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12011,14 +12028,14 @@
 
 
 /*!
- * Returns a color object representing the color OU Crimson Red, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color OU Crimson Red, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oUCrimsonRedColor;
 
 /*!
- * Returns a color object representing the color OU Crimson Red, whose RBG values are (153, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color OU Crimson Red, whose RBG values are (153, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12027,14 +12044,14 @@
 
 
 /*!
- * Returns a color object representing the color Ocean Boat Blue, whose RBG values are (0, 119, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ocean Boat Blue, whose RBG values are (0, 119, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oceanBoatBlueColor;
 
 /*!
- * Returns a color object representing the color Ocean Boat Blue, whose RBG values are (0, 119, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Ocean Boat Blue, whose RBG values are (0, 119, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12043,14 +12060,14 @@
 
 
 /*!
- * Returns a color object representing the color Ochre, whose RBG values are (204, 119, 34), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ochre, whose RBG values are (204, 119, 34), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ochreColor;
 
 /*!
- * Returns a color object representing the color Ochre, whose RBG values are (204, 119, 34), and has the specified opacity.
+ * Returns a UIColor object representing the color Ochre, whose RBG values are (204, 119, 34), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12059,14 +12076,14 @@
 
 
 /*!
- * Returns a color object representing the color Office Green, whose RBG values are (0, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Office Green, whose RBG values are (0, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) officeGreenColor;
 
 /*!
- * Returns a color object representing the color Office Green, whose RBG values are (0, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Office Green, whose RBG values are (0, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12075,14 +12092,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Burgundy, whose RBG values are (67, 48, 46), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Burgundy, whose RBG values are (67, 48, 46), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldBurgundyColor;
 
 /*!
- * Returns a color object representing the color Old Burgundy, whose RBG values are (67, 48, 46), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Burgundy, whose RBG values are (67, 48, 46), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12091,14 +12108,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Gold, whose RBG values are (207, 181, 59), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Gold, whose RBG values are (207, 181, 59), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldGoldColor;
 
 /*!
- * Returns a color object representing the color Old Gold, whose RBG values are (207, 181, 59), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Gold, whose RBG values are (207, 181, 59), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12107,14 +12124,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Heliotrope, whose RBG values are (86, 60, 92), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Heliotrope, whose RBG values are (86, 60, 92), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldHeliotropeColor;
 
 /*!
- * Returns a color object representing the color Old Heliotrope, whose RBG values are (86, 60, 92), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Heliotrope, whose RBG values are (86, 60, 92), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12123,14 +12140,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Lace, whose RBG values are (253, 245, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Lace, whose RBG values are (253, 245, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldLaceColor;
 
 /*!
- * Returns a color object representing the color Old Lace, whose RBG values are (253, 245, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Lace, whose RBG values are (253, 245, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12139,14 +12156,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Lavender, whose RBG values are (121, 104, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Lavender, whose RBG values are (121, 104, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldLavenderColor;
 
 /*!
- * Returns a color object representing the color Old Lavender, whose RBG values are (121, 104, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Lavender, whose RBG values are (121, 104, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12155,14 +12172,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Mauve, whose RBG values are (103, 49, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Mauve, whose RBG values are (103, 49, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldMauveColor;
 
 /*!
- * Returns a color object representing the color Old Mauve, whose RBG values are (103, 49, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Mauve, whose RBG values are (103, 49, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12171,14 +12188,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Moss Green, whose RBG values are (134, 126, 54), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Moss Green, whose RBG values are (134, 126, 54), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldMossGreenColor;
 
 /*!
- * Returns a color object representing the color Old Moss Green, whose RBG values are (134, 126, 54), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Moss Green, whose RBG values are (134, 126, 54), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12187,14 +12204,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Rose, whose RBG values are (192, 128, 129), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Rose, whose RBG values are (192, 128, 129), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldRoseColor;
 
 /*!
- * Returns a color object representing the color Old Rose, whose RBG values are (192, 128, 129), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Rose, whose RBG values are (192, 128, 129), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12203,14 +12220,14 @@
 
 
 /*!
- * Returns a color object representing the color Old Silver, whose RBG values are (132, 132, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Old Silver, whose RBG values are (132, 132, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oldSilverColor;
 
 /*!
- * Returns a color object representing the color Old Silver, whose RBG values are (132, 132, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Old Silver, whose RBG values are (132, 132, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12219,14 +12236,14 @@
 
 
 /*!
- * Returns a color object representing the color Olive, whose RBG values are (128, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Olive, whose RBG values are (128, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oliveColor;
 
 /*!
- * Returns a color object representing the color Olive, whose RBG values are (128, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Olive, whose RBG values are (128, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12235,14 +12252,14 @@
 
 
 /*!
- * Returns a color object representing the color Olive Drab #3, whose RBG values are (107, 142, 35), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Olive Drab #3, whose RBG values are (107, 142, 35), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oliveDrabNumber3Color;
 
 /*!
- * Returns a color object representing the color Olive Drab #3, whose RBG values are (107, 142, 35), and has the specified opacity.
+ * Returns a UIColor object representing the color Olive Drab #3, whose RBG values are (107, 142, 35), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12251,14 +12268,14 @@
 
 
 /*!
- * Returns a color object representing the color Olive Drab #7, whose RBG values are (60, 52, 31), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Olive Drab #7, whose RBG values are (60, 52, 31), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oliveDrabNumber7Color;
 
 /*!
- * Returns a color object representing the color Olive Drab #7, whose RBG values are (60, 52, 31), and has the specified opacity.
+ * Returns a UIColor object representing the color Olive Drab #7, whose RBG values are (60, 52, 31), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12267,14 +12284,14 @@
 
 
 /*!
- * Returns a color object representing the color Olive Green (Crayola), whose RBG values are (186, 184, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Olive Green (Crayola), whose RBG values are (186, 184, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oliveGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Olive Green (Crayola), whose RBG values are (186, 184, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Olive Green (Crayola), whose RBG values are (186, 184, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12283,14 +12300,14 @@
 
 
 /*!
- * Returns a color object representing the color Olivine, whose RBG values are (154, 185, 115), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Olivine, whose RBG values are (154, 185, 115), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) olivineColor;
 
 /*!
- * Returns a color object representing the color Olivine, whose RBG values are (154, 185, 115), and has the specified opacity.
+ * Returns a UIColor object representing the color Olivine, whose RBG values are (154, 185, 115), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12299,14 +12316,14 @@
 
 
 /*!
- * Returns a color object representing the color Onyx, whose RBG values are (53, 56, 57), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Onyx, whose RBG values are (53, 56, 57), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) onyxColor;
 
 /*!
- * Returns a color object representing the color Onyx, whose RBG values are (53, 56, 57), and has the specified opacity.
+ * Returns a UIColor object representing the color Onyx, whose RBG values are (53, 56, 57), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12315,14 +12332,14 @@
 
 
 /*!
- * Returns a color object representing the color Opera Mauve, whose RBG values are (183, 132, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Opera Mauve, whose RBG values are (183, 132, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) operaMauveColor;
 
 /*!
- * Returns a color object representing the color Opera Mauve, whose RBG values are (183, 132, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color Opera Mauve, whose RBG values are (183, 132, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12331,14 +12348,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange (Color Wheel), whose RBG values are (255, 127, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange (Color Wheel), whose RBG values are (255, 127, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeColorWheelColor;
 
 /*!
- * Returns a color object representing the color Orange (Color Wheel), whose RBG values are (255, 127, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange (Color Wheel), whose RBG values are (255, 127, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12347,14 +12364,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange (Crayola), whose RBG values are (255, 117, 56), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange (Crayola), whose RBG values are (255, 117, 56), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Orange (Crayola), whose RBG values are (255, 117, 56), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange (Crayola), whose RBG values are (255, 117, 56), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12363,14 +12380,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange (Pantone), whose RBG values are (255, 88, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange (Pantone), whose RBG values are (255, 88, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangePantoneColor;
 
 /*!
- * Returns a color object representing the color Orange (Pantone), whose RBG values are (255, 88, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange (Pantone), whose RBG values are (255, 88, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12379,14 +12396,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange (RYB), whose RBG values are (251, 153, 2), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange (RYB), whose RBG values are (251, 153, 2), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeRYBColor;
 
 /*!
- * Returns a color object representing the color Orange (RYB), whose RBG values are (251, 153, 2), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange (RYB), whose RBG values are (251, 153, 2), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12395,14 +12412,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange (Web), whose RBG values are (255, 165, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange (Web), whose RBG values are (255, 165, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeWebColor;
 
 /*!
- * Returns a color object representing the color Orange (Web), whose RBG values are (255, 165, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange (Web), whose RBG values are (255, 165, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12411,14 +12428,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange Red (Crayola), whose RBG values are (255, 43, 43), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange Red (Crayola), whose RBG values are (255, 43, 43), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeRedCrayolaColor;
 
 /*!
- * Returns a color object representing the color Orange Red (Crayola), whose RBG values are (255, 43, 43), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange Red (Crayola), whose RBG values are (255, 43, 43), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12427,14 +12444,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange Yellow (Crayola), whose RBG values are (248, 213, 104), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange Yellow (Crayola), whose RBG values are (248, 213, 104), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeYellowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Orange Yellow (Crayola), whose RBG values are (248, 213, 104), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange Yellow (Crayola), whose RBG values are (248, 213, 104), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12443,14 +12460,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange Peel, whose RBG values are (255, 159, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange Peel, whose RBG values are (255, 159, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangePeelColor;
 
 /*!
- * Returns a color object representing the color Orange Peel, whose RBG values are (255, 159, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange Peel, whose RBG values are (255, 159, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12459,14 +12476,14 @@
 
 
 /*!
- * Returns a color object representing the color Orange-Red, whose RBG values are (255, 69, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orange-Red, whose RBG values are (255, 69, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orangeRedColor;
 
 /*!
- * Returns a color object representing the color Orange-Red, whose RBG values are (255, 69, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Orange-Red, whose RBG values are (255, 69, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12475,14 +12492,14 @@
 
 
 /*!
- * Returns a color object representing the color Orchid, whose RBG values are (218, 112, 214), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orchid, whose RBG values are (218, 112, 214), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orchidColor;
 
 /*!
- * Returns a color object representing the color Orchid, whose RBG values are (218, 112, 214), and has the specified opacity.
+ * Returns a UIColor object representing the color Orchid, whose RBG values are (218, 112, 214), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12491,14 +12508,14 @@
 
 
 /*!
- * Returns a color object representing the color Orchid (Crayola), whose RBG values are (230, 168, 215), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orchid (Crayola), whose RBG values are (230, 168, 215), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orchidCrayolaColor;
 
 /*!
- * Returns a color object representing the color Orchid (Crayola), whose RBG values are (230, 168, 215), and has the specified opacity.
+ * Returns a UIColor object representing the color Orchid (Crayola), whose RBG values are (230, 168, 215), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12507,14 +12524,14 @@
 
 
 /*!
- * Returns a color object representing the color Orchid Pink, whose RBG values are (242, 189, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orchid Pink, whose RBG values are (242, 189, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) orchidPinkColor;
 
 /*!
- * Returns a color object representing the color Orchid Pink, whose RBG values are (242, 189, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Orchid Pink, whose RBG values are (242, 189, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12523,14 +12540,14 @@
 
 
 /*!
- * Returns a color object representing the color Orioles Orange, whose RBG values are (251, 79, 20), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Orioles Orange, whose RBG values are (251, 79, 20), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oriolesOrangeColor;
 
 /*!
- * Returns a color object representing the color Orioles Orange, whose RBG values are (251, 79, 20), and has the specified opacity.
+ * Returns a UIColor object representing the color Orioles Orange, whose RBG values are (251, 79, 20), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12539,14 +12556,14 @@
 
 
 /*!
- * Returns a color object representing the color Otter Brown, whose RBG values are (101, 67, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Otter Brown, whose RBG values are (101, 67, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) otterBrownColor;
 
 /*!
- * Returns a color object representing the color Otter Brown, whose RBG values are (101, 67, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Otter Brown, whose RBG values are (101, 67, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12555,14 +12572,14 @@
 
 
 /*!
- * Returns a color object representing the color Outer Space (Crayola), whose RBG values are (65, 74, 76), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Outer Space (Crayola), whose RBG values are (65, 74, 76), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) outerSpaceCrayolaColor;
 
 /*!
- * Returns a color object representing the color Outer Space (Crayola), whose RBG values are (65, 74, 76), and has the specified opacity.
+ * Returns a UIColor object representing the color Outer Space (Crayola), whose RBG values are (65, 74, 76), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12571,14 +12588,14 @@
 
 
 /*!
- * Returns a color object representing the color Outrageous Orange (Crayola), whose RBG values are (255, 110, 74), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Outrageous Orange (Crayola), whose RBG values are (255, 110, 74), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) outrageousOrangeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Outrageous Orange (Crayola), whose RBG values are (255, 110, 74), and has the specified opacity.
+ * Returns a UIColor object representing the color Outrageous Orange (Crayola), whose RBG values are (255, 110, 74), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12587,14 +12604,14 @@
 
 
 /*!
- * Returns a color object representing the color Oxford Blue, whose RBG values are (0, 33, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Oxford Blue, whose RBG values are (0, 33, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) oxfordBlueColor;
 
 /*!
- * Returns a color object representing the color Oxford Blue, whose RBG values are (0, 33, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Oxford Blue, whose RBG values are (0, 33, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12603,14 +12620,14 @@
 
 
 /*!
- * Returns a color object representing the color Pacific Blue (Crayola), whose RBG values are (28, 169, 201), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pacific Blue (Crayola), whose RBG values are (28, 169, 201), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pacificBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Pacific Blue (Crayola), whose RBG values are (28, 169, 201), and has the specified opacity.
+ * Returns a UIColor object representing the color Pacific Blue (Crayola), whose RBG values are (28, 169, 201), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12619,14 +12636,14 @@
 
 
 /*!
- * Returns a color object representing the color Pakistan Green, whose RBG values are (0, 102, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pakistan Green, whose RBG values are (0, 102, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pakistanGreenColor;
 
 /*!
- * Returns a color object representing the color Pakistan Green, whose RBG values are (0, 102, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Pakistan Green, whose RBG values are (0, 102, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12635,14 +12652,14 @@
 
 
 /*!
- * Returns a color object representing the color Palatinate Blue, whose RBG values are (39, 59, 226), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Palatinate Blue, whose RBG values are (39, 59, 226), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) palatinateBlueColor;
 
 /*!
- * Returns a color object representing the color Palatinate Blue, whose RBG values are (39, 59, 226), and has the specified opacity.
+ * Returns a UIColor object representing the color Palatinate Blue, whose RBG values are (39, 59, 226), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12651,14 +12668,14 @@
 
 
 /*!
- * Returns a color object representing the color Palatinate Purple, whose RBG values are (104, 40, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Palatinate Purple, whose RBG values are (104, 40, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) palatinatePurpleColor;
 
 /*!
- * Returns a color object representing the color Palatinate Purple, whose RBG values are (104, 40, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Palatinate Purple, whose RBG values are (104, 40, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12667,14 +12684,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Aqua, whose RBG values are (188, 212, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Aqua, whose RBG values are (188, 212, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleAquaColor;
 
 /*!
- * Returns a color object representing the color Pale Aqua, whose RBG values are (188, 212, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Aqua, whose RBG values are (188, 212, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12683,14 +12700,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Blue, whose RBG values are (175, 238, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Blue, whose RBG values are (175, 238, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleBlueColor;
 
 /*!
- * Returns a color object representing the color Pale Blue, whose RBG values are (175, 238, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Blue, whose RBG values are (175, 238, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12699,14 +12716,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Brown, whose RBG values are (152, 118, 84), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Brown, whose RBG values are (152, 118, 84), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleBrownColor;
 
 /*!
- * Returns a color object representing the color Pale Brown, whose RBG values are (152, 118, 84), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Brown, whose RBG values are (152, 118, 84), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12715,14 +12732,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Carmine, whose RBG values are (175, 64, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Carmine, whose RBG values are (175, 64, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleCarmineColor;
 
 /*!
- * Returns a color object representing the color Pale Carmine, whose RBG values are (175, 64, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Carmine, whose RBG values are (175, 64, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12731,14 +12748,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Cerulean, whose RBG values are (155, 196, 226), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Cerulean, whose RBG values are (155, 196, 226), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleCeruleanColor;
 
 /*!
- * Returns a color object representing the color Pale Cerulean, whose RBG values are (155, 196, 226), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Cerulean, whose RBG values are (155, 196, 226), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12747,14 +12764,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Chestnut, whose RBG values are (221, 173, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Chestnut, whose RBG values are (221, 173, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleChestnutColor;
 
 /*!
- * Returns a color object representing the color Pale Chestnut, whose RBG values are (221, 173, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Chestnut, whose RBG values are (221, 173, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12763,14 +12780,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Copper, whose RBG values are (218, 138, 103), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Copper, whose RBG values are (218, 138, 103), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleCopperColor;
 
 /*!
- * Returns a color object representing the color Pale Copper, whose RBG values are (218, 138, 103), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Copper, whose RBG values are (218, 138, 103), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12779,14 +12796,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Cornflower Blue, whose RBG values are (171, 205, 239), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Cornflower Blue, whose RBG values are (171, 205, 239), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleCornflowerBlueColor;
 
 /*!
- * Returns a color object representing the color Pale Cornflower Blue, whose RBG values are (171, 205, 239), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Cornflower Blue, whose RBG values are (171, 205, 239), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12795,14 +12812,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Cyan, whose RBG values are (135, 211, 248), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Cyan, whose RBG values are (135, 211, 248), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleCyanColor;
 
 /*!
- * Returns a color object representing the color Pale Cyan, whose RBG values are (135, 211, 248), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Cyan, whose RBG values are (135, 211, 248), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12811,14 +12828,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Gold, whose RBG values are (230, 190, 138), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Gold, whose RBG values are (230, 190, 138), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleGoldColor;
 
 /*!
- * Returns a color object representing the color Pale Gold, whose RBG values are (230, 190, 138), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Gold, whose RBG values are (230, 190, 138), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12827,14 +12844,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Goldenrod, whose RBG values are (238, 232, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Goldenrod, whose RBG values are (238, 232, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleGoldenrodColor;
 
 /*!
- * Returns a color object representing the color Pale Goldenrod, whose RBG values are (238, 232, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Goldenrod, whose RBG values are (238, 232, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12843,14 +12860,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Green, whose RBG values are (152, 251, 152), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Green, whose RBG values are (152, 251, 152), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleGreenColor;
 
 /*!
- * Returns a color object representing the color Pale Green, whose RBG values are (152, 251, 152), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Green, whose RBG values are (152, 251, 152), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12859,14 +12876,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Lavender, whose RBG values are (220, 208, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Lavender, whose RBG values are (220, 208, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleLavenderColor;
 
 /*!
- * Returns a color object representing the color Pale Lavender, whose RBG values are (220, 208, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Lavender, whose RBG values are (220, 208, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12875,14 +12892,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Magenta, whose RBG values are (249, 132, 229), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Magenta, whose RBG values are (249, 132, 229), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleMagentaColor;
 
 /*!
- * Returns a color object representing the color Pale Magenta, whose RBG values are (249, 132, 229), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Magenta, whose RBG values are (249, 132, 229), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12891,14 +12908,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Magenta-Pink, whose RBG values are (255, 153, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Magenta-Pink, whose RBG values are (255, 153, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleMagentaPinkColor;
 
 /*!
- * Returns a color object representing the color Pale Magenta-Pink, whose RBG values are (255, 153, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Magenta-Pink, whose RBG values are (255, 153, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12907,14 +12924,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Pink, whose RBG values are (250, 218, 221), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Pink, whose RBG values are (250, 218, 221), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) palePinkColor;
 
 /*!
- * Returns a color object representing the color Pale Pink, whose RBG values are (250, 218, 221), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Pink, whose RBG values are (250, 218, 221), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12923,14 +12940,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Plum, whose RBG values are (221, 160, 221), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Plum, whose RBG values are (221, 160, 221), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) palePlumColor;
 
 /*!
- * Returns a color object representing the color Pale Plum, whose RBG values are (221, 160, 221), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Plum, whose RBG values are (221, 160, 221), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12939,14 +12956,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Red-Violet, whose RBG values are (219, 112, 147), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Red-Violet, whose RBG values are (219, 112, 147), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleRedVioletColor;
 
 /*!
- * Returns a color object representing the color Pale Red-Violet, whose RBG values are (219, 112, 147), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Red-Violet, whose RBG values are (219, 112, 147), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12955,14 +12972,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Robin Egg Blue, whose RBG values are (150, 222, 209), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Robin Egg Blue, whose RBG values are (150, 222, 209), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleRobinEggBlueColor;
 
 /*!
- * Returns a color object representing the color Pale Robin Egg Blue, whose RBG values are (150, 222, 209), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Robin Egg Blue, whose RBG values are (150, 222, 209), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12971,14 +12988,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Silver, whose RBG values are (201, 192, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Silver, whose RBG values are (201, 192, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleSilverColor;
 
 /*!
- * Returns a color object representing the color Pale Silver, whose RBG values are (201, 192, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Silver, whose RBG values are (201, 192, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -12987,14 +13004,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Spring Bud, whose RBG values are (236, 235, 189), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Spring Bud, whose RBG values are (236, 235, 189), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleSpringBudColor;
 
 /*!
- * Returns a color object representing the color Pale Spring Bud, whose RBG values are (236, 235, 189), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Spring Bud, whose RBG values are (236, 235, 189), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13003,14 +13020,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Taupe, whose RBG values are (188, 152, 126), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Taupe, whose RBG values are (188, 152, 126), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleTaupeColor;
 
 /*!
- * Returns a color object representing the color Pale Taupe, whose RBG values are (188, 152, 126), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Taupe, whose RBG values are (188, 152, 126), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13019,14 +13036,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Turquoise, whose RBG values are (175, 238, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Turquoise, whose RBG values are (175, 238, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleTurquoiseColor;
 
 /*!
- * Returns a color object representing the color Pale Turquoise, whose RBG values are (175, 238, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Turquoise, whose RBG values are (175, 238, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13035,14 +13052,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Violet, whose RBG values are (204, 153, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Violet, whose RBG values are (204, 153, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleVioletColor;
 
 /*!
- * Returns a color object representing the color Pale Violet, whose RBG values are (204, 153, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Violet, whose RBG values are (204, 153, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13051,14 +13068,14 @@
 
 
 /*!
- * Returns a color object representing the color Pale Violet-Red, whose RBG values are (219, 112, 147), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pale Violet-Red, whose RBG values are (219, 112, 147), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paleVioletRedColor;
 
 /*!
- * Returns a color object representing the color Pale Violet-Red, whose RBG values are (219, 112, 147), and has the specified opacity.
+ * Returns a UIColor object representing the color Pale Violet-Red, whose RBG values are (219, 112, 147), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13067,14 +13084,14 @@
 
 
 /*!
- * Returns a color object representing the color Pansy Purple, whose RBG values are (120, 24, 74), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pansy Purple, whose RBG values are (120, 24, 74), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pansyPurpleColor;
 
 /*!
- * Returns a color object representing the color Pansy Purple, whose RBG values are (120, 24, 74), and has the specified opacity.
+ * Returns a UIColor object representing the color Pansy Purple, whose RBG values are (120, 24, 74), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13083,14 +13100,14 @@
 
 
 /*!
- * Returns a color object representing the color Paolo Veronese Green, whose RBG values are (0, 155, 125), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Paolo Veronese Green, whose RBG values are (0, 155, 125), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paoloVeroneseGreenColor;
 
 /*!
- * Returns a color object representing the color Paolo Veronese Green, whose RBG values are (0, 155, 125), and has the specified opacity.
+ * Returns a UIColor object representing the color Paolo Veronese Green, whose RBG values are (0, 155, 125), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13099,14 +13116,14 @@
 
 
 /*!
- * Returns a color object representing the color Papaya Whip, whose RBG values are (255, 239, 213), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Papaya Whip, whose RBG values are (255, 239, 213), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) papayaWhipColor;
 
 /*!
- * Returns a color object representing the color Papaya Whip, whose RBG values are (255, 239, 213), and has the specified opacity.
+ * Returns a UIColor object representing the color Papaya Whip, whose RBG values are (255, 239, 213), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13115,14 +13132,14 @@
 
 
 /*!
- * Returns a color object representing the color Paradise Pink, whose RBG values are (230, 62, 98), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Paradise Pink, whose RBG values are (230, 62, 98), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paradisePinkColor;
 
 /*!
- * Returns a color object representing the color Paradise Pink, whose RBG values are (230, 62, 98), and has the specified opacity.
+ * Returns a UIColor object representing the color Paradise Pink, whose RBG values are (230, 62, 98), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13131,14 +13148,14 @@
 
 
 /*!
- * Returns a color object representing the color Paris Green, whose RBG values are (80, 200, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Paris Green, whose RBG values are (80, 200, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) parisGreenColor;
 
 /*!
- * Returns a color object representing the color Paris Green, whose RBG values are (80, 200, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Paris Green, whose RBG values are (80, 200, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13147,14 +13164,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Blue, whose RBG values are (174, 198, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Blue, whose RBG values are (174, 198, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelBlueColor;
 
 /*!
- * Returns a color object representing the color Pastel Blue, whose RBG values are (174, 198, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Blue, whose RBG values are (174, 198, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13163,14 +13180,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Brown, whose RBG values are (130, 105, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Brown, whose RBG values are (130, 105, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelBrownColor;
 
 /*!
- * Returns a color object representing the color Pastel Brown, whose RBG values are (130, 105, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Brown, whose RBG values are (130, 105, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13179,14 +13196,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Gray, whose RBG values are (207, 207, 196), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Gray, whose RBG values are (207, 207, 196), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelGrayColor;
 
 /*!
- * Returns a color object representing the color Pastel Gray, whose RBG values are (207, 207, 196), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Gray, whose RBG values are (207, 207, 196), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13195,14 +13212,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Green, whose RBG values are (119, 221, 119), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Green, whose RBG values are (119, 221, 119), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelGreenColor;
 
 /*!
- * Returns a color object representing the color Pastel Green, whose RBG values are (119, 221, 119), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Green, whose RBG values are (119, 221, 119), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13211,14 +13228,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Magenta, whose RBG values are (244, 154, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Magenta, whose RBG values are (244, 154, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelMagentaColor;
 
 /*!
- * Returns a color object representing the color Pastel Magenta, whose RBG values are (244, 154, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Magenta, whose RBG values are (244, 154, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13227,14 +13244,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Orange, whose RBG values are (255, 179, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Orange, whose RBG values are (255, 179, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelOrangeColor;
 
 /*!
- * Returns a color object representing the color Pastel Orange, whose RBG values are (255, 179, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Orange, whose RBG values are (255, 179, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13243,14 +13260,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Pink, whose RBG values are (222, 165, 164), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Pink, whose RBG values are (222, 165, 164), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelPinkColor;
 
 /*!
- * Returns a color object representing the color Pastel Pink, whose RBG values are (222, 165, 164), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Pink, whose RBG values are (222, 165, 164), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13259,14 +13276,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Purple, whose RBG values are (179, 158, 181), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Purple, whose RBG values are (179, 158, 181), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelPurpleColor;
 
 /*!
- * Returns a color object representing the color Pastel Purple, whose RBG values are (179, 158, 181), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Purple, whose RBG values are (179, 158, 181), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13275,14 +13292,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Red, whose RBG values are (255, 105, 97), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Red, whose RBG values are (255, 105, 97), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelRedColor;
 
 /*!
- * Returns a color object representing the color Pastel Red, whose RBG values are (255, 105, 97), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Red, whose RBG values are (255, 105, 97), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13291,14 +13308,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Violet, whose RBG values are (203, 153, 201), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Violet, whose RBG values are (203, 153, 201), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelVioletColor;
 
 /*!
- * Returns a color object representing the color Pastel Violet, whose RBG values are (203, 153, 201), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Violet, whose RBG values are (203, 153, 201), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13307,14 +13324,14 @@
 
 
 /*!
- * Returns a color object representing the color Pastel Yellow, whose RBG values are (253, 253, 150), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pastel Yellow, whose RBG values are (253, 253, 150), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pastelYellowColor;
 
 /*!
- * Returns a color object representing the color Pastel Yellow, whose RBG values are (253, 253, 150), and has the specified opacity.
+ * Returns a UIColor object representing the color Pastel Yellow, whose RBG values are (253, 253, 150), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13323,14 +13340,14 @@
 
 
 /*!
- * Returns a color object representing the color Patriarch, whose RBG values are (128, 0, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Patriarch, whose RBG values are (128, 0, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) patriarchColor;
 
 /*!
- * Returns a color object representing the color Patriarch, whose RBG values are (128, 0, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Patriarch, whose RBG values are (128, 0, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13339,14 +13356,14 @@
 
 
 /*!
- * Returns a color object representing the color Payne's Grey, whose RBG values are (83, 104, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Payne's Grey, whose RBG values are (83, 104, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) paynesGreyColor;
 
 /*!
- * Returns a color object representing the color Payne's Grey, whose RBG values are (83, 104, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Payne's Grey, whose RBG values are (83, 104, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13355,14 +13372,14 @@
 
 
 /*!
- * Returns a color object representing the color Peach, whose RBG values are (255, 229, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peach, whose RBG values are (255, 229, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peachColor;
 
 /*!
- * Returns a color object representing the color Peach, whose RBG values are (255, 229, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Peach, whose RBG values are (255, 229, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13371,14 +13388,14 @@
 
 
 /*!
- * Returns a color object representing the color Peach (Crayola), whose RBG values are (255, 207, 171), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peach (Crayola), whose RBG values are (255, 207, 171), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peachCrayolaColor;
 
 /*!
- * Returns a color object representing the color Peach (Crayola), whose RBG values are (255, 207, 171), and has the specified opacity.
+ * Returns a UIColor object representing the color Peach (Crayola), whose RBG values are (255, 207, 171), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13387,14 +13404,14 @@
 
 
 /*!
- * Returns a color object representing the color Peach Puff, whose RBG values are (255, 218, 185), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peach Puff, whose RBG values are (255, 218, 185), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peachPuffColor;
 
 /*!
- * Returns a color object representing the color Peach Puff, whose RBG values are (255, 218, 185), and has the specified opacity.
+ * Returns a UIColor object representing the color Peach Puff, whose RBG values are (255, 218, 185), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13403,14 +13420,14 @@
 
 
 /*!
- * Returns a color object representing the color Peach-Orange, whose RBG values are (255, 204, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peach-Orange, whose RBG values are (255, 204, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peachOrangeColor;
 
 /*!
- * Returns a color object representing the color Peach-Orange, whose RBG values are (255, 204, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Peach-Orange, whose RBG values are (255, 204, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13419,14 +13436,14 @@
 
 
 /*!
- * Returns a color object representing the color Peach-Yellow, whose RBG values are (250, 223, 173), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peach-Yellow, whose RBG values are (250, 223, 173), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peachYellowColor;
 
 /*!
- * Returns a color object representing the color Peach-Yellow, whose RBG values are (250, 223, 173), and has the specified opacity.
+ * Returns a UIColor object representing the color Peach-Yellow, whose RBG values are (250, 223, 173), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13435,14 +13452,14 @@
 
 
 /*!
- * Returns a color object representing the color Pear, whose RBG values are (209, 226, 49), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pear, whose RBG values are (209, 226, 49), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pearColor;
 
 /*!
- * Returns a color object representing the color Pear, whose RBG values are (209, 226, 49), and has the specified opacity.
+ * Returns a UIColor object representing the color Pear, whose RBG values are (209, 226, 49), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13451,14 +13468,14 @@
 
 
 /*!
- * Returns a color object representing the color Pearl, whose RBG values are (234, 224, 200), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pearl, whose RBG values are (234, 224, 200), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pearlColor;
 
 /*!
- * Returns a color object representing the color Pearl, whose RBG values are (234, 224, 200), and has the specified opacity.
+ * Returns a UIColor object representing the color Pearl, whose RBG values are (234, 224, 200), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13467,14 +13484,14 @@
 
 
 /*!
- * Returns a color object representing the color Pearl Aqua, whose RBG values are (136, 216, 192), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pearl Aqua, whose RBG values are (136, 216, 192), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pearlAquaColor;
 
 /*!
- * Returns a color object representing the color Pearl Aqua, whose RBG values are (136, 216, 192), and has the specified opacity.
+ * Returns a UIColor object representing the color Pearl Aqua, whose RBG values are (136, 216, 192), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13483,14 +13500,14 @@
 
 
 /*!
- * Returns a color object representing the color Pearly Purple, whose RBG values are (183, 104, 162), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pearly Purple, whose RBG values are (183, 104, 162), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pearlyPurpleColor;
 
 /*!
- * Returns a color object representing the color Pearly Purple, whose RBG values are (183, 104, 162), and has the specified opacity.
+ * Returns a UIColor object representing the color Pearly Purple, whose RBG values are (183, 104, 162), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13499,14 +13516,14 @@
 
 
 /*!
- * Returns a color object representing the color Peridot, whose RBG values are (230, 226, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peridot, whose RBG values are (230, 226, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peridotColor;
 
 /*!
- * Returns a color object representing the color Peridot, whose RBG values are (230, 226, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Peridot, whose RBG values are (230, 226, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13515,14 +13532,14 @@
 
 
 /*!
- * Returns a color object representing the color Periwinkle, whose RBG values are (204, 204, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Periwinkle, whose RBG values are (204, 204, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) periwinkleColor;
 
 /*!
- * Returns a color object representing the color Periwinkle, whose RBG values are (204, 204, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Periwinkle, whose RBG values are (204, 204, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13531,14 +13548,14 @@
 
 
 /*!
- * Returns a color object representing the color Periwinkle (Crayola), whose RBG values are (197, 208, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Periwinkle (Crayola), whose RBG values are (197, 208, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) periwinkleCrayolaColor;
 
 /*!
- * Returns a color object representing the color Periwinkle (Crayola), whose RBG values are (197, 208, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Periwinkle (Crayola), whose RBG values are (197, 208, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13547,14 +13564,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Blue, whose RBG values are (28, 57, 187), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Blue, whose RBG values are (28, 57, 187), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianBlueColor;
 
 /*!
- * Returns a color object representing the color Persian Blue, whose RBG values are (28, 57, 187), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Blue, whose RBG values are (28, 57, 187), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13563,14 +13580,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Green, whose RBG values are (0, 166, 147), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Green, whose RBG values are (0, 166, 147), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianGreenColor;
 
 /*!
- * Returns a color object representing the color Persian Green, whose RBG values are (0, 166, 147), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Green, whose RBG values are (0, 166, 147), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13579,14 +13596,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Indigo, whose RBG values are (50, 18, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Indigo, whose RBG values are (50, 18, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianIndigoColor;
 
 /*!
- * Returns a color object representing the color Persian Indigo, whose RBG values are (50, 18, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Indigo, whose RBG values are (50, 18, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13595,14 +13612,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Orange, whose RBG values are (217, 144, 88), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Orange, whose RBG values are (217, 144, 88), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianOrangeColor;
 
 /*!
- * Returns a color object representing the color Persian Orange, whose RBG values are (217, 144, 88), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Orange, whose RBG values are (217, 144, 88), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13611,14 +13628,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Pink, whose RBG values are (247, 127, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Pink, whose RBG values are (247, 127, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianPinkColor;
 
 /*!
- * Returns a color object representing the color Persian Pink, whose RBG values are (247, 127, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Pink, whose RBG values are (247, 127, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13627,14 +13644,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Plum, whose RBG values are (112, 28, 28), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Plum, whose RBG values are (112, 28, 28), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianPlumColor;
 
 /*!
- * Returns a color object representing the color Persian Plum, whose RBG values are (112, 28, 28), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Plum, whose RBG values are (112, 28, 28), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13643,14 +13660,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Red, whose RBG values are (204, 51, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Red, whose RBG values are (204, 51, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianRedColor;
 
 /*!
- * Returns a color object representing the color Persian Red, whose RBG values are (204, 51, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Red, whose RBG values are (204, 51, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13659,14 +13676,14 @@
 
 
 /*!
- * Returns a color object representing the color Persian Rose, whose RBG values are (254, 40, 162), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persian Rose, whose RBG values are (254, 40, 162), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persianRoseColor;
 
 /*!
- * Returns a color object representing the color Persian Rose, whose RBG values are (254, 40, 162), and has the specified opacity.
+ * Returns a UIColor object representing the color Persian Rose, whose RBG values are (254, 40, 162), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13675,14 +13692,14 @@
 
 
 /*!
- * Returns a color object representing the color Persimmon, whose RBG values are (236, 88, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Persimmon, whose RBG values are (236, 88, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) persimmonColor;
 
 /*!
- * Returns a color object representing the color Persimmon, whose RBG values are (236, 88, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Persimmon, whose RBG values are (236, 88, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13691,14 +13708,14 @@
 
 
 /*!
- * Returns a color object representing the color Peru, whose RBG values are (205, 133, 63), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Peru, whose RBG values are (205, 133, 63), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) peruColor;
 
 /*!
- * Returns a color object representing the color Peru, whose RBG values are (205, 133, 63), and has the specified opacity.
+ * Returns a UIColor object representing the color Peru, whose RBG values are (205, 133, 63), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13707,14 +13724,14 @@
 
 
 /*!
- * Returns a color object representing the color Phlox, whose RBG values are (223, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Phlox, whose RBG values are (223, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) phloxColor;
 
 /*!
- * Returns a color object representing the color Phlox, whose RBG values are (223, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Phlox, whose RBG values are (223, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13723,14 +13740,14 @@
 
 
 /*!
- * Returns a color object representing the color Phthalo Blue, whose RBG values are (0, 15, 137), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Phthalo Blue, whose RBG values are (0, 15, 137), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) phthaloBlueColor;
 
 /*!
- * Returns a color object representing the color Phthalo Blue, whose RBG values are (0, 15, 137), and has the specified opacity.
+ * Returns a UIColor object representing the color Phthalo Blue, whose RBG values are (0, 15, 137), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13739,14 +13756,14 @@
 
 
 /*!
- * Returns a color object representing the color Phthalo Green, whose RBG values are (18, 53, 36), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Phthalo Green, whose RBG values are (18, 53, 36), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) phthaloGreenColor;
 
 /*!
- * Returns a color object representing the color Phthalo Green, whose RBG values are (18, 53, 36), and has the specified opacity.
+ * Returns a UIColor object representing the color Phthalo Green, whose RBG values are (18, 53, 36), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13755,14 +13772,14 @@
 
 
 /*!
- * Returns a color object representing the color Picton Blue, whose RBG values are (69, 177, 232), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Picton Blue, whose RBG values are (69, 177, 232), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pictonBlueColor;
 
 /*!
- * Returns a color object representing the color Picton Blue, whose RBG values are (69, 177, 232), and has the specified opacity.
+ * Returns a UIColor object representing the color Picton Blue, whose RBG values are (69, 177, 232), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13771,14 +13788,14 @@
 
 
 /*!
- * Returns a color object representing the color Pictorial Carmine, whose RBG values are (195, 11, 78), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pictorial Carmine, whose RBG values are (195, 11, 78), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pictorialCarmineColor;
 
 /*!
- * Returns a color object representing the color Pictorial Carmine, whose RBG values are (195, 11, 78), and has the specified opacity.
+ * Returns a UIColor object representing the color Pictorial Carmine, whose RBG values are (195, 11, 78), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13787,14 +13804,14 @@
 
 
 /*!
- * Returns a color object representing the color Piggy Pink (Crayola), whose RBG values are (253, 221, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Piggy Pink (Crayola), whose RBG values are (253, 221, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) piggyPinkCrayolaColor;
 
 /*!
- * Returns a color object representing the color Piggy Pink (Crayola), whose RBG values are (253, 221, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Piggy Pink (Crayola), whose RBG values are (253, 221, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13803,14 +13820,14 @@
 
 
 /*!
- * Returns a color object representing the color Pine Green (Crayola), whose RBG values are (21, 128, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pine Green (Crayola), whose RBG values are (21, 128, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pineGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Pine Green (Crayola), whose RBG values are (21, 128, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Pine Green (Crayola), whose RBG values are (21, 128, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13819,14 +13836,14 @@
 
 
 /*!
- * Returns a color object representing the color Pine Green, whose RBG values are (1, 121, 111), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pine Green, whose RBG values are (1, 121, 111), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pineGreenColor;
 
 /*!
- * Returns a color object representing the color Pine Green, whose RBG values are (1, 121, 111), and has the specified opacity.
+ * Returns a UIColor object representing the color Pine Green, whose RBG values are (1, 121, 111), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13835,14 +13852,14 @@
 
 
 /*!
- * Returns a color object representing the color Pineapple, whose RBG values are (86, 60, 13), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pineapple, whose RBG values are (86, 60, 13), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pineappleColor;
 
 /*!
- * Returns a color object representing the color Pineapple, whose RBG values are (86, 60, 13), and has the specified opacity.
+ * Returns a UIColor object representing the color Pineapple, whose RBG values are (86, 60, 13), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13851,14 +13868,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink, whose RBG values are (255, 192, 203), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink, whose RBG values are (255, 192, 203), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkColor;
 
 /*!
- * Returns a color object representing the color Pink, whose RBG values are (255, 192, 203), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink, whose RBG values are (255, 192, 203), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13867,14 +13884,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink (Pantone), whose RBG values are (215, 72, 148), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink (Pantone), whose RBG values are (215, 72, 148), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkPantoneColor;
 
 /*!
- * Returns a color object representing the color Pink (Pantone), whose RBG values are (215, 72, 148), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink (Pantone), whose RBG values are (215, 72, 148), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13883,14 +13900,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink Flamingo (Crayola), whose RBG values are (252, 116, 253), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink Flamingo (Crayola), whose RBG values are (252, 116, 253), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkFlamingoCrayolaColor;
 
 /*!
- * Returns a color object representing the color Pink Flamingo (Crayola), whose RBG values are (252, 116, 253), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink Flamingo (Crayola), whose RBG values are (252, 116, 253), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13899,14 +13916,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink Sherbert (Crayola), whose RBG values are (247, 143, 167), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink Sherbert (Crayola), whose RBG values are (247, 143, 167), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkSherbertCrayolaColor;
 
 /*!
- * Returns a color object representing the color Pink Sherbert (Crayola), whose RBG values are (247, 143, 167), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink Sherbert (Crayola), whose RBG values are (247, 143, 167), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13915,14 +13932,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink Lace, whose RBG values are (255, 221, 244), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink Lace, whose RBG values are (255, 221, 244), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkLaceColor;
 
 /*!
- * Returns a color object representing the color Pink Lace, whose RBG values are (255, 221, 244), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink Lace, whose RBG values are (255, 221, 244), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13931,14 +13948,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink Lavender, whose RBG values are (216, 178, 209), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink Lavender, whose RBG values are (216, 178, 209), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkLavenderColor;
 
 /*!
- * Returns a color object representing the color Pink Lavender, whose RBG values are (216, 178, 209), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink Lavender, whose RBG values are (216, 178, 209), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13947,14 +13964,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink Pearl, whose RBG values are (231, 172, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink Pearl, whose RBG values are (231, 172, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkPearlColor;
 
 /*!
- * Returns a color object representing the color Pink Pearl, whose RBG values are (231, 172, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink Pearl, whose RBG values are (231, 172, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13963,14 +13980,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink Raspberry, whose RBG values are (152, 0, 54), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink Raspberry, whose RBG values are (152, 0, 54), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkRaspberryColor;
 
 /*!
- * Returns a color object representing the color Pink Raspberry, whose RBG values are (152, 0, 54), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink Raspberry, whose RBG values are (152, 0, 54), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13979,14 +13996,14 @@
 
 
 /*!
- * Returns a color object representing the color Pink-Orange, whose RBG values are (255, 153, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pink-Orange, whose RBG values are (255, 153, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pinkOrangeColor;
 
 /*!
- * Returns a color object representing the color Pink-Orange, whose RBG values are (255, 153, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Pink-Orange, whose RBG values are (255, 153, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -13995,14 +14012,14 @@
 
 
 /*!
- * Returns a color object representing the color Pistachio, whose RBG values are (147, 197, 114), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pistachio, whose RBG values are (147, 197, 114), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pistachioColor;
 
 /*!
- * Returns a color object representing the color Pistachio, whose RBG values are (147, 197, 114), and has the specified opacity.
+ * Returns a UIColor object representing the color Pistachio, whose RBG values are (147, 197, 114), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14011,14 +14028,14 @@
 
 
 /*!
- * Returns a color object representing the color Platinum, whose RBG values are (229, 228, 226), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Platinum, whose RBG values are (229, 228, 226), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) platinumColor;
 
 /*!
- * Returns a color object representing the color Platinum, whose RBG values are (229, 228, 226), and has the specified opacity.
+ * Returns a UIColor object representing the color Platinum, whose RBG values are (229, 228, 226), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14027,14 +14044,14 @@
 
 
 /*!
- * Returns a color object representing the color Plum, whose RBG values are (142, 69, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Plum, whose RBG values are (142, 69, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) plumColor;
 
 /*!
- * Returns a color object representing the color Plum, whose RBG values are (142, 69, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Plum, whose RBG values are (142, 69, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14043,14 +14060,14 @@
 
 
 /*!
- * Returns a color object representing the color Plum (Crayola), whose RBG values are (142, 69, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Plum (Crayola), whose RBG values are (142, 69, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) plumCrayolaColor;
 
 /*!
- * Returns a color object representing the color Plum (Crayola), whose RBG values are (142, 69, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Plum (Crayola), whose RBG values are (142, 69, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14059,14 +14076,14 @@
 
 
 /*!
- * Returns a color object representing the color Plum (Web), whose RBG values are (221, 160, 221), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Plum (Web), whose RBG values are (221, 160, 221), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) plumWebColor;
 
 /*!
- * Returns a color object representing the color Plum (Web), whose RBG values are (221, 160, 221), and has the specified opacity.
+ * Returns a UIColor object representing the color Plum (Web), whose RBG values are (221, 160, 221), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14075,14 +14092,14 @@
 
 
 /*!
- * Returns a color object representing the color Pomp And Power, whose RBG values are (134, 96, 142), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pomp And Power, whose RBG values are (134, 96, 142), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pompAndPowerColor;
 
 /*!
- * Returns a color object representing the color Pomp And Power, whose RBG values are (134, 96, 142), and has the specified opacity.
+ * Returns a UIColor object representing the color Pomp And Power, whose RBG values are (134, 96, 142), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14091,14 +14108,14 @@
 
 
 /*!
- * Returns a color object representing the color Popstar, whose RBG values are (190, 79, 98), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Popstar, whose RBG values are (190, 79, 98), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) popstarColor;
 
 /*!
- * Returns a color object representing the color Popstar, whose RBG values are (190, 79, 98), and has the specified opacity.
+ * Returns a UIColor object representing the color Popstar, whose RBG values are (190, 79, 98), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14107,14 +14124,14 @@
 
 
 /*!
- * Returns a color object representing the color Portland Orange, whose RBG values are (255, 90, 54), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Portland Orange, whose RBG values are (255, 90, 54), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) portlandOrangeColor;
 
 /*!
- * Returns a color object representing the color Portland Orange, whose RBG values are (255, 90, 54), and has the specified opacity.
+ * Returns a UIColor object representing the color Portland Orange, whose RBG values are (255, 90, 54), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14123,14 +14140,14 @@
 
 
 /*!
- * Returns a color object representing the color Powder Blue, whose RBG values are (176, 224, 230), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Powder Blue, whose RBG values are (176, 224, 230), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) powderBlueColor;
 
 /*!
- * Returns a color object representing the color Powder Blue, whose RBG values are (176, 224, 230), and has the specified opacity.
+ * Returns a UIColor object representing the color Powder Blue, whose RBG values are (176, 224, 230), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14139,14 +14156,14 @@
 
 
 /*!
- * Returns a color object representing the color Princeton Orange, whose RBG values are (245, 128, 37), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Princeton Orange, whose RBG values are (245, 128, 37), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) princetonOrangeColor;
 
 /*!
- * Returns a color object representing the color Princeton Orange, whose RBG values are (245, 128, 37), and has the specified opacity.
+ * Returns a UIColor object representing the color Princeton Orange, whose RBG values are (245, 128, 37), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14155,14 +14172,14 @@
 
 
 /*!
- * Returns a color object representing the color Prune, whose RBG values are (112, 28, 28), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Prune, whose RBG values are (112, 28, 28), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pruneColor;
 
 /*!
- * Returns a color object representing the color Prune, whose RBG values are (112, 28, 28), and has the specified opacity.
+ * Returns a UIColor object representing the color Prune, whose RBG values are (112, 28, 28), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14171,14 +14188,14 @@
 
 
 /*!
- * Returns a color object representing the color Prussian Blue, whose RBG values are (0, 49, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Prussian Blue, whose RBG values are (0, 49, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) prussianBlueColor;
 
 /*!
- * Returns a color object representing the color Prussian Blue, whose RBG values are (0, 49, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Prussian Blue, whose RBG values are (0, 49, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14187,14 +14204,14 @@
 
 
 /*!
- * Returns a color object representing the color Psychedelic Purple, whose RBG values are (223, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Psychedelic Purple, whose RBG values are (223, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) psychedelicPurpleColor;
 
 /*!
- * Returns a color object representing the color Psychedelic Purple, whose RBG values are (223, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Psychedelic Purple, whose RBG values are (223, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14203,14 +14220,14 @@
 
 
 /*!
- * Returns a color object representing the color Puce, whose RBG values are (204, 136, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Puce, whose RBG values are (204, 136, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) puceColor;
 
 /*!
- * Returns a color object representing the color Puce, whose RBG values are (204, 136, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Puce, whose RBG values are (204, 136, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14219,14 +14236,14 @@
 
 
 /*!
- * Returns a color object representing the color Puce Red, whose RBG values are (114, 47, 55), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Puce Red, whose RBG values are (114, 47, 55), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) puceRedColor;
 
 /*!
- * Returns a color object representing the color Puce Red, whose RBG values are (114, 47, 55), and has the specified opacity.
+ * Returns a UIColor object representing the color Puce Red, whose RBG values are (114, 47, 55), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14235,14 +14252,14 @@
 
 
 /*!
- * Returns a color object representing the color Pullman Brown (UPS Brown), whose RBG values are (100, 65, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pullman Brown (UPS Brown), whose RBG values are (100, 65, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pullmanBrownUPSBrownColor;
 
 /*!
- * Returns a color object representing the color Pullman Brown (UPS Brown), whose RBG values are (100, 65, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Pullman Brown (UPS Brown), whose RBG values are (100, 65, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14251,14 +14268,14 @@
 
 
 /*!
- * Returns a color object representing the color Pullman Green, whose RBG values are (59, 51, 28), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pullman Green, whose RBG values are (59, 51, 28), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pullmanGreenColor;
 
 /*!
- * Returns a color object representing the color Pullman Green, whose RBG values are (59, 51, 28), and has the specified opacity.
+ * Returns a UIColor object representing the color Pullman Green, whose RBG values are (59, 51, 28), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14267,14 +14284,14 @@
 
 
 /*!
- * Returns a color object representing the color Pumpkin, whose RBG values are (255, 117, 24), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Pumpkin, whose RBG values are (255, 117, 24), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) pumpkinColor;
 
 /*!
- * Returns a color object representing the color Pumpkin, whose RBG values are (255, 117, 24), and has the specified opacity.
+ * Returns a UIColor object representing the color Pumpkin, whose RBG values are (255, 117, 24), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14283,14 +14300,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple (HTML), whose RBG values are (128, 0, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple (HTML), whose RBG values are (128, 0, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleHTMLColor;
 
 /*!
- * Returns a color object representing the color Purple (HTML), whose RBG values are (128, 0, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple (HTML), whose RBG values are (128, 0, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14299,14 +14316,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple (Munsell), whose RBG values are (159, 0, 197), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple (Munsell), whose RBG values are (159, 0, 197), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleMunsellColor;
 
 /*!
- * Returns a color object representing the color Purple (Munsell), whose RBG values are (159, 0, 197), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple (Munsell), whose RBG values are (159, 0, 197), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14315,14 +14332,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple (X11), whose RBG values are (160, 32, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple (X11), whose RBG values are (160, 32, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleX11Color;
 
 /*!
- * Returns a color object representing the color Purple (X11), whose RBG values are (160, 32, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple (X11), whose RBG values are (160, 32, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14331,14 +14348,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Heart, whose RBG values are (105, 53, 156), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Heart, whose RBG values are (105, 53, 156), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleHeartColor;
 
 /*!
- * Returns a color object representing the color Purple Heart, whose RBG values are (105, 53, 156), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Heart, whose RBG values are (105, 53, 156), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14347,14 +14364,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Heart (Crayola), whose RBG values are (116, 66, 200), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Heart (Crayola), whose RBG values are (116, 66, 200), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleHeartCrayolaColor;
 
 /*!
- * Returns a color object representing the color Purple Heart (Crayola), whose RBG values are (116, 66, 200), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Heart (Crayola), whose RBG values are (116, 66, 200), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14363,14 +14380,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Mountains' Majesty (Crayola), whose RBG values are (157, 129, 186), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Mountains' Majesty (Crayola), whose RBG values are (157, 129, 186), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleMountainsMajestyCrayolaColor;
 
 /*!
- * Returns a color object representing the color Purple Mountains' Majesty (Crayola), whose RBG values are (157, 129, 186), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Mountains' Majesty (Crayola), whose RBG values are (157, 129, 186), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14379,14 +14396,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Pizzazz (Crayola), whose RBG values are (254, 78, 218), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Pizzazz (Crayola), whose RBG values are (254, 78, 218), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purplePizzazzCrayolaColor;
 
 /*!
- * Returns a color object representing the color Purple Pizzazz (Crayola), whose RBG values are (254, 78, 218), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Pizzazz (Crayola), whose RBG values are (254, 78, 218), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14395,14 +14412,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Mountain Majesty, whose RBG values are (150, 120, 182), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Mountain Majesty, whose RBG values are (150, 120, 182), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleMountainMajestyColor;
 
 /*!
- * Returns a color object representing the color Purple Mountain Majesty, whose RBG values are (150, 120, 182), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Mountain Majesty, whose RBG values are (150, 120, 182), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14411,14 +14428,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Navy, whose RBG values are (78, 81, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Navy, whose RBG values are (78, 81, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleNavyColor;
 
 /*!
- * Returns a color object representing the color Purple Navy, whose RBG values are (78, 81, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Navy, whose RBG values are (78, 81, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14427,14 +14444,14 @@
 
 
 /*!
- * Returns a color object representing the color Purple Taupe, whose RBG values are (80, 64, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purple Taupe, whose RBG values are (80, 64, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpleTaupeColor;
 
 /*!
- * Returns a color object representing the color Purple Taupe, whose RBG values are (80, 64, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color Purple Taupe, whose RBG values are (80, 64, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14443,14 +14460,14 @@
 
 
 /*!
- * Returns a color object representing the color Purpureus, whose RBG values are (154, 78, 174), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Purpureus, whose RBG values are (154, 78, 174), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) purpureusColor;
 
 /*!
- * Returns a color object representing the color Purpureus, whose RBG values are (154, 78, 174), and has the specified opacity.
+ * Returns a UIColor object representing the color Purpureus, whose RBG values are (154, 78, 174), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14459,14 +14476,14 @@
 
 
 /*!
- * Returns a color object representing the color Quartz, whose RBG values are (81, 72, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Quartz, whose RBG values are (81, 72, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) quartzColor;
 
 /*!
- * Returns a color object representing the color Quartz, whose RBG values are (81, 72, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Quartz, whose RBG values are (81, 72, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14475,14 +14492,14 @@
 
 
 /*!
- * Returns a color object representing the color Queen Blue, whose RBG values are (67, 107, 149), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Queen Blue, whose RBG values are (67, 107, 149), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) queenBlueColor;
 
 /*!
- * Returns a color object representing the color Queen Blue, whose RBG values are (67, 107, 149), and has the specified opacity.
+ * Returns a UIColor object representing the color Queen Blue, whose RBG values are (67, 107, 149), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14491,14 +14508,14 @@
 
 
 /*!
- * Returns a color object representing the color Queen Pink, whose RBG values are (232, 204, 215), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Queen Pink, whose RBG values are (232, 204, 215), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) queenPinkColor;
 
 /*!
- * Returns a color object representing the color Queen Pink, whose RBG values are (232, 204, 215), and has the specified opacity.
+ * Returns a UIColor object representing the color Queen Pink, whose RBG values are (232, 204, 215), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14507,14 +14524,14 @@
 
 
 /*!
- * Returns a color object representing the color Quinacridone Magenta, whose RBG values are (142, 58, 89), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Quinacridone Magenta, whose RBG values are (142, 58, 89), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) quinacridoneMagentaColor;
 
 /*!
- * Returns a color object representing the color Quinacridone Magenta, whose RBG values are (142, 58, 89), and has the specified opacity.
+ * Returns a UIColor object representing the color Quinacridone Magenta, whose RBG values are (142, 58, 89), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14523,14 +14540,14 @@
 
 
 /*!
- * Returns a color object representing the color Rackley, whose RBG values are (93, 138, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rackley, whose RBG values are (93, 138, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rackleyColor;
 
 /*!
- * Returns a color object representing the color Rackley, whose RBG values are (93, 138, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Rackley, whose RBG values are (93, 138, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14539,14 +14556,14 @@
 
 
 /*!
- * Returns a color object representing the color Radical Red, whose RBG values are (255, 53, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Radical Red, whose RBG values are (255, 53, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) radicalRedColor;
 
 /*!
- * Returns a color object representing the color Radical Red, whose RBG values are (255, 53, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Radical Red, whose RBG values are (255, 53, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14555,14 +14572,14 @@
 
 
 /*!
- * Returns a color object representing the color Radical Red (Crayola), whose RBG values are (255, 73, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Radical Red (Crayola), whose RBG values are (255, 73, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) radicalRedCrayolaColor;
 
 /*!
- * Returns a color object representing the color Radical Red (Crayola), whose RBG values are (255, 73, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Radical Red (Crayola), whose RBG values are (255, 73, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14571,14 +14588,14 @@
 
 
 /*!
- * Returns a color object representing the color Rajah, whose RBG values are (251, 171, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rajah, whose RBG values are (251, 171, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rajahColor;
 
 /*!
- * Returns a color object representing the color Rajah, whose RBG values are (251, 171, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Rajah, whose RBG values are (251, 171, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14587,14 +14604,14 @@
 
 
 /*!
- * Returns a color object representing the color Raspberry, whose RBG values are (227, 11, 92), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raspberry, whose RBG values are (227, 11, 92), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) raspberryColor;
 
 /*!
- * Returns a color object representing the color Raspberry, whose RBG values are (227, 11, 92), and has the specified opacity.
+ * Returns a UIColor object representing the color Raspberry, whose RBG values are (227, 11, 92), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14603,14 +14620,14 @@
 
 
 /*!
- * Returns a color object representing the color Raspberry Glace, whose RBG values are (145, 95, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raspberry Glace, whose RBG values are (145, 95, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) raspberryGlaceColor;
 
 /*!
- * Returns a color object representing the color Raspberry Glace, whose RBG values are (145, 95, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Raspberry Glace, whose RBG values are (145, 95, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14619,14 +14636,14 @@
 
 
 /*!
- * Returns a color object representing the color Raspberry Pink, whose RBG values are (226, 80, 152), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raspberry Pink, whose RBG values are (226, 80, 152), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) raspberryPinkColor;
 
 /*!
- * Returns a color object representing the color Raspberry Pink, whose RBG values are (226, 80, 152), and has the specified opacity.
+ * Returns a UIColor object representing the color Raspberry Pink, whose RBG values are (226, 80, 152), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14635,14 +14652,14 @@
 
 
 /*!
- * Returns a color object representing the color Raspberry Rose, whose RBG values are (179, 68, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raspberry Rose, whose RBG values are (179, 68, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) raspberryRoseColor;
 
 /*!
- * Returns a color object representing the color Raspberry Rose, whose RBG values are (179, 68, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Raspberry Rose, whose RBG values are (179, 68, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14651,14 +14668,14 @@
 
 
 /*!
- * Returns a color object representing the color Raw Sienna (Crayola), whose RBG values are (214, 138, 89), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raw Sienna (Crayola), whose RBG values are (214, 138, 89), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rawSiennaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Raw Sienna (Crayola), whose RBG values are (214, 138, 89), and has the specified opacity.
+ * Returns a UIColor object representing the color Raw Sienna (Crayola), whose RBG values are (214, 138, 89), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14667,14 +14684,14 @@
 
 
 /*!
- * Returns a color object representing the color Raw Umber (Crayola), whose RBG values are (113, 75, 35), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raw Umber (Crayola), whose RBG values are (113, 75, 35), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rawUmberCrayolaColor;
 
 /*!
- * Returns a color object representing the color Raw Umber (Crayola), whose RBG values are (113, 75, 35), and has the specified opacity.
+ * Returns a UIColor object representing the color Raw Umber (Crayola), whose RBG values are (113, 75, 35), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14683,14 +14700,14 @@
 
 
 /*!
- * Returns a color object representing the color Raw Umber, whose RBG values are (130, 102, 68), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Raw Umber, whose RBG values are (130, 102, 68), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rawUmberColor;
 
 /*!
- * Returns a color object representing the color Raw Umber, whose RBG values are (130, 102, 68), and has the specified opacity.
+ * Returns a UIColor object representing the color Raw Umber, whose RBG values are (130, 102, 68), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14699,14 +14716,14 @@
 
 
 /*!
- * Returns a color object representing the color Razzle Dazzle Rose (Crayola), whose RBG values are (255, 72, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Razzle Dazzle Rose (Crayola), whose RBG values are (255, 72, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) razzleDazzleRoseCrayolaColor;
 
 /*!
- * Returns a color object representing the color Razzle Dazzle Rose (Crayola), whose RBG values are (255, 72, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Razzle Dazzle Rose (Crayola), whose RBG values are (255, 72, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14715,14 +14732,14 @@
 
 
 /*!
- * Returns a color object representing the color Razzle Dazzle Rose, whose RBG values are (255, 51, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Razzle Dazzle Rose, whose RBG values are (255, 51, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) razzleDazzleRoseColor;
 
 /*!
- * Returns a color object representing the color Razzle Dazzle Rose, whose RBG values are (255, 51, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Razzle Dazzle Rose, whose RBG values are (255, 51, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14731,14 +14748,14 @@
 
 
 /*!
- * Returns a color object representing the color Razzmatazz (Crayola), whose RBG values are (227, 37, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Razzmatazz (Crayola), whose RBG values are (227, 37, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) razzmatazzCrayolaColor;
 
 /*!
- * Returns a color object representing the color Razzmatazz (Crayola), whose RBG values are (227, 37, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Razzmatazz (Crayola), whose RBG values are (227, 37, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14747,14 +14764,14 @@
 
 
 /*!
- * Returns a color object representing the color Razzmic Berry, whose RBG values are (141, 78, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Razzmic Berry, whose RBG values are (141, 78, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) razzmicBerryColor;
 
 /*!
- * Returns a color object representing the color Razzmic Berry, whose RBG values are (141, 78, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Razzmic Berry, whose RBG values are (141, 78, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14763,14 +14780,14 @@
 
 
 /*!
- * Returns a color object representing the color Rebecca Purple, whose RBG values are (102, 52, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rebecca Purple, whose RBG values are (102, 52, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rebeccaPurpleColor;
 
 /*!
- * Returns a color object representing the color Rebecca Purple, whose RBG values are (102, 52, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Rebecca Purple, whose RBG values are (102, 52, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14779,14 +14796,14 @@
 
 
 /*!
- * Returns a color object representing the color Red (Crayola), whose RBG values are (238, 32, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red (Crayola), whose RBG values are (238, 32, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redCrayolaColor;
 
 /*!
- * Returns a color object representing the color Red (Crayola), whose RBG values are (238, 32, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color Red (Crayola), whose RBG values are (238, 32, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14795,14 +14812,14 @@
 
 
 /*!
- * Returns a color object representing the color Red (Munsell), whose RBG values are (242, 0, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red (Munsell), whose RBG values are (242, 0, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redMunsellColor;
 
 /*!
- * Returns a color object representing the color Red (Munsell), whose RBG values are (242, 0, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Red (Munsell), whose RBG values are (242, 0, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14811,14 +14828,14 @@
 
 
 /*!
- * Returns a color object representing the color Red (NCS), whose RBG values are (196, 2, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red (NCS), whose RBG values are (196, 2, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redNCSColor;
 
 /*!
- * Returns a color object representing the color Red (NCS), whose RBG values are (196, 2, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Red (NCS), whose RBG values are (196, 2, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14827,14 +14844,14 @@
 
 
 /*!
- * Returns a color object representing the color Red (Pantone), whose RBG values are (237, 41, 57), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red (Pantone), whose RBG values are (237, 41, 57), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redPantoneColor;
 
 /*!
- * Returns a color object representing the color Red (Pantone), whose RBG values are (237, 41, 57), and has the specified opacity.
+ * Returns a UIColor object representing the color Red (Pantone), whose RBG values are (237, 41, 57), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14843,14 +14860,14 @@
 
 
 /*!
- * Returns a color object representing the color Red (Pigment), whose RBG values are (237, 28, 36), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red (Pigment), whose RBG values are (237, 28, 36), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redPigmentColor;
 
 /*!
- * Returns a color object representing the color Red (Pigment), whose RBG values are (237, 28, 36), and has the specified opacity.
+ * Returns a UIColor object representing the color Red (Pigment), whose RBG values are (237, 28, 36), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14859,14 +14876,14 @@
 
 
 /*!
- * Returns a color object representing the color Red (RYB), whose RBG values are (254, 39, 18), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red (RYB), whose RBG values are (254, 39, 18), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redRYBColor;
 
 /*!
- * Returns a color object representing the color Red (RYB), whose RBG values are (254, 39, 18), and has the specified opacity.
+ * Returns a UIColor object representing the color Red (RYB), whose RBG values are (254, 39, 18), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14875,14 +14892,14 @@
 
 
 /*!
- * Returns a color object representing the color Red Orange (Crayola), whose RBG values are (255, 83, 73), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red Orange (Crayola), whose RBG values are (255, 83, 73), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redOrangeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Red Orange (Crayola), whose RBG values are (255, 83, 73), and has the specified opacity.
+ * Returns a UIColor object representing the color Red Orange (Crayola), whose RBG values are (255, 83, 73), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14891,14 +14908,14 @@
 
 
 /*!
- * Returns a color object representing the color Red Violet (Crayola), whose RBG values are (192, 68, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red Violet (Crayola), whose RBG values are (192, 68, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redVioletCrayolaColor;
 
 /*!
- * Returns a color object representing the color Red Violet (Crayola), whose RBG values are (192, 68, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Red Violet (Crayola), whose RBG values are (192, 68, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14907,14 +14924,14 @@
 
 
 /*!
- * Returns a color object representing the color Red Devil, whose RBG values are (134, 1, 17), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red Devil, whose RBG values are (134, 1, 17), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redDevilColor;
 
 /*!
- * Returns a color object representing the color Red Devil, whose RBG values are (134, 1, 17), and has the specified opacity.
+ * Returns a UIColor object representing the color Red Devil, whose RBG values are (134, 1, 17), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14923,14 +14940,14 @@
 
 
 /*!
- * Returns a color object representing the color Red-Brown, whose RBG values are (165, 42, 42), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red-Brown, whose RBG values are (165, 42, 42), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redBrownColor;
 
 /*!
- * Returns a color object representing the color Red-Brown, whose RBG values are (165, 42, 42), and has the specified opacity.
+ * Returns a UIColor object representing the color Red-Brown, whose RBG values are (165, 42, 42), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14939,14 +14956,14 @@
 
 
 /*!
- * Returns a color object representing the color Red-Purple, whose RBG values are (228, 0, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red-Purple, whose RBG values are (228, 0, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redPurpleColor;
 
 /*!
- * Returns a color object representing the color Red-Purple, whose RBG values are (228, 0, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Red-Purple, whose RBG values are (228, 0, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14955,14 +14972,14 @@
 
 
 /*!
- * Returns a color object representing the color Red-Violet, whose RBG values are (199, 21, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Red-Violet, whose RBG values are (199, 21, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redVioletColor;
 
 /*!
- * Returns a color object representing the color Red-Violet, whose RBG values are (199, 21, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Red-Violet, whose RBG values are (199, 21, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14971,14 +14988,14 @@
 
 
 /*!
- * Returns a color object representing the color Redwood, whose RBG values are (164, 90, 82), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Redwood, whose RBG values are (164, 90, 82), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) redwoodColor;
 
 /*!
- * Returns a color object representing the color Redwood, whose RBG values are (164, 90, 82), and has the specified opacity.
+ * Returns a UIColor object representing the color Redwood, whose RBG values are (164, 90, 82), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -14987,14 +15004,14 @@
 
 
 /*!
- * Returns a color object representing the color Regalia, whose RBG values are (82, 45, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Regalia, whose RBG values are (82, 45, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) regaliaColor;
 
 /*!
- * Returns a color object representing the color Regalia, whose RBG values are (82, 45, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Regalia, whose RBG values are (82, 45, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15003,14 +15020,14 @@
 
 
 /*!
- * Returns a color object representing the color Registration Black, whose RBG values are (0, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Registration Black, whose RBG values are (0, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) registrationBlackColor;
 
 /*!
- * Returns a color object representing the color Registration Black, whose RBG values are (0, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Registration Black, whose RBG values are (0, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15019,14 +15036,14 @@
 
 
 /*!
- * Returns a color object representing the color Resolution Blue, whose RBG values are (0, 35, 135), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Resolution Blue, whose RBG values are (0, 35, 135), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) resolutionBlueColor;
 
 /*!
- * Returns a color object representing the color Resolution Blue, whose RBG values are (0, 35, 135), and has the specified opacity.
+ * Returns a UIColor object representing the color Resolution Blue, whose RBG values are (0, 35, 135), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15035,14 +15052,14 @@
 
 
 /*!
- * Returns a color object representing the color Rhythm, whose RBG values are (119, 118, 150), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rhythm, whose RBG values are (119, 118, 150), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rhythmColor;
 
 /*!
- * Returns a color object representing the color Rhythm, whose RBG values are (119, 118, 150), and has the specified opacity.
+ * Returns a UIColor object representing the color Rhythm, whose RBG values are (119, 118, 150), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15051,14 +15068,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Black, whose RBG values are (0, 64, 64), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Black, whose RBG values are (0, 64, 64), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richBlackColor;
 
 /*!
- * Returns a color object representing the color Rich Black, whose RBG values are (0, 64, 64), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Black, whose RBG values are (0, 64, 64), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15067,14 +15084,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Black (FOGRA29), whose RBG values are (1, 11, 19), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Black (FOGRA29), whose RBG values are (1, 11, 19), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richBlackFOGRA29Color;
 
 /*!
- * Returns a color object representing the color Rich Black (FOGRA29), whose RBG values are (1, 11, 19), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Black (FOGRA29), whose RBG values are (1, 11, 19), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15083,14 +15100,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Black (FOGRA39), whose RBG values are (1, 2, 3), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Black (FOGRA39), whose RBG values are (1, 2, 3), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richBlackFOGRA39Color;
 
 /*!
- * Returns a color object representing the color Rich Black (FOGRA39), whose RBG values are (1, 2, 3), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Black (FOGRA39), whose RBG values are (1, 2, 3), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15099,14 +15116,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Brilliant Lavender, whose RBG values are (241, 167, 254), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Brilliant Lavender, whose RBG values are (241, 167, 254), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richBrilliantLavenderColor;
 
 /*!
- * Returns a color object representing the color Rich Brilliant Lavender, whose RBG values are (241, 167, 254), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Brilliant Lavender, whose RBG values are (241, 167, 254), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15115,14 +15132,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Carmine, whose RBG values are (215, 0, 64), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Carmine, whose RBG values are (215, 0, 64), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richCarmineColor;
 
 /*!
- * Returns a color object representing the color Rich Carmine, whose RBG values are (215, 0, 64), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Carmine, whose RBG values are (215, 0, 64), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15131,14 +15148,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Electric Blue, whose RBG values are (8, 146, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Electric Blue, whose RBG values are (8, 146, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richElectricBlueColor;
 
 /*!
- * Returns a color object representing the color Rich Electric Blue, whose RBG values are (8, 146, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Electric Blue, whose RBG values are (8, 146, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15147,14 +15164,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Lavender, whose RBG values are (167, 107, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Lavender, whose RBG values are (167, 107, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richLavenderColor;
 
 /*!
- * Returns a color object representing the color Rich Lavender, whose RBG values are (167, 107, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Lavender, whose RBG values are (167, 107, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15163,14 +15180,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Lilac, whose RBG values are (182, 102, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Lilac, whose RBG values are (182, 102, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richLilacColor;
 
 /*!
- * Returns a color object representing the color Rich Lilac, whose RBG values are (182, 102, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Lilac, whose RBG values are (182, 102, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15179,14 +15196,14 @@
 
 
 /*!
- * Returns a color object representing the color Rich Maroon, whose RBG values are (176, 48, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rich Maroon, whose RBG values are (176, 48, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) richMaroonColor;
 
 /*!
- * Returns a color object representing the color Rich Maroon, whose RBG values are (176, 48, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Rich Maroon, whose RBG values are (176, 48, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15195,14 +15212,14 @@
 
 
 /*!
- * Returns a color object representing the color Rifle Green, whose RBG values are (68, 76, 56), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rifle Green, whose RBG values are (68, 76, 56), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rifleGreenColor;
 
 /*!
- * Returns a color object representing the color Rifle Green, whose RBG values are (68, 76, 56), and has the specified opacity.
+ * Returns a UIColor object representing the color Rifle Green, whose RBG values are (68, 76, 56), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15211,14 +15228,14 @@
 
 
 /*!
- * Returns a color object representing the color Roast Coffee, whose RBG values are (112, 66, 65), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Roast Coffee, whose RBG values are (112, 66, 65), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roastCoffeeColor;
 
 /*!
- * Returns a color object representing the color Roast Coffee, whose RBG values are (112, 66, 65), and has the specified opacity.
+ * Returns a UIColor object representing the color Roast Coffee, whose RBG values are (112, 66, 65), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15227,14 +15244,14 @@
 
 
 /*!
- * Returns a color object representing the color Robin Egg Blue, whose RBG values are (0, 204, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Robin Egg Blue, whose RBG values are (0, 204, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) robinEggBlueColor;
 
 /*!
- * Returns a color object representing the color Robin Egg Blue, whose RBG values are (0, 204, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Robin Egg Blue, whose RBG values are (0, 204, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15243,14 +15260,14 @@
 
 
 /*!
- * Returns a color object representing the color Robin's Egg Blue (Crayola), whose RBG values are (31, 206, 203), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Robin's Egg Blue (Crayola), whose RBG values are (31, 206, 203), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) robinsEggBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Robin's Egg Blue (Crayola), whose RBG values are (31, 206, 203), and has the specified opacity.
+ * Returns a UIColor object representing the color Robin's Egg Blue (Crayola), whose RBG values are (31, 206, 203), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15259,14 +15276,14 @@
 
 
 /*!
- * Returns a color object representing the color Rocket Metallic, whose RBG values are (138, 127, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rocket Metallic, whose RBG values are (138, 127, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rocketMetallicColor;
 
 /*!
- * Returns a color object representing the color Rocket Metallic, whose RBG values are (138, 127, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Rocket Metallic, whose RBG values are (138, 127, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15275,14 +15292,14 @@
 
 
 /*!
- * Returns a color object representing the color Roman Silver, whose RBG values are (131, 137, 150), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Roman Silver, whose RBG values are (131, 137, 150), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) romanSilverColor;
 
 /*!
- * Returns a color object representing the color Roman Silver, whose RBG values are (131, 137, 150), and has the specified opacity.
+ * Returns a UIColor object representing the color Roman Silver, whose RBG values are (131, 137, 150), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15291,14 +15308,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose, whose RBG values are (255, 0, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose, whose RBG values are (255, 0, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseColor;
 
 /*!
- * Returns a color object representing the color Rose, whose RBG values are (255, 0, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose, whose RBG values are (255, 0, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15307,14 +15324,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Bonbon, whose RBG values are (249, 66, 158), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Bonbon, whose RBG values are (249, 66, 158), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseBonbonColor;
 
 /*!
- * Returns a color object representing the color Rose Bonbon, whose RBG values are (249, 66, 158), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Bonbon, whose RBG values are (249, 66, 158), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15323,14 +15340,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Ebony, whose RBG values are (103, 72, 70), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Ebony, whose RBG values are (103, 72, 70), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseEbonyColor;
 
 /*!
- * Returns a color object representing the color Rose Ebony, whose RBG values are (103, 72, 70), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Ebony, whose RBG values are (103, 72, 70), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15339,14 +15356,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Gold, whose RBG values are (183, 110, 121), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Gold, whose RBG values are (183, 110, 121), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseGoldColor;
 
 /*!
- * Returns a color object representing the color Rose Gold, whose RBG values are (183, 110, 121), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Gold, whose RBG values are (183, 110, 121), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15355,14 +15372,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Madder, whose RBG values are (227, 38, 54), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Madder, whose RBG values are (227, 38, 54), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseMadderColor;
 
 /*!
- * Returns a color object representing the color Rose Madder, whose RBG values are (227, 38, 54), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Madder, whose RBG values are (227, 38, 54), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15371,14 +15388,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Pink, whose RBG values are (255, 102, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Pink, whose RBG values are (255, 102, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rosePinkColor;
 
 /*!
- * Returns a color object representing the color Rose Pink, whose RBG values are (255, 102, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Pink, whose RBG values are (255, 102, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15387,14 +15404,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Quartz, whose RBG values are (170, 152, 169), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Quartz, whose RBG values are (170, 152, 169), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseQuartzColor;
 
 /*!
- * Returns a color object representing the color Rose Quartz, whose RBG values are (170, 152, 169), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Quartz, whose RBG values are (170, 152, 169), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15403,14 +15420,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Red, whose RBG values are (194, 30, 86), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Red, whose RBG values are (194, 30, 86), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseRedColor;
 
 /*!
- * Returns a color object representing the color Rose Red, whose RBG values are (194, 30, 86), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Red, whose RBG values are (194, 30, 86), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15419,14 +15436,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Taupe, whose RBG values are (144, 93, 93), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Taupe, whose RBG values are (144, 93, 93), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseTaupeColor;
 
 /*!
- * Returns a color object representing the color Rose Taupe, whose RBG values are (144, 93, 93), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Taupe, whose RBG values are (144, 93, 93), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15435,14 +15452,14 @@
 
 
 /*!
- * Returns a color object representing the color Rose Vale, whose RBG values are (171, 78, 82), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rose Vale, whose RBG values are (171, 78, 82), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) roseValeColor;
 
 /*!
- * Returns a color object representing the color Rose Vale, whose RBG values are (171, 78, 82), and has the specified opacity.
+ * Returns a UIColor object representing the color Rose Vale, whose RBG values are (171, 78, 82), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15451,14 +15468,14 @@
 
 
 /*!
- * Returns a color object representing the color Rosewood, whose RBG values are (101, 0, 11), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rosewood, whose RBG values are (101, 0, 11), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rosewoodColor;
 
 /*!
- * Returns a color object representing the color Rosewood, whose RBG values are (101, 0, 11), and has the specified opacity.
+ * Returns a UIColor object representing the color Rosewood, whose RBG values are (101, 0, 11), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15467,14 +15484,14 @@
 
 
 /*!
- * Returns a color object representing the color Rosso Corsa, whose RBG values are (212, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rosso Corsa, whose RBG values are (212, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rossoCorsaColor;
 
 /*!
- * Returns a color object representing the color Rosso Corsa, whose RBG values are (212, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Rosso Corsa, whose RBG values are (212, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15483,14 +15500,14 @@
 
 
 /*!
- * Returns a color object representing the color Rosy Brown, whose RBG values are (188, 143, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rosy Brown, whose RBG values are (188, 143, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rosyBrownColor;
 
 /*!
- * Returns a color object representing the color Rosy Brown, whose RBG values are (188, 143, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Rosy Brown, whose RBG values are (188, 143, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15499,14 +15516,14 @@
 
 
 /*!
- * Returns a color object representing the color Royal Purple (Crayola), whose RBG values are (120, 81, 169), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Royal Purple (Crayola), whose RBG values are (120, 81, 169), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) royalPurpleCrayolaColor;
 
 /*!
- * Returns a color object representing the color Royal Purple (Crayola), whose RBG values are (120, 81, 169), and has the specified opacity.
+ * Returns a UIColor object representing the color Royal Purple (Crayola), whose RBG values are (120, 81, 169), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15515,14 +15532,14 @@
 
 
 /*!
- * Returns a color object representing the color Royal Azure, whose RBG values are (0, 56, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Royal Azure, whose RBG values are (0, 56, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) royalAzureColor;
 
 /*!
- * Returns a color object representing the color Royal Azure, whose RBG values are (0, 56, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Royal Azure, whose RBG values are (0, 56, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15531,14 +15548,14 @@
 
 
 /*!
- * Returns a color object representing the color Royal Blue, whose RBG values are (65, 105, 225), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Royal Blue, whose RBG values are (65, 105, 225), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) royalBlueColor;
 
 /*!
- * Returns a color object representing the color Royal Blue, whose RBG values are (65, 105, 225), and has the specified opacity.
+ * Returns a UIColor object representing the color Royal Blue, whose RBG values are (65, 105, 225), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15547,14 +15564,14 @@
 
 
 /*!
- * Returns a color object representing the color Royal Blue (Darker), whose RBG values are (0, 35, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Royal Blue (Darker), whose RBG values are (0, 35, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) royalBlueDarkerColor;
 
 /*!
- * Returns a color object representing the color Royal Blue (Darker), whose RBG values are (0, 35, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Royal Blue (Darker), whose RBG values are (0, 35, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15563,14 +15580,14 @@
 
 
 /*!
- * Returns a color object representing the color Royal Fuchsia, whose RBG values are (202, 44, 146), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Royal Fuchsia, whose RBG values are (202, 44, 146), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) royalFuchsiaColor;
 
 /*!
- * Returns a color object representing the color Royal Fuchsia, whose RBG values are (202, 44, 146), and has the specified opacity.
+ * Returns a UIColor object representing the color Royal Fuchsia, whose RBG values are (202, 44, 146), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15579,14 +15596,14 @@
 
 
 /*!
- * Returns a color object representing the color Royal Yellow, whose RBG values are (250, 218, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Royal Yellow, whose RBG values are (250, 218, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) royalYellowColor;
 
 /*!
- * Returns a color object representing the color Royal Yellow, whose RBG values are (250, 218, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Royal Yellow, whose RBG values are (250, 218, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15595,14 +15612,14 @@
 
 
 /*!
- * Returns a color object representing the color Ruber, whose RBG values are (206, 70, 118), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ruber, whose RBG values are (206, 70, 118), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ruberColor;
 
 /*!
- * Returns a color object representing the color Ruber, whose RBG values are (206, 70, 118), and has the specified opacity.
+ * Returns a UIColor object representing the color Ruber, whose RBG values are (206, 70, 118), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15611,14 +15628,14 @@
 
 
 /*!
- * Returns a color object representing the color Rubine Red, whose RBG values are (209, 0, 86), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rubine Red, whose RBG values are (209, 0, 86), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rubineRedColor;
 
 /*!
- * Returns a color object representing the color Rubine Red, whose RBG values are (209, 0, 86), and has the specified opacity.
+ * Returns a UIColor object representing the color Rubine Red, whose RBG values are (209, 0, 86), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15627,14 +15644,14 @@
 
 
 /*!
- * Returns a color object representing the color Ruby, whose RBG values are (224, 17, 95), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ruby, whose RBG values are (224, 17, 95), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rubyColor;
 
 /*!
- * Returns a color object representing the color Ruby, whose RBG values are (224, 17, 95), and has the specified opacity.
+ * Returns a UIColor object representing the color Ruby, whose RBG values are (224, 17, 95), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15643,14 +15660,14 @@
 
 
 /*!
- * Returns a color object representing the color Ruby Red, whose RBG values are (155, 17, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ruby Red, whose RBG values are (155, 17, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rubyRedColor;
 
 /*!
- * Returns a color object representing the color Ruby Red, whose RBG values are (155, 17, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Ruby Red, whose RBG values are (155, 17, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15659,14 +15676,14 @@
 
 
 /*!
- * Returns a color object representing the color Ruddy, whose RBG values are (255, 0, 40), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ruddy, whose RBG values are (255, 0, 40), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ruddyColor;
 
 /*!
- * Returns a color object representing the color Ruddy, whose RBG values are (255, 0, 40), and has the specified opacity.
+ * Returns a UIColor object representing the color Ruddy, whose RBG values are (255, 0, 40), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15675,14 +15692,14 @@
 
 
 /*!
- * Returns a color object representing the color Ruddy Brown, whose RBG values are (187, 101, 40), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ruddy Brown, whose RBG values are (187, 101, 40), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ruddyBrownColor;
 
 /*!
- * Returns a color object representing the color Ruddy Brown, whose RBG values are (187, 101, 40), and has the specified opacity.
+ * Returns a UIColor object representing the color Ruddy Brown, whose RBG values are (187, 101, 40), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15691,14 +15708,14 @@
 
 
 /*!
- * Returns a color object representing the color Ruddy Pink, whose RBG values are (225, 142, 150), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ruddy Pink, whose RBG values are (225, 142, 150), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ruddyPinkColor;
 
 /*!
- * Returns a color object representing the color Ruddy Pink, whose RBG values are (225, 142, 150), and has the specified opacity.
+ * Returns a UIColor object representing the color Ruddy Pink, whose RBG values are (225, 142, 150), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15707,14 +15724,14 @@
 
 
 /*!
- * Returns a color object representing the color Rufous, whose RBG values are (168, 28, 7), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rufous, whose RBG values are (168, 28, 7), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rufousColor;
 
 /*!
- * Returns a color object representing the color Rufous, whose RBG values are (168, 28, 7), and has the specified opacity.
+ * Returns a UIColor object representing the color Rufous, whose RBG values are (168, 28, 7), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15723,14 +15740,14 @@
 
 
 /*!
- * Returns a color object representing the color Russet, whose RBG values are (128, 70, 27), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Russet, whose RBG values are (128, 70, 27), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) russetColor;
 
 /*!
- * Returns a color object representing the color Russet, whose RBG values are (128, 70, 27), and has the specified opacity.
+ * Returns a UIColor object representing the color Russet, whose RBG values are (128, 70, 27), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15739,14 +15756,14 @@
 
 
 /*!
- * Returns a color object representing the color Russian Green, whose RBG values are (103, 146, 103), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Russian Green, whose RBG values are (103, 146, 103), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) russianGreenColor;
 
 /*!
- * Returns a color object representing the color Russian Green, whose RBG values are (103, 146, 103), and has the specified opacity.
+ * Returns a UIColor object representing the color Russian Green, whose RBG values are (103, 146, 103), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15755,14 +15772,14 @@
 
 
 /*!
- * Returns a color object representing the color Russian Violet, whose RBG values are (50, 23, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Russian Violet, whose RBG values are (50, 23, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) russianVioletColor;
 
 /*!
- * Returns a color object representing the color Russian Violet, whose RBG values are (50, 23, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color Russian Violet, whose RBG values are (50, 23, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15771,14 +15788,14 @@
 
 
 /*!
- * Returns a color object representing the color Rust, whose RBG values are (183, 65, 14), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rust, whose RBG values are (183, 65, 14), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rustColor;
 
 /*!
- * Returns a color object representing the color Rust, whose RBG values are (183, 65, 14), and has the specified opacity.
+ * Returns a UIColor object representing the color Rust, whose RBG values are (183, 65, 14), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15787,14 +15804,14 @@
 
 
 /*!
- * Returns a color object representing the color Rusty Red, whose RBG values are (218, 44, 67), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Rusty Red, whose RBG values are (218, 44, 67), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) rustyRedColor;
 
 /*!
- * Returns a color object representing the color Rusty Red, whose RBG values are (218, 44, 67), and has the specified opacity.
+ * Returns a UIColor object representing the color Rusty Red, whose RBG values are (218, 44, 67), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15803,14 +15820,14 @@
 
 
 /*!
- * Returns a color object representing the color Sacramento State Green, whose RBG values are (0, 86, 63), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sacramento State Green, whose RBG values are (0, 86, 63), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sacramentoStateGreenColor;
 
 /*!
- * Returns a color object representing the color Sacramento State Green, whose RBG values are (0, 86, 63), and has the specified opacity.
+ * Returns a UIColor object representing the color Sacramento State Green, whose RBG values are (0, 86, 63), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15819,14 +15836,14 @@
 
 
 /*!
- * Returns a color object representing the color Saddle Brown, whose RBG values are (139, 69, 19), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Saddle Brown, whose RBG values are (139, 69, 19), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) saddleBrownColor;
 
 /*!
- * Returns a color object representing the color Saddle Brown, whose RBG values are (139, 69, 19), and has the specified opacity.
+ * Returns a UIColor object representing the color Saddle Brown, whose RBG values are (139, 69, 19), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15835,14 +15852,14 @@
 
 
 /*!
- * Returns a color object representing the color Safety Orange, whose RBG values are (255, 120, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Safety Orange, whose RBG values are (255, 120, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) safetyOrangeColor;
 
 /*!
- * Returns a color object representing the color Safety Orange, whose RBG values are (255, 120, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Safety Orange, whose RBG values are (255, 120, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15851,14 +15868,14 @@
 
 
 /*!
- * Returns a color object representing the color Safety Orange (Blaze Orange), whose RBG values are (255, 103, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Safety Orange (Blaze Orange), whose RBG values are (255, 103, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) safetyOrangeBlazeOrangeColor;
 
 /*!
- * Returns a color object representing the color Safety Orange (Blaze Orange), whose RBG values are (255, 103, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Safety Orange (Blaze Orange), whose RBG values are (255, 103, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15867,14 +15884,14 @@
 
 
 /*!
- * Returns a color object representing the color Safety Yellow, whose RBG values are (238, 210, 2), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Safety Yellow, whose RBG values are (238, 210, 2), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) safetyYellowColor;
 
 /*!
- * Returns a color object representing the color Safety Yellow, whose RBG values are (238, 210, 2), and has the specified opacity.
+ * Returns a UIColor object representing the color Safety Yellow, whose RBG values are (238, 210, 2), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15883,14 +15900,14 @@
 
 
 /*!
- * Returns a color object representing the color Saffron, whose RBG values are (244, 196, 48), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Saffron, whose RBG values are (244, 196, 48), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) saffronColor;
 
 /*!
- * Returns a color object representing the color Saffron, whose RBG values are (244, 196, 48), and has the specified opacity.
+ * Returns a UIColor object representing the color Saffron, whose RBG values are (244, 196, 48), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15899,14 +15916,14 @@
 
 
 /*!
- * Returns a color object representing the color Sage, whose RBG values are (188, 184, 138), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sage, whose RBG values are (188, 184, 138), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sageColor;
 
 /*!
- * Returns a color object representing the color Sage, whose RBG values are (188, 184, 138), and has the specified opacity.
+ * Returns a UIColor object representing the color Sage, whose RBG values are (188, 184, 138), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15915,14 +15932,14 @@
 
 
 /*!
- * Returns a color object representing the color Salmon, whose RBG values are (250, 128, 114), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Salmon, whose RBG values are (250, 128, 114), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) salmonColor;
 
 /*!
- * Returns a color object representing the color Salmon, whose RBG values are (250, 128, 114), and has the specified opacity.
+ * Returns a UIColor object representing the color Salmon, whose RBG values are (250, 128, 114), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15931,14 +15948,14 @@
 
 
 /*!
- * Returns a color object representing the color Salmon (Crayola), whose RBG values are (255, 155, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Salmon (Crayola), whose RBG values are (255, 155, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) salmonCrayolaColor;
 
 /*!
- * Returns a color object representing the color Salmon (Crayola), whose RBG values are (255, 155, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color Salmon (Crayola), whose RBG values are (255, 155, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15947,14 +15964,14 @@
 
 
 /*!
- * Returns a color object representing the color Salmon Pink, whose RBG values are (255, 145, 164), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Salmon Pink, whose RBG values are (255, 145, 164), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) salmonPinkColor;
 
 /*!
- * Returns a color object representing the color Salmon Pink, whose RBG values are (255, 145, 164), and has the specified opacity.
+ * Returns a UIColor object representing the color Salmon Pink, whose RBG values are (255, 145, 164), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15963,14 +15980,14 @@
 
 
 /*!
- * Returns a color object representing the color Sand, whose RBG values are (194, 178, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sand, whose RBG values are (194, 178, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sandColor;
 
 /*!
- * Returns a color object representing the color Sand, whose RBG values are (194, 178, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Sand, whose RBG values are (194, 178, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15979,14 +15996,14 @@
 
 
 /*!
- * Returns a color object representing the color Sand Dune, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sand Dune, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sandDuneColor;
 
 /*!
- * Returns a color object representing the color Sand Dune, whose RBG values are (150, 113, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Sand Dune, whose RBG values are (150, 113, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -15995,14 +16012,14 @@
 
 
 /*!
- * Returns a color object representing the color Sandstorm, whose RBG values are (236, 213, 64), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sandstorm, whose RBG values are (236, 213, 64), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sandstormColor;
 
 /*!
- * Returns a color object representing the color Sandstorm, whose RBG values are (236, 213, 64), and has the specified opacity.
+ * Returns a UIColor object representing the color Sandstorm, whose RBG values are (236, 213, 64), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16011,14 +16028,14 @@
 
 
 /*!
- * Returns a color object representing the color Sandy Brown, whose RBG values are (244, 164, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sandy Brown, whose RBG values are (244, 164, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sandyBrownColor;
 
 /*!
- * Returns a color object representing the color Sandy Brown, whose RBG values are (244, 164, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Sandy Brown, whose RBG values are (244, 164, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16027,14 +16044,14 @@
 
 
 /*!
- * Returns a color object representing the color Sandy Taupe, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sandy Taupe, whose RBG values are (150, 113, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sandyTaupeColor;
 
 /*!
- * Returns a color object representing the color Sandy Taupe, whose RBG values are (150, 113, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Sandy Taupe, whose RBG values are (150, 113, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16043,14 +16060,14 @@
 
 
 /*!
- * Returns a color object representing the color Sangria, whose RBG values are (146, 0, 10), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sangria, whose RBG values are (146, 0, 10), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sangriaColor;
 
 /*!
- * Returns a color object representing the color Sangria, whose RBG values are (146, 0, 10), and has the specified opacity.
+ * Returns a UIColor object representing the color Sangria, whose RBG values are (146, 0, 10), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16059,14 +16076,14 @@
 
 
 /*!
- * Returns a color object representing the color Sap Green, whose RBG values are (80, 125, 42), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sap Green, whose RBG values are (80, 125, 42), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sapGreenColor;
 
 /*!
- * Returns a color object representing the color Sap Green, whose RBG values are (80, 125, 42), and has the specified opacity.
+ * Returns a UIColor object representing the color Sap Green, whose RBG values are (80, 125, 42), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16075,14 +16092,14 @@
 
 
 /*!
- * Returns a color object representing the color Sapphire, whose RBG values are (15, 82, 186), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sapphire, whose RBG values are (15, 82, 186), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sapphireColor;
 
 /*!
- * Returns a color object representing the color Sapphire, whose RBG values are (15, 82, 186), and has the specified opacity.
+ * Returns a UIColor object representing the color Sapphire, whose RBG values are (15, 82, 186), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16091,14 +16108,14 @@
 
 
 /*!
- * Returns a color object representing the color Sapphire Blue, whose RBG values are (0, 103, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sapphire Blue, whose RBG values are (0, 103, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sapphireBlueColor;
 
 /*!
- * Returns a color object representing the color Sapphire Blue, whose RBG values are (0, 103, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color Sapphire Blue, whose RBG values are (0, 103, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16107,14 +16124,14 @@
 
 
 /*!
- * Returns a color object representing the color Satin Sheen Gold, whose RBG values are (203, 161, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Satin Sheen Gold, whose RBG values are (203, 161, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) satinSheenGoldColor;
 
 /*!
- * Returns a color object representing the color Satin Sheen Gold, whose RBG values are (203, 161, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Satin Sheen Gold, whose RBG values are (203, 161, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16123,14 +16140,14 @@
 
 
 /*!
- * Returns a color object representing the color Scarlet, whose RBG values are (255, 36, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Scarlet, whose RBG values are (255, 36, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) scarletColor;
 
 /*!
- * Returns a color object representing the color Scarlet, whose RBG values are (255, 36, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Scarlet, whose RBG values are (255, 36, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16139,14 +16156,14 @@
 
 
 /*!
- * Returns a color object representing the color Scarlet (Crayola), whose RBG values are (252, 40, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Scarlet (Crayola), whose RBG values are (252, 40, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) scarletCrayolaColor;
 
 /*!
- * Returns a color object representing the color Scarlet (Crayola), whose RBG values are (252, 40, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Scarlet (Crayola), whose RBG values are (252, 40, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16155,14 +16172,14 @@
 
 
 /*!
- * Returns a color object representing the color Scarlet (Websafe), whose RBG values are (255, 51, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Scarlet (Websafe), whose RBG values are (255, 51, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) scarletWebsafeColor;
 
 /*!
- * Returns a color object representing the color Scarlet (Websafe), whose RBG values are (255, 51, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Scarlet (Websafe), whose RBG values are (255, 51, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16171,14 +16188,14 @@
 
 
 /*!
- * Returns a color object representing the color Schauss Pink, whose RBG values are (255, 145, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Schauss Pink, whose RBG values are (255, 145, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) schaussPinkColor;
 
 /*!
- * Returns a color object representing the color Schauss Pink, whose RBG values are (255, 145, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Schauss Pink, whose RBG values are (255, 145, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16187,14 +16204,14 @@
 
 
 /*!
- * Returns a color object representing the color School Bus Yellow, whose RBG values are (255, 216, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color School Bus Yellow, whose RBG values are (255, 216, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) schoolBusYellowColor;
 
 /*!
- * Returns a color object representing the color School Bus Yellow, whose RBG values are (255, 216, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color School Bus Yellow, whose RBG values are (255, 216, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16203,14 +16220,14 @@
 
 
 /*!
- * Returns a color object representing the color Screamin' Green (Crayola), whose RBG values are (118, 255, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Screamin' Green (Crayola), whose RBG values are (118, 255, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) screaminGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Screamin' Green (Crayola), whose RBG values are (118, 255, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color Screamin' Green (Crayola), whose RBG values are (118, 255, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16219,14 +16236,14 @@
 
 
 /*!
- * Returns a color object representing the color Sea Green (Crayola), whose RBG values are (147, 223, 184), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sea Green (Crayola), whose RBG values are (147, 223, 184), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) seaGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Sea Green (Crayola), whose RBG values are (147, 223, 184), and has the specified opacity.
+ * Returns a UIColor object representing the color Sea Green (Crayola), whose RBG values are (147, 223, 184), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16235,14 +16252,14 @@
 
 
 /*!
- * Returns a color object representing the color Sea Blue, whose RBG values are (0, 105, 148), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sea Blue, whose RBG values are (0, 105, 148), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) seaBlueColor;
 
 /*!
- * Returns a color object representing the color Sea Blue, whose RBG values are (0, 105, 148), and has the specified opacity.
+ * Returns a UIColor object representing the color Sea Blue, whose RBG values are (0, 105, 148), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16251,14 +16268,14 @@
 
 
 /*!
- * Returns a color object representing the color Sea Green, whose RBG values are (46, 139, 87), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sea Green, whose RBG values are (46, 139, 87), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) seaGreenColor;
 
 /*!
- * Returns a color object representing the color Sea Green, whose RBG values are (46, 139, 87), and has the specified opacity.
+ * Returns a UIColor object representing the color Sea Green, whose RBG values are (46, 139, 87), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16267,14 +16284,14 @@
 
 
 /*!
- * Returns a color object representing the color Seal Brown, whose RBG values are (50, 20, 20), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Seal Brown, whose RBG values are (50, 20, 20), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sealBrownColor;
 
 /*!
- * Returns a color object representing the color Seal Brown, whose RBG values are (50, 20, 20), and has the specified opacity.
+ * Returns a UIColor object representing the color Seal Brown, whose RBG values are (50, 20, 20), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16283,14 +16300,14 @@
 
 
 /*!
- * Returns a color object representing the color Seashell, whose RBG values are (255, 245, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Seashell, whose RBG values are (255, 245, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) seashellColor;
 
 /*!
- * Returns a color object representing the color Seashell, whose RBG values are (255, 245, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Seashell, whose RBG values are (255, 245, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16299,14 +16316,14 @@
 
 
 /*!
- * Returns a color object representing the color Selective Yellow, whose RBG values are (255, 186, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Selective Yellow, whose RBG values are (255, 186, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) selectiveYellowColor;
 
 /*!
- * Returns a color object representing the color Selective Yellow, whose RBG values are (255, 186, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Selective Yellow, whose RBG values are (255, 186, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16315,14 +16332,14 @@
 
 
 /*!
- * Returns a color object representing the color Sepia, whose RBG values are (112, 66, 20), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sepia, whose RBG values are (112, 66, 20), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sepiaColor;
 
 /*!
- * Returns a color object representing the color Sepia, whose RBG values are (112, 66, 20), and has the specified opacity.
+ * Returns a UIColor object representing the color Sepia, whose RBG values are (112, 66, 20), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16331,14 +16348,14 @@
 
 
 /*!
- * Returns a color object representing the color Sepia (Crayola), whose RBG values are (165, 105, 79), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sepia (Crayola), whose RBG values are (165, 105, 79), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sepiaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Sepia (Crayola), whose RBG values are (165, 105, 79), and has the specified opacity.
+ * Returns a UIColor object representing the color Sepia (Crayola), whose RBG values are (165, 105, 79), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16347,14 +16364,14 @@
 
 
 /*!
- * Returns a color object representing the color Shadow (Crayola), whose RBG values are (138, 121, 93), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shadow (Crayola), whose RBG values are (138, 121, 93), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shadowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Shadow (Crayola), whose RBG values are (138, 121, 93), and has the specified opacity.
+ * Returns a UIColor object representing the color Shadow (Crayola), whose RBG values are (138, 121, 93), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16363,14 +16380,14 @@
 
 
 /*!
- * Returns a color object representing the color Shadow Blue, whose RBG values are (119, 139, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shadow Blue, whose RBG values are (119, 139, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shadowBlueColor;
 
 /*!
- * Returns a color object representing the color Shadow Blue, whose RBG values are (119, 139, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color Shadow Blue, whose RBG values are (119, 139, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16379,14 +16396,14 @@
 
 
 /*!
- * Returns a color object representing the color Shampoo, whose RBG values are (255, 207, 241), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shampoo, whose RBG values are (255, 207, 241), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shampooColor;
 
 /*!
- * Returns a color object representing the color Shampoo, whose RBG values are (255, 207, 241), and has the specified opacity.
+ * Returns a UIColor object representing the color Shampoo, whose RBG values are (255, 207, 241), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16395,14 +16412,14 @@
 
 
 /*!
- * Returns a color object representing the color Shamrock (Crayola), whose RBG values are (69, 206, 162), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shamrock (Crayola), whose RBG values are (69, 206, 162), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shamrockCrayolaColor;
 
 /*!
- * Returns a color object representing the color Shamrock (Crayola), whose RBG values are (69, 206, 162), and has the specified opacity.
+ * Returns a UIColor object representing the color Shamrock (Crayola), whose RBG values are (69, 206, 162), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16411,14 +16428,14 @@
 
 
 /*!
- * Returns a color object representing the color Shamrock Green, whose RBG values are (0, 158, 96), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shamrock Green, whose RBG values are (0, 158, 96), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shamrockGreenColor;
 
 /*!
- * Returns a color object representing the color Shamrock Green, whose RBG values are (0, 158, 96), and has the specified opacity.
+ * Returns a UIColor object representing the color Shamrock Green, whose RBG values are (0, 158, 96), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16427,14 +16444,14 @@
 
 
 /*!
- * Returns a color object representing the color Sheen Green, whose RBG values are (143, 212, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sheen Green, whose RBG values are (143, 212, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sheenGreenColor;
 
 /*!
- * Returns a color object representing the color Sheen Green, whose RBG values are (143, 212, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Sheen Green, whose RBG values are (143, 212, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16443,14 +16460,14 @@
 
 
 /*!
- * Returns a color object representing the color Shimmering Blush, whose RBG values are (217, 134, 149), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shimmering Blush, whose RBG values are (217, 134, 149), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shimmeringBlushColor;
 
 /*!
- * Returns a color object representing the color Shimmering Blush, whose RBG values are (217, 134, 149), and has the specified opacity.
+ * Returns a UIColor object representing the color Shimmering Blush, whose RBG values are (217, 134, 149), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16459,14 +16476,14 @@
 
 
 /*!
- * Returns a color object representing the color Shocking Pink (Crayola), whose RBG values are (251, 126, 253), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shocking Pink (Crayola), whose RBG values are (251, 126, 253), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shockingPinkCrayolaColor;
 
 /*!
- * Returns a color object representing the color Shocking Pink (Crayola), whose RBG values are (251, 126, 253), and has the specified opacity.
+ * Returns a UIColor object representing the color Shocking Pink (Crayola), whose RBG values are (251, 126, 253), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16475,14 +16492,14 @@
 
 
 /*!
- * Returns a color object representing the color Shocking Pink, whose RBG values are (252, 15, 192), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Shocking Pink, whose RBG values are (252, 15, 192), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) shockingPinkColor;
 
 /*!
- * Returns a color object representing the color Shocking Pink, whose RBG values are (252, 15, 192), and has the specified opacity.
+ * Returns a UIColor object representing the color Shocking Pink, whose RBG values are (252, 15, 192), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16491,14 +16508,14 @@
 
 
 /*!
- * Returns a color object representing the color Sienna, whose RBG values are (136, 45, 23), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sienna, whose RBG values are (136, 45, 23), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) siennaColor;
 
 /*!
- * Returns a color object representing the color Sienna, whose RBG values are (136, 45, 23), and has the specified opacity.
+ * Returns a UIColor object representing the color Sienna, whose RBG values are (136, 45, 23), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16507,14 +16524,14 @@
 
 
 /*!
- * Returns a color object representing the color Sienna (X11), whose RBG values are (160, 82, 45), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sienna (X11), whose RBG values are (160, 82, 45), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) siennaX11Color;
 
 /*!
- * Returns a color object representing the color Sienna (X11), whose RBG values are (160, 82, 45), and has the specified opacity.
+ * Returns a UIColor object representing the color Sienna (X11), whose RBG values are (160, 82, 45), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16523,14 +16540,14 @@
 
 
 /*!
- * Returns a color object representing the color Silver, whose RBG values are (192, 192, 192), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Silver, whose RBG values are (192, 192, 192), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) silverColor;
 
 /*!
- * Returns a color object representing the color Silver, whose RBG values are (192, 192, 192), and has the specified opacity.
+ * Returns a UIColor object representing the color Silver, whose RBG values are (192, 192, 192), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16539,14 +16556,14 @@
 
 
 /*!
- * Returns a color object representing the color Silver (Crayola), whose RBG values are (205, 197, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Silver (Crayola), whose RBG values are (205, 197, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) silverCrayolaColor;
 
 /*!
- * Returns a color object representing the color Silver (Crayola), whose RBG values are (205, 197, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Silver (Crayola), whose RBG values are (205, 197, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16555,14 +16572,14 @@
 
 
 /*!
- * Returns a color object representing the color Silver Lake Blue, whose RBG values are (93, 137, 186), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Silver Lake Blue, whose RBG values are (93, 137, 186), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) silverLakeBlueColor;
 
 /*!
- * Returns a color object representing the color Silver Lake Blue, whose RBG values are (93, 137, 186), and has the specified opacity.
+ * Returns a UIColor object representing the color Silver Lake Blue, whose RBG values are (93, 137, 186), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16571,14 +16588,14 @@
 
 
 /*!
- * Returns a color object representing the color Silver Chalice, whose RBG values are (172, 172, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Silver Chalice, whose RBG values are (172, 172, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) silverChaliceColor;
 
 /*!
- * Returns a color object representing the color Silver Chalice, whose RBG values are (172, 172, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Silver Chalice, whose RBG values are (172, 172, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16587,14 +16604,14 @@
 
 
 /*!
- * Returns a color object representing the color Silver Pink, whose RBG values are (196, 174, 173), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Silver Pink, whose RBG values are (196, 174, 173), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) silverPinkColor;
 
 /*!
- * Returns a color object representing the color Silver Pink, whose RBG values are (196, 174, 173), and has the specified opacity.
+ * Returns a UIColor object representing the color Silver Pink, whose RBG values are (196, 174, 173), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16603,14 +16620,14 @@
 
 
 /*!
- * Returns a color object representing the color Silver Sand, whose RBG values are (191, 193, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Silver Sand, whose RBG values are (191, 193, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) silverSandColor;
 
 /*!
- * Returns a color object representing the color Silver Sand, whose RBG values are (191, 193, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Silver Sand, whose RBG values are (191, 193, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16619,14 +16636,14 @@
 
 
 /*!
- * Returns a color object representing the color Sinopia, whose RBG values are (203, 65, 11), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sinopia, whose RBG values are (203, 65, 11), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sinopiaColor;
 
 /*!
- * Returns a color object representing the color Sinopia, whose RBG values are (203, 65, 11), and has the specified opacity.
+ * Returns a UIColor object representing the color Sinopia, whose RBG values are (203, 65, 11), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16635,14 +16652,14 @@
 
 
 /*!
- * Returns a color object representing the color Skobeloff, whose RBG values are (0, 116, 116), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Skobeloff, whose RBG values are (0, 116, 116), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) skobeloffColor;
 
 /*!
- * Returns a color object representing the color Skobeloff, whose RBG values are (0, 116, 116), and has the specified opacity.
+ * Returns a UIColor object representing the color Skobeloff, whose RBG values are (0, 116, 116), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16651,14 +16668,14 @@
 
 
 /*!
- * Returns a color object representing the color Sky Blue (Crayola), whose RBG values are (128, 218, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sky Blue (Crayola), whose RBG values are (128, 218, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) skyBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Sky Blue (Crayola), whose RBG values are (128, 218, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Sky Blue (Crayola), whose RBG values are (128, 218, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16667,14 +16684,14 @@
 
 
 /*!
- * Returns a color object representing the color Sky Blue, whose RBG values are (135, 206, 235), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sky Blue, whose RBG values are (135, 206, 235), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) skyBlueColor;
 
 /*!
- * Returns a color object representing the color Sky Blue, whose RBG values are (135, 206, 235), and has the specified opacity.
+ * Returns a UIColor object representing the color Sky Blue, whose RBG values are (135, 206, 235), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16683,14 +16700,14 @@
 
 
 /*!
- * Returns a color object representing the color Sky Magenta, whose RBG values are (207, 113, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sky Magenta, whose RBG values are (207, 113, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) skyMagentaColor;
 
 /*!
- * Returns a color object representing the color Sky Magenta, whose RBG values are (207, 113, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Sky Magenta, whose RBG values are (207, 113, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16699,14 +16716,14 @@
 
 
 /*!
- * Returns a color object representing the color Slate Blue, whose RBG values are (106, 90, 205), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Slate Blue, whose RBG values are (106, 90, 205), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) slateBlueColor;
 
 /*!
- * Returns a color object representing the color Slate Blue, whose RBG values are (106, 90, 205), and has the specified opacity.
+ * Returns a UIColor object representing the color Slate Blue, whose RBG values are (106, 90, 205), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16715,14 +16732,14 @@
 
 
 /*!
- * Returns a color object representing the color Slate Gray, whose RBG values are (112, 128, 144), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Slate Gray, whose RBG values are (112, 128, 144), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) slateGrayColor;
 
 /*!
- * Returns a color object representing the color Slate Gray, whose RBG values are (112, 128, 144), and has the specified opacity.
+ * Returns a UIColor object representing the color Slate Gray, whose RBG values are (112, 128, 144), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16731,14 +16748,14 @@
 
 
 /*!
- * Returns a color object representing the color Smalt (Dark Powder Blue), whose RBG values are (0, 51, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Smalt (Dark Powder Blue), whose RBG values are (0, 51, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) smaltDarkPowderBlueColor;
 
 /*!
- * Returns a color object representing the color Smalt (Dark Powder Blue), whose RBG values are (0, 51, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Smalt (Dark Powder Blue), whose RBG values are (0, 51, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16747,14 +16764,14 @@
 
 
 /*!
- * Returns a color object representing the color Smitten, whose RBG values are (200, 65, 134), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Smitten, whose RBG values are (200, 65, 134), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) smittenColor;
 
 /*!
- * Returns a color object representing the color Smitten, whose RBG values are (200, 65, 134), and has the specified opacity.
+ * Returns a UIColor object representing the color Smitten, whose RBG values are (200, 65, 134), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16763,14 +16780,14 @@
 
 
 /*!
- * Returns a color object representing the color Smoke, whose RBG values are (115, 130, 118), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Smoke, whose RBG values are (115, 130, 118), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) smokeColor;
 
 /*!
- * Returns a color object representing the color Smoke, whose RBG values are (115, 130, 118), and has the specified opacity.
+ * Returns a UIColor object representing the color Smoke, whose RBG values are (115, 130, 118), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16779,14 +16796,14 @@
 
 
 /*!
- * Returns a color object representing the color Smoky Topaz, whose RBG values are (147, 61, 65), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Smoky Topaz, whose RBG values are (147, 61, 65), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) smokyTopazColor;
 
 /*!
- * Returns a color object representing the color Smoky Topaz, whose RBG values are (147, 61, 65), and has the specified opacity.
+ * Returns a UIColor object representing the color Smoky Topaz, whose RBG values are (147, 61, 65), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16795,14 +16812,14 @@
 
 
 /*!
- * Returns a color object representing the color Smoky Black, whose RBG values are (16, 12, 8), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Smoky Black, whose RBG values are (16, 12, 8), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) smokyBlackColor;
 
 /*!
- * Returns a color object representing the color Smoky Black, whose RBG values are (16, 12, 8), and has the specified opacity.
+ * Returns a UIColor object representing the color Smoky Black, whose RBG values are (16, 12, 8), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16811,14 +16828,14 @@
 
 
 /*!
- * Returns a color object representing the color Snow, whose RBG values are (255, 250, 250), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Snow, whose RBG values are (255, 250, 250), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) snowColor;
 
 /*!
- * Returns a color object representing the color Snow, whose RBG values are (255, 250, 250), and has the specified opacity.
+ * Returns a UIColor object representing the color Snow, whose RBG values are (255, 250, 250), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16827,14 +16844,14 @@
 
 
 /*!
- * Returns a color object representing the color Soap, whose RBG values are (206, 200, 239), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Soap, whose RBG values are (206, 200, 239), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) soapColor;
 
 /*!
- * Returns a color object representing the color Soap, whose RBG values are (206, 200, 239), and has the specified opacity.
+ * Returns a UIColor object representing the color Soap, whose RBG values are (206, 200, 239), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16843,14 +16860,14 @@
 
 
 /*!
- * Returns a color object representing the color Solid Pink, whose RBG values are (137, 56, 67), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Solid Pink, whose RBG values are (137, 56, 67), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) solidPinkColor;
 
 /*!
- * Returns a color object representing the color Solid Pink, whose RBG values are (137, 56, 67), and has the specified opacity.
+ * Returns a UIColor object representing the color Solid Pink, whose RBG values are (137, 56, 67), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16859,14 +16876,14 @@
 
 
 /*!
- * Returns a color object representing the color Sonic Silver, whose RBG values are (117, 117, 117), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sonic Silver, whose RBG values are (117, 117, 117), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sonicSilverColor;
 
 /*!
- * Returns a color object representing the color Sonic Silver, whose RBG values are (117, 117, 117), and has the specified opacity.
+ * Returns a UIColor object representing the color Sonic Silver, whose RBG values are (117, 117, 117), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16875,14 +16892,14 @@
 
 
 /*!
- * Returns a color object representing the color Space Cadet, whose RBG values are (29, 41, 81), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Space Cadet, whose RBG values are (29, 41, 81), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spaceCadetColor;
 
 /*!
- * Returns a color object representing the color Space Cadet, whose RBG values are (29, 41, 81), and has the specified opacity.
+ * Returns a UIColor object representing the color Space Cadet, whose RBG values are (29, 41, 81), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16891,14 +16908,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Bistre, whose RBG values are (128, 117, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Bistre, whose RBG values are (128, 117, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishBistreColor;
 
 /*!
- * Returns a color object representing the color Spanish Bistre, whose RBG values are (128, 117, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Bistre, whose RBG values are (128, 117, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16907,14 +16924,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Blue, whose RBG values are (0, 112, 184), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Blue, whose RBG values are (0, 112, 184), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishBlueColor;
 
 /*!
- * Returns a color object representing the color Spanish Blue, whose RBG values are (0, 112, 184), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Blue, whose RBG values are (0, 112, 184), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16923,14 +16940,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Carmine, whose RBG values are (209, 0, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Carmine, whose RBG values are (209, 0, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishCarmineColor;
 
 /*!
- * Returns a color object representing the color Spanish Carmine, whose RBG values are (209, 0, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Carmine, whose RBG values are (209, 0, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16939,14 +16956,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Crimson, whose RBG values are (229, 26, 76), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Crimson, whose RBG values are (229, 26, 76), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishCrimsonColor;
 
 /*!
- * Returns a color object representing the color Spanish Crimson, whose RBG values are (229, 26, 76), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Crimson, whose RBG values are (229, 26, 76), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16955,14 +16972,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Gray, whose RBG values are (152, 152, 152), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Gray, whose RBG values are (152, 152, 152), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishGrayColor;
 
 /*!
- * Returns a color object representing the color Spanish Gray, whose RBG values are (152, 152, 152), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Gray, whose RBG values are (152, 152, 152), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16971,14 +16988,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Green, whose RBG values are (0, 145, 80), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Green, whose RBG values are (0, 145, 80), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishGreenColor;
 
 /*!
- * Returns a color object representing the color Spanish Green, whose RBG values are (0, 145, 80), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Green, whose RBG values are (0, 145, 80), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -16987,14 +17004,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Orange, whose RBG values are (232, 97, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Orange, whose RBG values are (232, 97, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishOrangeColor;
 
 /*!
- * Returns a color object representing the color Spanish Orange, whose RBG values are (232, 97, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Orange, whose RBG values are (232, 97, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17003,14 +17020,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Pink, whose RBG values are (247, 191, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Pink, whose RBG values are (247, 191, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishPinkColor;
 
 /*!
- * Returns a color object representing the color Spanish Pink, whose RBG values are (247, 191, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Pink, whose RBG values are (247, 191, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17019,14 +17036,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Red, whose RBG values are (230, 0, 38), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Red, whose RBG values are (230, 0, 38), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishRedColor;
 
 /*!
- * Returns a color object representing the color Spanish Red, whose RBG values are (230, 0, 38), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Red, whose RBG values are (230, 0, 38), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17035,14 +17052,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Sky Blue, whose RBG values are (0, 255, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Sky Blue, whose RBG values are (0, 255, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Spanish Sky Blue, whose RBG values are (0, 255, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Sky Blue, whose RBG values are (0, 255, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17051,14 +17068,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Violet, whose RBG values are (76, 40, 130), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Violet, whose RBG values are (76, 40, 130), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishVioletColor;
 
 /*!
- * Returns a color object representing the color Spanish Violet, whose RBG values are (76, 40, 130), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Violet, whose RBG values are (76, 40, 130), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17067,14 +17084,14 @@
 
 
 /*!
- * Returns a color object representing the color Spanish Viridian, whose RBG values are (0, 127, 92), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spanish Viridian, whose RBG values are (0, 127, 92), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spanishViridianColor;
 
 /*!
- * Returns a color object representing the color Spanish Viridian, whose RBG values are (0, 127, 92), and has the specified opacity.
+ * Returns a UIColor object representing the color Spanish Viridian, whose RBG values are (0, 127, 92), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17083,14 +17100,14 @@
 
 
 /*!
- * Returns a color object representing the color Spartan Crimson, whose RBG values are (158, 19, 22), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spartan Crimson, whose RBG values are (158, 19, 22), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spartanCrimsonColor;
 
 /*!
- * Returns a color object representing the color Spartan Crimson, whose RBG values are (158, 19, 22), and has the specified opacity.
+ * Returns a UIColor object representing the color Spartan Crimson, whose RBG values are (158, 19, 22), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17099,14 +17116,14 @@
 
 
 /*!
- * Returns a color object representing the color Spicy Mix, whose RBG values are (139, 95, 77), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spicy Mix, whose RBG values are (139, 95, 77), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spicyMixColor;
 
 /*!
- * Returns a color object representing the color Spicy Mix, whose RBG values are (139, 95, 77), and has the specified opacity.
+ * Returns a UIColor object representing the color Spicy Mix, whose RBG values are (139, 95, 77), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17115,14 +17132,14 @@
 
 
 /*!
- * Returns a color object representing the color Spiro Disco Ball, whose RBG values are (15, 192, 252), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spiro Disco Ball, whose RBG values are (15, 192, 252), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) spiroDiscoBallColor;
 
 /*!
- * Returns a color object representing the color Spiro Disco Ball, whose RBG values are (15, 192, 252), and has the specified opacity.
+ * Returns a UIColor object representing the color Spiro Disco Ball, whose RBG values are (15, 192, 252), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17131,14 +17148,14 @@
 
 
 /*!
- * Returns a color object representing the color Spring Green (Crayola), whose RBG values are (236, 234, 190), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spring Green (Crayola), whose RBG values are (236, 234, 190), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) springGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Spring Green (Crayola), whose RBG values are (236, 234, 190), and has the specified opacity.
+ * Returns a UIColor object representing the color Spring Green (Crayola), whose RBG values are (236, 234, 190), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17147,14 +17164,14 @@
 
 
 /*!
- * Returns a color object representing the color Spring Bud, whose RBG values are (167, 252, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spring Bud, whose RBG values are (167, 252, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) springBudColor;
 
 /*!
- * Returns a color object representing the color Spring Bud, whose RBG values are (167, 252, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Spring Bud, whose RBG values are (167, 252, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17163,14 +17180,14 @@
 
 
 /*!
- * Returns a color object representing the color Spring Green, whose RBG values are (0, 255, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Spring Green, whose RBG values are (0, 255, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) springGreenColor;
 
 /*!
- * Returns a color object representing the color Spring Green, whose RBG values are (0, 255, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Spring Green, whose RBG values are (0, 255, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17179,14 +17196,14 @@
 
 
 /*!
- * Returns a color object representing the color St Patrick's Blue, whose RBG values are (35, 41, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color St Patrick's Blue, whose RBG values are (35, 41, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) stPatricksBlueColor;
 
 /*!
- * Returns a color object representing the color St Patrick's Blue, whose RBG values are (35, 41, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color St Patrick's Blue, whose RBG values are (35, 41, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17195,14 +17212,14 @@
 
 
 /*!
- * Returns a color object representing the color Star Command Blue, whose RBG values are (0, 123, 184), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Star Command Blue, whose RBG values are (0, 123, 184), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) starCommandBlueColor;
 
 /*!
- * Returns a color object representing the color Star Command Blue, whose RBG values are (0, 123, 184), and has the specified opacity.
+ * Returns a UIColor object representing the color Star Command Blue, whose RBG values are (0, 123, 184), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17211,14 +17228,14 @@
 
 
 /*!
- * Returns a color object representing the color Steel Blue, whose RBG values are (70, 130, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Steel Blue, whose RBG values are (70, 130, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) steelBlueColor;
 
 /*!
- * Returns a color object representing the color Steel Blue, whose RBG values are (70, 130, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Steel Blue, whose RBG values are (70, 130, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17227,14 +17244,14 @@
 
 
 /*!
- * Returns a color object representing the color Steel Pink, whose RBG values are (204, 51, 204), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Steel Pink, whose RBG values are (204, 51, 204), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) steelPinkColor;
 
 /*!
- * Returns a color object representing the color Steel Pink, whose RBG values are (204, 51, 204), and has the specified opacity.
+ * Returns a UIColor object representing the color Steel Pink, whose RBG values are (204, 51, 204), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17243,14 +17260,14 @@
 
 
 /*!
- * Returns a color object representing the color Stil De Grain Yellow, whose RBG values are (250, 218, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Stil De Grain Yellow, whose RBG values are (250, 218, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) stilDeGrainYellowColor;
 
 /*!
- * Returns a color object representing the color Stil De Grain Yellow, whose RBG values are (250, 218, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Stil De Grain Yellow, whose RBG values are (250, 218, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17259,14 +17276,14 @@
 
 
 /*!
- * Returns a color object representing the color Stizza, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Stizza, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) stizzaColor;
 
 /*!
- * Returns a color object representing the color Stizza, whose RBG values are (153, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Stizza, whose RBG values are (153, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17275,14 +17292,14 @@
 
 
 /*!
- * Returns a color object representing the color Stormcloud, whose RBG values are (79, 102, 106), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Stormcloud, whose RBG values are (79, 102, 106), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) stormcloudColor;
 
 /*!
- * Returns a color object representing the color Stormcloud, whose RBG values are (79, 102, 106), and has the specified opacity.
+ * Returns a UIColor object representing the color Stormcloud, whose RBG values are (79, 102, 106), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17291,14 +17308,14 @@
 
 
 /*!
- * Returns a color object representing the color Straw, whose RBG values are (228, 217, 111), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Straw, whose RBG values are (228, 217, 111), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) strawColor;
 
 /*!
- * Returns a color object representing the color Straw, whose RBG values are (228, 217, 111), and has the specified opacity.
+ * Returns a UIColor object representing the color Straw, whose RBG values are (228, 217, 111), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17307,14 +17324,14 @@
 
 
 /*!
- * Returns a color object representing the color Strawberry, whose RBG values are (252, 90, 141), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Strawberry, whose RBG values are (252, 90, 141), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) strawberryColor;
 
 /*!
- * Returns a color object representing the color Strawberry, whose RBG values are (252, 90, 141), and has the specified opacity.
+ * Returns a UIColor object representing the color Strawberry, whose RBG values are (252, 90, 141), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17323,14 +17340,14 @@
 
 
 /*!
- * Returns a color object representing the color Sunglow, whose RBG values are (255, 204, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sunglow, whose RBG values are (255, 204, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sunglowColor;
 
 /*!
- * Returns a color object representing the color Sunglow, whose RBG values are (255, 204, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Sunglow, whose RBG values are (255, 204, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17339,14 +17356,14 @@
 
 
 /*!
- * Returns a color object representing the color Sunglow (Crayola), whose RBG values are (255, 207, 72), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sunglow (Crayola), whose RBG values are (255, 207, 72), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sunglowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Sunglow (Crayola), whose RBG values are (255, 207, 72), and has the specified opacity.
+ * Returns a UIColor object representing the color Sunglow (Crayola), whose RBG values are (255, 207, 72), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17355,14 +17372,14 @@
 
 
 /*!
- * Returns a color object representing the color Sunray, whose RBG values are (227, 171, 87), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sunray, whose RBG values are (227, 171, 87), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sunrayColor;
 
 /*!
- * Returns a color object representing the color Sunray, whose RBG values are (227, 171, 87), and has the specified opacity.
+ * Returns a UIColor object representing the color Sunray, whose RBG values are (227, 171, 87), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17371,14 +17388,14 @@
 
 
 /*!
- * Returns a color object representing the color Sunset, whose RBG values are (250, 214, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sunset, whose RBG values are (250, 214, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sunsetColor;
 
 /*!
- * Returns a color object representing the color Sunset, whose RBG values are (250, 214, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color Sunset, whose RBG values are (250, 214, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17387,14 +17404,14 @@
 
 
 /*!
- * Returns a color object representing the color Sunset Orange (Crayola), whose RBG values are (253, 94, 83), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Sunset Orange (Crayola), whose RBG values are (253, 94, 83), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) sunsetOrangeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Sunset Orange (Crayola), whose RBG values are (253, 94, 83), and has the specified opacity.
+ * Returns a UIColor object representing the color Sunset Orange (Crayola), whose RBG values are (253, 94, 83), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17403,14 +17420,14 @@
 
 
 /*!
- * Returns a color object representing the color Super Pink, whose RBG values are (207, 107, 169), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Super Pink, whose RBG values are (207, 107, 169), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) superPinkColor;
 
 /*!
- * Returns a color object representing the color Super Pink, whose RBG values are (207, 107, 169), and has the specified opacity.
+ * Returns a UIColor object representing the color Super Pink, whose RBG values are (207, 107, 169), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17419,14 +17436,14 @@
 
 
 /*!
- * Returns a color object representing the color Tan, whose RBG values are (210, 180, 140), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tan, whose RBG values are (210, 180, 140), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tanColor;
 
 /*!
- * Returns a color object representing the color Tan, whose RBG values are (210, 180, 140), and has the specified opacity.
+ * Returns a UIColor object representing the color Tan, whose RBG values are (210, 180, 140), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17435,14 +17452,14 @@
 
 
 /*!
- * Returns a color object representing the color Tan (Crayola), whose RBG values are (250, 167, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tan (Crayola), whose RBG values are (250, 167, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tanCrayolaColor;
 
 /*!
- * Returns a color object representing the color Tan (Crayola), whose RBG values are (250, 167, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Tan (Crayola), whose RBG values are (250, 167, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17451,14 +17468,14 @@
 
 
 /*!
- * Returns a color object representing the color Tangelo, whose RBG values are (249, 77, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tangelo, whose RBG values are (249, 77, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tangeloColor;
 
 /*!
- * Returns a color object representing the color Tangelo, whose RBG values are (249, 77, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Tangelo, whose RBG values are (249, 77, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17467,14 +17484,14 @@
 
 
 /*!
- * Returns a color object representing the color Tangerine, whose RBG values are (242, 133, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tangerine, whose RBG values are (242, 133, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tangerineColor;
 
 /*!
- * Returns a color object representing the color Tangerine, whose RBG values are (242, 133, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Tangerine, whose RBG values are (242, 133, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17483,14 +17500,14 @@
 
 
 /*!
- * Returns a color object representing the color Tangerine Yellow, whose RBG values are (255, 204, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tangerine Yellow, whose RBG values are (255, 204, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tangerineYellowColor;
 
 /*!
- * Returns a color object representing the color Tangerine Yellow, whose RBG values are (255, 204, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Tangerine Yellow, whose RBG values are (255, 204, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17499,14 +17516,14 @@
 
 
 /*!
- * Returns a color object representing the color Tango Pink, whose RBG values are (228, 113, 122), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tango Pink, whose RBG values are (228, 113, 122), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tangoPinkColor;
 
 /*!
- * Returns a color object representing the color Tango Pink, whose RBG values are (228, 113, 122), and has the specified opacity.
+ * Returns a UIColor object representing the color Tango Pink, whose RBG values are (228, 113, 122), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17515,14 +17532,14 @@
 
 
 /*!
- * Returns a color object representing the color Taupe, whose RBG values are (72, 60, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Taupe, whose RBG values are (72, 60, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) taupeColor;
 
 /*!
- * Returns a color object representing the color Taupe, whose RBG values are (72, 60, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Taupe, whose RBG values are (72, 60, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17531,14 +17548,14 @@
 
 
 /*!
- * Returns a color object representing the color Taupe Gray, whose RBG values are (139, 133, 137), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Taupe Gray, whose RBG values are (139, 133, 137), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) taupeGrayColor;
 
 /*!
- * Returns a color object representing the color Taupe Gray, whose RBG values are (139, 133, 137), and has the specified opacity.
+ * Returns a UIColor object representing the color Taupe Gray, whose RBG values are (139, 133, 137), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17547,14 +17564,14 @@
 
 
 /*!
- * Returns a color object representing the color Tea Green, whose RBG values are (208, 240, 192), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tea Green, whose RBG values are (208, 240, 192), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) teaGreenColor;
 
 /*!
- * Returns a color object representing the color Tea Green, whose RBG values are (208, 240, 192), and has the specified opacity.
+ * Returns a UIColor object representing the color Tea Green, whose RBG values are (208, 240, 192), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17563,14 +17580,14 @@
 
 
 /*!
- * Returns a color object representing the color Tea Rose, whose RBG values are (248, 131, 121), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tea Rose, whose RBG values are (248, 131, 121), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) teaRoseColor;
 
 /*!
- * Returns a color object representing the color Tea Rose, whose RBG values are (248, 131, 121), and has the specified opacity.
+ * Returns a UIColor object representing the color Tea Rose, whose RBG values are (248, 131, 121), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17579,14 +17596,14 @@
 
 
 /*!
- * Returns a color object representing the color Tea Rose (Alternate), whose RBG values are (244, 194, 194), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tea Rose (Alternate), whose RBG values are (244, 194, 194), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) teaRoseAlternateColor;
 
 /*!
- * Returns a color object representing the color Tea Rose (Alternate), whose RBG values are (244, 194, 194), and has the specified opacity.
+ * Returns a UIColor object representing the color Tea Rose (Alternate), whose RBG values are (244, 194, 194), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17595,14 +17612,14 @@
 
 
 /*!
- * Returns a color object representing the color Teal, whose RBG values are (0, 128, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Teal, whose RBG values are (0, 128, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tealColor;
 
 /*!
- * Returns a color object representing the color Teal, whose RBG values are (0, 128, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Teal, whose RBG values are (0, 128, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17611,14 +17628,14 @@
 
 
 /*!
- * Returns a color object representing the color Teal Blue (Crayola), whose RBG values are (24, 167, 181), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Teal Blue (Crayola), whose RBG values are (24, 167, 181), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tealBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Teal Blue (Crayola), whose RBG values are (24, 167, 181), and has the specified opacity.
+ * Returns a UIColor object representing the color Teal Blue (Crayola), whose RBG values are (24, 167, 181), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17627,14 +17644,14 @@
 
 
 /*!
- * Returns a color object representing the color Teal Blue, whose RBG values are (54, 117, 136), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Teal Blue, whose RBG values are (54, 117, 136), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tealBlueColor;
 
 /*!
- * Returns a color object representing the color Teal Blue, whose RBG values are (54, 117, 136), and has the specified opacity.
+ * Returns a UIColor object representing the color Teal Blue, whose RBG values are (54, 117, 136), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17643,14 +17660,14 @@
 
 
 /*!
- * Returns a color object representing the color Teal Deer, whose RBG values are (153, 230, 179), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Teal Deer, whose RBG values are (153, 230, 179), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tealDeerColor;
 
 /*!
- * Returns a color object representing the color Teal Deer, whose RBG values are (153, 230, 179), and has the specified opacity.
+ * Returns a UIColor object representing the color Teal Deer, whose RBG values are (153, 230, 179), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17659,14 +17676,14 @@
 
 
 /*!
- * Returns a color object representing the color Teal Green, whose RBG values are (0, 130, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Teal Green, whose RBG values are (0, 130, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tealGreenColor;
 
 /*!
- * Returns a color object representing the color Teal Green, whose RBG values are (0, 130, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Teal Green, whose RBG values are (0, 130, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17675,14 +17692,14 @@
 
 
 /*!
- * Returns a color object representing the color Telemagenta, whose RBG values are (207, 52, 118), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Telemagenta, whose RBG values are (207, 52, 118), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) telemagentaColor;
 
 /*!
- * Returns a color object representing the color Telemagenta, whose RBG values are (207, 52, 118), and has the specified opacity.
+ * Returns a UIColor object representing the color Telemagenta, whose RBG values are (207, 52, 118), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17691,14 +17708,14 @@
 
 
 /*!
- * Returns a color object representing the color Tenné, whose RBG values are (205, 87, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tenné, whose RBG values are (205, 87, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tennéColor;
 
 /*!
- * Returns a color object representing the color Tenné, whose RBG values are (205, 87, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Tenné, whose RBG values are (205, 87, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17707,14 +17724,14 @@
 
 
 /*!
- * Returns a color object representing the color Terra Cotta, whose RBG values are (226, 114, 91), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Terra Cotta, whose RBG values are (226, 114, 91), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) terraCottaColor;
 
 /*!
- * Returns a color object representing the color Terra Cotta, whose RBG values are (226, 114, 91), and has the specified opacity.
+ * Returns a UIColor object representing the color Terra Cotta, whose RBG values are (226, 114, 91), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17723,14 +17740,14 @@
 
 
 /*!
- * Returns a color object representing the color Thistle, whose RBG values are (216, 191, 216), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Thistle, whose RBG values are (216, 191, 216), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) thistleColor;
 
 /*!
- * Returns a color object representing the color Thistle, whose RBG values are (216, 191, 216), and has the specified opacity.
+ * Returns a UIColor object representing the color Thistle, whose RBG values are (216, 191, 216), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17739,14 +17756,14 @@
 
 
 /*!
- * Returns a color object representing the color Thistle (Crayola), whose RBG values are (235, 199, 223), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Thistle (Crayola), whose RBG values are (235, 199, 223), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) thistleCrayolaColor;
 
 /*!
- * Returns a color object representing the color Thistle (Crayola), whose RBG values are (235, 199, 223), and has the specified opacity.
+ * Returns a UIColor object representing the color Thistle (Crayola), whose RBG values are (235, 199, 223), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17755,14 +17772,14 @@
 
 
 /*!
- * Returns a color object representing the color Thulian Pink, whose RBG values are (222, 111, 161), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Thulian Pink, whose RBG values are (222, 111, 161), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) thulianPinkColor;
 
 /*!
- * Returns a color object representing the color Thulian Pink, whose RBG values are (222, 111, 161), and has the specified opacity.
+ * Returns a UIColor object representing the color Thulian Pink, whose RBG values are (222, 111, 161), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17771,14 +17788,14 @@
 
 
 /*!
- * Returns a color object representing the color Tickle Me Pink (Crayola), whose RBG values are (252, 137, 172), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tickle Me Pink (Crayola), whose RBG values are (252, 137, 172), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tickleMePinkCrayolaColor;
 
 /*!
- * Returns a color object representing the color Tickle Me Pink (Crayola), whose RBG values are (252, 137, 172), and has the specified opacity.
+ * Returns a UIColor object representing the color Tickle Me Pink (Crayola), whose RBG values are (252, 137, 172), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17787,14 +17804,14 @@
 
 
 /*!
- * Returns a color object representing the color Tiffany Blue, whose RBG values are (10, 186, 181), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tiffany Blue, whose RBG values are (10, 186, 181), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tiffanyBlueColor;
 
 /*!
- * Returns a color object representing the color Tiffany Blue, whose RBG values are (10, 186, 181), and has the specified opacity.
+ * Returns a UIColor object representing the color Tiffany Blue, whose RBG values are (10, 186, 181), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17803,14 +17820,14 @@
 
 
 /*!
- * Returns a color object representing the color Tiffany Blue (Alternate), whose RBG values are (129, 216, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tiffany Blue (Alternate), whose RBG values are (129, 216, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tiffanyBlueAlternateColor;
 
 /*!
- * Returns a color object representing the color Tiffany Blue (Alternate), whose RBG values are (129, 216, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Tiffany Blue (Alternate), whose RBG values are (129, 216, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17819,14 +17836,14 @@
 
 
 /*!
- * Returns a color object representing the color Tiger's Eye, whose RBG values are (224, 141, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tiger's Eye, whose RBG values are (224, 141, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tigersEyeColor;
 
 /*!
- * Returns a color object representing the color Tiger's Eye, whose RBG values are (224, 141, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Tiger's Eye, whose RBG values are (224, 141, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17835,14 +17852,14 @@
 
 
 /*!
- * Returns a color object representing the color Timberwolf (Crayola), whose RBG values are (219, 215, 210), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Timberwolf (Crayola), whose RBG values are (219, 215, 210), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) timberwolfCrayolaColor;
 
 /*!
- * Returns a color object representing the color Timberwolf (Crayola), whose RBG values are (219, 215, 210), and has the specified opacity.
+ * Returns a UIColor object representing the color Timberwolf (Crayola), whose RBG values are (219, 215, 210), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17851,14 +17868,14 @@
 
 
 /*!
- * Returns a color object representing the color Titanium Yellow, whose RBG values are (238, 230, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Titanium Yellow, whose RBG values are (238, 230, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) titaniumYellowColor;
 
 /*!
- * Returns a color object representing the color Titanium Yellow, whose RBG values are (238, 230, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Titanium Yellow, whose RBG values are (238, 230, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17867,14 +17884,14 @@
 
 
 /*!
- * Returns a color object representing the color Tomato, whose RBG values are (255, 99, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tomato, whose RBG values are (255, 99, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tomatoColor;
 
 /*!
- * Returns a color object representing the color Tomato, whose RBG values are (255, 99, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Tomato, whose RBG values are (255, 99, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17883,14 +17900,14 @@
 
 
 /*!
- * Returns a color object representing the color Toolbox, whose RBG values are (116, 108, 192), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Toolbox, whose RBG values are (116, 108, 192), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) toolboxColor;
 
 /*!
- * Returns a color object representing the color Toolbox, whose RBG values are (116, 108, 192), and has the specified opacity.
+ * Returns a UIColor object representing the color Toolbox, whose RBG values are (116, 108, 192), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17899,14 +17916,14 @@
 
 
 /*!
- * Returns a color object representing the color Topaz, whose RBG values are (255, 200, 124), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Topaz, whose RBG values are (255, 200, 124), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) topazColor;
 
 /*!
- * Returns a color object representing the color Topaz, whose RBG values are (255, 200, 124), and has the specified opacity.
+ * Returns a UIColor object representing the color Topaz, whose RBG values are (255, 200, 124), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17915,14 +17932,14 @@
 
 
 /*!
- * Returns a color object representing the color Tractor Red, whose RBG values are (253, 14, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tractor Red, whose RBG values are (253, 14, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tractorRedColor;
 
 /*!
- * Returns a color object representing the color Tractor Red, whose RBG values are (253, 14, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Tractor Red, whose RBG values are (253, 14, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17931,14 +17948,14 @@
 
 
 /*!
- * Returns a color object representing the color Trolley Grey, whose RBG values are (128, 128, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Trolley Grey, whose RBG values are (128, 128, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) trolleyGreyColor;
 
 /*!
- * Returns a color object representing the color Trolley Grey, whose RBG values are (128, 128, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Trolley Grey, whose RBG values are (128, 128, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17947,14 +17964,14 @@
 
 
 /*!
- * Returns a color object representing the color Tropical Rain Forest (Crayola), whose RBG values are (23, 128, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tropical Rain Forest (Crayola), whose RBG values are (23, 128, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tropicalRainForestCrayolaColor;
 
 /*!
- * Returns a color object representing the color Tropical Rain Forest (Crayola), whose RBG values are (23, 128, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Tropical Rain Forest (Crayola), whose RBG values are (23, 128, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17963,14 +17980,14 @@
 
 
 /*!
- * Returns a color object representing the color Tropical Rain Forest, whose RBG values are (0, 117, 94), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tropical Rain Forest, whose RBG values are (0, 117, 94), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tropicalRainForestColor;
 
 /*!
- * Returns a color object representing the color Tropical Rain Forest, whose RBG values are (0, 117, 94), and has the specified opacity.
+ * Returns a UIColor object representing the color Tropical Rain Forest, whose RBG values are (0, 117, 94), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17979,14 +17996,14 @@
 
 
 /*!
- * Returns a color object representing the color True Blue, whose RBG values are (0, 115, 207), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color True Blue, whose RBG values are (0, 115, 207), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) trueBlueColor;
 
 /*!
- * Returns a color object representing the color True Blue, whose RBG values are (0, 115, 207), and has the specified opacity.
+ * Returns a UIColor object representing the color True Blue, whose RBG values are (0, 115, 207), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -17995,14 +18012,14 @@
 
 
 /*!
- * Returns a color object representing the color Tufts Blue, whose RBG values are (65, 125, 193), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tufts Blue, whose RBG values are (65, 125, 193), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tuftsBlueColor;
 
 /*!
- * Returns a color object representing the color Tufts Blue, whose RBG values are (65, 125, 193), and has the specified opacity.
+ * Returns a UIColor object representing the color Tufts Blue, whose RBG values are (65, 125, 193), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18011,14 +18028,14 @@
 
 
 /*!
- * Returns a color object representing the color Tulip, whose RBG values are (255, 135, 141), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tulip, whose RBG values are (255, 135, 141), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tulipColor;
 
 /*!
- * Returns a color object representing the color Tulip, whose RBG values are (255, 135, 141), and has the specified opacity.
+ * Returns a UIColor object representing the color Tulip, whose RBG values are (255, 135, 141), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18027,14 +18044,14 @@
 
 
 /*!
- * Returns a color object representing the color Tumbleweed (Crayola), whose RBG values are (222, 170, 136), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tumbleweed (Crayola), whose RBG values are (222, 170, 136), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tumbleweedCrayolaColor;
 
 /*!
- * Returns a color object representing the color Tumbleweed (Crayola), whose RBG values are (222, 170, 136), and has the specified opacity.
+ * Returns a UIColor object representing the color Tumbleweed (Crayola), whose RBG values are (222, 170, 136), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18043,14 +18060,14 @@
 
 
 /*!
- * Returns a color object representing the color Turkish Rose, whose RBG values are (181, 114, 129), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Turkish Rose, whose RBG values are (181, 114, 129), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) turkishRoseColor;
 
 /*!
- * Returns a color object representing the color Turkish Rose, whose RBG values are (181, 114, 129), and has the specified opacity.
+ * Returns a UIColor object representing the color Turkish Rose, whose RBG values are (181, 114, 129), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18059,14 +18076,14 @@
 
 
 /*!
- * Returns a color object representing the color Turquoise, whose RBG values are (64, 224, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Turquoise, whose RBG values are (64, 224, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) turquoiseColor;
 
 /*!
- * Returns a color object representing the color Turquoise, whose RBG values are (64, 224, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Turquoise, whose RBG values are (64, 224, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18075,14 +18092,14 @@
 
 
 /*!
- * Returns a color object representing the color Turquoise Blue (Crayola), whose RBG values are (119, 221, 231), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Turquoise Blue (Crayola), whose RBG values are (119, 221, 231), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) turquoiseBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Turquoise Blue (Crayola), whose RBG values are (119, 221, 231), and has the specified opacity.
+ * Returns a UIColor object representing the color Turquoise Blue (Crayola), whose RBG values are (119, 221, 231), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18091,14 +18108,14 @@
 
 
 /*!
- * Returns a color object representing the color Turquoise Blue, whose RBG values are (0, 255, 239), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Turquoise Blue, whose RBG values are (0, 255, 239), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) turquoiseBlueColor;
 
 /*!
- * Returns a color object representing the color Turquoise Blue, whose RBG values are (0, 255, 239), and has the specified opacity.
+ * Returns a UIColor object representing the color Turquoise Blue, whose RBG values are (0, 255, 239), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18107,14 +18124,14 @@
 
 
 /*!
- * Returns a color object representing the color Turquoise Green, whose RBG values are (160, 214, 180), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Turquoise Green, whose RBG values are (160, 214, 180), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) turquoiseGreenColor;
 
 /*!
- * Returns a color object representing the color Turquoise Green, whose RBG values are (160, 214, 180), and has the specified opacity.
+ * Returns a UIColor object representing the color Turquoise Green, whose RBG values are (160, 214, 180), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18123,14 +18140,14 @@
 
 
 /*!
- * Returns a color object representing the color Tuscan, whose RBG values are (250, 214, 165), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tuscan, whose RBG values are (250, 214, 165), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tuscanColor;
 
 /*!
- * Returns a color object representing the color Tuscan, whose RBG values are (250, 214, 165), and has the specified opacity.
+ * Returns a UIColor object representing the color Tuscan, whose RBG values are (250, 214, 165), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18139,14 +18156,14 @@
 
 
 /*!
- * Returns a color object representing the color Tuscan Brown, whose RBG values are (111, 78, 55), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tuscan Brown, whose RBG values are (111, 78, 55), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tuscanBrownColor;
 
 /*!
- * Returns a color object representing the color Tuscan Brown, whose RBG values are (111, 78, 55), and has the specified opacity.
+ * Returns a UIColor object representing the color Tuscan Brown, whose RBG values are (111, 78, 55), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18155,14 +18172,14 @@
 
 
 /*!
- * Returns a color object representing the color Tuscan Red, whose RBG values are (124, 72, 72), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tuscan Red, whose RBG values are (124, 72, 72), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tuscanRedColor;
 
 /*!
- * Returns a color object representing the color Tuscan Red, whose RBG values are (124, 72, 72), and has the specified opacity.
+ * Returns a UIColor object representing the color Tuscan Red, whose RBG values are (124, 72, 72), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18171,14 +18188,14 @@
 
 
 /*!
- * Returns a color object representing the color Tuscan Tan, whose RBG values are (166, 123, 91), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tuscan Tan, whose RBG values are (166, 123, 91), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tuscanTanColor;
 
 /*!
- * Returns a color object representing the color Tuscan Tan, whose RBG values are (166, 123, 91), and has the specified opacity.
+ * Returns a UIColor object representing the color Tuscan Tan, whose RBG values are (166, 123, 91), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18187,14 +18204,14 @@
 
 
 /*!
- * Returns a color object representing the color Tuscany, whose RBG values are (192, 153, 153), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tuscany, whose RBG values are (192, 153, 153), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tuscanyColor;
 
 /*!
- * Returns a color object representing the color Tuscany, whose RBG values are (192, 153, 153), and has the specified opacity.
+ * Returns a UIColor object representing the color Tuscany, whose RBG values are (192, 153, 153), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18203,14 +18220,14 @@
 
 
 /*!
- * Returns a color object representing the color Twilight Lavender, whose RBG values are (138, 73, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Twilight Lavender, whose RBG values are (138, 73, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) twilightLavenderColor;
 
 /*!
- * Returns a color object representing the color Twilight Lavender, whose RBG values are (138, 73, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Twilight Lavender, whose RBG values are (138, 73, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18219,14 +18236,14 @@
 
 
 /*!
- * Returns a color object representing the color Tyrian Purple, whose RBG values are (102, 2, 60), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Tyrian Purple, whose RBG values are (102, 2, 60), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) tyrianPurpleColor;
 
 /*!
- * Returns a color object representing the color Tyrian Purple, whose RBG values are (102, 2, 60), and has the specified opacity.
+ * Returns a UIColor object representing the color Tyrian Purple, whose RBG values are (102, 2, 60), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18235,14 +18252,14 @@
 
 
 /*!
- * Returns a color object representing the color UA Blue, whose RBG values are (0, 51, 170), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UA Blue, whose RBG values are (0, 51, 170), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uABlueColor;
 
 /*!
- * Returns a color object representing the color UA Blue, whose RBG values are (0, 51, 170), and has the specified opacity.
+ * Returns a UIColor object representing the color UA Blue, whose RBG values are (0, 51, 170), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18251,14 +18268,14 @@
 
 
 /*!
- * Returns a color object representing the color UA Red, whose RBG values are (217, 0, 76), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UA Red, whose RBG values are (217, 0, 76), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uARedColor;
 
 /*!
- * Returns a color object representing the color UA Red, whose RBG values are (217, 0, 76), and has the specified opacity.
+ * Returns a UIColor object representing the color UA Red, whose RBG values are (217, 0, 76), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18267,14 +18284,14 @@
 
 
 /*!
- * Returns a color object representing the color UCLA Blue, whose RBG values are (83, 104, 149), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UCLA Blue, whose RBG values are (83, 104, 149), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uCLABlueColor;
 
 /*!
- * Returns a color object representing the color UCLA Blue, whose RBG values are (83, 104, 149), and has the specified opacity.
+ * Returns a UIColor object representing the color UCLA Blue, whose RBG values are (83, 104, 149), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18283,14 +18300,14 @@
 
 
 /*!
- * Returns a color object representing the color UCLA Gold, whose RBG values are (255, 179, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UCLA Gold, whose RBG values are (255, 179, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uCLAGoldColor;
 
 /*!
- * Returns a color object representing the color UCLA Gold, whose RBG values are (255, 179, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color UCLA Gold, whose RBG values are (255, 179, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18299,14 +18316,14 @@
 
 
 /*!
- * Returns a color object representing the color UFO Green, whose RBG values are (60, 208, 112), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UFO Green, whose RBG values are (60, 208, 112), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uFOGreenColor;
 
 /*!
- * Returns a color object representing the color UFO Green, whose RBG values are (60, 208, 112), and has the specified opacity.
+ * Returns a UIColor object representing the color UFO Green, whose RBG values are (60, 208, 112), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18315,14 +18332,14 @@
 
 
 /*!
- * Returns a color object representing the color UP Forest Green, whose RBG values are (1, 68, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UP Forest Green, whose RBG values are (1, 68, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uPForestGreenColor;
 
 /*!
- * Returns a color object representing the color UP Forest Green, whose RBG values are (1, 68, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color UP Forest Green, whose RBG values are (1, 68, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18331,14 +18348,14 @@
 
 
 /*!
- * Returns a color object representing the color UP Maroon, whose RBG values are (123, 17, 19), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color UP Maroon, whose RBG values are (123, 17, 19), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uPMaroonColor;
 
 /*!
- * Returns a color object representing the color UP Maroon, whose RBG values are (123, 17, 19), and has the specified opacity.
+ * Returns a UIColor object representing the color UP Maroon, whose RBG values are (123, 17, 19), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18347,14 +18364,14 @@
 
 
 /*!
- * Returns a color object representing the color USAFA Blue, whose RBG values are (0, 79, 152), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color USAFA Blue, whose RBG values are (0, 79, 152), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uSAFABlueColor;
 
 /*!
- * Returns a color object representing the color USAFA Blue, whose RBG values are (0, 79, 152), and has the specified opacity.
+ * Returns a UIColor object representing the color USAFA Blue, whose RBG values are (0, 79, 152), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18363,14 +18380,14 @@
 
 
 /*!
- * Returns a color object representing the color USC Cardinal, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color USC Cardinal, whose RBG values are (153, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uSCCardinalColor;
 
 /*!
- * Returns a color object representing the color USC Cardinal, whose RBG values are (153, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color USC Cardinal, whose RBG values are (153, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18379,14 +18396,14 @@
 
 
 /*!
- * Returns a color object representing the color USC Gold, whose RBG values are (255, 204, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color USC Gold, whose RBG values are (255, 204, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) uSCGoldColor;
 
 /*!
- * Returns a color object representing the color USC Gold, whose RBG values are (255, 204, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color USC Gold, whose RBG values are (255, 204, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18395,14 +18412,14 @@
 
 
 /*!
- * Returns a color object representing the color Ube, whose RBG values are (136, 120, 195), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ube, whose RBG values are (136, 120, 195), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ubeColor;
 
 /*!
- * Returns a color object representing the color Ube, whose RBG values are (136, 120, 195), and has the specified opacity.
+ * Returns a UIColor object representing the color Ube, whose RBG values are (136, 120, 195), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18411,14 +18428,14 @@
 
 
 /*!
- * Returns a color object representing the color Ultra Pink, whose RBG values are (255, 111, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ultra Pink, whose RBG values are (255, 111, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ultraPinkColor;
 
 /*!
- * Returns a color object representing the color Ultra Pink, whose RBG values are (255, 111, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Ultra Pink, whose RBG values are (255, 111, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18427,14 +18444,14 @@
 
 
 /*!
- * Returns a color object representing the color Ultra Red, whose RBG values are (252, 108, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ultra Red, whose RBG values are (252, 108, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ultraRedColor;
 
 /*!
- * Returns a color object representing the color Ultra Red, whose RBG values are (252, 108, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Ultra Red, whose RBG values are (252, 108, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18443,14 +18460,14 @@
 
 
 /*!
- * Returns a color object representing the color Ultramarine, whose RBG values are (18, 10, 143), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ultramarine, whose RBG values are (18, 10, 143), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ultramarineColor;
 
 /*!
- * Returns a color object representing the color Ultramarine, whose RBG values are (18, 10, 143), and has the specified opacity.
+ * Returns a UIColor object representing the color Ultramarine, whose RBG values are (18, 10, 143), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18459,14 +18476,14 @@
 
 
 /*!
- * Returns a color object representing the color Ultramarine Blue, whose RBG values are (65, 102, 245), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Ultramarine Blue, whose RBG values are (65, 102, 245), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) ultramarineBlueColor;
 
 /*!
- * Returns a color object representing the color Ultramarine Blue, whose RBG values are (65, 102, 245), and has the specified opacity.
+ * Returns a UIColor object representing the color Ultramarine Blue, whose RBG values are (65, 102, 245), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18475,14 +18492,14 @@
 
 
 /*!
- * Returns a color object representing the color Umber, whose RBG values are (99, 81, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Umber, whose RBG values are (99, 81, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) umberColor;
 
 /*!
- * Returns a color object representing the color Umber, whose RBG values are (99, 81, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Umber, whose RBG values are (99, 81, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18491,14 +18508,14 @@
 
 
 /*!
- * Returns a color object representing the color Unbleached Silk, whose RBG values are (255, 221, 202), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Unbleached Silk, whose RBG values are (255, 221, 202), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) unbleachedSilkColor;
 
 /*!
- * Returns a color object representing the color Unbleached Silk, whose RBG values are (255, 221, 202), and has the specified opacity.
+ * Returns a UIColor object representing the color Unbleached Silk, whose RBG values are (255, 221, 202), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18507,14 +18524,14 @@
 
 
 /*!
- * Returns a color object representing the color United Nations Blue, whose RBG values are (91, 146, 229), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color United Nations Blue, whose RBG values are (91, 146, 229), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) unitedNationsBlueColor;
 
 /*!
- * Returns a color object representing the color United Nations Blue, whose RBG values are (91, 146, 229), and has the specified opacity.
+ * Returns a UIColor object representing the color United Nations Blue, whose RBG values are (91, 146, 229), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18523,14 +18540,14 @@
 
 
 /*!
- * Returns a color object representing the color University Of California Gold, whose RBG values are (183, 135, 39), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color University Of California Gold, whose RBG values are (183, 135, 39), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) universityOfCaliforniaGoldColor;
 
 /*!
- * Returns a color object representing the color University Of California Gold, whose RBG values are (183, 135, 39), and has the specified opacity.
+ * Returns a UIColor object representing the color University Of California Gold, whose RBG values are (183, 135, 39), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18539,14 +18556,14 @@
 
 
 /*!
- * Returns a color object representing the color University Of Tennessee Orange, whose RBG values are (247, 127, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color University Of Tennessee Orange, whose RBG values are (247, 127, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) universityOfTennesseeOrangeColor;
 
 /*!
- * Returns a color object representing the color University Of Tennessee Orange, whose RBG values are (247, 127, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color University Of Tennessee Orange, whose RBG values are (247, 127, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18555,14 +18572,14 @@
 
 
 /*!
- * Returns a color object representing the color Unmellow Yellow (Crayola), whose RBG values are (255, 255, 102), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Unmellow Yellow (Crayola), whose RBG values are (255, 255, 102), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) unmellowYellowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Unmellow Yellow (Crayola), whose RBG values are (255, 255, 102), and has the specified opacity.
+ * Returns a UIColor object representing the color Unmellow Yellow (Crayola), whose RBG values are (255, 255, 102), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18571,14 +18588,14 @@
 
 
 /*!
- * Returns a color object representing the color Upsdell Red, whose RBG values are (174, 32, 41), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Upsdell Red, whose RBG values are (174, 32, 41), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) upsdellRedColor;
 
 /*!
- * Returns a color object representing the color Upsdell Red, whose RBG values are (174, 32, 41), and has the specified opacity.
+ * Returns a UIColor object representing the color Upsdell Red, whose RBG values are (174, 32, 41), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18587,14 +18604,14 @@
 
 
 /*!
- * Returns a color object representing the color Urobilin, whose RBG values are (225, 173, 33), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Urobilin, whose RBG values are (225, 173, 33), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) urobilinColor;
 
 /*!
- * Returns a color object representing the color Urobilin, whose RBG values are (225, 173, 33), and has the specified opacity.
+ * Returns a UIColor object representing the color Urobilin, whose RBG values are (225, 173, 33), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18603,14 +18620,14 @@
 
 
 /*!
- * Returns a color object representing the color Utah Crimson, whose RBG values are (211, 0, 63), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Utah Crimson, whose RBG values are (211, 0, 63), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) utahCrimsonColor;
 
 /*!
- * Returns a color object representing the color Utah Crimson, whose RBG values are (211, 0, 63), and has the specified opacity.
+ * Returns a UIColor object representing the color Utah Crimson, whose RBG values are (211, 0, 63), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18619,14 +18636,14 @@
 
 
 /*!
- * Returns a color object representing the color Vanilla, whose RBG values are (243, 229, 171), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vanilla, whose RBG values are (243, 229, 171), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vanillaColor;
 
 /*!
- * Returns a color object representing the color Vanilla, whose RBG values are (243, 229, 171), and has the specified opacity.
+ * Returns a UIColor object representing the color Vanilla, whose RBG values are (243, 229, 171), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18635,14 +18652,14 @@
 
 
 /*!
- * Returns a color object representing the color Vanilla Ice, whose RBG values are (243, 143, 169), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vanilla Ice, whose RBG values are (243, 143, 169), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vanillaIceColor;
 
 /*!
- * Returns a color object representing the color Vanilla Ice, whose RBG values are (243, 143, 169), and has the specified opacity.
+ * Returns a UIColor object representing the color Vanilla Ice, whose RBG values are (243, 143, 169), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18651,14 +18668,14 @@
 
 
 /*!
- * Returns a color object representing the color Vegas Gold, whose RBG values are (197, 179, 88), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vegas Gold, whose RBG values are (197, 179, 88), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vegasGoldColor;
 
 /*!
- * Returns a color object representing the color Vegas Gold, whose RBG values are (197, 179, 88), and has the specified opacity.
+ * Returns a UIColor object representing the color Vegas Gold, whose RBG values are (197, 179, 88), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18667,14 +18684,14 @@
 
 
 /*!
- * Returns a color object representing the color Venetian Red, whose RBG values are (200, 8, 21), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Venetian Red, whose RBG values are (200, 8, 21), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) venetianRedColor;
 
 /*!
- * Returns a color object representing the color Venetian Red, whose RBG values are (200, 8, 21), and has the specified opacity.
+ * Returns a UIColor object representing the color Venetian Red, whose RBG values are (200, 8, 21), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18683,14 +18700,14 @@
 
 
 /*!
- * Returns a color object representing the color Verdigris, whose RBG values are (67, 179, 174), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Verdigris, whose RBG values are (67, 179, 174), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) verdigrisColor;
 
 /*!
- * Returns a color object representing the color Verdigris, whose RBG values are (67, 179, 174), and has the specified opacity.
+ * Returns a UIColor object representing the color Verdigris, whose RBG values are (67, 179, 174), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18699,14 +18716,14 @@
 
 
 /*!
- * Returns a color object representing the color Vermilion, whose RBG values are (227, 66, 52), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vermilion, whose RBG values are (227, 66, 52), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vermilionColor;
 
 /*!
- * Returns a color object representing the color Vermilion, whose RBG values are (227, 66, 52), and has the specified opacity.
+ * Returns a UIColor object representing the color Vermilion, whose RBG values are (227, 66, 52), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18715,14 +18732,14 @@
 
 
 /*!
- * Returns a color object representing the color Vermilion (Alternate), whose RBG values are (217, 56, 30), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vermilion (Alternate), whose RBG values are (217, 56, 30), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vermilionAlternateColor;
 
 /*!
- * Returns a color object representing the color Vermilion (Alternate), whose RBG values are (217, 56, 30), and has the specified opacity.
+ * Returns a UIColor object representing the color Vermilion (Alternate), whose RBG values are (217, 56, 30), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18731,14 +18748,14 @@
 
 
 /*!
- * Returns a color object representing the color Veronica, whose RBG values are (160, 32, 240), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Veronica, whose RBG values are (160, 32, 240), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veronicaColor;
 
 /*!
- * Returns a color object representing the color Veronica, whose RBG values are (160, 32, 240), and has the specified opacity.
+ * Returns a UIColor object representing the color Veronica, whose RBG values are (160, 32, 240), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18747,14 +18764,14 @@
 
 
 /*!
- * Returns a color object representing the color Very Light Azure, whose RBG values are (116, 187, 251), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Very Light Azure, whose RBG values are (116, 187, 251), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veryLightAzureColor;
 
 /*!
- * Returns a color object representing the color Very Light Azure, whose RBG values are (116, 187, 251), and has the specified opacity.
+ * Returns a UIColor object representing the color Very Light Azure, whose RBG values are (116, 187, 251), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18763,14 +18780,14 @@
 
 
 /*!
- * Returns a color object representing the color Very Light Blue, whose RBG values are (102, 102, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Very Light Blue, whose RBG values are (102, 102, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veryLightBlueColor;
 
 /*!
- * Returns a color object representing the color Very Light Blue, whose RBG values are (102, 102, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Very Light Blue, whose RBG values are (102, 102, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18779,14 +18796,14 @@
 
 
 /*!
- * Returns a color object representing the color Very Light Malachite Green, whose RBG values are (100, 233, 134), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Very Light Malachite Green, whose RBG values are (100, 233, 134), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veryLightMalachiteGreenColor;
 
 /*!
- * Returns a color object representing the color Very Light Malachite Green, whose RBG values are (100, 233, 134), and has the specified opacity.
+ * Returns a UIColor object representing the color Very Light Malachite Green, whose RBG values are (100, 233, 134), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18795,14 +18812,14 @@
 
 
 /*!
- * Returns a color object representing the color Very Light Tangelo, whose RBG values are (255, 176, 119), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Very Light Tangelo, whose RBG values are (255, 176, 119), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veryLightTangeloColor;
 
 /*!
- * Returns a color object representing the color Very Light Tangelo, whose RBG values are (255, 176, 119), and has the specified opacity.
+ * Returns a UIColor object representing the color Very Light Tangelo, whose RBG values are (255, 176, 119), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18811,14 +18828,14 @@
 
 
 /*!
- * Returns a color object representing the color Very Pale Orange, whose RBG values are (255, 223, 191), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Very Pale Orange, whose RBG values are (255, 223, 191), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veryPaleOrangeColor;
 
 /*!
- * Returns a color object representing the color Very Pale Orange, whose RBG values are (255, 223, 191), and has the specified opacity.
+ * Returns a UIColor object representing the color Very Pale Orange, whose RBG values are (255, 223, 191), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18827,14 +18844,14 @@
 
 
 /*!
- * Returns a color object representing the color Very Pale Yellow, whose RBG values are (255, 255, 191), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Very Pale Yellow, whose RBG values are (255, 255, 191), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) veryPaleYellowColor;
 
 /*!
- * Returns a color object representing the color Very Pale Yellow, whose RBG values are (255, 255, 191), and has the specified opacity.
+ * Returns a UIColor object representing the color Very Pale Yellow, whose RBG values are (255, 255, 191), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18843,14 +18860,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet, whose RBG values are (143, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet, whose RBG values are (143, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetColor;
 
 /*!
- * Returns a color object representing the color Violet, whose RBG values are (143, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet, whose RBG values are (143, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18859,14 +18876,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet (Color Wheel), whose RBG values are (127, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet (Color Wheel), whose RBG values are (127, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetColorWheelColor;
 
 /*!
- * Returns a color object representing the color Violet (Color Wheel), whose RBG values are (127, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet (Color Wheel), whose RBG values are (127, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18875,14 +18892,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet (Purple) (Crayola), whose RBG values are (146, 110, 174), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet (Purple) (Crayola), whose RBG values are (146, 110, 174), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetPurpleCrayolaColor;
 
 /*!
- * Returns a color object representing the color Violet (Purple) (Crayola), whose RBG values are (146, 110, 174), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet (Purple) (Crayola), whose RBG values are (146, 110, 174), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18891,14 +18908,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet (RYB), whose RBG values are (134, 1, 175), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet (RYB), whose RBG values are (134, 1, 175), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetRYBColor;
 
 /*!
- * Returns a color object representing the color Violet (RYB), whose RBG values are (134, 1, 175), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet (RYB), whose RBG values are (134, 1, 175), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18907,14 +18924,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet (Web), whose RBG values are (238, 130, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet (Web), whose RBG values are (238, 130, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetWebColor;
 
 /*!
- * Returns a color object representing the color Violet (Web), whose RBG values are (238, 130, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet (Web), whose RBG values are (238, 130, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18923,14 +18940,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet Blue (Crayola), whose RBG values are (50, 74, 178), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet Blue (Crayola), whose RBG values are (50, 74, 178), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetBlueCrayolaColor;
 
 /*!
- * Returns a color object representing the color Violet Blue (Crayola), whose RBG values are (50, 74, 178), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet Blue (Crayola), whose RBG values are (50, 74, 178), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18939,14 +18956,14 @@
 
 
 /*!
- * Returns a color object representing the color Violet Red (Crayola), whose RBG values are (247, 83, 148), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Violet Red (Crayola), whose RBG values are (247, 83, 148), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) violetRedCrayolaColor;
 
 /*!
- * Returns a color object representing the color Violet Red (Crayola), whose RBG values are (247, 83, 148), and has the specified opacity.
+ * Returns a UIColor object representing the color Violet Red (Crayola), whose RBG values are (247, 83, 148), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18955,14 +18972,14 @@
 
 
 /*!
- * Returns a color object representing the color Viridian, whose RBG values are (64, 130, 109), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Viridian, whose RBG values are (64, 130, 109), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) viridianColor;
 
 /*!
- * Returns a color object representing the color Viridian, whose RBG values are (64, 130, 109), and has the specified opacity.
+ * Returns a UIColor object representing the color Viridian, whose RBG values are (64, 130, 109), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18971,14 +18988,14 @@
 
 
 /*!
- * Returns a color object representing the color Viridian Green, whose RBG values are (0, 150, 152), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Viridian Green, whose RBG values are (0, 150, 152), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) viridianGreenColor;
 
 /*!
- * Returns a color object representing the color Viridian Green, whose RBG values are (0, 150, 152), and has the specified opacity.
+ * Returns a UIColor object representing the color Viridian Green, whose RBG values are (0, 150, 152), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -18987,14 +19004,14 @@
 
 
 /*!
- * Returns a color object representing the color Vista Blue, whose RBG values are (124, 158, 217), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vista Blue, whose RBG values are (124, 158, 217), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vistaBlueColor;
 
 /*!
- * Returns a color object representing the color Vista Blue, whose RBG values are (124, 158, 217), and has the specified opacity.
+ * Returns a UIColor object representing the color Vista Blue, whose RBG values are (124, 158, 217), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19003,14 +19020,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Tangerine (Crayola), whose RBG values are (255, 160, 137), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Tangerine (Crayola), whose RBG values are (255, 160, 137), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividTangerineCrayolaColor;
 
 /*!
- * Returns a color object representing the color Vivid Tangerine (Crayola), whose RBG values are (255, 160, 137), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Tangerine (Crayola), whose RBG values are (255, 160, 137), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19019,14 +19036,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Violet (Crayola), whose RBG values are (143, 80, 157), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Violet (Crayola), whose RBG values are (143, 80, 157), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividVioletCrayolaColor;
 
 /*!
- * Returns a color object representing the color Vivid Violet (Crayola), whose RBG values are (143, 80, 157), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Violet (Crayola), whose RBG values are (143, 80, 157), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19035,14 +19052,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Amber, whose RBG values are (204, 153, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Amber, whose RBG values are (204, 153, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividAmberColor;
 
 /*!
- * Returns a color object representing the color Vivid Amber, whose RBG values are (204, 153, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Amber, whose RBG values are (204, 153, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19051,14 +19068,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Auburn, whose RBG values are (146, 39, 36), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Auburn, whose RBG values are (146, 39, 36), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividAuburnColor;
 
 /*!
- * Returns a color object representing the color Vivid Auburn, whose RBG values are (146, 39, 36), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Auburn, whose RBG values are (146, 39, 36), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19067,14 +19084,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Burgundy, whose RBG values are (159, 29, 53), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Burgundy, whose RBG values are (159, 29, 53), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividBurgundyColor;
 
 /*!
- * Returns a color object representing the color Vivid Burgundy, whose RBG values are (159, 29, 53), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Burgundy, whose RBG values are (159, 29, 53), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19083,14 +19100,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Cerise, whose RBG values are (218, 29, 129), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Cerise, whose RBG values are (218, 29, 129), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividCeriseColor;
 
 /*!
- * Returns a color object representing the color Vivid Cerise, whose RBG values are (218, 29, 129), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Cerise, whose RBG values are (218, 29, 129), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19099,14 +19116,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Cerulean, whose RBG values are (0, 170, 238), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Cerulean, whose RBG values are (0, 170, 238), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividCeruleanColor;
 
 /*!
- * Returns a color object representing the color Vivid Cerulean, whose RBG values are (0, 170, 238), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Cerulean, whose RBG values are (0, 170, 238), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19115,14 +19132,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Crimson, whose RBG values are (204, 0, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Crimson, whose RBG values are (204, 0, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividCrimsonColor;
 
 /*!
- * Returns a color object representing the color Vivid Crimson, whose RBG values are (204, 0, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Crimson, whose RBG values are (204, 0, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19131,14 +19148,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Gamboge, whose RBG values are (255, 153, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Gamboge, whose RBG values are (255, 153, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividGambogeColor;
 
 /*!
- * Returns a color object representing the color Vivid Gamboge, whose RBG values are (255, 153, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Gamboge, whose RBG values are (255, 153, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19147,14 +19164,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Lime Green, whose RBG values are (166, 214, 8), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Lime Green, whose RBG values are (166, 214, 8), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividLimeGreenColor;
 
 /*!
- * Returns a color object representing the color Vivid Lime Green, whose RBG values are (166, 214, 8), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Lime Green, whose RBG values are (166, 214, 8), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19163,14 +19180,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Malachite, whose RBG values are (0, 204, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Malachite, whose RBG values are (0, 204, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividMalachiteColor;
 
 /*!
- * Returns a color object representing the color Vivid Malachite, whose RBG values are (0, 204, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Malachite, whose RBG values are (0, 204, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19179,14 +19196,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Mulberry, whose RBG values are (184, 12, 227), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Mulberry, whose RBG values are (184, 12, 227), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividMulberryColor;
 
 /*!
- * Returns a color object representing the color Vivid Mulberry, whose RBG values are (184, 12, 227), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Mulberry, whose RBG values are (184, 12, 227), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19195,14 +19212,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Orange, whose RBG values are (255, 95, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Orange, whose RBG values are (255, 95, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividOrangeColor;
 
 /*!
- * Returns a color object representing the color Vivid Orange, whose RBG values are (255, 95, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Orange, whose RBG values are (255, 95, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19211,14 +19228,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Orange Peel, whose RBG values are (255, 160, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Orange Peel, whose RBG values are (255, 160, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividOrangePeelColor;
 
 /*!
- * Returns a color object representing the color Vivid Orange Peel, whose RBG values are (255, 160, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Orange Peel, whose RBG values are (255, 160, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19227,14 +19244,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Orchid, whose RBG values are (204, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Orchid, whose RBG values are (204, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividOrchidColor;
 
 /*!
- * Returns a color object representing the color Vivid Orchid, whose RBG values are (204, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Orchid, whose RBG values are (204, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19243,14 +19260,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Raspberry, whose RBG values are (255, 0, 108), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Raspberry, whose RBG values are (255, 0, 108), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividRaspberryColor;
 
 /*!
- * Returns a color object representing the color Vivid Raspberry, whose RBG values are (255, 0, 108), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Raspberry, whose RBG values are (255, 0, 108), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19259,14 +19276,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Red, whose RBG values are (247, 13, 26), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Red, whose RBG values are (247, 13, 26), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividRedColor;
 
 /*!
- * Returns a color object representing the color Vivid Red, whose RBG values are (247, 13, 26), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Red, whose RBG values are (247, 13, 26), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19275,14 +19292,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Red-Tangelo, whose RBG values are (223, 97, 36), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Red-Tangelo, whose RBG values are (223, 97, 36), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividRedTangeloColor;
 
 /*!
- * Returns a color object representing the color Vivid Red-Tangelo, whose RBG values are (223, 97, 36), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Red-Tangelo, whose RBG values are (223, 97, 36), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19291,14 +19308,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Sky Blue, whose RBG values are (0, 204, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Sky Blue, whose RBG values are (0, 204, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividSkyBlueColor;
 
 /*!
- * Returns a color object representing the color Vivid Sky Blue, whose RBG values are (0, 204, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Sky Blue, whose RBG values are (0, 204, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19307,14 +19324,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Tangelo, whose RBG values are (240, 116, 39), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Tangelo, whose RBG values are (240, 116, 39), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividTangeloColor;
 
 /*!
- * Returns a color object representing the color Vivid Tangelo, whose RBG values are (240, 116, 39), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Tangelo, whose RBG values are (240, 116, 39), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19323,14 +19340,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Vermilion, whose RBG values are (229, 96, 36), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Vermilion, whose RBG values are (229, 96, 36), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividVermilionColor;
 
 /*!
- * Returns a color object representing the color Vivid Vermilion, whose RBG values are (229, 96, 36), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Vermilion, whose RBG values are (229, 96, 36), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19339,14 +19356,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Violet, whose RBG values are (159, 0, 255), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Violet, whose RBG values are (159, 0, 255), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividVioletColor;
 
 /*!
- * Returns a color object representing the color Vivid Violet, whose RBG values are (159, 0, 255), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Violet, whose RBG values are (159, 0, 255), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19355,14 +19372,14 @@
 
 
 /*!
- * Returns a color object representing the color Vivid Yellow, whose RBG values are (255, 227, 2), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Vivid Yellow, whose RBG values are (255, 227, 2), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) vividYellowColor;
 
 /*!
- * Returns a color object representing the color Vivid Yellow, whose RBG values are (255, 227, 2), and has the specified opacity.
+ * Returns a UIColor object representing the color Vivid Yellow, whose RBG values are (255, 227, 2), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19371,14 +19388,14 @@
 
 
 /*!
- * Returns a color object representing the color Volt, whose RBG values are (205, 255, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Volt, whose RBG values are (205, 255, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) voltColor;
 
 /*!
- * Returns a color object representing the color Volt, whose RBG values are (205, 255, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Volt, whose RBG values are (205, 255, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19387,14 +19404,14 @@
 
 
 /*!
- * Returns a color object representing the color Warm Black, whose RBG values are (0, 66, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Warm Black, whose RBG values are (0, 66, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) warmBlackColor;
 
 /*!
- * Returns a color object representing the color Warm Black, whose RBG values are (0, 66, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Warm Black, whose RBG values are (0, 66, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19403,14 +19420,14 @@
 
 
 /*!
- * Returns a color object representing the color Waterspout, whose RBG values are (164, 244, 249), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Waterspout, whose RBG values are (164, 244, 249), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) waterspoutColor;
 
 /*!
- * Returns a color object representing the color Waterspout, whose RBG values are (164, 244, 249), and has the specified opacity.
+ * Returns a UIColor object representing the color Waterspout, whose RBG values are (164, 244, 249), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19419,14 +19436,14 @@
 
 
 /*!
- * Returns a color object representing the color Web Gray, whose RBG values are (128, 128, 128), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Web Gray, whose RBG values are (128, 128, 128), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) webGrayColor;
 
 /*!
- * Returns a color object representing the color Web Gray, whose RBG values are (128, 128, 128), and has the specified opacity.
+ * Returns a UIColor object representing the color Web Gray, whose RBG values are (128, 128, 128), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19435,14 +19452,14 @@
 
 
 /*!
- * Returns a color object representing the color Web Green, whose RBG values are (0, 128, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Web Green, whose RBG values are (0, 128, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) webGreenColor;
 
 /*!
- * Returns a color object representing the color Web Green, whose RBG values are (0, 128, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Web Green, whose RBG values are (0, 128, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19451,14 +19468,14 @@
 
 
 /*!
- * Returns a color object representing the color Web Maroon, whose RBG values are (127, 0, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Web Maroon, whose RBG values are (127, 0, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) webMaroonColor;
 
 /*!
- * Returns a color object representing the color Web Maroon, whose RBG values are (127, 0, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Web Maroon, whose RBG values are (127, 0, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19467,14 +19484,14 @@
 
 
 /*!
- * Returns a color object representing the color Web Purple, whose RBG values are (127, 0, 127), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Web Purple, whose RBG values are (127, 0, 127), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) webPurpleColor;
 
 /*!
- * Returns a color object representing the color Web Purple, whose RBG values are (127, 0, 127), and has the specified opacity.
+ * Returns a UIColor object representing the color Web Purple, whose RBG values are (127, 0, 127), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19483,14 +19500,14 @@
 
 
 /*!
- * Returns a color object representing the color Wenge, whose RBG values are (100, 84, 82), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wenge, whose RBG values are (100, 84, 82), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wengeColor;
 
 /*!
- * Returns a color object representing the color Wenge, whose RBG values are (100, 84, 82), and has the specified opacity.
+ * Returns a UIColor object representing the color Wenge, whose RBG values are (100, 84, 82), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19499,14 +19516,14 @@
 
 
 /*!
- * Returns a color object representing the color Wheat, whose RBG values are (245, 222, 179), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wheat, whose RBG values are (245, 222, 179), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wheatColor;
 
 /*!
- * Returns a color object representing the color Wheat, whose RBG values are (245, 222, 179), and has the specified opacity.
+ * Returns a UIColor object representing the color Wheat, whose RBG values are (245, 222, 179), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19515,14 +19532,14 @@
 
 
 /*!
- * Returns a color object representing the color White Smoke, whose RBG values are (245, 245, 245), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color White Smoke, whose RBG values are (245, 245, 245), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) whiteSmokeColor;
 
 /*!
- * Returns a color object representing the color White Smoke, whose RBG values are (245, 245, 245), and has the specified opacity.
+ * Returns a UIColor object representing the color White Smoke, whose RBG values are (245, 245, 245), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19531,14 +19548,14 @@
 
 
 /*!
- * Returns a color object representing the color Wild Blue Yonder (Crayola), whose RBG values are (162, 173, 208), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wild Blue Yonder (Crayola), whose RBG values are (162, 173, 208), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wildBlueYonderCrayolaColor;
 
 /*!
- * Returns a color object representing the color Wild Blue Yonder (Crayola), whose RBG values are (162, 173, 208), and has the specified opacity.
+ * Returns a UIColor object representing the color Wild Blue Yonder (Crayola), whose RBG values are (162, 173, 208), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19547,14 +19564,14 @@
 
 
 /*!
- * Returns a color object representing the color Wild Strawberry (Crayola), whose RBG values are (255, 67, 164), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wild Strawberry (Crayola), whose RBG values are (255, 67, 164), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wildStrawberryCrayolaColor;
 
 /*!
- * Returns a color object representing the color Wild Strawberry (Crayola), whose RBG values are (255, 67, 164), and has the specified opacity.
+ * Returns a UIColor object representing the color Wild Strawberry (Crayola), whose RBG values are (255, 67, 164), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19563,14 +19580,14 @@
 
 
 /*!
- * Returns a color object representing the color Wild Watermelon (Crayola), whose RBG values are (252, 108, 133), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wild Watermelon (Crayola), whose RBG values are (252, 108, 133), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wildWatermelonCrayolaColor;
 
 /*!
- * Returns a color object representing the color Wild Watermelon (Crayola), whose RBG values are (252, 108, 133), and has the specified opacity.
+ * Returns a UIColor object representing the color Wild Watermelon (Crayola), whose RBG values are (252, 108, 133), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19579,14 +19596,14 @@
 
 
 /*!
- * Returns a color object representing the color Wild Orchid, whose RBG values are (212, 112, 162), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wild Orchid, whose RBG values are (212, 112, 162), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wildOrchidColor;
 
 /*!
- * Returns a color object representing the color Wild Orchid, whose RBG values are (212, 112, 162), and has the specified opacity.
+ * Returns a UIColor object representing the color Wild Orchid, whose RBG values are (212, 112, 162), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19595,14 +19612,14 @@
 
 
 /*!
- * Returns a color object representing the color Willpower Orange, whose RBG values are (253, 88, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Willpower Orange, whose RBG values are (253, 88, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) willpowerOrangeColor;
 
 /*!
- * Returns a color object representing the color Willpower Orange, whose RBG values are (253, 88, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Willpower Orange, whose RBG values are (253, 88, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19611,14 +19628,14 @@
 
 
 /*!
- * Returns a color object representing the color Windsor Tan, whose RBG values are (167, 85, 2), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Windsor Tan, whose RBG values are (167, 85, 2), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) windsorTanColor;
 
 /*!
- * Returns a color object representing the color Windsor Tan, whose RBG values are (167, 85, 2), and has the specified opacity.
+ * Returns a UIColor object representing the color Windsor Tan, whose RBG values are (167, 85, 2), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19627,14 +19644,14 @@
 
 
 /*!
- * Returns a color object representing the color Wine, whose RBG values are (114, 47, 55), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wine, whose RBG values are (114, 47, 55), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wineColor;
 
 /*!
- * Returns a color object representing the color Wine, whose RBG values are (114, 47, 55), and has the specified opacity.
+ * Returns a UIColor object representing the color Wine, whose RBG values are (114, 47, 55), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19643,14 +19660,14 @@
 
 
 /*!
- * Returns a color object representing the color Wine Dregs, whose RBG values are (103, 49, 71), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wine Dregs, whose RBG values are (103, 49, 71), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wineDregsColor;
 
 /*!
- * Returns a color object representing the color Wine Dregs, whose RBG values are (103, 49, 71), and has the specified opacity.
+ * Returns a UIColor object representing the color Wine Dregs, whose RBG values are (103, 49, 71), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19659,14 +19676,14 @@
 
 
 /*!
- * Returns a color object representing the color Wisteria, whose RBG values are (201, 160, 220), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wisteria, whose RBG values are (201, 160, 220), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wisteriaColor;
 
 /*!
- * Returns a color object representing the color Wisteria, whose RBG values are (201, 160, 220), and has the specified opacity.
+ * Returns a UIColor object representing the color Wisteria, whose RBG values are (201, 160, 220), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19675,14 +19692,14 @@
 
 
 /*!
- * Returns a color object representing the color Wisteria (Crayola), whose RBG values are (205, 164, 222), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wisteria (Crayola), whose RBG values are (205, 164, 222), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) wisteriaCrayolaColor;
 
 /*!
- * Returns a color object representing the color Wisteria (Crayola), whose RBG values are (205, 164, 222), and has the specified opacity.
+ * Returns a UIColor object representing the color Wisteria (Crayola), whose RBG values are (205, 164, 222), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19691,14 +19708,14 @@
 
 
 /*!
- * Returns a color object representing the color Wood Brown, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Wood Brown, whose RBG values are (193, 154, 107), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) woodBrownColor;
 
 /*!
- * Returns a color object representing the color Wood Brown, whose RBG values are (193, 154, 107), and has the specified opacity.
+ * Returns a UIColor object representing the color Wood Brown, whose RBG values are (193, 154, 107), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19707,14 +19724,14 @@
 
 
 /*!
- * Returns a color object representing the color Xanadu, whose RBG values are (115, 134, 120), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Xanadu, whose RBG values are (115, 134, 120), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) xanaduColor;
 
 /*!
- * Returns a color object representing the color Xanadu, whose RBG values are (115, 134, 120), and has the specified opacity.
+ * Returns a UIColor object representing the color Xanadu, whose RBG values are (115, 134, 120), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19723,14 +19740,14 @@
 
 
 /*!
- * Returns a color object representing the color Yale Blue, whose RBG values are (15, 77, 146), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yale Blue, whose RBG values are (15, 77, 146), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yaleBlueColor;
 
 /*!
- * Returns a color object representing the color Yale Blue, whose RBG values are (15, 77, 146), and has the specified opacity.
+ * Returns a UIColor object representing the color Yale Blue, whose RBG values are (15, 77, 146), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19739,14 +19756,14 @@
 
 
 /*!
- * Returns a color object representing the color Yankees Blue, whose RBG values are (28, 40, 65), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yankees Blue, whose RBG values are (28, 40, 65), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yankeesBlueColor;
 
 /*!
- * Returns a color object representing the color Yankees Blue, whose RBG values are (28, 40, 65), and has the specified opacity.
+ * Returns a UIColor object representing the color Yankees Blue, whose RBG values are (28, 40, 65), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19755,14 +19772,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow (Crayola), whose RBG values are (252, 232, 131), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow (Crayola), whose RBG values are (252, 232, 131), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowCrayolaColor;
 
 /*!
- * Returns a color object representing the color Yellow (Crayola), whose RBG values are (252, 232, 131), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow (Crayola), whose RBG values are (252, 232, 131), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19771,14 +19788,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow (Munsell), whose RBG values are (239, 204, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow (Munsell), whose RBG values are (239, 204, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowMunsellColor;
 
 /*!
- * Returns a color object representing the color Yellow (Munsell), whose RBG values are (239, 204, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow (Munsell), whose RBG values are (239, 204, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19787,14 +19804,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow (NCS), whose RBG values are (255, 211, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow (NCS), whose RBG values are (255, 211, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowNCSColor;
 
 /*!
- * Returns a color object representing the color Yellow (NCS), whose RBG values are (255, 211, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow (NCS), whose RBG values are (255, 211, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19803,14 +19820,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow (Pantone), whose RBG values are (254, 223, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow (Pantone), whose RBG values are (254, 223, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowPantoneColor;
 
 /*!
- * Returns a color object representing the color Yellow (Pantone), whose RBG values are (254, 223, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow (Pantone), whose RBG values are (254, 223, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19819,14 +19836,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow (Process), whose RBG values are (255, 239, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow (Process), whose RBG values are (255, 239, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowProcessColor;
 
 /*!
- * Returns a color object representing the color Yellow (Process), whose RBG values are (255, 239, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow (Process), whose RBG values are (255, 239, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19835,14 +19852,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow (RYB), whose RBG values are (254, 254, 51), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow (RYB), whose RBG values are (254, 254, 51), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowRYBColor;
 
 /*!
- * Returns a color object representing the color Yellow (RYB), whose RBG values are (254, 254, 51), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow (RYB), whose RBG values are (254, 254, 51), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19851,14 +19868,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow Green (Crayola), whose RBG values are (197, 227, 132), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow Green (Crayola), whose RBG values are (197, 227, 132), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowGreenCrayolaColor;
 
 /*!
- * Returns a color object representing the color Yellow Green (Crayola), whose RBG values are (197, 227, 132), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow Green (Crayola), whose RBG values are (197, 227, 132), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19867,14 +19884,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow Orange (Crayola), whose RBG values are (255, 174, 66), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow Orange (Crayola), whose RBG values are (255, 174, 66), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowOrangeCrayolaColor;
 
 /*!
- * Returns a color object representing the color Yellow Orange (Crayola), whose RBG values are (255, 174, 66), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow Orange (Crayola), whose RBG values are (255, 174, 66), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19883,14 +19900,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow Green, whose RBG values are (154, 205, 50), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow Green, whose RBG values are (154, 205, 50), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowGreenColor;
 
 /*!
- * Returns a color object representing the color Yellow Green, whose RBG values are (154, 205, 50), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow Green, whose RBG values are (154, 205, 50), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19899,14 +19916,14 @@
 
 
 /*!
- * Returns a color object representing the color Yellow Rose, whose RBG values are (255, 240, 0), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Yellow Rose, whose RBG values are (255, 240, 0), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) yellowRoseColor;
 
 /*!
- * Returns a color object representing the color Yellow Rose, whose RBG values are (255, 240, 0), and has the specified opacity.
+ * Returns a UIColor object representing the color Yellow Rose, whose RBG values are (255, 240, 0), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19915,14 +19932,14 @@
 
 
 /*!
- * Returns a color object representing the color Zaffre, whose RBG values are (0, 20, 168), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Zaffre, whose RBG values are (0, 20, 168), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) zaffreColor;
 
 /*!
- * Returns a color object representing the color Zaffre, whose RBG values are (0, 20, 168), and has the specified opacity.
+ * Returns a UIColor object representing the color Zaffre, whose RBG values are (0, 20, 168), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19931,14 +19948,14 @@
 
 
 /*!
- * Returns a color object representing the color Zinnwaldite Brown, whose RBG values are (44, 22, 8), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Zinnwaldite Brown, whose RBG values are (44, 22, 8), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) zinnwalditeBrownColor;
 
 /*!
- * Returns a color object representing the color Zinnwaldite Brown, whose RBG values are (44, 22, 8), and has the specified opacity.
+ * Returns a UIColor object representing the color Zinnwaldite Brown, whose RBG values are (44, 22, 8), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
@@ -19947,14 +19964,14 @@
 
 
 /*!
- * Returns a color object representing the color Zomp, whose RBG values are (57, 167, 142), and has an opacity of 1.0.
+ * Returns a UIColor object representing the color Zomp, whose RBG values are (57, 167, 142), and has an opacity of 1.0.
  * @return The UIColor object
  */
 
 + (UIColor *) zompColor;
 
 /*!
- * Returns a color object representing the color Zomp, whose RBG values are (57, 167, 142), and has the specified opacity.
+ * Returns a UIColor object representing the color Zomp, whose RBG values are (57, 167, 142), and has the specified opacity.
  * @param alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
  * @return The UIColor object
  */
