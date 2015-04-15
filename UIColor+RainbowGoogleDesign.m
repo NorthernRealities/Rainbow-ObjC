@@ -24,7 +24,7 @@
 // THE SOFTWARE.
 //
 
-#import "UIColor+RainbowLight.h"
+#import "UIColor+RainbowGoogleDesign.h"
 
 @implementation UIColor (RainbowGoogleDesign)
 + (UIColor *) amber100Color
